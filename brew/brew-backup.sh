@@ -22,5 +22,5 @@ git add brew-formulas.versions.txt
 THIS_DATE=$(date -u +"%Y%m%d @ %H%M (UTC)")
 
 # Make a git push with the date and time referenced, then push that to the remove repo.
-git commit -m "Statutory backup of brew formulas and casks installed: ${THIS_DATE}"
+git commit -m "Brew formula & casks backup: ${THIS_DATE}"
 git push
