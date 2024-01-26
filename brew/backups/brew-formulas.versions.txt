@@ -13,8 +13,8 @@ bash 5.2.26
 bdw-gc 8.2.4
 berkeley-db 18.1.40_2
 berkeley-db@5 5.3.28_1
-boost 1.83.0
-boost-build 1.83.0
+boost 1.84.0
+boost-build 1.84.0
 brotli 1.1.0
 bun 1.0.25
 bwfmetaedit 23.04
@@ -196,7 +196,7 @@ md4c 0.5.1
 media-info 23.11
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 82.0
+mkvtoolnix 82.0_1
 mmv 2.5.1
 moreutils 0.68
 mp3info 0.8.5a
@@ -224,7 +224,7 @@ openmotif 2.3.8_2
 openssl@1.1 1.1.1w
 openssl@3 3.2.0_1
 opus 1.4
-orc 0.4.34
+orc 0.4.35
 p11-kit 0.25.3
 p7zip 17.05
 pango 1.50.14
