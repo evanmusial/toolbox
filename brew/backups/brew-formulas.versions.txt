@@ -187,7 +187,7 @@ lolcat 100.0.1
 lua 5.4.6
 lua@5.3 5.3.6
 lz4 1.9.4
-lzlib 1.13
+lzlib 1.14
 lzo 2.10
 m4 1.4.19
 mad 0.15.1b
@@ -247,7 +247,7 @@ pycparser 2.21_1
 pygments 2.17.2
 python-brotli 1.1.0
 python-certifi 2023.11.17
-python-cryptography 42.0.0
+python-cryptography 42.0.1
 python-dateutil 2.8.2
 python-gdbm@3.11 3.11.7
 python-lxml 5.1.0
