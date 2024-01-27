@@ -8,7 +8,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.3.1
 augeas 1.14.1
-awscli 2.15.14
+awscli 2.15.15
 bash 5.2.26
 bdw-gc 8.2.4
 berkeley-db 18.1.40_2
@@ -18,7 +18,7 @@ boost-build 1.84.0
 brotli 1.1.0
 bun 1.0.25
 bwfmetaedit 23.04
-c-ares 1.25.0
+c-ares 1.26.0
 ca-certificates 2023-12-12
 cairo 1.18.0
 certbot 2.8.0
@@ -191,7 +191,7 @@ lzlib 1.14
 lzo 2.10
 m4 1.4.19
 mad 0.15.1b
-mbedtls 3.5.1
+mbedtls 3.5.2
 md4c 0.5.1
 media-info 23.11
 mkvdts2ac3 1.6.0_3
@@ -224,7 +224,7 @@ openmotif 2.3.8_2
 openssl@1.1 1.1.1w
 openssl@3 3.2.0_1
 opus 1.4
-orc 0.4.35
+orc 0.4.36
 p11-kit 0.25.3
 p7zip 17.05
 pango 1.50.14
