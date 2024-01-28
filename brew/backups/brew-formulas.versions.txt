@@ -88,7 +88,7 @@ id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
 imagemagick 7.1.1-27
-imath 3.1.9
+imath 3.1.10
 img2pdf 0.5.1_1
 imlib2 1.12.1
 isl 0.26
@@ -124,7 +124,7 @@ libgpg-error 1.47
 libheif 1.17.6
 libice 1.1.1
 libidn 1.42
-libidn2 2.3.4_1
+libidn2 2.3.5
 libimagequant 4.3.0
 libksba 1.6.5
 liblinear 2.47
