@@ -124,7 +124,7 @@ libgpg-error 1.47
 libheif 1.17.6
 libice 1.1.1
 libidn 1.42
-libidn2 2.3.5
+libidn2 2.3.7
 libimagequant 4.3.0
 libksba 1.6.5
 liblinear 2.47
