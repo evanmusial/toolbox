@@ -1,4 +1,4 @@
-# backup: 20240129 @ 2111 (UTC)
+# backup: 20240131 @ 1706 (UTC)
 a52dec
 abseil
 adns
@@ -214,9 +214,11 @@ nlohmann-json
 nmap
 node
 npth
+numpy
 ocrmypdf
 oniguruma
 open-mpi
+openblas
 opencore-amr
 openexr
 openjpeg
@@ -224,6 +226,7 @@ openldap
 openmotif
 openssl@1.1
 openssl@3
+openvino
 opus
 orc
 p11-kit
@@ -291,6 +294,7 @@ srt
 streamlink
 streamripper
 svt-av1
+tbb
 tcl-tk
 telnet
 tesseract
