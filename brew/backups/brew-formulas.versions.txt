@@ -1,4 +1,4 @@
-# backup: 20240226 @ 1813 (UTC)
+# backup: 20240227 @ 1431 (UTC)
 a52dec 0.8.0
 abseil 20230802.1
 adns 1.6.0
@@ -106,7 +106,7 @@ jsoncpp 1.9.5
 lame 3.100
 leptonica 1.84.1
 libarchive 3.7.2
-libass 0.17.1
+libass 0.17.1_1
 libassuan 2.5.6
 libb2 0.98.1
 libbladerf 2023.02_1
@@ -158,7 +158,7 @@ libssh2 1.11.0_1
 libtasn1 4.19.0
 libtiff 4.6.0
 libtool 2.4.7
-libunibreak 5.1
+libunibreak 6.0
 libunistring 1.1
 libusb 1.0.27
 libuv 1.48.0
