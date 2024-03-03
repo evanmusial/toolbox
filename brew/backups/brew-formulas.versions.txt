@@ -1,4 +1,4 @@
-# backup: 20240302 @ 0007 (UTC)
+# backup: 20240303 @ 1432 (UTC)
 a52dec 0.8.0
 abseil 20230802.1
 adns 1.6.0
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.3.1
 augeas 1.14.1
-awscli 2.15.24
+awscli 2.15.25
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db 18.1.40_2
@@ -47,7 +47,7 @@ exa 0.10.1_2
 exempi 2.6.5
 exiftool 12.76
 eye-d3 0.9.6_1
-ffmpeg 6.1.1_3
+ffmpeg 6.1.1_4
 ffmpeg@4 4.4.4_4
 fftw 3.3.10_1
 findutils 4.9.0
@@ -88,7 +88,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-29
+imagemagick 7.1.1-29_1
 imath 3.1.10
 img2pdf 0.5.1_1
 imlib2 1.12.2
@@ -100,7 +100,7 @@ jbig2enc 0.29_3
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.0.1
-jpeg-xl 0.9.1
+jpeg-xl 0.10.1
 jq 1.7.1
 jsoncpp 1.9.5
 lame 3.100
@@ -159,7 +159,7 @@ libtasn1 4.19.0
 libtiff 4.6.0
 libtool 2.4.7
 libunibreak 6.0
-libunistring 1.1
+libunistring 1.2
 libusb 1.0.27
 libuv 1.48.0
 libvidstab 1.1.1
@@ -199,7 +199,7 @@ mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 82.0_1
 mmv 2.6
-moreutils 0.68
+moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
 mpfr 4.2.1
@@ -221,7 +221,7 @@ open-mpi 5.0.2
 openblas 0.3.26
 opencore-amr 0.1.6
 openexr 3.2.2
-openjpeg 2.5.1
+openjpeg 2.5.2
 openldap 2.6.7
 openmotif 2.3.8_2
 openssl@1.1 1.1.1w
@@ -233,7 +233,7 @@ p11-kit 0.25.3
 p7zip 17.05
 pango 1.50.14
 pcre 8.45
-pcre2 10.42
+pcre2 10.43
 perl 5.38.2_1
 pillow 10.2.0_1
 pinentry 1.2.1
@@ -252,7 +252,7 @@ pygments 2.17.2
 python-brotli 1.1.0
 python-certifi 2024.2.2
 python-cryptography 42.0.5
-python-dateutil 2.9.0
+python-dateutil 2.9.0.post0
 python-gdbm@3.11 3.11.8
 python-lxml 5.1.0
 python-magic 0.4.27
