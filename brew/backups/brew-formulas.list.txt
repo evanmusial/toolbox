@@ -1,4 +1,4 @@
-# backup: 20240308 @ 1702 (UTC)
+# backup: 20240312 @ 1555 (UTC)
 a52dec
 abseil
 adns
@@ -33,6 +33,7 @@ coreutils
 cowsay
 cpu_features
 cpufetch
+cryptography
 curl
 dav1d
 dbus
