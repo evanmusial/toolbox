@@ -1,4 +1,4 @@
-# backup: 20240312 @ 1557 (UTC)
+# backup: 20240313 @ 2014 (UTC)
 a52dec 0.8.0
 abseil 20240116.1
 adns 1.6.0
@@ -262,7 +262,7 @@ python-mutagen 1.47.0_1
 python-packaging 24.0
 python-pyparsing 3.1.2
 python-pytz 2024.1
-python-setuptools 69.1.1
+python-setuptools 69.2.0
 python-tk@3.11 3.11.8
 python-typing-extensions 4.10.0
 python@3.10 3.10.13_2
@@ -289,7 +289,7 @@ soapyrtlsdr 0.3.3_1
 soapysdr 0.8.1_1
 speedtest-cli 2.1.3_1
 speex 1.2.1
-sqlite 3.45.1
+sqlite 3.45.2
 srt 1.5.3
 streamlink 6.7.0
 streamripper 1.64.6_2
