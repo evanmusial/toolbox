@@ -1,4 +1,4 @@
-# backup: 20240322 @ 1511 (UTC)
+# backup: 20240322 @ 1607 (UTC)
 a52dec 0.8.0
 abseil 20240116.1
 adns 1.6.0
@@ -17,7 +17,7 @@ berkeley-db@5 5.3.28_1
 boost 1.84.0_1
 boost-build 1.84.0
 brotli 1.1.0
-bun 1.0.34
+bun 1.0.35
 bwfmetaedit 24.01
 c-ares 1.27.0
 ca-certificates 2024-03-11
