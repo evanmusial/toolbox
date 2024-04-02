@@ -1,4 +1,4 @@
-# backup: 20240329 @ 1505 (UTC)
+# backup: 20240402 @ 1437 (UTC)
 a52dec 0.8.0
 abseil 20240116.1
 adns 1.6.0
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.3.1
 augeas 1.14.1
-awscli 2.15.33
+awscli 2.15.34
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db 18.1.40_2
@@ -17,9 +17,9 @@ berkeley-db@5 5.3.28_1
 boost 1.84.0_1
 boost-build 1.84.0
 brotli 1.1.0
-bun 1.0.36
+bun 1.1.0
 bwfmetaedit 24.01
-c-ares 1.27.0
+c-ares 1.28.1
 ca-certificates 2024-03-11
 cairo 1.18.0
 certbot 2.9.0
@@ -79,7 +79,7 @@ gpac 2.2.1_1
 graphite2 1.3.14
 guile 3.0.9_1
 hackrf 2024.02.1
-harfbuzz 8.3.1
+harfbuzz 8.4.0
 highway 1.1.0
 html2text 2.2.3
 htop 3.3.0
@@ -96,7 +96,7 @@ img2pdf 0.5.1_1
 imlib2 1.12.2
 isl 0.26
 jansson 2.14
-jasper 4.2.2
+jasper 4.2.3
 jbig2dec 0.20
 jbig2enc 0.29_3
 jemalloc 5.3.0
@@ -107,7 +107,7 @@ jq 1.7.1
 jsoncpp 1.9.5
 lame 3.100
 leptonica 1.84.1
-libarchive 3.7.2
+libarchive 3.7.2_1
 libass 0.17.1_1
 libassuan 2.5.7
 libb2 0.98.1
@@ -134,7 +134,7 @@ liblinear 2.47
 liblqr 0.4.2_1
 libmagic 5.45
 libmatroska 1.7.1
-libmediainfo 24.01
+libmediainfo 24.03
 libmetalink 0.1.3
 libmicrohttpd 1.0.1
 libmms 0.6.4
@@ -196,7 +196,7 @@ m4 1.4.19
 mad 0.15.1b
 mbedtls 3.6.0
 md4c 0.5.2
-media-info 24.01
+media-info 24.03
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mmv 2.6
@@ -218,7 +218,7 @@ npth 1.7
 numpy 1.26.4
 ocrmypdf 16.1.2
 oniguruma 6.9.9
-open-mpi 5.0.2
+open-mpi 5.0.2_1
 openblas 0.3.26
 opencore-amr 0.1.6
 openexr 3.2.4
@@ -232,28 +232,28 @@ opus 1.5.1
 orc 0.4.38
 p11-kit 0.25.3
 p7zip 17.05
-pango 1.52.1
+pango 1.52.2
 pcre 8.45
 pcre2 10.43
 perl 5.38.2_1
-pillow 10.2.0_1
+pillow 10.3.0
 pinentry 1.3.0
 pixman 0.42.2
 pkg-config 0.29.2_3
-pmix 4.2.9
+pmix 5.0.2
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 25.3_1
+protobuf 26.1
 pugixml 1.14
 pwgen 2.08
 pybind11 2.12.0
-pycparser 2.21_1
+pycparser 2.22
 pygments 2.17.2
 python-brotli 1.1.0
 python-dateutil 2.9.0.post0
 python-gdbm@3.11 3.11.8
-python-lxml 5.1.0
+python-lxml 5.2.0
 python-magic 0.4.27
 python-mako 1.3.2
 python-markupsafe 2.1.5
@@ -295,7 +295,7 @@ streamripper 1.64.6_2
 svt-av1 2.0.0
 tbb 2021.11.0
 tcl-tk 8.6.14
-telnet 294
+telnet 302
 tesseract 5.3.4_1
 thefuck 3.32
 theora 1.1.1
@@ -308,7 +308,7 @@ volk 3.1.2
 watch 4.0.4
 webp 1.3.2
 wget 1.24.5
-whois 5.5.21
+whois 5.5.22
 x264 r3108
 x265 3.5
 xbitmaps 1.1.3
@@ -318,7 +318,7 @@ xorgproto 2024.1
 xpdf 4.05
 xvid 1.3.7
 xxhash 0.8.2
-xz 5.6.1
+xz 5.4.6
 youtube-dl 2021.12.17
 yt-dlp 2024.03.10
 zeromq 4.3.5_1
