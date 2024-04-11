@@ -1,4 +1,4 @@
-# backup: 20240411 @ 0118 (UTC)
+# backup: 20240411 @ 1715 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.0
@@ -42,7 +42,7 @@ docbook 5.1_1
 docbook-xsl 1.79.2_1
 docker 26.0.0
 docker-completion 26.0.0
-docutils 0.21
+docutils 0.21.1
 double-conversion 3.3.0
 duktape 2.7.0
 exa 0.10.1_2
@@ -213,7 +213,7 @@ nettle 3.9.1
 nghttp2 1.61.0
 nlohmann-json 3.11.3
 nmap 7.94_1
-node 21.7.2
+node 21.7.3
 npth 1.7
 numpy 1.26.4
 ocrmypdf 16.1.2
