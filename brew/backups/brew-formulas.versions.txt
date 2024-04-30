@@ -1,4 +1,4 @@
-# backup: 20240426 @ 1951 (UTC)
+# backup: 20240430 @ 1930 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.0
@@ -9,15 +9,15 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.0
 augeas 1.14.1
-awscli 2.15.41
+awscli 2.15.42
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db 18.1.40_2
 berkeley-db@5 5.3.28_1
-boost 1.84.0_1
-boost-build 1.84.0
+boost 1.85.0
+boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.5
+bun 1.1.6
 bwfmetaedit 24.01
 c-ares 1.28.1
 ca-certificates 2024-03-11
@@ -49,7 +49,7 @@ exa 0.10.1_2
 exempi 2.6.5
 exiftool 12.76
 eye-d3 0.9.6_1
-ffmpeg 7.0
+ffmpeg 7.0_1
 ffmpeg@4 4.4.4_5
 fftw 3.3.10_1
 findutils 4.9.0
@@ -66,7 +66,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.03.0
 giflib 5.2.2
-git 2.44.0
+git 2.45.0
 glfw 3.4
 glib 2.80.0_2
 gmp 6.3.0
@@ -96,7 +96,7 @@ img2pdf 0.5.1_1
 imlib2 1.12.2
 isl 0.26
 jansson 2.14
-jasper 4.2.3
+jasper 4.2.4
 jbig2dec 0.20
 jbig2enc 0.29_3
 jemalloc 5.3.0
@@ -107,7 +107,7 @@ jq 1.7.1
 jsoncpp 1.9.5
 lame 3.100
 leptonica 1.84.1
-libarchive 3.7.3
+libarchive 3.7.4
 libass 0.17.1_1
 libassuan 2.5.7
 libb2 0.98.1
@@ -128,7 +128,7 @@ libheif 1.17.6_1
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
-libimagequant 4.3.0
+libimagequant 4.3.1
 libksba 1.6.6
 liblinear 2.47
 liblqr 0.4.2_1
@@ -208,7 +208,7 @@ mpg123 1.32.6
 mplayer 1.5_1
 mtr 0.95
 mysql@5.7 5.7.44_1
-ncurses 6.4
+ncurses 6.5
 nettle 3.9.1
 nghttp2 1.61.0
 nlohmann-json 3.11.3
@@ -227,7 +227,7 @@ openldap 2.6.7
 openmotif 2.3.8_2
 openssl@1.1 1.1.1w
 openssl@3 3.3.0
-openvino 2024.0.0
+openvino 2024.1.0
 opus 1.5.2
 orc 0.4.38
 p11-kit 0.25.3
@@ -299,7 +299,7 @@ telnet 302
 tesseract 5.3.4_1
 thefuck 3.32
 theora 1.1.1
-tmux 3.4
+tmux 3.4_1
 unbound 1.19.3
 unpaper 7.0.0_2
 utf8cpp 4.0.5
