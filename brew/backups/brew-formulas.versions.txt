@@ -1,4 +1,4 @@
-# backup: 20240509 @ 1743 (UTC)
+# backup: 20240513 @ 0411 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.0
 augeas 1.14.1
-awscli 2.15.46
+awscli 2.15.48
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db 18.1.40_2
@@ -17,7 +17,7 @@ berkeley-db@5 5.3.28_1
 boost 1.85.0
 boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.7
+bun 1.1.8
 bwfmetaedit 24.01
 c-ares 1.28.1
 ca-certificates 2024-03-11
@@ -68,7 +68,7 @@ ghostscript 10.03.0
 giflib 5.2.2
 git 2.45.0
 glfw 3.4
-glib 2.80.0_2
+glib 2.80.2
 gmp 6.3.0
 gnu-getopt 2.40.1
 gnu-sed 4.9
@@ -290,7 +290,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.45.3
 srt 1.5.3
-streamlink 6.7.3
+streamlink 6.7.4
 streamripper 1.64.6_2
 svt-av1 2.0.0
 tbb 2021.12.0
@@ -308,7 +308,7 @@ volk 3.1.2
 watch 4.0.4
 webp 1.4.0
 wget 1.24.5
-whois 5.5.22
+whois 5.5.23
 x264 r3108
 x265 3.6
 xbitmaps 1.1.3
