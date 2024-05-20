@@ -1,4 +1,4 @@
-# backup: 20240517 @ 1952 (UTC)
+# backup: 20240520 @ 1547 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.1
 augeas 1.14.1
-awscli 2.15.52
+awscli 2.15.53
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -105,7 +105,7 @@ jsoncpp 1.9.5
 lame 3.100
 leptonica 1.84.1
 libarchive 3.7.4
-libass 0.17.1_1
+libass 0.17.2
 libassuan 2.5.7
 libb2 0.98.1
 libbladerf 2023.02_1
@@ -137,7 +137,7 @@ libmng 2.0.3_1
 libmpc 1.3.1
 libnghttp2 1.61.0
 libogg 1.3.5
-libomp 18.1.5
+libomp 18.1.6
 libpng 1.6.43
 libproxy 0.5.6
 libpthread-stubs 0.5
@@ -210,7 +210,7 @@ nmap 7.95
 node 22.2.0
 npth 1.7
 numpy 1.26.4
-ocrmypdf 16.1.2
+ocrmypdf 16.3.0
 oniguruma 6.9.9
 open-mpi 5.0.3_1
 openblas 0.3.27
