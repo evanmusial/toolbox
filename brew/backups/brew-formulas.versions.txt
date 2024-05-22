@@ -1,4 +1,4 @@
-# backup: 20240520 @ 1806 (UTC)
+# backup: 20240522 @ 0312 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,19 +9,19 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.1
 augeas 1.14.1
-awscli 2.15.53
+awscli 2.15.54
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.85.0
 boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.8
+bun 1.1.9
 bwfmetaedit 24.01
 c-ares 1.28.1
 ca-certificates 2024-03-11
 cairo 1.18.0
-certbot 2.10.0_1
+certbot 2.10.0_2
 certifi 2024.2.2
 cffi 1.16.0_1
 cjson 1.7.18
@@ -61,7 +61,7 @@ gdbm 1.23
 gengetopt 2.23
 geoip 1.6.12
 gettext 0.22.5
-ghostscript 10.03.0
+ghostscript 10.03.1
 giflib 5.2.2
 git 2.45.1
 glfw 3.4
@@ -210,7 +210,7 @@ nmap 7.95
 node 22.2.0
 npth 1.7
 numpy 1.26.4
-ocrmypdf 16.3.0
+ocrmypdf 16.3.1
 oniguruma 6.9.9
 open-mpi 5.0.3_1
 openblas 0.3.27
