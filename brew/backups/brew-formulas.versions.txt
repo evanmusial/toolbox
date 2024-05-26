@@ -1,4 +1,4 @@
-# backup: 20240524 @ 2208 (UTC)
+# backup: 20240526 @ 1559 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.1
 augeas 1.14.1
-awscli 2.15.57
+awscli 2.15.58
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.85.0
 boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.9
+bun 1.1.10
 bwfmetaedit 24.01
 c-ares 1.28.1
 ca-certificates 2024-03-11
@@ -34,7 +34,7 @@ cpu_features 0.9.0
 cpufetch 1.05
 cryptography 42.0.7
 curl 8.8.0
-dav1d 1.4.1
+dav1d 1.4.2
 dbus 1.14.10
 dialog 1.3-20240307
 docbook 5.1_1
@@ -87,7 +87,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-32
+imagemagick 7.1.1-33
 imath 3.1.11
 img2pdf 0.5.1_1
 imlib2 1.12.2
