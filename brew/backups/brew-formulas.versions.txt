@@ -1,4 +1,4 @@
-# backup: 20240603 @ 0405 (UTC)
+# backup: 20240604 @ 0331 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.1
 augeas 1.14.1
-awscli 2.15.62
+awscli 2.16.0
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
