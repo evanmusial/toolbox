@@ -1,4 +1,4 @@
-# backup: 20240618 @ 0240 (UTC)
+# backup: 20240618 @ 1955 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.1
 augeas 1.14.1
-awscli 2.16.10
+awscli 2.16.10_1
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -21,11 +21,11 @@ bwfmetaedit 24.05
 c-ares 1.30.0
 ca-certificates 2024-03-11
 cairo 1.18.0
-certbot 2.11.0
+certbot 2.11.0_1
 certifi 2024.6.2
 cffi 1.16.0_1
 cjson 1.7.18
-cmake 3.29.5
+cmake 3.29.6
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
