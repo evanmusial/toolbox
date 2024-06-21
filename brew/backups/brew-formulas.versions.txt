@@ -1,4 +1,4 @@
-# backup: 20240619 @ 1507 (UTC)
+# backup: 20240621 @ 2133 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -16,9 +16,9 @@ berkeley-db@5 5.3.28_1
 boost 1.85.0
 boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.14
+bun 1.1.15
 bwfmetaedit 24.05
-c-ares 1.30.0
+c-ares 1.31.0
 ca-certificates 2024-03-11
 cairo 1.18.0
 certbot 2.11.0_1
@@ -36,7 +36,7 @@ cryptography 42.0.8
 curl 8.8.0
 dav1d 1.4.3
 dbus 1.14.10
-dialog 1.3-20240307
+dialog 1.3-20240619
 docbook 5.1_1
 docbook-xsl 1.79.2_1
 docker 26.1.4
@@ -124,7 +124,7 @@ libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
 libimagequant 4.3.1
-libksba 1.6.6
+libksba 1.6.7
 liblinear 2.47
 liblqr 0.4.2_1
 libmagic 5.45
@@ -203,14 +203,14 @@ mplayer 1.5_1
 mtr 0.95
 mysql@5.7 5.7.44_1
 ncurses 6.5
-nettle 3.9.1
+nettle 3.10
 nghttp2 1.61.0
 nlohmann-json 3.11.3
 nmap 7.95
 node 22.3.0
 npth 1.7
 numpy 1.26.4
-ocrmypdf 16.3.1
+ocrmypdf 16.4.0
 oniguruma 6.9.9
 open-mpi 5.0.3_1
 openblas 0.3.27
@@ -246,7 +246,7 @@ pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 70.0.0
+python-setuptools 70.1.0
 python-tk@3.11 3.11.9
 python@3.10 3.10.14
 python@3.11 3.11.9
