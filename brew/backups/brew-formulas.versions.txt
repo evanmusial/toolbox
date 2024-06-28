@@ -1,4 +1,4 @@
-# backup: 20240627 @ 1516 (UTC)
+# backup: 20240628 @ 1422 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -99,7 +99,7 @@ jbig2enc 0.29_3
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.0.3
-jpeg-xl 0.10.2
+jpeg-xl 0.10.3
 jq 1.7.1
 jsoncpp 1.9.5
 lame 3.100
@@ -129,7 +129,7 @@ liblinear 2.47
 liblqr 0.4.2_1
 libmagic 5.45
 libmatroska 1.7.1
-libmediainfo 24.05
+libmediainfo 24.06
 libmetalink 0.1.3
 libmicrohttpd 1.0.1
 libmms 0.6.4
@@ -190,7 +190,7 @@ m4 1.4.19
 mad 0.15.1b
 mbedtls 3.6.0
 md4c 0.5.2
-media-info 24.05
+media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mmv 2.6
@@ -241,7 +241,7 @@ portaudio 19.7.0
 protobuf 27.1
 pugixml 1.14
 pwgen 2.08
-pybind11 2.12.0
+pybind11 2.13.1
 pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
@@ -275,7 +275,7 @@ srt 1.5.3
 streamlink 6.8.1
 streamripper 1.64.6_2
 svt-av1 2.1.1
-tbb 2021.12.0
+tbb 2021.13.0
 tcl-tk 8.6.14
 telnet 302
 tesseract 5.4.1
