@@ -1,4 +1,4 @@
-# backup: 20240628 @ 2144 (UTC)
+# backup: 20240629 @ 1950 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -182,7 +182,7 @@ libzip 1.10.1
 little-cms2 2.16
 livestreamer 1.12.2_5
 lolcat 100.0.1
-lua 5.4.6
+lua 5.4.7
 lz4 1.9.4
 lzlib 1.14
 lzo 2.10
@@ -274,7 +274,7 @@ sqlite 3.46.0
 srt 1.5.3
 streamlink 6.8.1
 streamripper 1.64.6_2
-svt-av1 2.1.1
+svt-av1 2.1.2
 tbb 2021.13.0
 tcl-tk 8.6.14
 telnet 302
