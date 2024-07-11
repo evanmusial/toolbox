@@ -7,6 +7,9 @@ THIS_HOSTNAME=$(hostname | sed -e 's/.local//g')
 mkdir -p ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
 cd ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
 
+# Pull since multiple machines use this
+git pull
+
 # Handy visual indicator that the backup is happening.
 echo "🦺 Backup of brew casks and formulae..."
 
