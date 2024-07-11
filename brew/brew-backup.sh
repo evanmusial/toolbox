@@ -1,11 +1,14 @@
 #!/bin/bash
 
+# Get the hostname of this machine
+THIS_HOSTNAME=$(hostname | sed -e 's/.local//g')
+
 # Bounce to the directory where I have git installed.
-cd ~/git/toolbox/brew/backups
+mkdir -p ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
+cd ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
 
 # Handy visual indicator that the backup is happening.
 echo "🦺 Backup of brew casks and formulae..."
-
 
 # An eyeball friendly date string, but use UTC for consistency.
 THIS_DATE=$(date -u +"%Y%m%d @ %H%M (UTC)")
@@ -27,7 +30,6 @@ git add brew-formulas.list.txt
 git add brew-casks.list.txt
 git add brew-casks.versions.txt
 git add brew-formulas.versions.txt
-
 
 # Make a git push with the date and time referenced, then push that to the remove repo.
 git commit -m "Brew formula & casks backup: ${THIS_DATE}"
