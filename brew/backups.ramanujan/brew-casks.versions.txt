@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# backup: 20240711 @ 0350 (UTC)
-=======
-# backup: 20240711 @ 0348 (UTC)
->>>>>>> refs/remotes/origin/main
+# backup: 20240711 @ 0352 (UTC)
 makemkv 1.17.7
 ngrok 3.12.0,d2tzJ5RRFo1,a
 stats 2.10.18
