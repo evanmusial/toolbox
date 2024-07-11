@@ -1,0 +1,5 @@
+# backup: 20240711 @ 1551 (UTC)
+makemkv
+mkvtoolnix
+ngrok
+stats
