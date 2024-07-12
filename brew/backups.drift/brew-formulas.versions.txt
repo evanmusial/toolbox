@@ -1,4 +1,4 @@
-# backup: 20240711 @ 2033 (UTC)
+# backup: 20240712 @ 0120 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -272,7 +272,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.46.0
 srt 1.5.3
-streamlink 6.8.2
+streamlink 6.8.3
 streamripper 1.64.6_2
 svt-av1 2.1.2
 tbb 2021.13.0
