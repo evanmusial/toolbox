@@ -1,4 +1,4 @@
-# backup: 20240711 @ 0352 (UTC)
+# backup: 20240713 @ 0036 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -229,7 +229,7 @@ media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 85.0
-mmv 2.6
+mmv 2.7
 moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
@@ -317,7 +317,7 @@ spice-protocol 0.14.4
 sqlite 3.46.0
 srt 1.5.3
 srtp 2.6.0
-streamlink 6.8.2
+streamlink 6.8.3
 streamripper 1.64.6_2
 svt-av1 2.1.2
 taglib 1.13.1
