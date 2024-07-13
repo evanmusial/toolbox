@@ -1,4 +1,4 @@
-# backup: 20240713 @ 0036 (UTC)
+# backup: 20240713 @ 0755 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -6,11 +6,16 @@ adwaita-icon-theme 46.2
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.9.1
+apr 1.7.4
+apr-util 1.6.3_1
+argon2 20190702_1
 aria2 1.37.0
 aribb24 1.0.4
+aspell 0.60.8.1_1
 assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
+autoconf 2.72
 awscli 2.17.11
 bash 5.2.26
 bdw-gc 8.2.6
@@ -61,10 +66,12 @@ findutils 4.10.0
 flac 1.4.3
 fmt 10.2.1_1
 fontconfig 2.15.0
+freetds 1.4.19
 freetype 2.13.2
 frei0r 2.3.3
 fribidi 1.0.15
 gcc 14.1.0_1
+gd 2.3.3_6
 gdbm 1.24
 gdk-pixbuf 2.42.12
 gengetopt 2.23
@@ -121,11 +128,13 @@ jpeg-xl 0.10.3
 jq 1.7.1
 json-glib 1.8.0
 jsoncpp 1.9.5
+krb5 1.21.3
 lame 3.100
 leptonica 1.84.1
 libarchive 3.7.4
 libass 0.17.3
 libassuan 2.5.7
+libavif 1.0.4
 libb2 0.98.1
 libbladerf 2023.02_1
 libbluray 1.3.4
@@ -162,6 +171,7 @@ libogg 1.3.5
 libomp 18.1.8
 libosinfo 1.11.0
 libpng 1.6.43
+libpq 16.3
 libproxy 0.5.7
 libpsl 0.21.5_1
 libpthread-stubs 0.5
@@ -169,7 +179,7 @@ libraqm 0.10.1
 libraw 0.21.2
 libreplaygain r475
 librist 0.2.10_1
-librsvg 2.58.1
+librsvg 2.58.2
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_1
@@ -269,6 +279,7 @@ pcre 8.45
 pcre2 10.44
 perl 5.38.2_1
 phodav 3.0
+php 8.3.9
 pillow 10.4.0
 pinentry 1.3.1
 pixman 0.42.2
@@ -327,8 +338,10 @@ telnet 302
 tesseract 5.4.1
 thefuck 3.32
 theora 1.1.1
+tidy-html5 5.8.0
 tmux 3.4_1
 unbound 1.20.0
+unixodbc 2.3.12
 unpaper 7.0.0_2
 usb.ids 2024.07.04
 usbredir 0.14.0
