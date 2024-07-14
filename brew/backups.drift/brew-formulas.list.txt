@@ -1,4 +1,4 @@
-# backup: 20240713 @ 0017 (UTC)
+# backup: 20240714 @ 0556 (UTC)
 a52dec
 abseil
 adns
@@ -42,6 +42,7 @@ docbook-xsl
 docker
 docker-completion
 double-conversion
+dssim
 duktape
 exa
 exempi
@@ -51,6 +52,7 @@ ffmpeg
 fftw
 findutils
 flac
+fluid-synth
 fmt
 fontconfig
 freetype
@@ -126,6 +128,7 @@ libidn2
 libimagequant
 libksba
 liblinear
+liblo
 liblqr
 libmagic
 libmatroska
@@ -223,6 +226,7 @@ openssl@1.1
 openssl@3
 openvino
 opus
+opusfile
 orc
 p11-kit
 p7zip
@@ -270,6 +274,7 @@ shared-mime-info
 snappy
 soapyrtlsdr
 soapysdr
+sox
 speedtest-cli
 speex
 sqlite
@@ -288,6 +293,7 @@ unbound
 unpaper
 utf8cpp
 utf8proc
+vamp-plugin-sdk
 volk
 watch
 webp

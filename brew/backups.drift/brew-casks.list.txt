@@ -1,4 +1,7 @@
-# backup: 20240713 @ 0017 (UTC)
+# backup: 20240714 @ 0556 (UTC)
+font-meslo-for-powerlevel10k
+font-meslo-for-powerline
+jt-bridge
 makemkv
 mkvtoolnix
 ngrok
