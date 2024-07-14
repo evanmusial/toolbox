@@ -1,4 +1,4 @@
-# backup: 20240713 @ 0755 (UTC)
+# backup: 20240714 @ 0212 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -70,7 +70,7 @@ freetds 1.4.19
 freetype 2.13.2
 frei0r 2.3.3
 fribidi 1.0.15
-gcc 14.1.0_1
+gcc 14.1.0_2
 gd 2.3.3_6
 gdbm 1.24
 gdk-pixbuf 2.42.12
@@ -238,7 +238,7 @@ md4c 0.5.2
 media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 85.0
+mkvtoolnix 86.0
 mmv 2.7
 moreutils 0.69
 mp3info 0.8.5a
