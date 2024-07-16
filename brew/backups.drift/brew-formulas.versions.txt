@@ -1,4 +1,4 @@
-# backup: 20240716 @ 0514 (UTC)
+# backup: 20240716 @ 1459 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.11
+awscli 2.17.13
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -252,10 +252,10 @@ python-lxml 5.2.2
 python-packaging 24.1
 python-setuptools 70.3.0
 python-tk@3.11 3.11.9
-python@3.10 3.10.14
-python@3.11 3.11.9
+python@3.10 3.10.14_1
+python@3.11 3.11.9_1
 python@3.12 3.12.4
-python@3.9 3.9.19
+python@3.9 3.9.19_1
 qpdf 11.9.1
 qt 6.7.0_1
 qt@5 5.15.13_1
