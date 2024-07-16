@@ -1,4 +1,4 @@
-# backup: 20240716 @ 1459 (UTC)
+# backup: 20240716 @ 2328 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -18,7 +18,7 @@ boost-build 1.85.0
 brotli 1.1.0
 bun 1.1.20
 bwfmetaedit 24.05
-c-ares 1.32.1
+c-ares 1.32.2
 ca-certificates 2024-07-02
 cairo 1.18.0
 certbot 2.11.0_1
