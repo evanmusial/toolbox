@@ -1,4 +1,4 @@
-# backup: 20240717 @ 0010 (UTC)
+# backup: 20240718 @ 0338 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -119,7 +119,7 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.4.6
 libgcrypt 1.10.3
-libgit2 1.7.2
+libgit2 1.8.1
 libgpg-error 1.50
 libheif 1.17.6_1
 libice 1.1.1
@@ -250,7 +250,7 @@ pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 70.3.0
+python-setuptools 71.0.0
 python-tk@3.11 3.11.9
 python@3.10 3.10.14_1
 python@3.11 3.11.9_1
@@ -306,9 +306,9 @@ xorgproto 2024.1
 xpdf 4.05
 xvid 1.3.7
 xxhash 0.8.2
-xz 5.4.6
+xz 5.6.2
 youtube-dl 2021.12.17
-yt-dlp 2024.7.9
+yt-dlp 2024.7.16
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
