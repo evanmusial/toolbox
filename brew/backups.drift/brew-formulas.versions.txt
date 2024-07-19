@@ -1,4 +1,4 @@
-# backup: 20240718 @ 2234 (UTC)
+# backup: 20240719 @ 1436 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.13
+awscli 2.17.14
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -25,7 +25,7 @@ certbot 2.11.0_1
 certifi 2024.7.4
 cffi 1.16.0_1
 cjson 1.7.18
-cmake 3.30.0
+cmake 3.30.1
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
@@ -250,7 +250,7 @@ pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 71.0.2
+python-setuptools 71.0.3
 python-tk@3.11 3.11.9
 python@3.10 3.10.14_1
 python@3.11 3.11.9_1
