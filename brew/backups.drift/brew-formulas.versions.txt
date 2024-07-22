@@ -1,4 +1,4 @@
-# backup: 20240721 @ 0025 (UTC)
+# backup: 20240722 @ 1748 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -89,7 +89,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-34
+imagemagick 7.1.1-35
 imath 3.1.11
 img2pdf 0.5.1_1
 imlib2 1.12.3
@@ -121,7 +121,7 @@ libffi 3.4.6
 libgcrypt 1.10.3
 libgit2 1.8.1
 libgpg-error 1.50
-libheif 1.17.6_1
+libheif 1.18.0
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
@@ -227,7 +227,7 @@ openssl@3 3.3.1
 openvino 2024.2.0_1
 opus 1.5.2
 opusfile 0.12_1
-orc 0.4.38
+orc 0.4.39
 p11-kit 0.25.5
 p7zip 17.05
 pango 1.54.0
@@ -250,7 +250,7 @@ pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 71.0.4
+python-setuptools 71.1.0
 python-tk@3.11 3.11.9
 python@3.10 3.10.14_1
 python@3.11 3.11.9_1
