@@ -1,4 +1,4 @@
-# backup: 20240724 @ 1807 (UTC)
+# backup: 20240725 @ 1430 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.16
+awscli 2.17.17
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -308,7 +308,7 @@ xvid 1.3.7
 xxhash 0.8.2
 xz 5.6.2
 youtube-dl 2021.12.17
-yt-dlp 2024.7.16
+yt-dlp 2024.7.25
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
