@@ -1,4 +1,4 @@
-# backup: 20240727 @ 1509 (UTC)
+# backup: 20240728 @ 2003 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -89,7 +89,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-35
+imagemagick 7.1.1-36
 imath 3.1.11
 img2pdf 0.5.1_1
 imlib2 1.12.3
