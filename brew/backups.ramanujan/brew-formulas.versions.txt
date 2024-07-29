@@ -1,4 +1,4 @@
-# backup: 20240729 @ 1338 (UTC)
+# backup: 20240729 @ 2055 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -93,7 +93,7 @@ gpac 2.4.0
 graphene 1.10.8
 graphite2 1.3.14
 grep 3.11
-gsettings-desktop-schemas 46.0
+gsettings-desktop-schemas 46.1
 gstreamer 1.24.5
 gtk+3 3.24.43
 gtk-vnc 1.3.1_1
