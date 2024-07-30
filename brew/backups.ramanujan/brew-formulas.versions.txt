@@ -1,4 +1,4 @@
-# backup: 20240730 @ 0238 (UTC)
+# backup: 20240730 @ 1416 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.18
+awscli 2.17.19
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -79,7 +79,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.03.1
 giflib 5.2.2
-git 2.45.2
+git 2.46.0
 glfw 3.4
 glib 2.80.4
 glib-networking 2.80.0
