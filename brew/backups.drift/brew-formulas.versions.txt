@@ -1,4 +1,4 @@
-# backup: 20240729 @ 2138 (UTC)
+# backup: 20240730 @ 0933 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.18
+awscli 2.17.19
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -65,7 +65,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.03.1
 giflib 5.2.2
-git 2.45.2
+git 2.46.0
 glfw 3.4
 glib 2.80.4
 gmp 6.3.0
@@ -250,7 +250,7 @@ pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 72.0.0
+python-setuptools 72.1.0
 python-tk@3.11 3.11.9
 python@3.10 3.10.14_1
 python@3.11 3.11.9_1
