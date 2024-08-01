@@ -1,0 +1,8 @@
+# backup: 20240801 @ 2033 (UTC)
+font-meslo-for-powerlevel10k
+font-meslo-for-powerline
+jt-bridge
+makemkv
+mkvtoolnix
+ngrok
+stats
