@@ -1,4 +1,4 @@
-# backup: 20240801 @ 2110 (UTC)
+# backup: 20240802 @ 0258 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -367,7 +367,7 @@ xxhash 0.8.2
 xz 5.6.2
 yajl 2.1.0
 youtube-dl 2021.12.17
-yt-dlp 2024.7.25
+yt-dlp 2024.8.1
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
