@@ -1,4 +1,4 @@
-# backup: 20240802 @ 1507 (UTC)
+# backup: 20240802 @ 1620 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -242,7 +242,7 @@ pmix 5.0.3
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 27.1
+protobuf 27.3
 pugixml 1.14
 pwgen 2.08
 pybind11 2.13.1
