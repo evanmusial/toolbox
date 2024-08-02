@@ -1,4 +1,4 @@
-# backup: 20240802 @ 0258 (UTC)
+# backup: 20240802 @ 0612 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.19
+awscli 2.17.21
 bash 5.2.26
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -270,6 +270,7 @@ openssl@1.1 1.1.1w
 openssl@3 3.3.1
 openvino 2024.2.0_1
 opus 1.5.2
+opusfile 0.12_1
 orc 0.4.39
 osinfo-db 20240701
 p11-kit 0.25.5
@@ -321,6 +322,7 @@ shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
+sox 14.4.2_5
 speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3

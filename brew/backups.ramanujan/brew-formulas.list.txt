@@ -1,4 +1,4 @@
-# backup: 20240802 @ 0258 (UTC)
+# backup: 20240802 @ 0612 (UTC)
 a52dec
 abseil
 adns
@@ -270,6 +270,7 @@ openssl@1.1
 openssl@3
 openvino
 opus
+opusfile
 orc
 osinfo-db
 p11-kit
@@ -321,6 +322,7 @@ shared-mime-info
 snappy
 soapyrtlsdr
 soapysdr
+sox
 speedtest-cli
 speex
 spice-gtk
