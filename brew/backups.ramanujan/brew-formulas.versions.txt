@@ -1,4 +1,4 @@
-# backup: 20240803 @ 1919 (UTC)
+# backup: 20240803 @ 2032 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -60,7 +60,7 @@ faac 1.30
 faad2 2.11.1
 fdk-aac 2.0.3
 ffmpeg 7.0.2
-ffmpeg@6 6.1.1_2
+ffmpeg@6 6.1.2
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
@@ -206,7 +206,7 @@ libvirt-python 10.5.0
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.13.1
-libx11 1.8.9
+libx11 1.8.10
 libxau 1.0.11
 libxcb 1.17.0
 libxdmcp 1.1.5
