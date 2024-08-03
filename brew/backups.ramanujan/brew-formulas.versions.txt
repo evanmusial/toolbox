@@ -1,4 +1,4 @@
-# backup: 20240802 @ 0612 (UTC)
+# backup: 20240803 @ 0003 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -17,7 +17,7 @@ at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
 awscli 2.17.21
-bash 5.2.26
+bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.85.0
@@ -257,7 +257,7 @@ nmap 7.95
 node 22.5.1
 npth 1.7
 numpy 2.0.1
-ocrmypdf 16.4.2
+ocrmypdf 16.4.3
 oniguruma 6.9.9
 open-mpi 5.0.3_1
 openblas 0.3.27
@@ -289,7 +289,7 @@ pmix 5.0.3
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 27.1
+protobuf 27.3
 pugixml 1.14
 pwgen 2.08
 py3cairo 1.26.1
