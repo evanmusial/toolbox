@@ -1,4 +1,4 @@
-# backup: 20240804 @ 0201 (UTC)
+# backup: 20240804 @ 1933 (UTC)
 a52dec 0.8.0
 abseil 20240116.2
 adns 1.6.1
@@ -18,7 +18,7 @@ boost-build 1.85.0
 brotli 1.1.0
 bun 1.1.21
 bwfmetaedit 24.05
-c-ares 1.32.3
+c-ares 1.33.0
 ca-certificates 2024-07-02
 cairo 1.18.0
 certbot 2.11.0_1
@@ -267,7 +267,7 @@ rtmpdump 2.4-20151223_3
 rubberband 3.3.0
 s3cmd 2.4.0_1
 sc-im 0.8.3_1
-sdl2 2.30.5
+sdl2 2.30.6
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
