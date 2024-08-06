@@ -1,4 +1,4 @@
-# backup: 20240806 @ 0301 (UTC)
+# backup: 20240806 @ 1355 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -153,7 +153,7 @@ libheif 1.18.1
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
-libimagequant 4.3.2
+libimagequant 4.3.3
 libiscsi 1.20.0
 libksba 1.6.7
 liblinear 2.47
@@ -369,7 +369,7 @@ xxhash 0.8.2
 xz 5.6.2
 yajl 2.1.0
 youtube-dl 2021.12.17
-yt-dlp 2024.8.1
+yt-dlp 2024.8.6
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
