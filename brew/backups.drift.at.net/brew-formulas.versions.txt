@@ -1,4 +1,4 @@
-# backup: 20240809 @ 1901 (UTC)
+# backup: 20240811 @ 1350 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.26
+awscli 2.17.27
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -216,7 +216,7 @@ numpy 2.0.1
 ocrmypdf 16.4.3
 oniguruma 6.9.9
 open-mpi 5.0.3_1
-openblas 0.3.27
+openblas 0.3.28
 opencore-amr 0.1.6
 openexr 3.2.4
 openjpeg 2.5.2
