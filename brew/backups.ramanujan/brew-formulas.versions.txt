@@ -1,4 +1,4 @@
-# backup: 20240808 @ 0350 (UTC)
+# backup: 20240811 @ 1436 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.25
+awscli 2.17.27
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -149,7 +149,7 @@ libffi 3.4.6
 libgcrypt 1.10.3
 libgit2 1.8.1
 libgpg-error 1.50
-libheif 1.18.1
+libheif 1.18.2
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
@@ -171,7 +171,7 @@ libogg 1.3.5
 libomp 18.1.8
 libosinfo 1.11.0
 libpng 1.6.43
-libpq 16.3
+libpq 16.4
 libproxy 0.5.8
 libpsl 0.21.5_1
 libpthread-stubs 0.5
@@ -189,7 +189,7 @@ libsndfile 1.2.2
 libsodium 1.0.20
 libsoup 3.4.4
 libsoxr 0.1.3
-libssh 0.10.6
+libssh 0.11.0
 libssh2 1.11.0_1
 libtasn1 4.19.0
 libtiff 4.6.0
@@ -244,7 +244,7 @@ moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
 mpfr 4.2.1
-mpg123 1.32.6
+mpg123 1.32.7
 mplayer 1.5_1
 mtr 0.95
 musepack r475
@@ -254,13 +254,13 @@ nettle 3.10
 nghttp2 1.61.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 22.5.1
+node 22.6.0
 npth 1.7
 numpy 2.0.1
 ocrmypdf 16.4.3
 oniguruma 6.9.9
 open-mpi 5.0.3_1
-openblas 0.3.27
+openblas 0.3.28
 opencore-amr 0.1.6
 openexr 3.2.4
 openjpeg 2.5.2
