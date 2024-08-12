@@ -1,4 +1,4 @@
-# backup: 20240811 @ 2237 (UTC)
+# backup: 20240812 @ 2046 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -27,7 +27,7 @@ bwfmetaedit 24.05
 c-ares 1.33.0
 ca-certificates 2024-07-02
 cairo 1.18.0
-capstone 5.0.1
+capstone 5.0.2
 certbot 2.11.0_1
 certifi 2024.7.4
 cffi 1.17.0
@@ -330,7 +330,7 @@ spice-protocol 0.14.4
 sqlite 3.46.0
 srt 1.5.3
 srtp 2.6.0
-streamlink 6.8.3_1
+streamlink 6.9.0
 streamripper 1.64.6_2
 svt-av1 2.1.2
 taglib 1.13.1
