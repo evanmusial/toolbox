@@ -1,4 +1,4 @@
-# backup: 20240813 @ 2332 (UTC)
+# backup: 20240814 @ 1711 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.28
+awscli 2.17.29
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.85.0
 boost-build 1.85.0
 brotli 1.1.0
-bun 1.1.22
+bun 1.1.24
 bwfmetaedit 24.05
 c-ares 1.33.0
 ca-certificates 2024-07-02
