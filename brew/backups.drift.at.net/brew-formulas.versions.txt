@@ -1,4 +1,4 @@
-# backup: 20240815 @ 0415 (UTC)
+# backup: 20240815 @ 1411 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -245,7 +245,7 @@ portaudio 19.7.0
 protobuf 27.3_1
 pugixml 1.14
 pwgen 2.08
-pybind11 2.13.3
+pybind11 2.13.4
 pycparser 2.22
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
