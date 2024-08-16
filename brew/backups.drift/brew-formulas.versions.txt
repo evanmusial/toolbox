@@ -1,4 +1,4 @@
-# backup: 20240815 @ 1512 (UTC)
+# backup: 20240816 @ 1419 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.30
+awscli 2.17.31
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -259,7 +259,7 @@ qpdf 11.9.1
 qt 6.7.0_1
 qt@5 5.15.13_1
 rav1e 0.7.1
-readline 8.2.10
+readline 8.2.13
 rename 1.601
 rsync 3.3.0
 rtmpdump 2.4-20151223_3
@@ -274,7 +274,7 @@ soapysdr 0.8.1_1
 sox 14.4.2_5
 speedtest-cli 2.1.3_1
 speex 1.2.1
-sqlite 3.46.0
+sqlite 3.46.1
 srt 1.5.3
 streamlink 6.9.0
 streamripper 1.64.6_2
