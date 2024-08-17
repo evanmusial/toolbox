@@ -1,4 +1,4 @@
-# backup: 20240817 @ 0821 (UTC)
+# backup: 20240817 @ 2034 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -51,7 +51,7 @@ docbook-xsl 1.79.2_1
 docker 27.1.2
 docker-completion 27.1.2
 double-conversion 3.3.0
-dtc 1.7.0
+dtc 1.7.1
 duktape 2.7.0
 exempi 2.6.5
 exiftool 12.76
@@ -179,7 +179,7 @@ libraqm 0.10.1
 libraw 0.21.2
 libreplaygain r475
 librist 0.2.10_1
-librsvg 2.58.2
+librsvg 2.58.3
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_1
@@ -228,7 +228,7 @@ libzip 1.10.1
 little-cms2 2.16
 lolcat 100.0.1
 lua 5.4.7
-lz4 1.9.4
+lz4 1.10.0
 lzlib 1.14
 lzo 2.10
 m4 1.4.19
@@ -317,7 +317,7 @@ rsync 3.3.0
 rtmpdump 2.4-20151223_3
 rubberband 3.3.0
 s3cmd 2.4.0_1
-sc-im 0.8.3_2
+sc-im 0.8.4
 sdl2 2.30.6
 shared-mime-info 2.4
 snappy 1.2.1
@@ -343,7 +343,7 @@ thefuck 3.32
 theora 1.1.1
 tidy-html5 5.8.0
 tmux 3.4_1
-unbound 1.20.0
+unbound 1.21.0
 unixodbc 2.3.12
 unpaper 7.0.0_2
 usb.ids 2024.07.04
