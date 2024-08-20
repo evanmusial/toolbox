@@ -1,4 +1,4 @@
-# backup: 20240819 @ 0153 (UTC)
+# backup: 20240820 @ 2356 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.32
+awscli 2.17.34
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -55,7 +55,7 @@ flac 1.4.3
 fluid-synth 2.3.6
 fmt 10.2.1_1
 fontconfig 2.15.0
-freetype 2.13.2
+freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.15
 gcc 14.1.0_2
@@ -224,7 +224,7 @@ openldap 2.6.8
 openmotif 2.3.8_2
 openssl@1.1 1.1.1w
 openssl@3 3.3.1
-openvino 2024.2.0_1
+openvino 2024.3.0
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.39
@@ -278,7 +278,7 @@ sqlite 3.46.1
 srt 1.5.3
 streamlink 6.9.0
 streamripper 1.64.6_2
-svt-av1 2.1.2
+svt-av1 2.2.0
 tbb 2021.13.0
 tcl-tk 8.6.14
 telnet 302
