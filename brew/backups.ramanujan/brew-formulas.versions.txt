@@ -1,4 +1,4 @@
-# backup: 20240820 @ 1830 (UTC)
+# backup: 20240820 @ 2345 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.33
+awscli 2.17.34
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -300,7 +300,7 @@ pygobject3 3.48.2
 python-gdbm@3.11 3.11.9
 python-lxml 5.2.2
 python-packaging 24.1
-python-setuptools 73.0.0
+python-setuptools 73.0.1
 python-tk@3.11 3.11.9
 python@3.10 3.10.14_1
 python@3.11 3.11.9_1
