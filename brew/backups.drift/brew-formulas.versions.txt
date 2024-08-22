@@ -1,4 +1,4 @@
-# backup: 20240820 @ 2358 (UTC)
+# backup: 20240822 @ 1716 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.34
+awscli 2.17.35
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.86.0
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.24
+bun 1.1.25
 bwfmetaedit 24.05
 c-ares 1.33.0
 ca-certificates 2024-07-02
@@ -31,7 +31,7 @@ codec2 1.2.0
 coreutils 9.5
 cowsay 3.04_1
 cpu_features 0.9.0
-cpufetch 1.05
+cpufetch 1.06
 cryptography 43.0.0
 curl 8.9.1
 dav1d 1.4.3
@@ -281,7 +281,7 @@ streamripper 1.64.6_2
 svt-av1 2.2.0
 tbb 2021.13.0
 tcl-tk 8.6.14
-telnet 302
+telnet 303.141.1
 tesseract 5.4.1
 thefuck 3.32
 theora 1.1.1
