@@ -1,4 +1,4 @@
-# backup: 20240824 @ 1725 (UTC)
+# backup: 20240825 @ 0608 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -323,6 +323,7 @@ shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
+socat 1.8.0.1
 sox 14.4.2_5
 speedtest-cli 2.1.3_1
 speex 1.2.1
@@ -333,7 +334,7 @@ srt 1.5.3
 srtp 2.6.0
 streamlink 6.9.0
 streamripper 1.64.6_2
-svt-av1 2.2.0
+svt-av1 2.2.1
 taglib 1.13.1
 tbb 2021.13.0
 tcl-tk 8.6.14

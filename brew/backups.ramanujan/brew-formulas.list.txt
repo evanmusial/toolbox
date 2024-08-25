@@ -1,4 +1,4 @@
-# backup: 20240824 @ 1725 (UTC)
+# backup: 20240825 @ 0608 (UTC)
 a52dec
 abseil
 adns
@@ -323,6 +323,7 @@ shared-mime-info
 snappy
 soapyrtlsdr
 soapysdr
+socat
 sox
 speedtest-cli
 speex
