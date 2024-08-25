@@ -1,4 +1,4 @@
-# backup: 20240822 @ 2156 (UTC)
+# backup: 20240825 @ 1405 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,16 +9,16 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.35
+awscli 2.17.37
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
 boost 1.86.0
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.25
+bun 1.1.26
 bwfmetaedit 24.05
-c-ares 1.33.0
+c-ares 1.33.1
 ca-certificates 2024-07-02
 cairo 1.18.0
 certbot 2.11.0_1
@@ -210,9 +210,9 @@ nettle 3.10
 nghttp2 1.61.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 22.6.0
+node 22.7.0
 npth 1.7
-numpy 2.0.1
+numpy 2.1.0
 ocrmypdf 16.4.3
 oniguruma 6.9.9
 open-mpi 5.0.3_1
@@ -256,7 +256,7 @@ python@3.11 3.11.9_1
 python@3.12 3.12.5
 python@3.9 3.9.19_1
 qpdf 11.9.1
-qt 6.7.0_1
+qt 6.7.0_2
 qt@5 5.15.13_1
 rav1e 0.7.1
 readline 8.2.13
@@ -278,7 +278,7 @@ sqlite 3.46.1
 srt 1.5.3
 streamlink 6.9.0
 streamripper 1.64.6_2
-svt-av1 2.2.0
+svt-av1 2.2.1
 tbb 2021.13.0
 tcl-tk 8.6.14
 telnet 303.141.1
