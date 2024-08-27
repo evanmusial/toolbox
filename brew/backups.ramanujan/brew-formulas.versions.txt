@@ -1,4 +1,4 @@
-# backup: 20240826 @ 0335 (UTC)
+# backup: 20240827 @ 1329 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -6,7 +6,7 @@ adwaita-icon-theme 46.2
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.9.1
-apr 1.7.4
+apr 1.7.5
 apr-util 1.6.3_1
 argon2 20190702_1
 aria2 1.37.0
@@ -16,7 +16,7 @@ assimp 5.4.2
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.37
+awscli 2.17.38
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -70,7 +70,7 @@ freetds 1.4.22
 freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.15
-gcc 14.1.0_2
+gcc 14.2.0
 gd 2.3.3_6
 gdbm 1.24
 gdk-pixbuf 2.42.12
@@ -187,7 +187,7 @@ libslirp 4.8.0
 libsm 1.2.4
 libsndfile 1.2.2
 libsodium 1.0.20
-libsoup 3.4.4
+libsoup 3.6.0
 libsoxr 0.1.3
 libssh 0.11.0
 libssh2 1.11.0_1
@@ -221,7 +221,7 @@ libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
 libxrender 0.9.11
-libxt 1.3.0
+libxt 1.3.0_1
 libxtst 1.2.5
 libzen 0.4.41_1
 libzip 1.10.1
@@ -265,7 +265,7 @@ opencore-amr 0.1.6
 openexr 3.2.4
 openjpeg 2.5.2
 openldap 2.6.8
-openmotif 2.3.8_2
+openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.3.1
 openvino 2024.3.0
