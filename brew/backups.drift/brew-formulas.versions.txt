@@ -1,4 +1,4 @@
-# backup: 20240830 @ 1649 (UTC)
+# backup: 20240831 @ 1714 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.2
 augeas 1.14.1
-awscli 2.17.41
+awscli 2.17.42
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -129,7 +129,7 @@ libimagequant 4.3.3
 libksba 1.6.7
 liblinear 2.47
 liblo 0.32
-liblqr 0.4.2_1
+liblqr 0.4.3
 libmagic 5.45
 libmatroska 1.7.1
 libmediainfo 24.06
@@ -213,7 +213,7 @@ nmap 7.95
 node 22.7.0
 npth 1.7
 numpy 2.1.0
-ocrmypdf 16.4.3
+ocrmypdf 16.5.0
 oniguruma 6.9.9
 open-mpi 5.0.3_1
 openblas 0.3.28
