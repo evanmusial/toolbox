@@ -1,4 +1,4 @@
-# backup: 20240831 @ 1713 (UTC)
+# backup: 20240901 @ 0521 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -12,7 +12,7 @@ argon2 20190702_1
 aria2 1.37.0
 aribb24 1.0.4
 aspell 0.60.8.1_1
-assimp 5.4.2
+assimp 5.4.3
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
@@ -166,7 +166,7 @@ libmicrohttpd 1.0.1
 libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.3.1
-libnghttp2 1.61.0
+libnghttp2 1.63.0
 libogg 1.3.5
 libomp 18.1.8
 libosinfo 1.11.0
@@ -233,7 +233,7 @@ lzlib 1.14
 lzo 2.10
 m4 1.4.19
 mad 0.15.1b
-mbedtls 3.6.0
+mbedtls 3.6.1
 md4c 0.5.2
 media-info 24.06
 mkvdts2ac3 1.6.0_3
@@ -251,7 +251,7 @@ musepack r475
 mysql@5.7 5.7.44_1
 ncurses 6.5
 nettle 3.10
-nghttp2 1.61.0
+nghttp2 1.63.0
 nlohmann-json 3.11.3
 nmap 7.95
 node 22.7.0
