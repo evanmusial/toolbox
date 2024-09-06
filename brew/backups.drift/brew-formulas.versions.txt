@@ -1,4 +1,4 @@
-# backup: 20240905 @ 2101 (UTC)
+# backup: 20240906 @ 1514 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.44
+awscli 2.17.45
 bash 5.2.32
 bdw-gc 8.2.6
 berkeley-db@5 5.3.28_1
@@ -242,7 +242,7 @@ pmix 5.0.3
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 27.3_1
+protobuf 28.0
 pugixml 1.14
 pwgen 2.08
 pybind11 2.13.5
