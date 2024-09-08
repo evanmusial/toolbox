@@ -1,4 +1,4 @@
-# backup: 20240907 @ 1637 (UTC)
+# backup: 20240908 @ 1510 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -297,15 +297,15 @@ py3cairo 1.27.0
 pybind11 2.13.5
 pycparser 2.22
 pygobject3 3.48.2
-python-gdbm@3.11 3.11.9
+python-gdbm@3.11 3.11.10
 python-lxml 5.2.2
 python-packaging 24.1
 python-setuptools 74.1.2
-python-tk@3.11 3.11.9
-python@3.10 3.10.14_1
-python@3.11 3.11.9_1
+python-tk@3.11 3.11.10
+python@3.10 3.10.15
+python@3.11 3.11.10
 python@3.12 3.12.5
-python@3.9 3.9.19_1
+python@3.9 3.9.20
 qemu 9.1.0
 qpdf 11.9.1
 qt 6.7.0_2
