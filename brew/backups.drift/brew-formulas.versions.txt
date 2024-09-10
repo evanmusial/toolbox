@@ -1,4 +1,4 @@
-# backup: 20240909 @ 1535 (UTC)
+# backup: 20240910 @ 0416 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -67,7 +67,7 @@ ghostscript 10.03.1
 giflib 5.2.2
 git 2.46.0
 glfw 3.4
-glib 2.80.4
+glib 2.82.0
 gmp 6.3.0
 gnu-getopt 2.40.2
 gnu-sed 4.9
