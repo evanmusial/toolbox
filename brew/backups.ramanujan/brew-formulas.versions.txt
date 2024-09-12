@@ -1,4 +1,4 @@
-# backup: 20240911 @ 1437 (UTC)
+# backup: 20240912 @ 0012 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -42,7 +42,7 @@ cpu_features 0.9.0
 cpufetch 1.06
 cryptography 43.0.1
 cunit 2.1-3
-curl 8.9.1
+curl 8.10.0
 dav1d 1.4.3
 dbus 1.14.10
 dialog 1.3-20240619
