@@ -1,4 +1,4 @@
-# backup: 20240912 @ 2312 (UTC)
+# backup: 20240913 @ 1403 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.49
+awscli 2.17.50
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -227,7 +227,7 @@ openssl@3 3.3.2
 openvino 2024.3.0
 opus 1.5.2
 opusfile 0.12_1
-orc 0.4.39
+orc 0.4.40
 p11-kit 0.25.5
 p7zip 17.05
 pango 1.54.0
