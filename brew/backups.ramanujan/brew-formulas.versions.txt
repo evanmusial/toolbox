@@ -1,4 +1,4 @@
-# backup: 20240913 @ 0214 (UTC)
+# backup: 20240913 @ 2239 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -88,7 +88,7 @@ gnu-getopt 2.40.2
 gnu-sed 4.9
 gnupg 2.4.5_1
 gnutls 3.8.4
-gobject-introspection 1.80.1_1
+gobject-introspection 1.82.0
 gpac 2.4.0
 graphene 1.10.8
 graphite2 1.3.14
@@ -97,7 +97,7 @@ gsettings-desktop-schemas 46.1
 gstreamer 1.24.7
 gtk+3 3.24.43
 gtk-vnc 1.3.1_1
-gtk4 4.16.0
+gtk4 4.16.1
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
@@ -170,7 +170,7 @@ libnghttp2 1.63.0
 libogg 1.3.5
 libomp 18.1.8
 libosinfo 1.11.0
-libpng 1.6.43
+libpng 1.6.44
 libpq 16.4
 libproxy 0.5.8
 libpsl 0.21.5_1
