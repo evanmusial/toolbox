@@ -1,4 +1,4 @@
-# backup: 20240912 @ 2259 (UTC)
+# backup: 20240913 @ 0214 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.3
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.49
+awscli 2.17.50
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -179,7 +179,7 @@ libraqm 0.10.1
 libraw 0.21.2
 libreplaygain r475
 librist 0.2.10_1
-librsvg 2.58.3
+librsvg 2.58.4
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_1
@@ -271,7 +271,7 @@ openssl@3 3.3.2
 openvino 2024.3.0
 opus 1.5.2
 opusfile 0.12_1
-orc 0.4.39
+orc 0.4.40
 osinfo-db 20240701
 p11-kit 0.25.5
 p7zip 17.05
