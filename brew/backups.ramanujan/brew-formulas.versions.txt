@@ -1,4 +1,4 @@
-# backup: 20240913 @ 2239 (UTC)
+# backup: 20240914 @ 1726 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.3
 at-spi2-core 2.52.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.50
+awscli 2.17.51
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -59,8 +59,8 @@ eye-d3 0.9.6_1
 faac 1.30
 faad2 2.11.1
 fdk-aac 2.0.3
-ffmpeg 7.0.2
-ffmpeg@6 6.1.2_1
+ffmpeg 7.0.2_1
+ffmpeg@6 6.1.2_2
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
@@ -112,7 +112,7 @@ icu4c 74.2
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.1-38
+imagemagick 7.1.1-38_1
 imath 3.1.12
 img2pdf 0.5.1_1
 imlib2 1.12.3
@@ -124,7 +124,7 @@ jbig2enc 0.29_3
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.0.3
-jpeg-xl 0.10.3
+jpeg-xl 0.11.0
 jq 1.7.1
 json-glib 1.10.0
 jsoncpp 1.9.5
@@ -290,11 +290,11 @@ pmix 5.0.3
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 28.0
+protobuf 28.1
 pugixml 1.14
 pwgen 2.08
 py3cairo 1.27.0
-pybind11 2.13.5
+pybind11 2.13.6
 pycparser 2.22
 pygobject3 3.50.0
 python-gdbm@3.11 3.11.10
