@@ -1,4 +1,4 @@
-# backup: 20240916 @ 2113 (UTC)
+# backup: 20240917 @ 1651 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.51
+awscli 2.17.52
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -106,7 +106,7 @@ jq 1.7.1
 jsoncpp 1.9.5
 lame 3.100
 leptonica 1.84.1
-libarchive 3.7.4
+libarchive 3.7.5
 libass 0.17.3
 libassuan 3.0.1
 libb2 0.98.1
@@ -280,7 +280,7 @@ streamlink 6.10.0
 streamripper 1.64.6_2
 svt-av1 2.2.1
 tbb 2021.13.0
-tcl-tk 8.6.14
+tcl-tk 8.6.15
 telnet 303.141.1
 tesseract 5.4.1
 thefuck 3.32
