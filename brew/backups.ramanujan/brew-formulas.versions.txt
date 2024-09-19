@@ -1,8 +1,8 @@
-# backup: 20240919 @ 0329 (UTC)
+# backup: 20240919 @ 1349 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
-adwaita-icon-theme 46.2
+adwaita-icon-theme 47.0
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.10.0
@@ -16,7 +16,7 @@ assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.53_1
+awscli 2.17.54
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -216,7 +216,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
 libxlsxwriter 1.1.8
-libxml2 2.13.3
+libxml2 2.13.4
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
