@@ -1,4 +1,4 @@
-# backup: 20240917 @ 1947 (UTC)
+# backup: 20240919 @ 1445 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.52
+awscli 2.17.54
 bash 5.2.32
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.86.0
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.27
+bun 1.1.28
 bwfmetaedit 24.05
 c-ares 1.33.1
 ca-certificates 2024-07-02
@@ -33,7 +33,7 @@ cowsay 3.04_1
 cpu_features 0.9.0
 cpufetch 1.06
 cryptography 43.0.1
-curl 8.10.0
+curl 8.10.1
 dav1d 1.4.3
 dbus 1.14.10
 dialog 1.3-20240619
@@ -140,7 +140,7 @@ libmng 2.0.3_1
 libmpc 1.3.1
 libnghttp2 1.63.0
 libogg 1.3.5
-libomp 18.1.8
+libomp 19.1.0
 libpng 1.6.44
 libproxy 0.5.8
 libpthread-stubs 0.5
@@ -174,7 +174,7 @@ libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.2
 libxlsxwriter 1.1.8
-libxml2 2.13.3
+libxml2 2.13.4
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -196,6 +196,7 @@ md4c 0.5.2
 media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
+mkvtoolnix 87.0
 mmv 2.7
 moreutils 0.69
 mp3info 0.8.5a
@@ -210,7 +211,7 @@ nettle 3.10
 nghttp2 1.63.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 22.8.0
+node 22.9.0
 npth 1.7
 numpy 2.1.1
 ocrmypdf 16.5.0
@@ -256,7 +257,7 @@ python@3.11 3.11.10
 python@3.12 3.12.6
 python@3.9 3.9.20
 qpdf 11.9.1
-qt 6.7.0_2
+qt 6.7.2
 qt@5 5.15.13_1
 rav1e 0.7.1
 readline 8.2.13
