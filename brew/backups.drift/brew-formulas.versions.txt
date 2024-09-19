@@ -1,4 +1,4 @@
-# backup: 20240919 @ 1445 (UTC)
+# backup: 20240919 @ 2021 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -145,7 +145,7 @@ libpng 1.6.44
 libproxy 0.5.8
 libpthread-stubs 0.5
 libraqm 0.10.1
-libraw 0.21.2
+libraw 0.21.3
 librist 0.2.10_1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
