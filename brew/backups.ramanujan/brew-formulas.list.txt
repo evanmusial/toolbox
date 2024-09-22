@@ -1,4 +1,4 @@
-# backup: 20240922 @ 1358 (UTC)
+# backup: 20240922 @ 1400 (UTC)
 a52dec
 abseil
 adns
@@ -36,7 +36,6 @@ cmake
 cmocka
 codec2
 coreutils
-cowsay
 cpio
 cpu_features
 cpufetch
@@ -75,7 +74,6 @@ gd
 gdbm
 gdk-pixbuf
 gengetopt
-geoip
 gettext
 ghostscript
 giflib
@@ -139,6 +137,7 @@ libb2
 libbladerf
 libbluray
 libcaca
+libcbor
 libcuefile
 libde265
 libebml
@@ -146,6 +145,7 @@ libepoxy
 libev
 libevent
 libffi
+libfido2
 libgcrypt
 libgit2
 libgpg-error
@@ -248,7 +248,7 @@ mpg123
 mplayer
 mtr
 musepack
-mysql@5.7
+mysql-client@8.4
 ncurses
 nettle
 nghttp2
@@ -266,7 +266,6 @@ openexr
 openjpeg
 openldap
 openmotif
-openssl@1.1
 openssl@3
 openvino
 opus
@@ -298,7 +297,6 @@ pybind11
 pycparser
 pygobject3
 python-gdbm@3.11
-python-lxml
 python-packaging
 python-setuptools
 python-tk@3.11
@@ -370,8 +368,8 @@ xvid
 xxhash
 xz
 yajl
-youtube-dl
 yt-dlp
 zeromq
 zimg
+zlib
 zstd
