@@ -1,4 +1,4 @@
-# backup: 20240922 @ 1832 (UTC)
+# backup: 20240923 @ 1406 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -67,7 +67,7 @@ ghostscript 10.04.0
 giflib 5.2.2
 git 2.46.1
 glfw 3.4
-glib 2.82.0
+glib 2.82.1
 gmp 6.3.0
 gnu-getopt 2.40.2
 gnu-sed 4.9
@@ -225,7 +225,7 @@ openldap 2.6.8
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.3.2
-openvino 2024.3.0
+openvino 2024.4.0
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
