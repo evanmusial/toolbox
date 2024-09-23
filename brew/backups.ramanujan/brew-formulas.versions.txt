@@ -1,4 +1,4 @@
-# backup: 20240923 @ 0302 (UTC)
+# backup: 20240923 @ 1405 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -59,7 +59,7 @@ faac 1.30
 faad2 2.11.1
 fdk-aac 2.0.3
 ffmpeg 7.0.2_1
-ffmpeg@6 6.1.2_2
+ffmpeg@6 6.1.2_3
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
@@ -79,7 +79,7 @@ ghostscript 10.04.0
 giflib 5.2.2
 git 2.46.1
 glfw 3.4
-glib 2.82.0
+glib 2.82.1
 glib-networking 2.80.0
 gmp 6.3.0
 gnu-getopt 2.40.2
@@ -267,7 +267,7 @@ openjpeg 2.5.2
 openldap 2.6.8
 openmotif 2.3.8_3
 openssl@3 3.3.2
-openvino 2024.3.0
+openvino 2024.4.0
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
