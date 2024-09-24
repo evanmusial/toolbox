@@ -1,4 +1,4 @@
-# backup: 20240924 @ 1339 (UTC)
+# backup: 20240924 @ 2238 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -125,7 +125,7 @@ jpeg-turbo 3.0.4
 jpeg-xl 0.11.0
 jq 1.7.1
 json-glib 1.10.0
-jsoncpp 1.9.5
+jsoncpp 1.9.6
 krb5 1.21.3
 lame 3.100
 leptonica 1.84.1
