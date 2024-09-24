@@ -1,4 +1,4 @@
-# backup: 20240923 @ 1406 (UTC)
+# backup: 20240924 @ 0406 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,8 +9,8 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.56
-bash 5.2.32
+awscli 2.17.57
+bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.86.0
@@ -65,7 +65,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.04.0
 giflib 5.2.2
-git 2.46.1
+git 2.46.2
 glfw 3.4
 glib 2.82.1
 gmp 6.3.0
