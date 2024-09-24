@@ -1,4 +1,4 @@
-# backup: 20240924 @ 0406 (UTC)
+# backup: 20240924 @ 1339 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -25,7 +25,7 @@ boost-build 1.86.0
 brotli 1.1.0
 bwfmetaedit 24.05
 c-ares 1.33.1
-ca-certificates 2024-07-02
+ca-certificates 2024-09-24
 cairo 1.18.2
 capstone 5.0.3
 certbot 2.11.0_2
@@ -99,7 +99,7 @@ gtk4 4.16.1
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 9.0.0
+harfbuzz 10.0.0
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
@@ -176,7 +176,7 @@ libpq 16.4
 libproxy 0.5.8
 libpsl 0.21.5_1
 libpthread-stubs 0.5
-libraqm 0.10.1
+libraqm 0.10.2
 libraw 0.21.3
 libreplaygain r475
 librist 0.2.10_1
