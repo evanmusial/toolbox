@@ -1,4 +1,4 @@
-# backup: 20240926 @ 2018 (UTC)
+# backup: 20240927 @ 1430 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.17.59
+awscli 2.17.60
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -286,7 +286,7 @@ telnet 303.141.1
 tesseract 5.4.1
 thefuck 3.32
 theora 1.1.1
-tmux 3.4_1
+tmux 3.5
 unbound 1.21.0
 unpaper 7.0.0_2
 utf8cpp 4.0.5
