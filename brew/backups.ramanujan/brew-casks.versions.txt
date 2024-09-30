@@ -1,5 +1,5 @@
-# backup: 20240929 @ 2337 (UTC)
-makemkv 1.17.7
+# backup: 20240930 @ 1448 (UTC)
+makemkv 1.17.8
 ngrok 3.16.0,m7a8FVY63,a
 spundle 1.8,2023.12
 stats 2.10.18

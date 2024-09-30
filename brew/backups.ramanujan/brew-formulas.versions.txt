@@ -1,4 +1,4 @@
-# backup: 20240929 @ 2337 (UTC)
+# backup: 20240930 @ 1448 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -172,7 +172,7 @@ libogg 1.3.5
 libomp 19.1.0
 libosinfo 1.11.0
 libpng 1.6.44
-libpq 16.4
+libpq 17.0
 libproxy 0.5.8
 libpsl 0.21.5_1
 libpthread-stubs 0.5
