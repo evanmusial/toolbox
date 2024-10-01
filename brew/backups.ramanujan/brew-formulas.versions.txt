@@ -1,4 +1,4 @@
-# backup: 20241001 @ 0138 (UTC)
+# backup: 20241001 @ 2117 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.61
+awscli 2.17.62
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -124,6 +124,7 @@ jpeg 9f
 jpeg-turbo 3.0.4
 jpeg-xl 0.11.0
 jq 1.7.1
+json-c 0.18
 json-glib 1.10.0
 jsoncpp 1.9.6
 krb5 1.21.3
@@ -201,9 +202,9 @@ libusb 1.0.27
 libusrsctp 0.9.5.0_1
 libuv 1.49.0
 libvidstab 1.1.1
-libvirt 10.7.0
+libvirt 10.8.0
 libvirt-glib 5.0.0
-libvirt-python 10.7.0
+libvirt-python 10.8.0
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.13.1
@@ -331,7 +332,7 @@ spice-protocol 0.14.4
 sqlite 3.46.1
 srt 1.5.3
 srtp 2.6.0
-streamlink 6.10.0
+streamlink 6.11.0
 streamripper 1.64.6_2
 svt-av1 2.2.1
 taglib 1.13.1
