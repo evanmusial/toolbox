@@ -1,4 +1,4 @@
-# backup: 20241002 @ 1308 (UTC)
+# backup: 20241002 @ 2032 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
 autoconf 2.72
-awscli 2.17.62
+awscli 2.17.63
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -174,7 +174,7 @@ libomp 19.1.0
 libosinfo 1.11.0
 libpng 1.6.44
 libpq 17.0
-libproxy 0.5.8
+libproxy 0.5.9
 libpsl 0.21.5_1
 libpthread-stubs 0.5
 libraqm 0.10.2
