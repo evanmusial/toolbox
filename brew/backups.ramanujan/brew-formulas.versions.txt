@@ -1,4 +1,4 @@
-# backup: 20241004 @ 0158 (UTC)
+# backup: 20241004 @ 2125 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -344,7 +344,7 @@ thefuck 3.32
 theora 1.1.1
 tidy-html5 5.8.0
 tmux 3.5
-unbound 1.21.0
+unbound 1.21.1
 unixodbc 2.3.12
 unpaper 7.0.0_2
 usb.ids 2024.07.04
