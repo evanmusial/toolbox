@@ -1,4 +1,4 @@
-# backup: 20241004 @ 0200 (UTC)
+# backup: 20241004 @ 1457 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -287,7 +287,7 @@ tesseract 5.4.1
 thefuck 3.32
 theora 1.1.1
 tmux 3.5
-unbound 1.21.0
+unbound 1.21.1
 unpaper 7.0.0_2
 utf8cpp 4.0.5
 utf8proc 2.9.0
