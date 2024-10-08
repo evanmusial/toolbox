@@ -1,4 +1,4 @@
-# backup: 20241006 @ 0113 (UTC)
+# backup: 20241008 @ 2319 (UTC)
 a52dec
 abseil
 adns
@@ -85,6 +85,7 @@ htop
 hunspell
 hwloc
 icu4c
+icu4c@75
 id3lib
 id3tool
 id3v2

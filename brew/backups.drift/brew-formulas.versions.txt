@@ -1,4 +1,4 @@
-# backup: 20241006 @ 0113 (UTC)
+# backup: 20241008 @ 2319 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.18.0
+awscli 2.18.1
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
-boost 1.86.0
+boost 1.86.0_1
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.29
+bun 1.1.30
 bwfmetaedit 24.05
 c-ares 1.33.1
 ca-certificates 2024-09-24
@@ -65,7 +65,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.04.0
 giflib 5.2.2
-git 2.46.2
+git 2.47.0
 glfw 3.4
 glib 2.82.1
 gmp 6.3.0
@@ -78,13 +78,14 @@ gpac 2.4.0
 graphite2 1.3.14
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 10.0.1
+harfbuzz 10.0.1_1
 highway 1.2.0
 html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
 icu4c 74.2
+icu4c@75 75.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -174,7 +175,7 @@ libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.2
 libxlsxwriter 1.1.8
-libxml2 2.13.4
+libxml2 2.13.4_1
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -197,7 +198,7 @@ media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 87.0
-mmv 2.8
+mmv 2.9.1
 moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
@@ -211,9 +212,9 @@ nettle 3.10
 nghttp2 1.63.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 22.9.0
+node 22.9.0_1
 npth 1.7
-numpy 2.1.1
+numpy 2.1.2
 ocrmypdf 16.5.0
 oniguruma 6.9.9
 open-mpi 5.0.5
@@ -257,7 +258,7 @@ python@3.11 3.11.10
 python@3.12 3.12.7
 python@3.9 3.9.20
 qpdf 11.9.1
-qt 6.7.2
+qt 6.7.2_1
 qt@5 5.15.13_1
 rav1e 0.7.1
 readline 8.2.13
@@ -283,7 +284,7 @@ svt-av1 2.2.1
 tbb 2021.13.0
 tcl-tk 8.6.15
 telnet 303.141.1
-tesseract 5.4.1
+tesseract 5.4.1_1
 thefuck 3.32
 theora 1.1.1
 tmux 3.5a
@@ -308,7 +309,7 @@ xvid 1.3.7
 xxhash 0.8.2
 xz 5.6.3
 youtube-dl 2021.12.17
-yt-dlp 2024.9.27
+yt-dlp 2024.10.7
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
