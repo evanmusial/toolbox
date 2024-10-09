@@ -1,4 +1,4 @@
-# backup: 20241009 @ 0405 (UTC)
+# backup: 20241009 @ 1945 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -142,6 +142,7 @@ libcaca 0.99b20
 libcbor 0.11.0
 libcuefile r475
 libde265 1.0.15
+libdeflate 1.22
 libebml 1.4.5
 libepoxy 1.5.10
 libev 4.33
@@ -265,12 +266,12 @@ oniguruma 6.9.9
 open-mpi 5.0.5
 openblas 0.3.28
 opencore-amr 0.1.6
-openexr 3.3.0
+openexr 3.3.1
 openjpeg 2.5.2
 openldap 2.6.8
 openmotif 2.3.8_3
 openssl@3 3.3.2
-openvino 2024.4.0
+openvino 2024.4.1
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
@@ -283,7 +284,7 @@ pcre2 10.44
 perl 5.38.2_1
 phodav 3.0
 php 8.3.12_1
-pillow 10.4.0
+pillow 10.4.0_1
 pinentry 1.3.1_1
 pipx 1.7.1
 pixman 0.42.2
@@ -296,17 +297,17 @@ protobuf 28.2
 pugixml 1.14
 pwgen 2.08
 py3cairo 1.27.0
-pybind11 2.13.6
+pybind11 2.13.6_1
 pycparser 2.22_1
 pygobject3 3.50.0
 python-gdbm@3.11 3.11.10
 python-packaging 24.1
-python-setuptools 75.1.0
+python-setuptools 75.1.0_1
 python-tk@3.11 3.11.10
 python@3.10 3.10.15
 python@3.11 3.11.10
 python@3.12 3.12.7_1
-python@3.13 3.13.0
+python@3.13 3.13.0_1
 python@3.9 3.9.20
 qemu 9.1.0
 qpdf 11.9.1
