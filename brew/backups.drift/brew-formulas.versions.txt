@@ -1,4 +1,4 @@
-# backup: 20241008 @ 2319 (UTC)
+# backup: 20241009 @ 0404 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.18.1
+awscli 2.18.2
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -22,17 +22,17 @@ c-ares 1.33.1
 ca-certificates 2024-09-24
 cairo 1.18.2
 certbot 2.11.0_2
-certifi 2024.8.30
-cffi 1.17.1
+certifi 2024.8.30_1
+cffi 1.17.1_1
 cjson 1.7.18
-cmake 3.30.4
+cmake 3.30.5
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
 cowsay 3.04_1
 cpu_features 0.9.0
 cpufetch 1.06
-cryptography 43.0.1
+cryptography 43.0.1_1
 curl 8.10.1
 dav1d 1.4.3
 dbus 1.14.10
@@ -248,14 +248,15 @@ protobuf 28.2
 pugixml 1.14
 pwgen 2.08
 pybind11 2.13.6
-pycparser 2.22
+pycparser 2.22_1
 python-gdbm@3.11 3.11.10
 python-lxml 5.2.2
 python-packaging 24.1
 python-tk@3.11 3.11.10
 python@3.10 3.10.15
 python@3.11 3.11.10
-python@3.12 3.12.7
+python@3.12 3.12.7_1
+python@3.13 3.13.0
 python@3.9 3.9.20
 qpdf 11.9.1
 qt 6.7.2_1
@@ -278,7 +279,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.46.1
 srt 1.5.3
-streamlink 6.11.0
+streamlink 6.11.0_1
 streamripper 1.64.6_2
 svt-av1 2.2.1
 tbb 2021.13.0
