@@ -1,4 +1,4 @@
-# backup: 20241009 @ 2152 (UTC)
+# backup: 20241013 @ 1321 (UTC)
 a52dec
 abseil
 adns
@@ -6,16 +6,11 @@ adwaita-icon-theme
 airspy
 airspyhf
 aom
-apr
-apr-util
-argon2
 aria2
 aribb24
-aspell
 assimp
 at-spi2-core
 augeas
-autoconf
 awscli
 bash
 bdw-gc
@@ -65,12 +60,10 @@ findutils
 flac
 fmt
 fontconfig
-freetds
 freetype
 frei0r
 fribidi
 gcc
-gd
 gdbm
 gdk-pixbuf
 gengetopt
@@ -128,13 +121,11 @@ jq
 json-c
 json-glib
 jsoncpp
-krb5
 lame
 leptonica
 libarchive
 libass
 libassuan
-libavif
 libb2
 libbladerf
 libbluray
@@ -175,7 +166,6 @@ libogg
 libomp
 libosinfo
 libpng
-libpq
 libproxy
 libpsl
 libpthread-stubs
@@ -283,7 +273,6 @@ pcre
 pcre2
 perl
 phodav
-php
 pillow
 pinentry
 pipx
@@ -345,10 +334,8 @@ telnet
 tesseract
 thefuck
 theora
-tidy-html5
 tmux
 unbound
-unixodbc
 unpaper
 usb.ids
 usbredir

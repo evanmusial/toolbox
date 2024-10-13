@@ -1,4 +1,4 @@
-# backup: 20241009 @ 2152 (UTC)
+# backup: 20241013 @ 1321 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -6,17 +6,12 @@ adwaita-icon-theme 47.0
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.10.0
-apr 1.7.5
-apr-util 1.6.3_1
-argon2 20190702_1
 aria2 1.37.0
 aribb24 1.0.4
-aspell 0.60.8.1_1
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-autoconf 2.72
-awscli 2.18.2
+awscli 2.18.5
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -24,7 +19,7 @@ boost 1.86.0_1
 boost-build 1.86.0
 brotli 1.1.0
 bwfmetaedit 24.05
-c-ares 1.33.1
+c-ares 1.34.1
 ca-certificates 2024-09-24
 cairo 1.18.2
 capstone 5.0.3
@@ -65,12 +60,10 @@ findutils 4.10.0
 flac 1.4.3
 fmt 11.0.2
 fontconfig 2.15.0
-freetds 1.4.23
 freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.16
 gcc 14.2.0
-gd 2.3.3_6
 gdbm 1.24
 gdk-pixbuf 2.42.12
 gengetopt 2.23
@@ -128,13 +121,11 @@ jq 1.7.1
 json-c 0.18
 json-glib 1.10.0
 jsoncpp 1.9.6
-krb5 1.21.3
 lame 3.100
 leptonica 1.84.1
 libarchive 3.7.6
 libass 0.17.3
 libassuan 3.0.1
-libavif 1.1.1
 libb2 0.98.1
 libbladerf 2023.02_1
 libbluray 1.3.4
@@ -172,10 +163,9 @@ libmpc 1.3.1
 libnghttp2 1.63.0
 libnice 0.1.22
 libogg 1.3.5
-libomp 19.1.0
+libomp 19.1.1
 libosinfo 1.11.0
 libpng 1.6.44
-libpq 17.0_1
 libproxy 0.5.9
 libpsl 0.21.5_2
 libpthread-stubs 0.5
@@ -202,11 +192,11 @@ libunibreak 6.1
 libunistring 1.2
 libusb 1.0.27
 libusrsctp 0.9.5.0_1
-libuv 1.49.0
+libuv 1.49.1
 libvidstab 1.1.1
 libvirt 10.8.0
 libvirt-glib 5.0.0
-libvirt-python 10.8.0
+libvirt-python 10.8.0_1
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.13.1
@@ -220,7 +210,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
 libxlsxwriter 1.1.8
-libxml2 2.13.4_1
+libxml2 2.13.4_2
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -283,7 +273,6 @@ pcre 8.45
 pcre2 10.44
 perl 5.38.2_1
 phodav 3.0
-php 8.3.12_1
 pillow 10.4.0_1
 pinentry 1.3.1_1
 pipx 1.7.1
@@ -296,12 +285,12 @@ portaudio 19.7.0
 protobuf 28.2
 pugixml 1.14
 pwgen 2.08
-py3cairo 1.27.0
+py3cairo 1.27.0_1
 pybind11 2.13.6_1
 pycparser 2.22_1
-pygobject3 3.50.0
+pygobject3 3.50.0_1
 python-gdbm@3.11 3.11.10
-python-packaging 24.1
+python-packaging 24.1_1
 python-setuptools 75.1.0_1
 python-tk@3.11 3.11.10
 python@3.10 3.10.15
@@ -312,7 +301,7 @@ python@3.9 3.9.20
 qemu 9.1.0
 qpdf 11.9.1
 qt 6.7.2_1
-qt@5 5.15.13_1
+qt@5 5.15.15
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
@@ -345,17 +334,15 @@ telnet 303.141.1
 tesseract 5.4.1_1
 thefuck 3.32
 theora 1.1.1
-tidy-html5 5.8.0
 tmux 3.5a
 unbound 1.21.1
-unixodbc 2.3.12
 unpaper 7.0.0_2
 usb.ids 2024.07.04
 usbredir 0.14.0
 utf8cpp 4.0.5
 utf8proc 2.9.0
 vde 2.3.3
-virt-manager 4.1.0_7
+virt-manager 4.1.0_8
 volk 3.1.2
 vte3 0.76.4_1
 watch 4.0.4
