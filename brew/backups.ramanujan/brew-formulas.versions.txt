@@ -1,4 +1,4 @@
-# backup: 20241013 @ 1321 (UTC)
+# backup: 20241014 @ 1451 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -123,7 +123,7 @@ json-glib 1.10.0
 jsoncpp 1.9.6
 lame 3.100
 leptonica 1.84.1
-libarchive 3.7.6
+libarchive 3.7.7
 libass 0.17.3
 libassuan 3.0.1
 libb2 0.98.1
