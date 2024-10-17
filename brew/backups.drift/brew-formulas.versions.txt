@@ -1,4 +1,4 @@
-# backup: 20241016 @ 2241 (UTC)
+# backup: 20241017 @ 1447 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.18.7
+awscli 2.18.8
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -106,7 +106,7 @@ jpeg-xl 0.11.0_1
 jq 1.7.1
 jsoncpp 1.9.6
 lame 3.100
-leptonica 1.84.1
+leptonica 1.85.0
 libarchive 3.7.7
 libass 0.17.3
 libassuan 3.0.1
