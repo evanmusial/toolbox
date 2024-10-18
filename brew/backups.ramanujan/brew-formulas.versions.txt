@@ -1,4 +1,4 @@
-# backup: 20241016 @ 2240 (UTC)
+# backup: 20241018 @ 0111 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.18.7
+awscli 2.18.9
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -122,7 +122,7 @@ json-c 0.18
 json-glib 1.10.0
 jsoncpp 1.9.6
 lame 3.100
-leptonica 1.84.1
+leptonica 1.85.0
 libarchive 3.7.7
 libass 0.17.3
 libassuan 3.0.1
@@ -335,7 +335,7 @@ tesseract 5.4.1_1
 thefuck 3.32
 theora 1.1.1
 tmux 3.5a
-unbound 1.21.1
+unbound 1.22.0
 unpaper 7.0.0_2
 usb.ids 2024.07.04
 usbredir 0.14.0
