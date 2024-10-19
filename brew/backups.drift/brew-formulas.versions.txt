@@ -1,4 +1,4 @@
-# backup: 20241019 @ 1236 (UTC)
+# backup: 20241019 @ 2234 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -198,7 +198,7 @@ md4c 0.5.2
 media-info 24.06
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 87.0
+mkvtoolnix 88.0
 mmv 2.9.1
 moreutils 0.69
 mp3info 0.8.5a
