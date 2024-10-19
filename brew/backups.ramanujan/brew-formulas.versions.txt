@@ -1,4 +1,4 @@
-# backup: 20241019 @ 0131 (UTC)
+# backup: 20241019 @ 0400 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -192,7 +192,7 @@ libunibreak 6.1
 libunistring 1.2
 libusb 1.0.27
 libusrsctp 0.9.5.0_1
-libuv 1.49.1
+libuv 1.49.2
 libvidstab 1.1.1
 libvirt 10.8.0
 libvirt-glib 5.0.0
