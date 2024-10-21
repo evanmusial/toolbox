@@ -1,4 +1,4 @@
-# backup: 20241019 @ 2234 (UTC)
+# backup: 20241021 @ 2308 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -16,7 +16,7 @@ berkeley-db@5 5.3.28_1
 boost 1.86.0_1
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.31
+bun 1.1.32
 bwfmetaedit 24.05
 c-ares 1.34.2
 ca-certificates 2024-09-24
@@ -52,7 +52,7 @@ ffmpeg 7.1
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
-fluid-synth 2.3.6
+fluid-synth 2.3.7
 fmt 11.0.2
 fontconfig 2.15.0
 freetype 2.13.3
@@ -121,7 +121,7 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.4.6
 libgcrypt 1.10.3
-libgit2 1.8.1
+libgit2 1.8.2
 libgpg-error 1.50
 libheif 1.18.2
 libice 1.1.1
