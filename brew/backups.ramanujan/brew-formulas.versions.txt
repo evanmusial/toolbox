@@ -1,4 +1,4 @@
-# backup: 20241023 @ 0216 (UTC)
+# backup: 20241023 @ 1707 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.18.11
+awscli 2.18.12
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -63,7 +63,7 @@ fontconfig 2.15.0
 freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.16
-gcc 14.2.0
+gcc 14.2.0_1
 gdbm 1.24
 gdk-pixbuf 2.42.12
 gengetopt 2.23
@@ -160,7 +160,7 @@ libmicrohttpd 1.0.1
 libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.3.1
-libnghttp2 1.63.0
+libnghttp2 1.64.0
 libnice 0.1.22
 libogg 1.3.5
 libomp 19.1.2
@@ -245,7 +245,7 @@ musepack r475
 mysql-client@8.4 8.4.3
 ncurses 6.5
 nettle 3.10
-nghttp2 1.63.0
+nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95
 node 22.10.0
@@ -321,7 +321,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.4
-sqlite 3.46.1
+sqlite 3.47.0
 srt 1.5.3
 srtp 2.6.0
 streamlink 6.11.0_1
