@@ -1,4 +1,4 @@
-# backup: 20241023 @ 2020 (UTC)
+# backup: 20241025 @ 0109 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.18.12
+awscli 2.18.14
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -260,7 +260,7 @@ openexr 3.3.1
 openjpeg 2.5.2
 openldap 2.6.8
 openmotif 2.3.8_3
-openssl@3 3.3.2
+openssl@3 3.4.0
 openvino 2024.4.1
 opus 1.5.2
 opusfile 0.12_1
@@ -282,7 +282,7 @@ pmix 5.0.3
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 28.2
+protobuf 28.3
 pugixml 1.14
 pwgen 2.08
 py3cairo 1.27.0_1
