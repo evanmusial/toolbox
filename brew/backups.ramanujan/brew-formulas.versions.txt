@@ -1,4 +1,4 @@
-# backup: 20241025 @ 0109 (UTC)
+# backup: 20241025 @ 1109 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -209,7 +209,7 @@ libxfixes 6.0.1
 libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
-libxlsxwriter 1.1.8
+libxlsxwriter 1.1.9
 libxml2 2.13.4_2
 libxmp 4.6.0
 libxmu 1.2.1
