@@ -1,4 +1,4 @@
-# backup: 20241025 @ 1537 (UTC)
+# backup: 20241026 @ 1545 (UTC)
 a52dec
 abseil
 adns
@@ -94,6 +94,7 @@ imagemagick
 imath
 img2pdf
 imlib2
+iperf3
 isl
 jansson
 jasper
