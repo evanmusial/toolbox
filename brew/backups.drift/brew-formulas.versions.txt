@@ -1,4 +1,4 @@
-# backup: 20241026 @ 2330 (UTC)
+# backup: 20241027 @ 0534 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -122,7 +122,7 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.4.6
 libgcrypt 1.10.3
-libgit2 1.8.2
+libgit2 1.8.3
 libgpg-error 1.50
 libheif 1.18.2
 libice 1.1.1
@@ -205,7 +205,7 @@ moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
 mpfr 4.2.1
-mpg123 1.32.7
+mpg123 1.32.8
 mplayer 1.5_1
 mtr 0.95
 mysql@5.7 5.7.44_1
