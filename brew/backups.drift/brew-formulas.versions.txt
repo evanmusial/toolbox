@@ -1,4 +1,4 @@
-# backup: 20241027 @ 2112 (UTC)
+# backup: 20241028 @ 0328 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -214,7 +214,7 @@ nettle 3.10
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 22.10.0
+node 23.1.0
 npth 1.7
 numpy 2.1.2_1
 ocrmypdf 16.5.0
