@@ -1,4 +1,4 @@
-# backup: 20241031 @ 0340 (UTC)
+# backup: 20241031 @ 0533 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -15,7 +15,7 @@ awscli 2.18.18
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
-boost 1.86.0_1
+boost 1.86.0_2
 boost-build 1.86.0
 brotli 1.1.0
 bwfmetaedit 24.05
@@ -92,7 +92,7 @@ gtk4 4.16.3
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 10.0.1_1
+harfbuzz 10.0.1_2
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
@@ -100,6 +100,7 @@ htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
 icu4c@75 75.1
+icu4c@76 76.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -210,7 +211,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
 libxlsxwriter 1.1.9
-libxml2 2.13.4_2
+libxml2 2.13.4_3
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -248,7 +249,7 @@ nettle 3.10
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 23.1.0
+node 23.1.0_1
 npth 1.7
 numpy 2.1.2_1
 ocrmypdf 16.6.0
@@ -300,7 +301,7 @@ python@3.13 3.13.0_1
 python@3.9 3.9.20
 qemu 9.1.1
 qpdf 11.9.1
-qt 6.7.2_1
+qt 6.7.2_2
 qt@5 5.15.15
 rav1e 0.7.1
 readline 8.2.13
@@ -331,7 +332,7 @@ taglib 1.13.1
 tbb 2021.13.0
 tcl-tk 8.6.15
 telnet 303.141.1
-tesseract 5.4.1_1
+tesseract 5.4.1_2
 thefuck 3.32
 theora 1.1.1
 tmux 3.5a
@@ -344,7 +345,7 @@ utf8proc 2.9.0
 vde 2.3.3
 virt-manager 4.1.0_8
 volk 3.1.2
-vte3 0.76.4_1
+vte3 0.76.4_2
 watch 4.0.4
 webp 1.4.0
 wget 1.24.5
