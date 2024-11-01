@@ -1,4 +1,4 @@
-# backup: 20241031 @ 1842 (UTC)
+# backup: 20241101 @ 0653 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.18.18
+awscli 2.19.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -329,7 +329,7 @@ streamlink 6.11.0_1
 streamripper 1.64.6_2
 svt-av1 2.2.1
 taglib 1.13.1
-tbb 2021.13.0
+tbb 2022.0.0
 tcl-tk 8.6.15
 telnet 303.141.1
 tesseract 5.4.1_2
