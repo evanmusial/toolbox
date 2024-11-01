@@ -1,4 +1,4 @@
-# backup: 20241031 @ 1842 (UTC)
+# backup: 20241101 @ 0654 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.18.18
+awscli 2.19.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -52,7 +52,7 @@ ffmpeg 7.1_2
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
-fluid-synth 2.3.7
+fluid-synth 2.4.0
 fmt 11.0.2
 fontconfig 2.15.0
 freetype 2.13.3
@@ -284,7 +284,7 @@ srt 1.5.3
 streamlink 6.11.0_1
 streamripper 1.64.6_2
 svt-av1 2.2.1
-tbb 2021.13.0
+tbb 2022.0.0
 tcl-tk 8.6.15
 telnet 303.141.1
 tesseract 5.4.1_2
