@@ -1,4 +1,4 @@
-# backup: 20241101 @ 0654 (UTC)
+# backup: 20241101 @ 1601 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -262,7 +262,7 @@ python@3.13 3.13.0_1
 python@3.9 3.9.20
 qpdf 11.9.1
 qt 6.7.2_2
-qt@5 5.15.15
+qt@5 5.15.15_1
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
@@ -302,7 +302,7 @@ webp 1.4.0
 wget 1.24.5
 whois 5.5.23
 x264 r3108
-x265 4.0
+x265 4.0_1
 xbitmaps 1.1.3
 xmlto 0.0.29
 xmp 4.2.0
