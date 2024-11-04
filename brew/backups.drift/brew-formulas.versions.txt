@@ -1,4 +1,4 @@
-# backup: 20241103 @ 1540 (UTC)
+# backup: 20241104 @ 0308 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -84,8 +84,8 @@ html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
-icu4c@75 75.1
-icu4c@76 76.1
+icu4c@75 75.1_1
+icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -124,7 +124,7 @@ libffi 3.4.6
 libgcrypt 1.10.3
 libgit2 1.8.4
 libgpg-error 1.50
-libheif 1.18.2_1
+libheif 1.19.1
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
@@ -177,7 +177,7 @@ libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.2
 libxlsxwriter 1.1.9
-libxml2 2.13.4_3
+libxml2 2.13.4_4
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -262,7 +262,7 @@ python@3.13 3.13.0_1
 python@3.9 3.9.20
 qpdf 11.9.1
 qt 6.7.2_2
-qt@5 5.15.15_1
+qt@5 5.15.15_2
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
