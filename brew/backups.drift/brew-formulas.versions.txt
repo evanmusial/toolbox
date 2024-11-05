@@ -1,4 +1,4 @@
-# backup: 20241104 @ 1422 (UTC)
+# backup: 20241105 @ 0230 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -281,7 +281,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.47.0
 srt 1.5.3
-streamlink 6.11.0_1
+streamlink 7.0.0
 streamripper 1.64.6_2
 svt-av1 2.2.1
 tbb 2022.0.0
@@ -293,7 +293,7 @@ theora 1.1.1
 tmux 3.5a
 unbound 1.22.0
 unpaper 7.0.0_2
-utf8cpp 4.0.5
+utf8cpp 4.0.6
 utf8proc 2.9.0
 vamp-plugin-sdk 2.10.0
 volk 3.1.2
