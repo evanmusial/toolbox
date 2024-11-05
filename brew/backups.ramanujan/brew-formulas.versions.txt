@@ -1,4 +1,4 @@
-# backup: 20241101 @ 1734 (UTC)
+# backup: 20241105 @ 0229 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.19.0
+awscli 2.19.1
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -53,8 +53,8 @@ eye-d3 0.9.6_1
 faac 1.30
 faad2 2.11.1
 fdk-aac 2.0.3
-ffmpeg 7.1_2
-ffmpeg@6 6.1.2_5
+ffmpeg 7.1_3
+ffmpeg@6 6.1.2_6
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
@@ -85,10 +85,10 @@ graphene 1.10.8
 graphite2 1.3.14
 grep 3.11
 gsettings-desktop-schemas 47.1
-gstreamer 1.24.9
+gstreamer 1.24.9_1
 gtk+3 3.24.43
 gtk-vnc 1.3.1_1
-gtk4 4.16.3
+gtk4 4.16.5
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
@@ -99,8 +99,8 @@ html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
-icu4c@75 75.1
-icu4c@76 76.1
+icu4c@75 75.1_1
+icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -144,7 +144,7 @@ libfido2 1.15.0
 libgcrypt 1.10.3
 libgit2 1.8.4
 libgpg-error 1.50
-libheif 1.18.2_1
+libheif 1.19.1
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
@@ -200,7 +200,7 @@ libvirt-glib 5.0.0
 libvirt-python 10.9.0
 libvmaf 3.0.0
 libvorbis 1.3.7
-libvpx 1.13.1
+libvpx 1.15.0
 libx11 1.8.10
 libxau 1.0.11
 libxcb 1.17.0
@@ -211,7 +211,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
 libxlsxwriter 1.1.9
-libxml2 2.13.4_3
+libxml2 2.13.4_4
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -239,7 +239,7 @@ moreutils 0.69
 mp3info 0.8.5a
 mpdecimal 4.0.0
 mpfr 4.2.1
-mpg123 1.32.8
+mpg123 1.32.9
 mplayer 1.5_1
 mtr 0.95
 musepack r475
@@ -251,7 +251,7 @@ nlohmann-json 3.11.3
 nmap 7.95
 node 23.1.0_1
 npth 1.7
-numpy 2.1.2_1
+numpy 2.1.3
 ocrmypdf 16.6.0
 oniguruma 6.9.9
 open-mpi 5.0.5
@@ -302,7 +302,7 @@ python@3.9 3.9.20
 qemu 9.1.1
 qpdf 11.9.1
 qt 6.7.2_2
-qt@5 5.15.15_1
+qt@5 5.15.15_2
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
@@ -311,7 +311,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.4
-sdl2 2.30.8
+sdl2 2.30.9
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
@@ -325,7 +325,7 @@ spice-protocol 0.14.4
 sqlite 3.47.0
 srt 1.5.3
 srtp 2.6.0
-streamlink 6.11.0_1
+streamlink 7.0.0
 streamripper 1.64.6_2
 svt-av1 2.2.1
 taglib 1.13.1
@@ -340,12 +340,12 @@ unbound 1.22.0
 unpaper 7.0.0_2
 usb.ids 2024.07.04
 usbredir 0.14.0
-utf8cpp 4.0.5
+utf8cpp 4.0.6
 utf8proc 2.9.0
 vde 2.3.3
 virt-manager 4.1.0_8
 volk 3.1.2
-vte3 0.76.4_2
+vte3 0.78.0
 watch 4.0.4
 webp 1.4.0
 wget 1.24.5
@@ -361,7 +361,7 @@ xvid 1.3.7
 xxhash 0.8.2
 xz 5.6.3
 yajl 2.1.0
-yt-dlp 2024.10.22
+yt-dlp 2024.11.4
 zeromq 4.3.5_1
 zimg 3.0.5
 zlib 1.3.1
