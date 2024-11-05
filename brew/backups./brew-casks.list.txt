@@ -1,0 +1,5 @@
+# backup: 20241105 @ 0213 (UTC)
+makemkv
+ngrok
+spundle
+stats
