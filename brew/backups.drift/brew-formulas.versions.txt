@@ -1,4 +1,4 @@
-# backup: 20241106 @ 1900 (UTC)
+# backup: 20241107 @ 0426 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.19.1
+awscli 2.19.2
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -25,7 +25,7 @@ certbot 2.11.0_2
 certifi 2024.8.30_1
 cffi 1.17.1_1
 cjson 1.7.18
-cmake 3.30.5
+cmake 3.31.0
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
@@ -124,7 +124,7 @@ libffi 3.4.6
 libgcrypt 1.10.3
 libgit2 1.8.4
 libgpg-error 1.50
-libheif 1.19.1
+libheif 1.19.2
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
