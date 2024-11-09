@@ -1,4 +1,4 @@
-# backup: 20241108 @ 1630 (UTC)
+# backup: 20241109 @ 1922 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.19.3
+awscli 2.19.4
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -21,7 +21,7 @@ bwfmetaedit 24.10
 c-ares 1.34.2
 ca-certificates 2024-09-24
 cairo 1.18.2
-certbot 2.11.0_2
+certbot 3.0.0
 certifi 2024.8.30_1
 cffi 1.17.1_1
 cjson 1.7.18
@@ -135,7 +135,7 @@ liblo 0.32
 liblqr 0.4.3
 libmagic 5.45
 libmatroska 1.7.1
-libmediainfo 24.06
+libmediainfo 24.11
 libmetalink 0.1.3
 libmicrohttpd 1.0.1
 libmms 0.6.4
@@ -196,7 +196,7 @@ m4 1.4.19
 mad 0.15.1b
 mbedtls 3.6.2
 md4c 0.5.2
-media-info 24.06
+media-info 24.11
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 88.0
@@ -253,7 +253,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 python-gdbm@3.11 3.11.10
 python-lxml 5.2.2
-python-packaging 24.1_1
+python-packaging 24.2
 python-tk@3.11 3.11.10
 python@3.10 3.10.15
 python@3.11 3.11.10
