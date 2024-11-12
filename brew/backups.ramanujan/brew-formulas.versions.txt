@@ -1,4 +1,4 @@
-# backup: 20241112 @ 0335 (UTC)
+# backup: 20241112 @ 0347 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -222,6 +222,7 @@ libxtst 1.2.5
 libzen 0.4.41_1
 libzip 1.11.1
 little-cms2 2.16
+logrotate 3.22.0
 lolcat 100.0.1
 lua 5.4.7
 lz4 1.10.0
