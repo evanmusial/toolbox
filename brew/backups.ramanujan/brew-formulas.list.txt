@@ -1,4 +1,4 @@
-# backup: 20241112 @ 0347 (UTC)
+# backup: 20241112 @ 1730 (UTC)
 a52dec
 abseil
 adns
@@ -26,6 +26,7 @@ capstone
 certbot
 certifi
 cffi
+chrony
 cjson
 cmake
 cmocka
@@ -253,6 +254,7 @@ nlohmann-json
 nmap
 node
 npth
+ntp
 numpy
 ocrmypdf
 oniguruma
@@ -280,7 +282,7 @@ pillow
 pinentry
 pipx
 pixman
-pkg-config
+pkgconf
 pmix
 pngquant
 popt
