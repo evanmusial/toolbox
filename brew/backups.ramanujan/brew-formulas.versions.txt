@@ -1,4 +1,4 @@
-# backup: 20241113 @ 0300 (UTC)
+# backup: 20241113 @ 1901 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -213,7 +213,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.2
 libxlsxwriter 1.1.9
-libxml2 2.13.4_4
+libxml2 2.13.5
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -296,7 +296,7 @@ pycparser 2.22_1
 pygobject3 3.50.0_1
 python-gdbm@3.11 3.11.10
 python-packaging 24.2
-python-setuptools 75.4.0
+python-setuptools 75.5.0
 python-tk@3.11 3.11.10_1
 python@3.10 3.10.15
 python@3.11 3.11.10
