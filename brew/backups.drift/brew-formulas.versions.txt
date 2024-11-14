@@ -1,4 +1,4 @@
-# backup: 20241111 @ 1841 (UTC)
+# backup: 20241114 @ 1909 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.19.4
+awscli 2.21.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -178,7 +178,7 @@ libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.2
 libxlsxwriter 1.1.9
-libxml2 2.13.4_4
+libxml2 2.13.5
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
@@ -215,15 +215,15 @@ nettle 3.10
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 23.1.0_1
-npth 1.7
+node 23.2.0
+npth 1.8
 numpy 2.1.3
 ocrmypdf 16.6.1
 oniguruma 6.9.9
 open-mpi 5.0.5
 openblas 0.3.28
 opencore-amr 0.1.6
-openexr 3.3.1
+openexr 3.3.2
 openjpeg 2.5.2
 openldap 2.6.8
 openmotif 2.3.8_3
@@ -242,8 +242,8 @@ perl 5.40.0
 pillow 11.0.0
 pinentry 1.3.1_1
 pixman 0.44.0
-pkg-config 0.29.2_3
-pmix 5.0.3
+pkgconf 2.3.0_1
+pmix 5.0.4
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
