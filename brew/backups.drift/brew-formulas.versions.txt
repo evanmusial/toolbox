@@ -1,4 +1,4 @@
-# backup: 20241116 @ 1928 (UTC)
+# backup: 20241119 @ 1931 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.21.3
+awscli 2.22.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -90,7 +90,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-40
+imagemagick 7.1.1-41
 imath 3.1.12
 img2pdf 0.5.1_1
 imlib2 1.12.3
@@ -124,7 +124,7 @@ libffi 3.4.6
 libgcrypt 1.10.3
 libgit2 1.8.4
 libgpg-error 1.51
-libheif 1.19.3
+libheif 1.19.4
 libice 1.1.1
 libidn 1.42
 libidn2 2.3.7
@@ -149,7 +149,7 @@ libproxy 0.5.9
 libpthread-stubs 0.5
 libraqm 0.10.2
 libraw 0.21.3
-librist 0.2.10_1
+librist 0.2.11
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libsm 1.2.4
@@ -183,7 +183,7 @@ libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
 libxrender 0.9.11
-libxt 1.3.0_1
+libxt 1.3.1
 libzen 0.4.41_1
 libzip 1.11.1
 little-cms2 2.16
@@ -215,10 +215,10 @@ nettle 3.10
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95
-node 23.2.0
+node 23.2.0_1
 npth 1.8
 numpy 2.1.3
-ocrmypdf 16.6.1
+ocrmypdf 16.6.2
 oniguruma 6.9.9
 open-mpi 5.0.6
 openblas 0.3.28
@@ -262,8 +262,8 @@ python@3.12 3.12.7_1
 python@3.13 3.13.0_1
 python@3.9 3.9.20
 qpdf 11.9.1
-qt 6.7.2_2
-qt@5 5.15.15_2
+qt 6.7.3
+qt@5 5.15.16
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
@@ -314,7 +314,7 @@ xvid 1.3.7
 xxhash 0.8.2
 xz 5.6.3
 youtube-dl 2021.12.17
-yt-dlp 2024.11.4
+yt-dlp 2024.11.18
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.6
