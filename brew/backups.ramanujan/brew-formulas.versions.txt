@@ -1,4 +1,4 @@
-# backup: 20241122 @ 0456 (UTC)
+# backup: 20241122 @ 2201 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -28,7 +28,7 @@ certifi 2024.8.30_1
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 3.31.0
+cmake 3.31.1
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
