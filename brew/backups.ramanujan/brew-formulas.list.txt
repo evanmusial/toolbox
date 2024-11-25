@@ -1,4 +1,4 @@
-# backup: 20241125 @ 0225 (UTC)
+# backup: 20241125 @ 0514 (UTC)
 a52dec
 abseil
 adns
@@ -35,6 +35,7 @@ coreutils
 cpio
 cpu_features
 cpufetch
+crc32c
 cryptography
 cunit
 curl
