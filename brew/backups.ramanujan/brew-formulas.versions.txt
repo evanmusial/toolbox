@@ -1,4 +1,4 @@
-# backup: 20241126 @ 0541 (UTC)
+# backup: 20241126 @ 1558 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -327,7 +327,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.4
-sqlite 3.47.0
+sqlite 3.47.1
 srt 1.5.4
 srtp 2.6.0
 streamlink 7.0.0
