@@ -1,4 +1,4 @@
-# backup: 20241123 @ 2354 (UTC)
+# backup: 20241127 @ 2203 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,17 +9,17 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.22.4
+awscli 2.22.6
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.86.0_2
 boost-build 1.86.0
 brotli 1.1.0
-bun 1.1.36
+bun 1.1.37
 bwfmetaedit 24.10
 c-ares 1.34.3
-ca-certificates 2024-09-24
+ca-certificates 2024-11-26
 cairo 1.18.2
 certbot 3.0.1
 certifi 2024.8.30_1
@@ -65,7 +65,7 @@ geoip 1.6.12
 gettext 0.22.5
 ghostscript 10.04.0
 giflib 5.2.2
-git 2.47.0
+git 2.47.1
 glfw 3.4
 glib 2.82.2
 gmp 6.3.0
@@ -225,7 +225,7 @@ openblas 0.3.28
 opencore-amr 0.1.6
 openexr 3.3.2
 openjpeg 2.5.2
-openldap 2.6.8
+openldap 2.6.9
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.4.0
@@ -280,7 +280,7 @@ soapysdr 0.8.1_1
 sox 14.4.2_5
 speedtest-cli 2.1.3_1
 speex 1.2.1
-sqlite 3.47.0
+sqlite 3.47.1
 srt 1.5.4
 streamlink 7.0.0
 streamripper 1.64.6_2
