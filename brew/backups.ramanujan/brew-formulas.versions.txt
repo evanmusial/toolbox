@@ -1,4 +1,4 @@
-# backup: 20241205 @ 2045 (UTC)
+# backup: 20241206 @ 1209 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -28,7 +28,7 @@ certifi 2024.8.30_1
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 3.31.1
+cmake 3.31.2
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
@@ -288,7 +288,7 @@ pmix 5.0.4
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 29.0
+protobuf 29.1
 pugixml 1.14
 pwgen 2.08
 py3cairo 1.27.0_1
@@ -301,7 +301,7 @@ python-setuptools 75.6.0
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
-python@3.12 3.12.7_1
+python@3.12 3.12.8
 python@3.13 3.13.0_1
 python@3.9 3.9.21
 qemu 9.1.2
