@@ -1,4 +1,4 @@
-# backup: 20241206 @ 1209 (UTC)
+# backup: 20241209 @ 0545 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -302,7 +302,7 @@ python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
 python@3.12 3.12.8
-python@3.13 3.13.0_1
+python@3.13 3.13.1
 python@3.9 3.9.21
 qemu 9.1.2
 qpdf 11.9.1
@@ -316,7 +316,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.4
-sdl2 2.30.9
+sdl2 2.30.10
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
@@ -327,7 +327,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.4
-sqlite 3.47.1
+sqlite 3.47.2
 srt 1.5.4
 srtp 2.6.0
 streamlink 7.0.0
@@ -367,7 +367,7 @@ xvid 1.3.7
 xxhash 0.8.2
 xz 5.6.3
 yajl 2.1.0
-yt-dlp 2024.12.3
+yt-dlp 2024.12.6
 zeromq 4.3.5_1
 zimg 3.0.5
 zlib 1.3.1
