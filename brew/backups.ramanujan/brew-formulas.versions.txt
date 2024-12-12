@@ -1,4 +1,4 @@
-# backup: 20241212 @ 0133 (UTC)
+# backup: 20241212 @ 0501 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.22.14
+awscli 2.22.15
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -336,7 +336,7 @@ svt-av1 2.2.1
 taglib 1.13.1
 tbb 2022.0.0
 tcl-tk 9.0.0_1
-tcl-tk@8 8.6.15
+tcl-tk@8 8.6.16
 telnet 303.141.1
 tesseract 5.5.0
 thefuck 3.32
