@@ -1,4 +1,4 @@
-# backup: 20241214 @ 1738 (UTC)
+# backup: 20241218 @ 0703 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,20 +9,20 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.22.17
+awscli 2.22.19
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
-boost 1.86.0_2
-boost-build 1.86.0
+boost 1.87.0
+boost-build 1.87.0
 brotli 1.1.0
-bun 1.1.38
+bun 1.1.40
 bwfmetaedit 24.10
-c-ares 1.34.3
+c-ares 1.34.4
 ca-certificates 2024-11-26
 cairo 1.18.2
 certbot 3.0.1
-certifi 2024.8.30_1
+certifi 2024.12.14
 cffi 1.17.1_1
 cjson 1.7.18
 cmake 3.31.2
@@ -116,7 +116,7 @@ libbladerf 2023.02_1
 libbluray 1.3.4
 libcaca 0.99b20
 libde265 1.0.15
-libdeflate 1.22
+libdeflate 1.23
 libebml 1.4.5
 libev 4.33
 libevent 2.1.12_1
@@ -125,7 +125,7 @@ libgcrypt 1.10.3
 libgit2 1.8.4
 libgpg-error 1.51
 libheif 1.19.5
-libice 1.1.1
+libice 1.1.2
 libidn 1.42
 libidn2 2.3.7
 libimagequant 4.3.3
@@ -143,7 +143,7 @@ libmng 2.0.3_1
 libmpc 1.3.1
 libnghttp2 1.64.0
 libogg 1.3.5
-libomp 19.1.5
+libomp 19.1.6
 libpng 1.6.44
 libproxy 0.5.9
 libpthread-stubs 0.5
@@ -152,7 +152,7 @@ libraw 0.21.3
 librist 0.2.11
 librtlsdr 2.0.2
 libsamplerate 0.2.2
-libsm 1.2.4
+libsm 1.2.5
 libsndfile 1.2.2
 libsodium 1.0.20
 libsoxr 0.1.3
@@ -171,7 +171,7 @@ libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.15.0
 libx11 1.8.10
-libxau 1.0.11
+libxau 1.0.12
 libxcb 1.17.0
 libxdmcp 1.1.5
 libxext 1.3.6
@@ -182,7 +182,7 @@ libxml2 2.13.5
 libxmp 4.6.0
 libxmu 1.2.1
 libxp 1.0.4
-libxrender 0.9.11
+libxrender 0.9.12
 libxt 1.3.1
 libzen 0.4.41_1
 libzip 1.11.2
@@ -200,13 +200,13 @@ md4c 0.5.2
 media-info 24.12
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 88.0
+mkvtoolnix 88.0_1
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.0
 mpfr 4.2.1
-mpg123 1.32.9
+mpg123 1.32.10
 mplayer 1.5_1
 mtr 0.95
 mysql@5.7 5.7.44_1
@@ -243,7 +243,7 @@ pillow 11.0.0
 pinentry 1.3.1_1
 pixman 0.44.2
 pkgconf 2.3.0_1
-pmix 5.0.4
+pmix 5.0.5
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
