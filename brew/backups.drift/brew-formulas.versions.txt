@@ -1,4 +1,4 @@
-# backup: 20241220 @ 1648 (UTC)
+# backup: 20241220 @ 2100 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -25,7 +25,7 @@ certbot 3.0.1
 certifi 2024.12.14
 cffi 1.17.1_1
 cjson 1.7.18
-cmake 3.31.2
+cmake 3.31.3
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
@@ -46,7 +46,7 @@ dssim 3.3.1
 duktape 2.7.0
 exa 0.10.1_2
 exempi 2.6.5
-exiftool 13.00
+exiftool 13.10
 eye-d3 0.9.6_1
 ffmpeg 7.1_3
 fftw 3.3.10_1
