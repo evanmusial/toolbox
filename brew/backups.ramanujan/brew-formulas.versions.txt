@@ -1,4 +1,4 @@
-# backup: 20241222 @ 0745 (UTC)
+# backup: 20241222 @ 1735 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -332,7 +332,7 @@ srt 1.5.4
 srtp 2.6.0
 streamlink 7.0.0
 streamripper 1.64.6_2
-svt-av1 2.2.1
+svt-av1 2.3.0
 taglib 1.13.1
 tbb 2022.0.0
 tcl-tk 9.0.1
@@ -353,7 +353,7 @@ virt-manager 5.0.0
 volk 3.1.2
 vte3 0.78.0
 watch 4.0.4
-webp 1.4.0
+webp 1.5.0
 wget 1.25.0
 whois 5.5.23
 x264 r3108
