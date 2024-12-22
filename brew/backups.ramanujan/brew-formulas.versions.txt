@@ -1,4 +1,4 @@
-# backup: 20241221 @ 1820 (UTC)
+# backup: 20241222 @ 0127 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -335,7 +335,7 @@ streamripper 1.64.6_2
 svt-av1 2.2.1
 taglib 1.13.1
 tbb 2022.0.0
-tcl-tk 9.0.0_1
+tcl-tk 9.0.1
 tcl-tk@8 8.6.16
 telnet 303.141.1
 tesseract 5.5.0
