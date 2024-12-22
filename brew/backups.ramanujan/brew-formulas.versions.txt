@@ -1,4 +1,4 @@
-# backup: 20241222 @ 0313 (UTC)
+# backup: 20241222 @ 0745 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -79,7 +79,7 @@ glib-networking 2.80.0
 gmp 6.3.0
 gnu-getopt 2.40.2
 gnu-sed 4.9
-gnupg 2.4.6
+gnupg 2.4.7
 gnutls 3.8.4
 gobject-introspection 1.82.0
 gpac 2.4.0
