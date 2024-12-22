@@ -1,4 +1,4 @@
-# backup: 20241222 @ 0127 (UTC)
+# backup: 20241222 @ 0313 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -106,7 +106,7 @@ icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.1-41
+imagemagick 7.1.1-42
 imath 3.1.12
 img2pdf 0.5.1_1
 imlib2 1.12.3
@@ -256,7 +256,7 @@ nmap 7.95
 node 23.5.0
 npth 1.8
 ntp 4.2.8p18
-numpy 2.2.0
+numpy 2.2.1
 ocrmypdf 16.7.0
 oniguruma 6.9.9
 open-mpi 5.0.6
