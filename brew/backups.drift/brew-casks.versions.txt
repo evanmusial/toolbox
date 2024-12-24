@@ -1,8 +1,8 @@
-# backup: 20241222 @ 0314 (UTC)
-font-meslo-for-powerlevel10k 2.3.3
-font-meslo-for-powerline 2015-12-04
-jt-bridge 3.4.3
-makemkv 1.17.8
-mkvtoolnix 88.0
+# backup: 20241224 @ 0514 (UTC)
 ngrok 3.19.0,59HYdr4iC4K,a
+makemkv 1.17.8
+font-meslo-for-powerline 2015-12-04
+mkvtoolnix 88.0
+font-meslo-for-powerlevel10k 2.3.3
 stats 2.9.20
+jt-bridge 3.4.3
