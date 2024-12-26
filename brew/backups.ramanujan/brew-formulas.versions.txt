@@ -1,4 +1,4 @@
-# backup: 20241224 @ 0513 (UTC)
+# backup: 20241226 @ 0249 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -115,7 +115,7 @@ isl 0.27
 jansson 2.14
 jasper 4.2.4
 jbig2dec 0.20
-jbig2enc 0.29_3
+jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.0
