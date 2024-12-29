@@ -1,4 +1,4 @@
-# backup: 20241228 @ 1819 (UTC)
+# backup: 20241229 @ 0758 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -330,7 +330,7 @@ spice-protocol 0.14.4
 sqlite 3.47.2
 srt 1.5.4
 srtp 2.6.0
-streamlink 7.0.0
+streamlink 7.1.1
 streamripper 1.64.6_2
 svt-av1 2.3.0
 taglib 1.13.1
