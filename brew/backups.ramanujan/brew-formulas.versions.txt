@@ -1,4 +1,4 @@
-# backup: 20250101 @ 0426 (UTC)
+# backup: 20250103 @ 2338 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.22.26
+awscli 2.22.27
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -69,7 +69,7 @@ gcc 14.2.0_1
 gdbm 1.24
 gdk-pixbuf 2.42.12
 gengetopt 2.23
-gettext 0.23
+gettext 0.23.1
 ghostscript 10.04.0
 giflib 5.2.2
 git 2.47.1
@@ -90,7 +90,7 @@ gsettings-desktop-schemas 47.1
 gstreamer 1.24.10_1
 gtk+3 3.24.43
 gtk-vnc 1.3.1_1
-gtk4 4.16.7
+gtk4 4.16.12
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
@@ -101,7 +101,6 @@ html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
-icu4c@75 75.1_1
 icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
@@ -144,7 +143,7 @@ libevent 2.1.12_1
 libffi 3.4.6
 libfido2 1.15.0
 libgcrypt 1.10.3
-libgit2 1.8.4
+libgit2 1.9.0
 libgpg-error 1.51
 libheif 1.19.5_1
 libice 1.1.2
@@ -258,7 +257,7 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.2.1
 ocrmypdf 16.7.0
-oniguruma 6.9.9
+oniguruma 6.9.10
 open-mpi 5.0.6
 openblas 0.3.28
 opencore-amr 0.1.6
@@ -279,7 +278,7 @@ pcre 8.45
 pcre2 10.44
 perl 5.40.0
 phodav 3.0
-pillow 11.0.0
+pillow 11.1.0
 pinentry 1.3.1_1
 pipx 1.7.1_1
 pixman 0.44.2
@@ -316,7 +315,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.4
-sdl2 2.30.10
+sdl2 2.30.11
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
