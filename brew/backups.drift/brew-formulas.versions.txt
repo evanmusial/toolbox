@@ -1,4 +1,4 @@
-# backup: 20241226 @ 2107 (UTC)
+# backup: 20250103 @ 1650 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.22.23
+awscli 2.22.27
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -19,7 +19,7 @@ brotli 1.1.0
 bun 1.1.42
 bwfmetaedit 24.10
 c-ares 1.34.4
-ca-certificates 2024-11-26
+ca-certificates 2024-12-31
 cairo 1.18.2
 certbot 3.0.1
 certifi 2024.12.14
@@ -48,12 +48,12 @@ exa 0.10.1_2
 exempi 2.6.5
 exiftool 13.10
 eye-d3 0.9.6_1
-ffmpeg 7.1_3
+ffmpeg 7.1_4
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
-fluid-synth 2.4.1
-fmt 11.1.0
+fluid-synth 2.4.2
+fmt 11.1.1
 fontconfig 2.15.0
 freetype 2.13.3
 frei0r 2.3.3
@@ -62,7 +62,7 @@ gcc 14.2.0_1
 gdbm 1.24
 gengetopt 2.23
 geoip 1.6.12
-gettext 0.23
+gettext 0.23.1
 ghostscript 10.04.0
 giflib 5.2.2
 git 2.47.1
@@ -84,7 +84,6 @@ html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
 hwloc 2.11.2
-icu4c@75 75.1_1
 icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
@@ -122,9 +121,9 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.4.6
 libgcrypt 1.10.3
-libgit2 1.8.4
+libgit2 1.9.0
 libgpg-error 1.51
-libheif 1.19.5
+libheif 1.19.5_1
 libice 1.1.2
 libidn 1.42
 libidn2 2.3.7
@@ -200,7 +199,7 @@ md4c 0.5.2
 media-info 24.12
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 88.0_2
+mkvtoolnix 89.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -219,7 +218,7 @@ node 23.5.0
 npth 1.8
 numpy 2.2.1
 ocrmypdf 16.7.0
-oniguruma 6.9.9
+oniguruma 6.9.10
 open-mpi 5.0.6
 openblas 0.3.28
 opencore-amr 0.1.6
@@ -229,7 +228,7 @@ openldap 2.6.9
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.4.0
-openvino 2024.5.0
+openvino 2024.6.0
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
@@ -239,7 +238,7 @@ pango 1.55.5
 pcre 8.45
 pcre2 10.44
 perl 5.40.0
-pillow 11.0.0
+pillow 11.1.0
 pinentry 1.3.1_1
 pixman 0.44.2
 pkgconf 2.3.0_1
@@ -272,7 +271,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.4
-sdl2 2.30.10
+sdl2 2.30.11
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
@@ -282,7 +281,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.47.2
 srt 1.5.4
-streamlink 7.0.0
+streamlink 7.1.1
 streamripper 1.64.6_2
 svt-av1 2.3.0
 tbb 2022.0.0
@@ -296,7 +295,7 @@ tmux 3.5a
 unbound 1.22.0
 unpaper 7.0.0_2
 utf8cpp 4.0.6
-utf8proc 2.9.0
+utf8proc 2.10.0
 vamp-plugin-sdk 2.10.0
 volk 3.1.2
 watch 4.0.5
@@ -304,14 +303,14 @@ webp 1.5.0
 wget 1.25.0
 whois 5.5.23
 x264 r3108
-x265 4.0_1
+x265 4.1
 xbitmaps 1.1.3
 xmlto 0.0.29
 xmp 4.2.0
 xorgproto 2024.1
 xpdf 4.05
 xvid 1.3.7
-xxhash 0.8.2
+xxhash 0.8.3
 xz 5.6.3
 youtube-dl 2021.12.17
 yt-dlp 2024.12.23
