@@ -1,4 +1,4 @@
-# backup: 20250103 @ 2338 (UTC)
+# backup: 20250105 @ 1910 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.22.27
+awscli 2.22.28
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -152,7 +152,7 @@ libidn2 2.3.7
 libimagequant 4.3.3
 libiscsi 1.20.0
 libksba 1.6.7
-liblinear 2.47
+liblinear 2.48
 liblqr 0.4.3
 libmagic 5.46
 libmatroska 1.7.1
@@ -214,7 +214,7 @@ libxi 1.8.2
 libxls 1.6.3
 libxlsxwriter 1.1.9
 libxml2 2.13.5
-libxmp 4.6.0
+libxmp 4.6.1
 libxmu 1.2.1
 libxp 1.0.4
 libxrender 0.9.12
@@ -251,7 +251,7 @@ ncurses 6.5
 nettle 3.10
 nghttp2 1.64.0
 nlohmann-json 3.11.3
-nmap 7.95
+nmap 7.95_1
 node 23.5.0
 npth 1.8
 ntp 4.2.8p18
@@ -296,7 +296,7 @@ pycparser 2.22_1
 pygobject3 3.50.0_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 75.6.0
+python-setuptools 75.7.0
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
