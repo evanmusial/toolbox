@@ -1,4 +1,4 @@
-# backup: 20250107 @ 2347 (UTC)
+# backup: 20250108 @ 1645 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.22.29
+awscli 2.22.30
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -248,11 +248,11 @@ mtr 0.95
 musepack r475
 mysql-client@8.4 8.4.3
 ncurses 6.5
-nettle 3.10
+nettle 3.10.1
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95_1
-node 23.5.0
+node 23.6.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.2.1
