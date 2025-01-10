@@ -1,4 +1,4 @@
-# backup: 20250109 @ 1957 (UTC)
+# backup: 20250110 @ 2149 (UTC)
 a52dec
 abseil
 adns
@@ -219,6 +219,7 @@ npth
 numpy
 ocrmypdf
 oniguruma
+onnx
 open-mpi
 openblas
 opencore-amr

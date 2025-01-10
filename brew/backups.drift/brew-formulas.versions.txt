@@ -1,4 +1,4 @@
-# backup: 20250109 @ 1957 (UTC)
+# backup: 20250110 @ 2149 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.22.31
+awscli 2.22.32
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -219,6 +219,7 @@ npth 1.8
 numpy 2.2.1
 ocrmypdf 16.8.0
 oniguruma 6.9.10
+onnx 1.17.0_2
 open-mpi 5.0.6
 openblas 0.3.28
 opencore-amr 0.1.6
@@ -228,13 +229,13 @@ openldap 2.6.9
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.4.0
-openvino 2024.6.0
+openvino 2024.6.0_1
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
 p11-kit 0.25.5
 p7zip 17.06
-pango 1.55.5
+pango 1.56.0
 pcre 8.45
 pcre2 10.44
 perl 5.40.0
@@ -246,7 +247,7 @@ pmix 5.0.6
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 29.2
+protobuf 29.3
 pugixml 1.14
 pwgen 2.08
 pybind11 2.13.6_1
