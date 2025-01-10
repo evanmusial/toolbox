@@ -1,4 +1,4 @@
-# backup: 20250109 @ 0036 (UTC)
+# backup: 20250110 @ 0127 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.0
 augeas 1.14.1
-awscli 2.22.31
+awscli 2.22.32
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -75,9 +75,9 @@ giflib 5.2.2
 git 2.47.1
 glfw 3.4
 glib 2.82.4
-glib-networking 2.80.0
+glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.40.2
+gnu-getopt 2.40.3
 gnu-sed 4.9
 gnupg 2.4.7
 gnutls 3.8.4
