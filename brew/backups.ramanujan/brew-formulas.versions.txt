@@ -1,4 +1,4 @@
-# backup: 20250110 @ 2210 (UTC)
+# backup: 20250111 @ 1958 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -9,9 +9,9 @@ aom 3.11.0
 aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
-at-spi2-core 2.54.0
+at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.22.32
+awscli 2.22.33
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -28,7 +28,7 @@ certifi 2024.12.14
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 3.31.3
+cmake 3.31.4
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.5
@@ -72,7 +72,7 @@ gengetopt 2.23
 gettext 0.23.1
 ghostscript 10.04.0
 giflib 5.2.2
-git 2.47.1
+git 2.48.0
 glfw 3.4
 glib 2.82.4
 glib-networking 2.80.1
