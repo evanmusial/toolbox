@@ -1,4 +1,4 @@
-# backup: 20250112 @ 1847 (UTC)
+# backup: 20250115 @ 0127 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.22.33
+awscli 2.22.35
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -44,8 +44,8 @@ dbus 1.14.10
 dialog 1.3-20240619
 docbook 5.1_1
 docbook-xsl 1.79.2_1
-docker 27.4.1
-docker-completion 27.4.1
+docker 27.5.0
+docker-completion 27.5.0
 double-conversion 3.3.0
 dtc 1.7.2
 duktape 2.7.0
@@ -60,7 +60,7 @@ ffmpeg@6 6.1.2_7
 fftw 3.3.10_1
 findutils 4.10.0
 flac 1.4.3
-fmt 11.1.1
+fmt 11.1.2
 fontconfig 2.15.0
 freetype 2.13.3
 frei0r 2.3.3
@@ -77,7 +77,7 @@ glfw 3.4
 glib 2.82.4
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.40.3
+gnu-getopt 2.40.4
 gnu-sed 4.9
 gnupg 2.4.7
 gnutls 3.8.4
@@ -227,7 +227,7 @@ logrotate 3.22.0
 lolcat 100.0.1
 lua 5.4.7
 lz4 1.10.0
-lzlib 1.14
+lzlib 1.15
 lzo 2.10
 m4 1.4.19
 mad 0.15.1b
@@ -260,7 +260,7 @@ ocrmypdf 16.8.0
 oniguruma 6.9.10
 onnx 1.17.0_2
 open-mpi 5.0.6
-openblas 0.3.28
+openblas 0.3.29
 opencore-amr 0.1.6
 openexr 3.3.2
 openjpeg 2.5.3
@@ -367,7 +367,7 @@ xvid 1.3.7
 xxhash 0.8.3
 xz 5.6.3
 yajl 2.1.0
-yt-dlp 2024.12.23
+yt-dlp 2025.1.12
 zeromq 4.3.5_1
 zimg 3.0.5
 zlib 1.3.1
