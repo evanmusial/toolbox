@@ -1,4 +1,4 @@
-# backup: 20250115 @ 0127 (UTC)
+# backup: 20250115 @ 1958 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -72,7 +72,7 @@ gengetopt 2.23
 gettext 0.23.1
 ghostscript 10.04.0
 giflib 5.2.2
-git 2.48.0
+git 2.48.1
 glfw 3.4
 glib 2.82.4
 glib-networking 2.80.1
@@ -165,7 +165,7 @@ libmpc 1.3.1
 libnghttp2 1.64.0
 libnice 0.1.22
 libogg 1.3.5
-libomp 19.1.6
+libomp 19.1.7
 libosinfo 1.12.0
 libpng 1.6.45
 libproxy 0.5.9
@@ -199,7 +199,7 @@ libuv 1.49.2
 libvidstab 1.1.1
 libvirt 10.10.0
 libvirt-glib 5.0.0
-libvirt-python 10.10.0
+libvirt-python 11.0.0
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.15.0
@@ -311,7 +311,7 @@ qt@5 5.15.16
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
-rsync 3.3.0
+rsync 3.4.0
 rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
@@ -344,7 +344,7 @@ theora 1.1.1
 tmux 3.5a
 unbound 1.22.0
 unpaper 7.0.0_2
-usb.ids 2024.12.04
+usb.ids 2025.01.14
 usbredir 0.14.0
 utf8cpp 4.0.6
 utf8proc 2.10.0
