@@ -1,4 +1,4 @@
-# backup: 20250119 @ 0042 (UTC)
+# backup: 20250119 @ 1648 (UTC)
 a52dec 0.8.0
 abseil 20240722.0
 adns 1.6.1
@@ -255,7 +255,7 @@ nmap 7.95_1
 node 23.6.0
 npth 1.8
 ntp 4.2.8p18
-numpy 2.2.1
+numpy 2.2.2
 ocrmypdf 16.8.0
 oniguruma 6.9.10
 onnx 1.17.0_2
@@ -274,7 +274,7 @@ orc 0.4.40
 osinfo-db 20240701
 p11-kit 0.25.5
 p7zip 17.06
-pango 1.56.0
+pango 1.56.1
 pcre 8.45
 pcre2 10.44
 perl 5.40.0
