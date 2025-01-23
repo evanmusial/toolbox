@@ -1,6 +1,6 @@
-# backup: 20250123 @ 1700 (UTC)
+# backup: 20250123 @ 2147 (UTC)
 a52dec 0.8.0
-abseil 20240722.0
+abseil 20240722.1
 adns 1.6.1
 airspy 1.0.10
 airspyhf 1.6.8
