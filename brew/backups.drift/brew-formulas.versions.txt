@@ -1,4 +1,4 @@
-# backup: 20250130 @ 2334 (UTC)
+# backup: 20250131 @ 1553 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.23.9
+awscli 2.23.10
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -214,7 +214,7 @@ nettle 3.10.1
 nghttp2 1.64.0
 nlohmann-json 3.11.3
 nmap 7.95_1
-node 23.6.1
+node 23.7.0
 npth 1.8
 numpy 2.2.2
 ocrmypdf 16.8.0
