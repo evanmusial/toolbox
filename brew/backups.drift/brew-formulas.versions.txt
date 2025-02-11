@@ -1,4 +1,4 @@
-# backup: 20250207 @ 2255 (UTC)
+# backup: 20250211 @ 1848 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.23.15
+awscli 2.24.1
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -47,9 +47,9 @@ duktape 2.7.0
 exa 0.10.1_2
 exempi 2.6.5
 exiftool 13.10
-eye-d3 0.9.6_1
+eye-d3 0.9.7
 ffmpeg 7.1_4
-fftw 3.3.10_1
+fftw 3.3.10_2
 findutils 4.10.0
 flac 1.4.3
 fluid-synth 2.4.3
@@ -119,7 +119,7 @@ libdeflate 1.23
 libebml 1.4.5
 libev 4.33
 libevent 2.1.12_1
-libffi 3.4.6
+libffi 3.4.7
 libgcrypt 1.11.0
 libgit2 1.9.0
 libgpg-error 1.51
@@ -169,14 +169,14 @@ libvidstab 1.1.1
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.15.0
-libx11 1.8.10
+libx11 1.8.11
 libxau 1.0.12
 libxcb 1.17.0
 libxdmcp 1.1.5
 libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.3
-libxlsxwriter 1.1.9
+libxlsxwriter 1.2.0
 libxml2 2.13.5
 libxmp 4.6.1
 libxmu 1.2.1
@@ -199,7 +199,7 @@ md4c 0.5.2
 media-info 24.12
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 89.0
+mkvtoolnix 90.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -217,7 +217,7 @@ nmap 7.95_1
 node 23.7.0
 npth 1.8
 numpy 2.2.2
-ocrmypdf 16.8.0
+ocrmypdf 16.9.0
 oniguruma 6.9.10
 onnx 1.17.0_2
 open-mpi 5.0.6
@@ -229,7 +229,7 @@ openldap 2.6.9
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.4.0
-openvino 2024.6.0_1
+openvino 2025.0.0
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.40
@@ -261,7 +261,7 @@ python@3.11 3.11.11
 python@3.12 3.12.9
 python@3.13 3.13.2
 python@3.9 3.9.21
-qpdf 11.9.1
+qpdf 11.10.0
 qt 6.8.2
 qt@5 5.15.16
 rav1e 0.7.1
@@ -272,7 +272,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.4
-sdl2 2.30.12
+sdl2 2.32.0
 shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
@@ -280,7 +280,7 @@ soapysdr 0.8.1_1
 sox 14.4.2_5
 speedtest-cli 2.1.3_1
 speex 1.2.1
-sqlite 3.48.0
+sqlite 3.49.0
 srt 1.5.4
 streamlink 7.1.2
 streamripper 1.64.6_2
