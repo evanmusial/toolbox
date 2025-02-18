@@ -1,4 +1,4 @@
-# backup: 20250217 @ 1554 (UTC)
+# backup: 20250218 @ 1954 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.24.5
+awscli 2.24.6
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -100,7 +100,7 @@ highway 1.2.0
 html2text 2.2.3
 htop 3.3.0
 hunspell 1.7.2
-hwloc 2.11.2
+hwloc 2.12.0
 icu4c@76 76.1_1
 id3lib 3.8.3_1
 id3tool 1.2a
@@ -270,7 +270,7 @@ openssl@3 3.4.1
 openvino 2025.0.0
 opus 1.5.2
 opusfile 0.12_1
-orc 0.4.40
+orc 0.4.41
 osinfo-db 20250124
 p11-kit 0.25.5
 p7zip 17.06
