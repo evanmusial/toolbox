@@ -1,4 +1,4 @@
-# backup: 20250221 @ 0050 (UTC)
+# backup: 20250221 @ 2238 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -94,7 +94,7 @@ gtk4 4.16.12
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 10.2.0
+harfbuzz 10.3.0
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
@@ -167,7 +167,7 @@ libnice 0.1.22
 libogg 1.3.5
 libomp 19.1.7
 libosinfo 1.12.0
-libpng 1.6.46
+libpng 1.6.47
 libproxy 0.5.9
 libpsl 0.21.5_2
 libpthread-stubs 0.5
@@ -371,4 +371,4 @@ yt-dlp 2025.2.19
 zeromq 4.3.5_1
 zimg 3.0.5
 zlib 1.3.1
-zstd 1.5.6
+zstd 1.5.7
