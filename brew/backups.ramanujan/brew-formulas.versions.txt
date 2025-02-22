@@ -1,4 +1,4 @@
-# backup: 20250221 @ 2238 (UTC)
+# backup: 20250222 @ 1759 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.24.9
+awscli 2.24.10
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -59,7 +59,7 @@ ffmpeg 7.1_4
 ffmpeg@6 6.1.2_7
 fftw 3.3.10_2
 findutils 4.10.0
-flac 1.4.3
+flac 1.5.0
 fmt 11.1.3
 fontconfig 2.16.0
 freetype 2.13.3
@@ -87,7 +87,7 @@ graphene 1.10.8
 graphite2 1.3.14
 grep 3.11
 gsettings-desktop-schemas 47.1
-gstreamer 1.24.12
+gstreamer 1.24.12_1
 gtk+3 3.24.43
 gtk-vnc 1.5.0
 gtk4 4.16.12
@@ -181,7 +181,7 @@ libsamplerate 0.2.2
 libshout 2.4.6_1
 libslirp 4.9.0
 libsm 1.2.5
-libsndfile 1.2.2
+libsndfile 1.2.2_1
 libsodium 1.0.20
 libsoup 3.6.4
 libsoxr 0.1.3
@@ -236,7 +236,7 @@ md4c 0.5.2
 media-info 24.12
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 90.0
+mkvtoolnix 90.0_1
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -321,8 +321,8 @@ shared-mime-info 2.4
 snappy 1.2.1
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
-socat 1.8.0.2
-sox 14.4.2_5
+socat 1.8.0.3
+sox 14.4.2_6
 speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
