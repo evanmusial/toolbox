@@ -1,4 +1,4 @@
-# backup: 20250227 @ 0306 (UTC)
+# backup: 20250227 @ 1047 (UTC)
 a52dec
 abseil
 adns
@@ -99,6 +99,7 @@ hicolor-icon-theme
 highway
 html2text
 htop
+httrack
 hunspell
 hwloc
 icu4c@76
@@ -256,6 +257,7 @@ node
 npth
 ntp
 numpy
+nvm
 ocrmypdf
 oniguruma
 onnx
