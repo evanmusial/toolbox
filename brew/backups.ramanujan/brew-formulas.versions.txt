@@ -1,4 +1,4 @@
-# backup: 20250226 @ 0219 (UTC)
+# backup: 20250227 @ 0121 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.24.12
+awscli 2.24.13
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -60,7 +60,7 @@ ffmpeg@6 6.1.2_7
 fftw 3.3.10_2
 findutils 4.10.0
 flac 1.5.0
-fmt 11.1.3
+fmt 11.1.4
 fontconfig 2.16.0
 freetype 2.13.3
 frei0r 2.3.3
@@ -69,7 +69,7 @@ gcc 14.2.0_1
 gdbm 1.24
 gdk-pixbuf 2.42.12
 gengetopt 2.23
-gettext 0.23.1
+gettext 0.24
 ghostscript 10.04.0
 giflib 5.2.2
 git 2.48.1
@@ -212,7 +212,7 @@ libxfixes 6.0.1
 libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.3
-libxlsxwriter 1.2.0
+libxlsxwriter 1.2.1
 libxml2 2.13.6
 libxmp 4.6.2
 libxmu 1.2.1
@@ -297,7 +297,7 @@ pycparser 2.22_1
 pygobject3 3.50.0_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 75.8.1
+python-setuptools 75.8.2
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
@@ -315,7 +315,7 @@ rsync 3.4.1
 rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
-sc-im 0.8.4
+sc-im 0.8.4_1
 sdl2 2.32.0
 shared-mime-info 2.4
 snappy 1.2.1
