@@ -1,4 +1,4 @@
-# backup: 20250312 @ 0417 (UTC)
+# backup: 20250312 @ 1337 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.24.21
+awscli 2.24.22
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -258,7 +258,7 @@ node 23.9.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.2.3
-nvm 0.40.1
+nvm 0.40.2
 ocrmypdf 16.10.0_1
 oniguruma 6.9.10
 onnx 1.17.0_2
@@ -277,7 +277,7 @@ orc 0.4.41
 osinfo-db 20250124
 p11-kit 0.25.5
 p7zip 17.06
-pango 1.56.1
+pango 1.56.2
 pcre 8.45
 pcre2 10.44
 perl 5.40.1
