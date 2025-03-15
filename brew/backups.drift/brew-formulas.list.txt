@@ -1,4 +1,4 @@
-# backup: 20250314 @ 1518 (UTC)
+# backup: 20250315 @ 1716 (UTC)
 a52dec
 abseil
 adns
@@ -32,6 +32,7 @@ coreutils
 cowsay
 cpu_features
 cpufetch
+crc32c
 cryptography
 curl
 dav1d

@@ -1,4 +1,4 @@
-# backup: 20250314 @ 1518 (UTC)
+# backup: 20250315 @ 1716 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.24.23
+awscli 2.24.24
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -32,6 +32,7 @@ coreutils 9.6
 cowsay 3.8.4
 cpu_features 0.9.0
 cpufetch 1.06
+crc32c 1.1.2
 cryptography 44.0.2
 curl 8.12.1
 dav1d 1.5.1
@@ -46,7 +47,7 @@ dssim 3.4.0
 duktape 2.7.0
 exa 0.10.1_2
 exempi 2.6.5
-exiftool 13.10
+exiftool 13.25
 eye-d3 0.9.7
 ffmpeg 7.1.1_1
 fftw 3.3.10_2
@@ -65,7 +66,7 @@ geoip 1.6.12
 gettext 0.24
 ghostscript 10.05.0
 giflib 5.2.2
-git 2.48.1
+git 2.49.0
 glfw 3.4
 glib 2.84.0
 gmp 6.3.0
