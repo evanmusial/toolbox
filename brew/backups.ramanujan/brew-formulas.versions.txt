@@ -1,8 +1,8 @@
-# backup: 20250314 @ 2313 (UTC)
+# backup: 20250315 @ 0544 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
-adwaita-icon-theme 47.0
+adwaita-icon-theme 48.0
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.12.0
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.54.1
 augeas 1.14.1
-awscli 2.24.23
+awscli 2.24.24
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -72,7 +72,7 @@ gengetopt 2.23
 gettext 0.24
 ghostscript 10.05.0
 giflib 5.2.2
-git 2.48.1
+git 2.49.0
 glfw 3.4
 glib 2.84.0
 glib-networking 2.80.1
@@ -91,7 +91,7 @@ gsettings-desktop-schemas 47.1
 gstreamer 1.26.0
 gtk+3 3.24.43
 gtk-vnc 1.5.0
-gtk4 4.16.12
+gtk4 4.18.1
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
