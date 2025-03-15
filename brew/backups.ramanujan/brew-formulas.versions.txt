@@ -1,4 +1,4 @@
-# backup: 20250315 @ 0955 (UTC)
+# backup: 20250315 @ 1440 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -50,7 +50,7 @@ double-conversion 3.3.1
 dtc 1.7.2
 duktape 2.7.0
 exempi 2.6.5
-exiftool 13.10
+exiftool 13.25
 eye-d3 0.9.7
 faac 1.31.1
 faad2 2.11.2
