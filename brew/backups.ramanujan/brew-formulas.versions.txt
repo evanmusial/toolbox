@@ -1,4 +1,4 @@
-# backup: 20250316 @ 0538 (UTC)
+# backup: 20250316 @ 1456 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aom 3.12.0
 aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
-at-spi2-core 2.54.1
+at-spi2-core 2.56.0
 augeas 1.14.1
 awscli 2.24.24
 bash 5.2.37
