@@ -1,4 +1,4 @@
-# backup: 20250317 @ 0435 (UTC)
+# backup: 20250319 @ 1406 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.24.24
+awscli 2.24.26
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -91,10 +91,10 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-45
+imagemagick 7.1.1-46
 imath 3.1.12
 img2pdf 0.6.0_1
-imlib2 1.12.3
+imlib2 1.12.4
 iperf3 3.18
 isl 0.27
 jansson 2.14
@@ -218,7 +218,7 @@ nlohmann-json 3.11.3
 nmap 7.95_1
 node 23.10.0_1
 npth 1.8
-numpy 2.2.3
+numpy 2.2.4
 ocrmypdf 16.10.0_1
 oniguruma 6.9.10
 onnx 1.17.0_2
@@ -256,7 +256,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 76.0.0
+python-setuptools 76.1.0
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
@@ -265,7 +265,7 @@ python@3.13 3.13.2
 python@3.9 3.9.21
 qpdf 12.0.0
 qt 6.8.2_1
-qt@5 5.15.16
+qt@5 5.15.16_1
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
