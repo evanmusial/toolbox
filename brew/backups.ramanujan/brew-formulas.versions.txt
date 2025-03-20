@@ -1,4 +1,4 @@
-# backup: 20250316 @ 1709 (UTC)
+# backup: 20250320 @ 0302 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,11 +11,11 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.56.0
 augeas 1.14.1
-awscli 2.24.24
+awscli 2.24.27
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
-boost 1.87.0
+boost 1.87.0_1
 boost-build 1.87.0
 brotli 1.1.0
 bwfmetaedit 25.03
@@ -77,7 +77,7 @@ glfw 3.4
 glib 2.84.0
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.40.4
+gnu-getopt 2.41
 gnu-sed 4.9
 gnupg 2.4.7
 gnutls 3.8.4
@@ -87,15 +87,15 @@ gpac 2.4.0
 graphene 1.10.8
 graphite2 1.3.14
 grep 3.11
-gsettings-desktop-schemas 47.1
+gsettings-desktop-schemas 48.0
 gstreamer 1.26.0
 gtk+3 3.24.43
 gtk-vnc 1.5.0
-gtk4 4.18.1
+gtk4 4.18.2
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 10.4.0
+harfbuzz 10.4.0_1
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
@@ -103,14 +103,15 @@ htop 3.4.0
 httrack 3.49.2_1
 hunspell 1.7.2
 hwloc 2.12.0
-icu4c@76 76.1_1
+icu4c@76 76.1_2
+icu4c@77 77.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.1-45
+imagemagick 7.1.1-46
 imath 3.1.12
 img2pdf 0.6.0_1
-imlib2 1.12.3
+imlib2 1.12.4
 iperf3 3.18
 isl 0.27
 jansson 2.14
@@ -134,7 +135,7 @@ libb2 0.98.1
 libbladerf 2023.02_1
 libbluray 1.3.4
 libcaca 0.99b20
-libcbor 0.11.0
+libcbor 0.12.0
 libcuefile r475
 libde265 1.0.15
 libdeflate 1.23
@@ -143,7 +144,7 @@ libepoxy 1.5.10
 libev 4.33
 libevent 2.1.12_1
 libffi 3.4.7
-libfido2 1.15.0
+libfido2 1.15.0_1
 libgcrypt 1.11.0
 libgit2 1.9.0
 libgpg-error 1.51
@@ -167,7 +168,7 @@ libmpc 1.3.1
 libnghttp2 1.65.0
 libnice 0.1.22
 libogg 1.3.5
-libomp 20.1.0
+libomp 20.1.1
 libosinfo 1.12.0
 libpng 1.6.47
 libproxy 0.5.9
@@ -177,7 +178,7 @@ libraqm 0.10.2
 libraw 0.21.3
 libreplaygain r475
 librist 0.2.11
-librsvg 2.59.2
+librsvg 2.60.0
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_1
@@ -215,7 +216,7 @@ libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.3
 libxlsxwriter 1.2.1
-libxml2 2.13.6
+libxml2 2.13.6_1
 libxmp 4.6.2
 libxmu 1.2.1
 libxp 1.0.4
@@ -238,7 +239,7 @@ md4c 0.5.2
 media-info 24.12
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 90.0_1
+mkvtoolnix 91.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -254,10 +255,10 @@ nettle 3.10.1
 nghttp2 1.65.0
 nlohmann-json 3.11.3
 nmap 7.95_1
-node 23.10.0
+node 23.10.0_1
 npth 1.8
 ntp 4.2.8p18
-numpy 2.2.3
+numpy 2.2.4
 nvm 0.40.2
 ocrmypdf 16.10.0_1
 oniguruma 6.9.10
@@ -277,9 +278,9 @@ orc 0.4.41
 osinfo-db 20250124
 p11-kit 0.25.5
 p7zip 17.06
-pango 1.56.2
+pango 1.56.3
 pcre 8.45
-pcre2 10.44
+pcre2 10.45
 perl 5.40.1
 phodav 3.0
 pillow 11.1.0
@@ -300,7 +301,7 @@ pycparser 2.22_1
 pygobject3 3.50.0_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 76.0.0
+python-setuptools 77.0.1
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
@@ -310,8 +311,8 @@ python@3.9 3.9.21
 qemu 9.2.2
 qpdf 12.0.0
 qrencode 4.1.1
-qt 6.8.2
-qt@5 5.15.16
+qt 6.8.2_1
+qt@5 5.15.16_1
 rav1e 0.7.1
 readline 8.2.13
 rename 1.601
@@ -333,7 +334,7 @@ spice-gtk 0.42_3
 spice-protocol 0.14.4
 sqlite 3.49.1
 srt 1.5.4
-srtp 2.6.0
+srtp 2.7.0
 streamlink 7.1.3
 streamripper 1.64.6_2
 svt-av1 3.0.1
@@ -342,7 +343,7 @@ tbb 2022.0.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
 telnet 303.141.1
-tesseract 5.5.0
+tesseract 5.5.0_1
 thefuck 3.32
 theora 1.1.1
 tmux 3.5a
@@ -355,7 +356,7 @@ utf8proc 2.10.0
 vde 2.3.3
 virt-manager 5.0.0
 volk 3.2.0
-vte3 0.78.4
+vte3 0.80.0
 watch 4.0.5
 webp 1.5.0
 wget 1.25.0
