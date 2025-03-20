@@ -1,4 +1,4 @@
-# backup: 20250319 @ 1406 (UTC)
+# backup: 20250320 @ 1029 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.24.26
+awscli 2.24.27
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -70,7 +70,7 @@ git 2.49.0
 glfw 3.4
 glib 2.84.0
 gmp 6.3.0
-gnu-getopt 2.40.4
+gnu-getopt 2.41
 gnu-sed 4.9
 gnupg 2.4.7
 gnutls 3.8.4
@@ -144,7 +144,7 @@ libmng 2.0.3_1
 libmpc 1.3.1
 libnghttp2 1.65.0
 libogg 1.3.5
-libomp 20.1.0
+libomp 20.1.1
 libpng 1.6.47
 libproxy 0.5.9
 libpthread-stubs 0.5
@@ -245,7 +245,7 @@ pillow 11.1.0
 pinentry 1.3.1_1
 pixman 0.44.2
 pkgconf 2.4.3
-pmix 5.0.6
+pmix 5.0.7
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
@@ -256,7 +256,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 76.1.0
+python-setuptools 77.0.1
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
