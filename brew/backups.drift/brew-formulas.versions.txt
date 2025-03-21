@@ -1,4 +1,4 @@
-# backup: 20250320 @ 1029 (UTC)
+# backup: 20250321 @ 1517 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.24.27
+awscli 2.25.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -40,8 +40,8 @@ dbus 1.16.2
 dialog 1.3-20250116
 docbook 5.1_1
 docbook-xsl 1.79.2_1
-docker 28.0.1
-docker-completion 28.0.1
+docker 28.0.2
+docker-completion 28.0.2
 double-conversion 3.3.1
 dssim 3.4.0
 duktape 2.7.0
@@ -243,6 +243,7 @@ pcre2 10.45
 perl 5.40.1
 pillow 11.1.0
 pinentry 1.3.1_1
+pipx 1.7.1_1
 pixman 0.44.2
 pkgconf 2.4.3
 pmix 5.0.7
@@ -256,7 +257,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 77.0.1
+python-setuptools 77.0.3
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
