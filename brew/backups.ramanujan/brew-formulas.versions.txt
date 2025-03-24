@@ -1,4 +1,4 @@
-# backup: 20250323 @ 0505 (UTC)
+# backup: 20250324 @ 0423 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -81,7 +81,7 @@ gmp 6.3.0
 gnu-getopt 2.41
 gnu-sed 4.9
 gnupg 2.4.7
-gnutls 3.8.4
+gnutls 3.8.9
 gobject-introspection 1.82.0
 google-authenticator-libpam 1.11
 gpac 2.4.0
