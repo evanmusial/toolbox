@@ -1,4 +1,4 @@
-# backup: 20250324 @ 2015 (UTC)
+# backup: 20250327 @ 1539 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.25.1
+awscli 2.25.4
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.87.0_1
 boost-build 1.87.0
 brotli 1.1.0
-bun 1.2.5
+bun 1.2.7
 bwfmetaedit 25.03
 c-ares 1.34.4
 ca-certificates 2025-02-25
@@ -40,8 +40,8 @@ dbus 1.16.2
 dialog 1.3-20250116
 docbook 5.1_1
 docbook-xsl 1.79.2_1
-docker 28.0.2
-docker-completion 28.0.2
+docker 28.0.4
+docker-completion 28.0.4
 double-conversion 3.3.1
 dssim 3.4.0
 duktape 2.7.0
@@ -97,8 +97,8 @@ img2pdf 0.6.0_1
 imlib2 1.12.4
 iperf3 3.18
 isl 0.27
-jansson 2.14
-jasper 4.2.4
+jansson 2.14.1
+jasper 4.2.5
 jbig2dec 0.20
 jbig2enc 0.30
 jemalloc 5.3.0
@@ -196,7 +196,7 @@ lzlib 1.15
 lzo 2.10
 m4 1.4.19
 mad 0.15.1b
-mbedtls 3.6.2
+mbedtls 3.6.3
 md4c 0.5.2
 media-info 25.03
 mkvdts2ac3 1.6.0_3
@@ -257,7 +257,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 python-gdbm@3.11 3.11.11
 python-packaging 24.2
-python-setuptools 78.0.1
+python-setuptools 78.1.0
 python-tk@3.11 3.11.11
 python@3.10 3.10.16
 python@3.11 3.11.11
@@ -287,7 +287,7 @@ sqlite 3.49.1
 srt 1.5.4
 streamlink 7.1.3
 streamripper 1.64.6_2
-svt-av1 3.0.1
+svt-av1 3.0.2
 tbb 2022.0.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
@@ -315,9 +315,9 @@ xorgproto 2024.1
 xpdf 4.05
 xvid 1.3.7
 xxhash 0.8.3
-xz 5.6.4
+xz 5.8.0
 youtube-dl 2021.12.17
-yt-dlp 2025.3.21
+yt-dlp 2025.3.26
 zeromq 4.3.5_1
 zimg 3.0.5
 zstd 1.5.7
