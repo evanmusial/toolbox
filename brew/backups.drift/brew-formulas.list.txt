@@ -1,4 +1,4 @@
-# backup: 20250327 @ 2315 (UTC)
+# backup: 20250328 @ 1530 (UTC)
 a52dec
 abseil
 adns
@@ -259,7 +259,6 @@ python-certifi
 python-cryptography
 python-gdbm@3.11
 python-packaging
-python-setuptools
 python-tk@3.11
 python@3.10
 python@3.11
