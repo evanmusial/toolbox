@@ -1,4 +1,4 @@
-# backup: 20250328 @ 1921 (UTC)
+# backup: 20250329 @ 1636 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,9 +9,9 @@ aom 3.12.0
 aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
-at-spi2-core 2.56.0
+at-spi2-core 2.56.1
 augeas 1.14.1
-awscli 2.25.5
+awscli 2.25.6
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -66,7 +66,7 @@ freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.16
 gcc 14.2.0_1
-gdbm 1.24
+gdbm 1.25
 gdk-pixbuf 2.42.12_1
 gengetopt 2.23
 gettext 0.24
@@ -216,7 +216,7 @@ libxfixes 6.0.1
 libxft 2.3.8
 libxi 1.8.2
 libxls 1.6.3
-libxlsxwriter 1.2.1
+libxlsxwriter 1.2.2
 libxml2 2.13.7
 libxmp 4.6.2
 libxmu 1.2.1
@@ -321,7 +321,7 @@ rsync 3.4.1
 rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
-sc-im 0.8.4_1
+sc-im 0.8.4_2
 sdl2 2.32.2
 shared-mime-info 2.4
 snappy 1.2.1
@@ -340,7 +340,7 @@ streamlink 7.1.3
 streamripper 1.64.6_2
 svt-av1 3.0.2
 taglib 2.0.2
-tbb 2022.0.0
+tbb 2022.1.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
 telnet 303.141.1
