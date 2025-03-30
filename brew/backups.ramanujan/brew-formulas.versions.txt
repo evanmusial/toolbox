@@ -1,4 +1,4 @@
-# backup: 20250329 @ 1636 (UTC)
+# backup: 20250330 @ 1656 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -92,7 +92,7 @@ gsettings-desktop-schemas 48.0
 gstreamer 1.26.0_1
 gtk+3 3.24.43
 gtk-vnc 1.5.0
-gtk4 4.18.2
+gtk4 4.18.3
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
@@ -109,7 +109,7 @@ icu4c@77 77.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.1-46
+imagemagick 7.1.1-47
 imath 3.1.12
 img2pdf 0.6.0_1
 imlib2 1.12.4
