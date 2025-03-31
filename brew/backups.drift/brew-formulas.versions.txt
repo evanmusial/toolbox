@@ -1,4 +1,4 @@
-# backup: 20250328 @ 1857 (UTC)
+# backup: 20250331 @ 1824 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,14 +9,14 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.25.5
+awscli 2.25.6
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.87.0_1
 boost-build 1.87.0
 brotli 1.1.0
-bun 1.2.7
+bun 1.2.8
 bwfmetaedit 25.03
 c-ares 1.34.4
 ca-certificates 2025-02-25
@@ -25,7 +25,7 @@ certbot 3.3.0
 certifi 2025.1.31
 cffi 1.17.1_1
 cjson 1.7.18
-cmake 3.31.6
+cmake 4.0.0
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.6
@@ -60,7 +60,7 @@ freetype 2.13.3
 frei0r 2.3.3
 fribidi 1.0.16
 gcc 14.2.0_1
-gdbm 1.24
+gdbm 1.25
 gengetopt 2.23
 geoip 1.6.12
 gettext 0.24
@@ -91,7 +91,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.1-46
+imagemagick 7.1.1-47
 imath 3.1.12
 img2pdf 0.6.0_1
 imlib2 1.12.4
@@ -127,7 +127,7 @@ libgit2 1.9.0
 libgpg-error 1.51
 libheif 1.19.7
 libice 1.1.2
-libidn 1.42
+libidn 1.43
 libidn2 2.3.8
 libimagequant 4.3.4
 libksba 1.6.7
@@ -178,7 +178,7 @@ libxdmcp 1.1.5
 libxext 1.3.6
 libxft 2.3.8
 libxls 1.6.3
-libxlsxwriter 1.2.1
+libxlsxwriter 1.2.2
 libxml2 2.13.7
 libxmp 4.6.2
 libxmu 1.2.1
@@ -273,7 +273,7 @@ rsync 3.4.1
 rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
-sc-im 0.8.4_1
+sc-im 0.8.4_2
 sdl2 2.32.2
 shared-mime-info 2.4
 snappy 1.2.1
@@ -287,7 +287,7 @@ srt 1.5.4
 streamlink 7.1.3
 streamripper 1.64.6_2
 svt-av1 3.0.2
-tbb 2022.0.0
+tbb 2022.1.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
 telnet 303.141.1
