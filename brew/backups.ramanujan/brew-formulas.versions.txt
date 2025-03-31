@@ -1,4 +1,4 @@
-# backup: 20250330 @ 1918 (UTC)
+# backup: 20250331 @ 1847 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -28,7 +28,7 @@ certifi 2025.1.31
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 3.31.6
+cmake 4.0.0
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.6
@@ -151,7 +151,7 @@ libgit2 1.9.0
 libgpg-error 1.51
 libheif 1.19.7
 libice 1.1.2
-libidn 1.42
+libidn 1.43
 libidn2 2.3.8
 libimagequant 4.3.4
 libiscsi 1.20.0
