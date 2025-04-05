@@ -1,4 +1,4 @@
-# backup: 20250404 @ 0540 (UTC)
+# backup: 20250405 @ 1449 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.56.1
 augeas 1.14.1
-awscli 2.25.10
+awscli 2.25.11
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -96,7 +96,7 @@ gtk4 4.18.3
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.0.0
+harfbuzz 11.0.1
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
@@ -312,7 +312,7 @@ python@3.9 3.9.21
 qemu 9.2.3
 qpdf 12.0.0
 qrencode 4.1.1
-qt 6.8.2_1
+qt 6.9.0
 qt@5 5.15.16_1
 rav1e 0.7.1
 readline 8.2.13
@@ -371,7 +371,7 @@ xorgproto 2024.1
 xpdf 4.05
 xvid 1.3.7
 xxhash 0.8.3
-xz 5.8.0
+xz 5.8.1
 yajl 2.1.0
 yt-dlp 2025.3.31
 zeromq 4.3.5_1
