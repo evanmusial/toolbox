@@ -1,4 +1,4 @@
-# backup: 20250406 @ 2132 (UTC)
+# backup: 20250407 @ 0438 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -122,7 +122,7 @@ jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.0
-jpeg-xl 0.11.1
+jpeg-xl 0.11.1_1
 jq 1.7.1
 json-c 0.18
 json-glib 1.10.6
@@ -310,7 +310,7 @@ python@3.12 3.12.9
 python@3.13 3.13.2
 python@3.9 3.9.21
 qemu 9.2.3
-qpdf 12.0.0
+qpdf 12.1.0
 qrencode 4.1.1
 qt 6.9.0
 qt@5 5.15.16_1
