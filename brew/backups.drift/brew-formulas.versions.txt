@@ -1,4 +1,4 @@
-# backup: 20250406 @ 0221 (UTC)
+# backup: 20250409 @ 1621 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,19 +9,19 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.25.11
+awscli 2.25.13
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.87.0_1
 boost-build 1.87.0
 brotli 1.1.0
-bun 1.2.8
+bun 1.2.9
 bwfmetaedit 25.03
-c-ares 1.34.4
+c-ares 1.34.5
 ca-certificates 2025-02-25
 cairo 1.18.4
-certbot 3.3.0
+certbot 4.0.0
 certifi 2025.1.31
 cffi 1.17.1_1
 cjson 1.7.18
@@ -94,7 +94,7 @@ ilmbase 2.5.8
 imagemagick 7.1.1-47
 imath 3.1.12
 img2pdf 0.6.0_1
-imlib2 1.12.4
+imlib2 1.12.5
 iperf3 3.18
 isl 0.27
 jansson 2.14.1
@@ -104,7 +104,7 @@ jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.0
-jpeg-xl 0.11.1
+jpeg-xl 0.11.1_1
 jq 1.7.1
 jsoncpp 1.9.6
 lame 3.100
@@ -124,7 +124,7 @@ libevent 2.1.12_1
 libffi 3.4.7
 libgcrypt 1.11.0
 libgit2 1.9.0
-libgpg-error 1.51
+libgpg-error 1.53
 libheif 1.19.7
 libice 1.1.2
 libidn 1.43
@@ -255,15 +255,15 @@ pugixml 1.15
 pwgen 2.08
 pybind11 2.13.6_1
 pycparser 2.22_1
-python-gdbm@3.11 3.11.11
+python-gdbm@3.11 3.11.12
 python-packaging 24.2
-python-tk@3.11 3.11.11
-python@3.10 3.10.16
-python@3.11 3.11.11
-python@3.12 3.12.9
+python-tk@3.11 3.11.12
+python@3.10 3.10.17
+python@3.11 3.11.12
+python@3.12 3.12.10
 python@3.13 3.13.2
-python@3.9 3.9.21
-qpdf 12.0.0
+python@3.9 3.9.22
+qpdf 12.1.0
 qt 6.9.0
 qt@5 5.15.16_1
 rav1e 0.7.1
@@ -284,7 +284,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 sqlite 3.49.1
 srt 1.5.4
-streamlink 7.1.3
+streamlink 7.2.0
 streamripper 1.64.6_2
 svt-av1 3.0.2
 tbb 2022.1.0
