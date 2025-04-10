@@ -1,4 +1,4 @@
-# backup: 20250410 @ 0313 (UTC)
+# backup: 20250410 @ 0416 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -350,7 +350,7 @@ theora 1.1.1
 tmux 3.5a
 unbound 1.22.0
 unpaper 7.0.0_2
-usb.ids 2025.01.14
+usb.ids 2025.04.01
 usbredir 0.15.0
 utf8cpp 4.0.6
 utf8proc 2.10.0
