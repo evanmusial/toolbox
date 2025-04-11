@@ -1,4 +1,4 @@
-# backup: 20250411 @ 0028 (UTC)
+# backup: 20250411 @ 0315 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -100,7 +100,7 @@ harfbuzz 11.0.1
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
-htop 3.4.0
+htop 3.4.1
 httrack 3.49.2_1
 hunspell 1.7.2
 hwloc 2.12.0
