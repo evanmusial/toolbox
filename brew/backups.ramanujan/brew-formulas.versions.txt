@@ -1,4 +1,4 @@
-# backup: 20250411 @ 1418 (UTC)
+# backup: 20250412 @ 0044 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.56.1
 augeas 1.14.1
-awscli 2.26.0
+awscli 2.26.1
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -28,7 +28,7 @@ certifi 2025.1.31
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 4.0.0
+cmake 4.0.1
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.7
