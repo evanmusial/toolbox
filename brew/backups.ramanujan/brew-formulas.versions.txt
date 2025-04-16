@@ -1,4 +1,4 @@
-# backup: 20250415 @ 1343 (UTC)
+# backup: 20250416 @ 0218 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -75,7 +75,7 @@ giflib 5.2.2
 git 2.49.0
 git-lfs 3.6.1
 glfw 3.4
-glib 2.84.0_1
+glib 2.84.1
 glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.41
@@ -250,7 +250,7 @@ mpg123 1.32.10
 mplayer 1.5_1
 mtr 0.95
 musepack r475
-mysql-client@8.4 8.4.4
+mysql-client@8.4 8.4.5
 ncurses 6.5
 nettle 3.10.1
 nghttp2 1.65.0
