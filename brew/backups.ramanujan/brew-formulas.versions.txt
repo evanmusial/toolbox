@@ -1,4 +1,4 @@
-# backup: 20250419 @ 0410 (UTC)
+# backup: 20250419 @ 1630 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -301,7 +301,7 @@ pybind11 2.13.6_1
 pycparser 2.22_1
 pygobject3 3.52.3
 python-gdbm@3.11 3.11.12
-python-packaging 24.2
+python-packaging 25.0
 python-setuptools 78.1.0
 python-tk@3.11 3.11.12
 python@3.10 3.10.17
