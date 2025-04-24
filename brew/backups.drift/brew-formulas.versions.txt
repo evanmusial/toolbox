@@ -1,4 +1,4 @@
-# backup: 20250422 @ 1550 (UTC)
+# backup: 20250424 @ 1510 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.26.6
+awscli 2.27.0
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -219,7 +219,7 @@ nmap 7.95_1
 node 23.11.0
 npth 1.8
 numpy 2.2.5
-ocrmypdf 16.10.0_1
+ocrmypdf 16.10.1
 oniguruma 6.9.10
 onnx 1.17.0_2
 open-mpi 5.0.7
@@ -295,7 +295,7 @@ tesseract 5.5.0_1
 thefuck 3.32
 theora 1.1.1
 tmux 3.5a
-unbound 1.22.0
+unbound 1.23.0
 unpaper 7.0.0_2
 utf8cpp 4.0.6
 utf8proc 2.10.0
