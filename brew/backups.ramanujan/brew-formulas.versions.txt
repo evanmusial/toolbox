@@ -1,4 +1,4 @@
-# backup: 20250424 @ 0205 (UTC)
+# backup: 20250424 @ 0355 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -260,7 +260,7 @@ node 23.11.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.2.5
-nvm 0.40.2
+nvm 0.40.3
 ocrmypdf 16.10.0_1
 oniguruma 6.9.10
 onnx 1.17.0_2
