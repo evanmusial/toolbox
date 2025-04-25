@@ -1,4 +1,4 @@
-# backup: 20250424 @ 2126 (UTC)
+# backup: 20250425 @ 0208 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -148,7 +148,7 @@ libffi 3.4.8
 libfido2 1.15.0_1
 libgcrypt 1.11.0
 libgit2 1.9.0
-libgpg-error 1.54
+libgpg-error 1.55
 libheif 1.19.7
 libice 1.1.2
 libidn 1.43
