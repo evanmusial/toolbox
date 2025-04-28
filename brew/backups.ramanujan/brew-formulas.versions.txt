@@ -1,4 +1,4 @@
-# backup: 20250427 @ 2142 (UTC)
+# backup: 20250428 @ 0114 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -149,7 +149,7 @@ libfido2 1.15.0_1
 libgcrypt 1.11.0
 libgit2 1.9.0
 libgpg-error 1.55
-libheif 1.19.7
+libheif 1.19.8
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
@@ -271,7 +271,7 @@ openexr 3.3.3
 openjpeg 2.5.3
 openldap 2.6.9
 openmotif 2.3.8_3
-openssl@3 3.4.1
+openssl@3 3.5.0
 openvino 2025.0.0
 opus 1.5.2
 opusfile 0.12_1
