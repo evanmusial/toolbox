@@ -1,4 +1,4 @@
-# backup: 20250429 @ 0203 (UTC)
+# backup: 20250429 @ 0506 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -96,7 +96,7 @@ gtk4 4.18.4
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.1.0
+harfbuzz 11.2.0
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
