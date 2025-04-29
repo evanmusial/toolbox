@@ -1,4 +1,4 @@
-# backup: 20250428 @ 0114 (UTC)
+# backup: 20250429 @ 0203 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,9 +9,9 @@ aom 3.12.1
 aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
-at-spi2-core 2.56.1
+at-spi2-core 2.56.2
 augeas 1.14.1
-awscli 2.27.2
+awscli 2.27.3
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -111,7 +111,7 @@ id3tool 1.2a
 id3v2 0.1.12
 imagemagick 7.1.1-47
 imath 3.1.12
-img2pdf 0.6.0_1
+img2pdf 0.6.1
 imlib2 1.12.5
 iperf3 3.18
 isl 0.27
