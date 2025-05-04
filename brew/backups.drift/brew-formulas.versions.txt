@@ -1,4 +1,4 @@
-# backup: 20250503 @ 1631 (UTC)
+# backup: 20250504 @ 0556 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -54,7 +54,7 @@ fftw 3.3.10_2
 findutils 4.10.0
 flac 1.5.0
 fluid-synth 2.4.5
-fmt 11.1.4
+fmt 11.2.0
 fontconfig 2.16.0
 freetype 2.13.3
 frei0r 2.3.3
