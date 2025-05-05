@@ -1,4 +1,4 @@
-# backup: 20250505 @ 0543 (UTC)
+# backup: 20250505 @ 1630 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -154,7 +154,7 @@ libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
 libimagequant 4.3.4
-libiscsi 1.20.1
+libiscsi 1.20.2
 libksba 1.6.7
 liblinear 2.48
 liblqr 0.4.3
@@ -201,7 +201,7 @@ libusb 1.0.28
 libusrsctp 0.9.5.0_1
 libuv 1.51.0
 libvidstab 1.1.1
-libvirt 11.3.0_1
+libvirt 11.3.0_2
 libvirt-glib 5.0.0
 libvirt-python 11.3.0
 libvmaf 3.0.0
