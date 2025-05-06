@@ -1,4 +1,4 @@
-# backup: 20250506 @ 0631 (UTC)
+# backup: 20250506 @ 1406 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -145,7 +145,7 @@ libepoxy 1.5.10
 libev 4.33
 libevent 2.1.12_1
 libffi 3.4.8
-libfido2 1.15.0_1
+libfido2 1.16.0
 libgcrypt 1.11.0
 libgit2 1.9.0
 libgpg-error 1.55
