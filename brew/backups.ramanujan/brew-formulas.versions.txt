@@ -1,4 +1,4 @@
-# backup: 20250506 @ 0456 (UTC)
+# backup: 20250506 @ 0631 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -244,7 +244,7 @@ mkvtoolnix 92.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
-mpdecimal 4.0.0
+mpdecimal 4.0.1
 mpfr 4.2.2
 mpg123 1.32.10
 mplayer 1.5_1
