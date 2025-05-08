@@ -1,4 +1,4 @@
-# backup: 20250508 @ 0154 (UTC)
+# backup: 20250508 @ 1355 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -9,7 +9,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 5.4.3
 augeas 1.14.1
-awscli 2.27.9
+awscli 2.27.10
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -121,7 +121,7 @@ libebml 1.4.5
 libev 4.33
 libevent 2.1.12_1
 libffi 3.4.8
-libgcrypt 1.11.0
+libgcrypt 1.11.1
 libgit2 1.9.0
 libgpg-error 1.55
 libheif 1.19.8
@@ -289,7 +289,7 @@ svt-av1 3.0.2
 tbb 2022.1.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
-telnet 303.141.1
+telnet 306
 tesseract 5.5.0_1
 thefuck 3.32
 theora 1.1.1
