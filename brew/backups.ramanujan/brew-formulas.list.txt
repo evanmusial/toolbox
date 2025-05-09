@@ -1,4 +1,4 @@
-# backup: 20250509 @ 0240 (UTC)
+# backup: 20250509 @ 0637 (UTC)
 a52dec
 abseil
 adns
@@ -65,6 +65,7 @@ fontconfig
 freetype
 frei0r
 fribidi
+gawk
 gcc
 gdbm
 gdk-pixbuf
@@ -257,6 +258,7 @@ nghttp2
 nlohmann-json
 nmap
 node
+node_exporter
 npth
 ntp
 numpy
