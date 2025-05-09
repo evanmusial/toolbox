@@ -1,4 +1,4 @@
-# backup: 20250509 @ 0222 (UTC)
+# backup: 20250509 @ 0705 (UTC)
 a52dec
 abseil
 adns
@@ -216,6 +216,7 @@ nghttp2
 nlohmann-json
 nmap
 node
+node_exporter
 npth
 numpy
 ocrmypdf

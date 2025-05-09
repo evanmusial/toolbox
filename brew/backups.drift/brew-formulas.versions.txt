@@ -1,4 +1,4 @@
-# backup: 20250509 @ 0222 (UTC)
+# backup: 20250509 @ 0705 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -216,6 +216,7 @@ nghttp2 1.65.0
 nlohmann-json 3.12.0
 nmap 7.95_1
 node 23.11.0
+node_exporter 1.9.1
 npth 1.8
 numpy 2.2.5
 ocrmypdf 16.10.1
