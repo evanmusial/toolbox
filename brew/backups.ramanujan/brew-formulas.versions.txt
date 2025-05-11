@@ -1,4 +1,4 @@
-# backup: 20250511 @ 0856 (UTC)
+# backup: 20250511 @ 1348 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -219,7 +219,7 @@ libxi 1.8.2
 libxls 1.6.3
 libxlsxwriter 1.2.2
 libxml2 2.13.7
-libxmp 4.6.2
+libxmp 4.6.3
 libxmu 1.2.1
 libxp 1.0.4
 libxrender 0.9.12
