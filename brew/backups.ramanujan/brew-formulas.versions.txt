@@ -1,4 +1,4 @@
-# backup: 20250513 @ 0745 (UTC)
+# backup: 20250513 @ 2113 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -33,7 +33,7 @@ cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.7
 cpio 2.15
-cpu_features 0.10.0
+cpu_features 0.10.1
 cpufetch 1.06
 crc32c 1.1.2
 cryptography 44.0.3
@@ -97,7 +97,7 @@ gtk4 4.18.5
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.2.0
+harfbuzz 11.2.1
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.2.3
