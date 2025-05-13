@@ -1,4 +1,4 @@
-# backup: 20250513 @ 0506 (UTC)
+# backup: 20250513 @ 0733 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -28,7 +28,7 @@ certifi 2025.4.26
 cffi 1.17.1_1
 chrony 4.6.1
 cjson 1.7.18
-cmake 4.0.1
+cmake 4.0.2
 cmocka 1.1.7
 codec2 1.2.0
 coreutils 9.7
@@ -104,7 +104,7 @@ html2text 2.2.3
 htop 3.4.1
 httrack 3.49.2_1
 hunspell 1.7.2
-hwloc 2.12.0
+hwloc 2.12.1
 icu4c@76 76.1_2
 icu4c@77 77.1
 id3lib 3.8.3_1
@@ -234,7 +234,7 @@ lua 5.4.7
 lz4 1.10.0
 lzlib 1.15
 lzo 2.10
-m4 1.4.19
+m4 1.4.20
 mad 0.15.1b
 mbedtls 3.6.3
 md4c 0.5.2
