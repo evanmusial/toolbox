@@ -1,4 +1,4 @@
-# backup: 20250514 @ 0335 (UTC)
+# backup: 20250514 @ 0520 (UTC)
 a52dec
 abseil
 adns
@@ -288,6 +288,7 @@ perl
 phodav
 pillow
 pinentry
+pinentry-mac
 pipx
 pixman
 pkgconf
