@@ -1,4 +1,4 @@
-# backup: 20250516 @ 1157 (UTC)
+# backup: 20250517 @ 0015 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.56.2
 augeas 1.14.1
-awscli 2.27.16
+awscli 2.27.17
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -114,7 +114,7 @@ imagemagick 7.1.1-47
 imath 3.1.12
 img2pdf 0.6.1
 imlib2 1.12.5
-iperf3 3.18
+iperf3 3.19
 isl 0.27
 jansson 2.14.1
 jasper 4.2.5
@@ -218,7 +218,7 @@ libxft 2.3.9
 libxi 1.8.2
 libxls 1.6.3
 libxlsxwriter 1.2.2
-libxml2 2.13.7
+libxml2 2.13.8
 libxmp 4.6.3
 libxmu 1.2.1
 libxp 1.0.4
