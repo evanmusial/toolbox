@@ -1,4 +1,4 @@
-# backup: 20250517 @ 0006 (UTC)
+# backup: 20250517 @ 1353 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -304,7 +304,7 @@ volk 3.2.0
 watch 4.0.5
 webp 1.5.0
 wget 1.25.0
-whois 5.6.0
+whois 5.6.1
 x264 r3108
 x265 4.1
 xbitmaps 1.1.3
