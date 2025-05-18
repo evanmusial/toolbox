@@ -1,4 +1,4 @@
-# backup: 20250518 @ 0308 (UTC)
+# backup: 20250518 @ 0628 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -261,7 +261,7 @@ node 23.11.0
 node_exporter 1.9.1
 npth 1.8
 ntp 4.2.8p18
-numpy 2.2.5
+numpy 2.2.6
 nvm 0.40.3
 ocrmypdf 16.10.1
 oniguruma 6.9.10
