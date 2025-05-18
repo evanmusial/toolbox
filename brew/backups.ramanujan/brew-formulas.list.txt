@@ -1,4 +1,4 @@
-# backup: 20250518 @ 0628 (UTC)
+# backup: 20250518 @ 1451 (UTC)
 a52dec
 abseil
 adns
@@ -258,7 +258,6 @@ nghttp2
 nlohmann-json
 nmap
 node
-node_exporter
 npth
 ntp
 numpy
