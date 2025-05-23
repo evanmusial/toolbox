@@ -1,4 +1,4 @@
-# backup: 20250523 @ 0251 (UTC)
+# backup: 20250523 @ 1545 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -270,7 +270,7 @@ openblas 0.3.29
 opencore-amr 0.1.6
 openexr 3.3.3
 openjpeg 2.5.3
-openldap 2.6.9
+openldap 2.6.10
 openmotif 2.3.8_3
 openssl@3 3.5.0
 openvino 2025.0.0
