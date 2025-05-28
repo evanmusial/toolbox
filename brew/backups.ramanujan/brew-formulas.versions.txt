@@ -1,4 +1,4 @@
-# backup: 20250527 @ 2342 (UTC)
+# backup: 20250528 @ 0537 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 5.4.3
 at-spi2-core 2.56.2
 augeas 1.14.1
-awscli 2.27.22
+awscli 2.27.23
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -184,7 +184,7 @@ librsvg 2.60.0
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_1
-libslirp 4.9.0
+libslirp 4.9.1
 libsm 1.2.6
 libsndfile 1.2.2_1
 libsodium 1.0.20
