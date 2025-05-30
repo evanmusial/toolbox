@@ -1,4 +1,4 @@
-# backup: 20250530 @ 1504 (UTC)
+# backup: 20250530 @ 2133 (UTC)
 a52dec
 abseil
 adns
@@ -9,6 +9,7 @@ aria2
 aribb24
 assimp
 augeas
+autoconf
 awscli
 bash
 bdw-gc
@@ -255,6 +256,7 @@ pugixml
 pwgen
 pybind11
 pycparser
+pyenv
 python-certifi
 python-cryptography
 python-gdbm@3.11
