@@ -1,4 +1,4 @@
-# backup: 20250531 @ 0130 (UTC)
+# backup: 20250531 @ 2311 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -341,7 +341,7 @@ srtp 2.7.0
 streamlink 7.3.0
 streamripper 1.64.6_2
 svt-av1 3.0.2
-taglib 2.0.2
+taglib 2.1
 tbb 2022.1.0
 tcl-tk 9.0.1
 tcl-tk@8 8.6.16
