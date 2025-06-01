@@ -1,4 +1,4 @@
-# backup: 20250601 @ 1329 (UTC)
+# backup: 20250601 @ 1825 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -124,7 +124,7 @@ jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.0
 jpeg-xl 0.11.1_1
-jq 1.7.1
+jq 1.8.0
 json-c 0.18
 json-glib 1.10.6
 jsoncpp 1.9.6
