@@ -1,4 +1,4 @@
-# backup: 20250603 @ 0306 (UTC)
+# backup: 20250603 @ 1410 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -324,7 +324,7 @@ rtmpdump 2.4-20151223_3
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5
-sdl2 2.32.6
+sdl2 2.32.8
 shared-mime-info 2.4
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
