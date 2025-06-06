@@ -1,8 +1,8 @@
-# backup: 20250530 @ 2133 (UTC)
+# backup: 20250606 @ 0123 (UTC)
 font-meslo-for-powerlevel10k 2.3.3
 font-meslo-for-powerline 2015-12-04
 jt-bridge 3.4.3
 makemkv 1.18.1
 mkvtoolnix 92.0
-ngrok 3.22.1,kwPxkptNrPv,a
+ngrok 3.23.0,hkfye5GjpVX,a
 stats 2.9.20
