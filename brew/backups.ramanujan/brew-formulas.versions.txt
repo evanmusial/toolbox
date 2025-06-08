@@ -1,4 +1,4 @@
-# backup: 20250608 @ 1020 (UTC)
+# backup: 20250608 @ 1734 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -145,7 +145,7 @@ libebml 1.4.5
 libepoxy 1.5.10
 libev 4.33
 libevent 2.1.12_1
-libffi 3.4.8
+libffi 3.5.0
 libfido2 1.16.0
 libgcrypt 1.11.1
 libgit2 1.9.1
