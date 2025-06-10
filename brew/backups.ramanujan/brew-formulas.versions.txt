@@ -1,4 +1,4 @@
-# backup: 20250609 @ 0430 (UTC)
+# backup: 20250610 @ 0157 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.1
 at-spi2-core 2.56.2
 augeas 1.14.1
-awscli 2.27.31
+awscli 2.27.32
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -93,7 +93,7 @@ gsettings-desktop-schemas 48.0
 gstreamer 1.26.2
 gtk+3 3.24.43
 gtk-vnc 1.5.0
-gtk4 4.18.5
+gtk4 4.18.6
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
@@ -268,7 +268,7 @@ onnx 1.17.0_2
 open-mpi 5.0.7
 openblas 0.3.29
 opencore-amr 0.1.6
-openexr 3.3.3
+openexr 3.3.4
 openjpeg 2.5.3
 openldap 2.6.10
 openmotif 2.3.8_3
