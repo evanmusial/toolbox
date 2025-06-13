@@ -1,4 +1,4 @@
-# backup: 20250613 @ 0128 (UTC)
+# backup: 20250613 @ 2310 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -309,7 +309,7 @@ python-tk@3.11 3.11.13
 python@3.10 3.10.18
 python@3.11 3.11.13
 python@3.12 3.12.11
-python@3.13 3.13.4
+python@3.13 3.13.5
 python@3.9 3.9.23
 qemu 10.0.2
 qpdf 12.2.0
@@ -357,7 +357,7 @@ usbredir 0.15.0
 utf8cpp 4.0.6
 utf8proc 2.10.0
 vde 2.3.3
-virt-manager 5.0.0
+virt-manager 5.0.0_1
 volk 3.2.0
 vte3 0.80.2
 watch 4.0.5
