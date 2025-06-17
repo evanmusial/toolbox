@@ -1,4 +1,4 @@
-# backup: 20250615 @ 1530 (UTC)
+# backup: 20250617 @ 2102 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.1
 augeas 1.14.1
 autoconf 2.72
-awscli 2.27.35
+awscli 2.27.36
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -23,7 +23,7 @@ c-ares 1.34.5
 ca-certificates 2025-05-20
 cairo 1.18.4
 certbot 4.1.1
-certifi 2025.4.26
+certifi 2025.6.15
 cffi 1.17.1_1
 cjson 1.7.18
 cmake 4.0.3
@@ -67,7 +67,7 @@ geoip 1.6.12
 gettext 0.25
 ghostscript 10.05.1
 giflib 5.2.2
-git 2.49.0
+git 2.50.0
 glfw 3.4
 glib 2.84.3
 gmp 6.3.0
@@ -82,7 +82,7 @@ guile 3.0.10
 hackrf 2024.02.1
 harfbuzz 11.2.1
 highway 1.2.0
-html2text 2.2.3
+html2text 2.3.0
 htop 3.4.1
 hunspell 1.7.2
 hwloc 2.12.1
@@ -268,7 +268,7 @@ python@3.9 3.9.23
 qpdf 12.2.0
 qt 6.9.0
 qt@5 5.15.16_2
-rav1e 0.8.0
+rav1e 0.8.1
 readline 8.2.13
 rename 1.601
 rsync 3.4.1
