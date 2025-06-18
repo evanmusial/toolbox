@@ -1,4 +1,4 @@
-# backup: 20250618 @ 0407 (UTC)
+# backup: 20250618 @ 1331 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -311,7 +311,7 @@ python@3.11 3.11.13
 python@3.12 3.12.11
 python@3.13 3.13.5
 python@3.9 3.9.23
-qemu 10.0.2
+qemu 10.0.2_1
 qpdf 12.2.0
 qrencode 4.1.1
 qt 6.9.0
@@ -335,6 +335,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
+spice-server 0.16.0
 sqlite 3.50.1
 srt 1.5.4
 srtp 2.7.0

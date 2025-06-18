@@ -1,4 +1,4 @@
-# backup: 20250618 @ 0407 (UTC)
+# backup: 20250618 @ 1331 (UTC)
 a52dec
 abseil
 adns
@@ -335,6 +335,7 @@ speedtest-cli
 speex
 spice-gtk
 spice-protocol
+spice-server
 sqlite
 srt
 srtp
