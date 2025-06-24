@@ -1,8 +1,9 @@
-# backup: 20250622 @ 1745 (UTC)
+# backup: 20250624 @ 0300 (UTC)
 font-meslo-for-powerlevel10k
 font-meslo-for-powerline
 jt-bridge
 makemkv
 mkvtoolnix
+mkvtoolnix-app
 ngrok
 stats
