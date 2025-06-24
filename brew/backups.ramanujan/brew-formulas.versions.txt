@@ -1,4 +1,4 @@
-# backup: 20250623 @ 0256 (UTC)
+# backup: 20250624 @ 0300 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.1
 at-spi2-core 2.56.2
 augeas 1.14.1
-awscli 2.27.40
+awscli 2.27.41
 bash 5.2.37
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -311,7 +311,7 @@ python@3.11 3.11.13
 python@3.12 3.12.11
 python@3.13 3.13.5
 python@3.9 3.9.23
-qemu 10.0.2_1
+qemu 10.0.2_2
 qpdf 12.2.0
 qrencode 4.1.1
 qt 6.9.0
@@ -335,7 +335,6 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
-spice-server 0.16.0
 sqlite 3.50.1
 srt 1.5.4
 srtp 2.7.0
