@@ -1,4 +1,4 @@
-# backup: 20250625 @ 0054 (UTC)
+# backup: 20250625 @ 1957 (UTC)
 a52dec
 abseil
 adns
@@ -9,6 +9,7 @@ aom
 aria2
 aribb24
 assimp
+assimp@5
 at-spi2-core
 augeas
 awscli
