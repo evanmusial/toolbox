@@ -1,4 +1,4 @@
-# backup: 20250629 @ 0620 (UTC)
+# backup: 20250629 @ 1546 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
 assimp@5 5.4.3
-at-spi2-core 2.56.2
+at-spi2-core 2.56.3
 augeas 1.14.1
 awscli 2.27.45
 bash 5.2.37
@@ -336,7 +336,7 @@ speedtest-cli 2.1.3_1
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
-sqlite 3.50.1
+sqlite 3.50.2
 srt 1.5.4
 srtp 2.7.0
 streamlink 7.4.0_2
@@ -360,7 +360,7 @@ utf8proc 2.10.0
 vde 2.3.3
 virt-manager 5.0.0_2
 volk 3.2.0
-vte3 0.80.2
+vte3 0.80.3
 watch 4.0.5
 webp 1.5.0
 wget 1.25.0
