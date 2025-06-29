@@ -1,4 +1,4 @@
-# backup: 20250628 @ 1545 (UTC)
+# backup: 20250629 @ 2320 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -72,7 +72,7 @@ git 2.50.0
 glfw 3.4
 glib 2.84.3
 gmp 6.3.0
-gnu-getopt 2.41
+gnu-getopt 2.41.1
 gnu-sed 4.9
 gnupg 2.4.8
 gnutls 3.8.9
@@ -285,7 +285,7 @@ soapysdr 0.8.1_1
 sox 14.4.2_6
 speedtest-cli 2.1.3_1
 speex 1.2.1
-sqlite 3.50.1
+sqlite 3.50.2
 srt 1.5.4
 streamlink 7.4.0_2
 streamripper 1.64.6_2
