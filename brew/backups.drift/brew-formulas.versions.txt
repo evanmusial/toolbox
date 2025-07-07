@@ -1,4 +1,4 @@
-# backup: 20250706 @ 2214 (UTC)
+# backup: 20250707 @ 1327 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -12,7 +12,7 @@ assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
 awscli 2.27.49
-bash 5.2.37
+bash 5.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.88.0
@@ -210,7 +210,7 @@ mpdecimal 4.0.1
 mpfr 4.2.2
 mpg123 1.33.0
 mplayer 1.5_1
-mtr 0.95
+mtr 0.96
 mysql@5.7 5.7.44_1
 ncurses 6.5
 nettle 3.10.2
