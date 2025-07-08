@@ -1,4 +1,4 @@
-# backup: 20250707 @ 1537 (UTC)
+# backup: 20250708 @ 1415 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -130,7 +130,7 @@ libheif 1.20.1
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
-libimagequant 4.3.4
+libimagequant 4.4.0
 libksba 1.6.7
 liblinear 2.49
 liblo 0.32
@@ -224,7 +224,7 @@ numpy 2.3.1
 ocrmypdf 16.10.2
 oniguruma 6.9.10
 onnx 1.17.0_2
-open-mpi 5.0.7
+open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.3.4
