@@ -1,4 +1,4 @@
-# backup: 20250721 @ 0128 (UTC)
+# backup: 20250721 @ 1818 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -71,7 +71,7 @@ gcc 15.1.0
 gdbm 1.25
 gdk-pixbuf 2.42.12_1
 gengetopt 2.23
-gettext 0.25.1
+gettext 0.26
 ghostscript 10.05.1
 giflib 5.2.2
 git 2.50.1
@@ -290,7 +290,7 @@ pillow 11.3.0
 pinentry 1.3.1_1
 pinentry-mac 1.3.1.1
 pipx 1.7.1_1
-pixman 0.46.2
+pixman 0.46.4
 pkgconf 2.5.1
 pmix 5.0.8
 pngquant 3.0.3
