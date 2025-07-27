@@ -1,4 +1,4 @@
-# backup: 20250727 @ 0030 (UTC)
+# backup: 20250727 @ 1343 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -98,7 +98,7 @@ gtk4 4.18.6
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.3.2
+harfbuzz 11.3.3
 hicolor-icon-theme 0.18
 highway 1.2.0
 html2text 2.3.0
@@ -269,7 +269,7 @@ onnx 1.17.0_2
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
-openexr 3.3.4
+openexr 3.3.5
 openjpeg 2.5.3
 openldap 2.6.10
 openmotif 2.3.8_3
@@ -353,7 +353,7 @@ theora 1.1.1
 tmux 3.5a
 unbound 1.23.1
 unpaper 7.0.0_2
-usb.ids 2025.04.01
+usb.ids 2025.07.26
 usbredir 0.15.0
 utf8cpp 4.0.6
 utf8proc 2.10.0
