@@ -1,4 +1,4 @@
-# backup: 20250730 @ 0356 (UTC)
+# backup: 20250730 @ 1652 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -68,7 +68,7 @@ frei0r 2.3.3
 fribidi 1.0.16
 gawk 5.3.1
 gcc 15.1.0
-gdbm 1.25
+gdbm 1.26
 gdk-pixbuf 2.42.12_1
 gengetopt 2.23
 gettext 0.26
