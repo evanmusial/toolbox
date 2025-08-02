@@ -1,4 +1,4 @@
-# backup: 20250801 @ 2134 (UTC)
+# backup: 20250802 @ 1239 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -10,9 +10,9 @@ aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
 assimp@5 5.4.3
-at-spi2-core 2.56.3
+at-spi2-core 2.56.4
 augeas 1.14.1
-awscli 2.28.0
+awscli 2.28.1
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -146,7 +146,7 @@ libebml 1.4.5
 libepoxy 1.5.10
 libev 4.33
 libevent 2.1.12_1
-libffi 3.5.1
+libffi 3.5.2
 libfido2 1.16.0
 libgcrypt 1.11.1
 libgit2 1.9.1
@@ -367,7 +367,7 @@ vte3 0.80.3
 watch 4.0.5
 webp 1.5.0
 wget 1.25.0
-whois 5.6.3
+whois 5.6.4
 x264 r3108
 x265 4.1
 xbitmaps 1.1.3
