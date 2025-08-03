@@ -1,4 +1,4 @@
-# backup: 20250726 @ 1734 (UTC)
+# backup: 20250803 @ 1841 (UTC)
 a52dec
 abseil
 adns
@@ -144,6 +144,8 @@ libmms
 libmng
 libmpc
 libnghttp2
+libnghttp3
+libngtcp2
 libogg
 libomp
 libpng
@@ -281,6 +283,7 @@ s3cmd
 sc-im
 sdl2
 shared-mime-info
+simdjson
 snappy
 soapyrtlsdr
 soapysdr
