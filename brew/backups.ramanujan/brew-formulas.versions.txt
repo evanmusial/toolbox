@@ -1,4 +1,4 @@
-# backup: 20250803 @ 0114 (UTC)
+# backup: 20250804 @ 0145 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -25,7 +25,7 @@ ca-certificates 2025-07-15
 cairo 1.18.4
 capstone 5.0.6
 certbot 4.1.1_1
-certifi 2025.7.14
+certifi 2025.8.3
 cffi 1.17.1_1
 chrony 4.7
 cjson 1.7.18
@@ -118,7 +118,7 @@ imlib2 1.12.5
 iperf3 3.19.1
 isl 0.27
 jansson 2.14.1
-jasper 4.2.5
+jasper 4.2.7
 jbig2dec 0.20
 jbig2enc 0.30
 jemalloc 5.3.0
