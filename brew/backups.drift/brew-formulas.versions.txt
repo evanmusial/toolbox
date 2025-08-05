@@ -1,4 +1,4 @@
-# backup: 20250804 @ 1905 (UTC)
+# backup: 20250805 @ 1913 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ assimp 6.0.2
 assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
-awscli 2.28.1
+awscli 2.28.2
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -123,10 +123,10 @@ libebml 1.4.5
 libev 4.33
 libevent 2.1.12_1
 libffi 3.5.2
-libgcrypt 1.11.1
+libgcrypt 1.11.2
 libgit2 1.9.1
 libgpg-error 1.55
-libheif 1.20.1
+libheif 1.20.2
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
@@ -151,7 +151,7 @@ libomp 20.1.8
 libpng 1.6.50
 libproxy 0.5.10
 libpthread-stubs 0.5
-libraqm 0.10.2
+libraqm 0.10.3
 libraw 0.21.4
 librist 0.2.11
 librtlsdr 2.0.2
