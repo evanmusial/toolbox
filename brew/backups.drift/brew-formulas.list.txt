@@ -1,4 +1,4 @@
-# backup: 20250807 @ 1450 (UTC)
+# backup: 20250807 @ 2251 (UTC)
 a52dec
 abseil
 adns
@@ -295,6 +295,7 @@ srt
 streamlink
 streamripper
 svt-av1
+switchaudio-osx
 tbb
 tcl-tk
 tcl-tk@8
