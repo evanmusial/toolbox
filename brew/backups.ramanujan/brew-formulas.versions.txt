@@ -1,4 +1,4 @@
-# backup: 20250806 @ 1205 (UTC)
+# backup: 20250807 @ 0256 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -12,7 +12,7 @@ assimp 6.0.2
 assimp@5 5.4.3
 at-spi2-core 2.56.4
 augeas 1.14.1
-awscli 2.28.3
+awscli 2.28.4
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -318,7 +318,7 @@ qemu 10.0.3
 qpdf 12.2.0
 qrencode 4.1.1
 qt 6.9.1
-qt@5 5.15.16_2
+qt@5 5.15.17
 rav1e 0.8.1
 readline 8.3.1
 rename 1.601
