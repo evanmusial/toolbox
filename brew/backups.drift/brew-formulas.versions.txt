@@ -1,4 +1,4 @@
-# backup: 20250807 @ 2251 (UTC)
+# backup: 20250808 @ 0602 (UTC)
 a52dec 0.8.0
 abseil 20240722.1
 adns 1.6.1
@@ -11,7 +11,7 @@ assimp 6.0.2
 assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
-awscli 2.28.4
+awscli 2.28.5
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -210,7 +210,7 @@ moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.1
 mpfr 4.2.2
-mpg123 1.33.1
+mpg123 1.33.2
 mplayer 1.5_1
 mtr 0.96
 mysql@5.7 5.7.44_1
@@ -259,7 +259,7 @@ pugixml 1.15
 pwgen 2.08
 pybind11 3.0.0
 pycparser 2.22_1
-pyenv 2.6.5
+pyenv 2.6.6
 python-gdbm@3.11 3.11.13
 python-packaging 25.0
 python-tk@3.11 3.11.13
