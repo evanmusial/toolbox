@@ -1,6 +1,6 @@
-# backup: 20250808 @ 0602 (UTC)
+# backup: 20250809 @ 1400 (UTC)
 a52dec 0.8.0
-abseil 20240722.1
+abseil 20250127.1
 adns 1.6.1
 airspy 1.0.10
 airspyhf 1.6.8
@@ -11,7 +11,7 @@ assimp 6.0.2
 assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
-awscli 2.28.5
+awscli 2.28.6
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -27,7 +27,7 @@ certbot 4.2.0
 certifi 2025.8.3
 cffi 1.17.1_1
 cjson 1.7.18
-cmake 4.0.3
+cmake 4.1.0
 cmocka 1.1.8
 codec2 1.2.0
 coreutils 9.7
@@ -225,7 +225,7 @@ npth 1.8
 numpy 2.3.2
 ocrmypdf 16.10.4
 oniguruma 6.9.10
-onnx 1.17.0_2
+onnx 1.17.0_3
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
@@ -235,7 +235,7 @@ openldap 2.6.10
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.5.2
-openvino 2025.0.0
+openvino 2025.0.0_1
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
@@ -254,7 +254,7 @@ pmix 5.0.8
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 29.3
+protobuf 29.3_1
 pugixml 1.15
 pwgen 2.08
 pybind11 3.0.0
@@ -309,7 +309,7 @@ utf8proc 2.10.0
 vamp-plugin-sdk 2.10.0_1
 volk 3.2.0
 watch 4.0.5
-webp 1.5.0
+webp 1.6.0
 wget 1.25.0
 whois 5.6.4
 x264 r3108
