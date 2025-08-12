@@ -1,4 +1,4 @@
-# backup: 20250811 @ 1532 (UTC)
+# backup: 20250812 @ 1600 (UTC)
 a52dec
 abseil
 adns
@@ -324,6 +324,7 @@ xpdf
 xvid
 xxhash
 xz
+ykman
 youtube-dl
 yt-dlp
 zeromq
