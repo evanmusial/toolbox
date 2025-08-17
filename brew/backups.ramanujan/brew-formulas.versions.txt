@@ -1,4 +1,4 @@
-# backup: 20250816 @ 0103 (UTC)
+# backup: 20250817 @ 0203 (UTC)
 a52dec 0.8.0
 abseil 20250512.1
 adns 1.6.1
@@ -91,7 +91,7 @@ graphene 1.10.8
 graphite2 1.3.14
 grep 3.12
 gsettings-desktop-schemas 48.0
-gstreamer 1.26.5_1
+gstreamer 1.26.5_2
 gtk+3 3.24.49
 gtk-vnc 1.5.0
 gtk4 4.18.6
@@ -111,8 +111,8 @@ icu4c@77 77.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.2-1
-imath 3.1.12
+imagemagick 7.1.2-1_1
+imath 3.2.1
 img2pdf 0.6.1
 imlib2 1.12.5
 iperf3 3.19.1
@@ -124,7 +124,7 @@ jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.1
-jpeg-xl 0.11.1_1
+jpeg-xl 0.11.1_2
 jq 1.8.1
 json-c 0.18
 json-glib 1.10.6
@@ -267,16 +267,16 @@ numpy 2.3.2
 nvm 0.40.3
 ocrmypdf 16.10.4
 oniguruma 6.9.10
-onnx 1.17.0_4
+onnx 1.17.0_5
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
-openexr 3.3.5
+openexr 3.3.5_1
 openjpeg 2.5.3
 openldap 2.6.10
 openmotif 2.3.8_3
 openssl@3 3.5.2
-openvino 2025.2.0_1
+openvino 2025.2.0_2
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
@@ -298,7 +298,7 @@ pmix 5.0.8
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 31.1
+protobuf 32.0
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.28.0
@@ -312,7 +312,7 @@ python-tk@3.11 3.11.13
 python@3.10 3.10.18
 python@3.11 3.11.13
 python@3.12 3.12.11
-python@3.13 3.13.6
+python@3.13 3.13.7
 python@3.9 3.9.23
 qemu 10.0.3
 qpdf 12.2.0
