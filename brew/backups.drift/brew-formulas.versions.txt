@@ -1,4 +1,4 @@
-# backup: 20250816 @ 0104 (UTC)
+# backup: 20250819 @ 1340 (UTC)
 a52dec 0.8.0
 abseil 20250512.1
 adns 1.6.1
@@ -11,12 +11,12 @@ assimp 6.0.2
 assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
-awscli 2.28.11
+awscli 2.28.12
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
-boost 1.88.0
-boost-build 1.88.0
+boost 1.89.0
+boost-build 1.89.0
 brotli 1.1.0
 bun 1.2.20
 bwfmetaedit 25.04.1
@@ -39,7 +39,7 @@ cryptography 45.0.6
 curl 8.15.0
 dav1d 1.5.1
 dbus 1.16.2
-dialog 1.3-20250116
+dialog 1.3-20250817
 docbook 5.1_1
 docbook-xsl 1.79.2_1
 docker 28.3.3
@@ -68,7 +68,7 @@ geoip 1.6.12
 gettext 0.26
 ghostscript 10.05.1
 giflib 5.2.2
-git 2.50.1
+git 2.51.0
 glfw 3.4
 glib 2.84.4
 gmp 6.3.0
@@ -92,8 +92,8 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-1
-imath 3.1.12
+imagemagick 7.1.2-1_1
+imath 3.2.1
 img2pdf 0.6.1
 imlib2 1.12.5
 iperf3 3.19.1
@@ -105,7 +105,7 @@ jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
 jpeg-turbo 3.1.1
-jpeg-xl 0.11.1_1
+jpeg-xl 0.11.1_2
 jq 1.8.1
 jsoncpp 1.9.6
 lame 3.100
@@ -204,7 +204,7 @@ md4c 0.5.2
 media-info 25.07
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 94.0
+mkvtoolnix 94.0_1
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -225,17 +225,17 @@ npth 1.8
 numpy 2.3.2
 ocrmypdf 16.10.4
 oniguruma 6.9.10
-onnx 1.17.0_4
+onnx 1.17.0_5
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
-openexr 3.3.5
+openexr 3.3.5_1
 openjpeg 2.5.3
 openldap 2.6.10
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.5.2
-openvino 2025.2.0_1
+openvino 2025.2.0_2
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
@@ -254,7 +254,7 @@ pmix 5.0.8
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 31.1
+protobuf 32.0
 pugixml 1.15
 pwgen 2.08
 pybind11 3.0.0
@@ -266,7 +266,7 @@ python-tk@3.11 3.11.13
 python@3.10 3.10.18
 python@3.11 3.11.13
 python@3.12 3.12.11
-python@3.13 3.13.6
+python@3.13 3.13.7
 python@3.9 3.9.23
 qpdf 12.2.0
 qt 6.9.1
