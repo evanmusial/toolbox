@@ -1,4 +1,4 @@
-# backup: 20250821 @ 1201 (UTC)
+# backup: 20250821 @ 2345 (UTC)
 a52dec
 abseil
 adns
@@ -199,6 +199,7 @@ libtasn1
 libtiff
 libtommath
 libtool
+libudfread
 libunibreak
 libunistring
 libusb
