@@ -1,6 +1,6 @@
-# backup: 20250821 @ 0129 (UTC)
+# backup: 20250821 @ 1201 (UTC)
 a52dec 0.8.0
-abseil 20250512.1
+abseil 20250814.0
 adns 1.6.1
 adwaita-icon-theme 48.1
 airspy 1.0.10
@@ -267,7 +267,7 @@ numpy 2.3.2
 nvm 0.40.3
 ocrmypdf 16.10.4
 oniguruma 6.9.10
-onnx 1.17.0_5
+onnx 1.17.0_6
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
@@ -276,7 +276,7 @@ openjpeg 2.5.3
 openldap 2.6.10
 openmotif 2.3.8_3
 openssl@3 3.5.2
-openvino 2025.2.0_2
+openvino 2025.2.0_3
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
@@ -298,7 +298,7 @@ pmix 5.0.8
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 32.0
+protobuf 32.0_1
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.28.0
