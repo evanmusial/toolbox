@@ -1,4 +1,4 @@
-# backup: 20250824 @ 0304 (UTC)
+# backup: 20250824 @ 2035 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -40,6 +40,7 @@ crc32c 1.1.2
 cryptography 45.0.6
 cunit 2.1-3
 curl 8.15.0
+cyrus-sasl 2.1.28_2
 dav1d 1.5.1
 dbus 1.16.2_1
 dialog 1.3-20250817
@@ -98,7 +99,7 @@ gtk4 4.18.6
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.4.2
+harfbuzz 11.4.3
 hicolor-icon-theme 0.18
 highway 1.3.0
 html2text 2.3.0
@@ -129,6 +130,7 @@ jq 1.8.1
 json-c 0.18
 json-glib 1.10.6
 jsoncpp 1.9.6
+krb5 1.22.1
 lame 3.100
 leptonica 1.85.0
 libarchive 3.8.1
@@ -274,7 +276,7 @@ openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.3.5_1
 openjpeg 2.5.3
-openldap 2.6.10
+openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.5.2
 openvino 2025.2.0_3
