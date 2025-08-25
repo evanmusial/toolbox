@@ -1,4 +1,4 @@
-# backup: 20250824 @ 0220 (UTC)
+# backup: 20250825 @ 1351 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -18,7 +18,7 @@ berkeley-db@5 5.3.28_1
 boost 1.89.0
 boost-build 1.89.0
 brotli 1.1.0
-bun 1.2.20
+bun 1.2.21
 bwfmetaedit 25.04.1
 c-ares 1.34.5
 ca-certificates 2025-08-12
@@ -37,6 +37,7 @@ cpufetch 1.06
 crc32c 1.1.2
 cryptography 45.0.6
 curl 8.15.0
+cyrus-sasl 2.1.28_2
 dav1d 1.5.1
 dbus 1.16.2_1
 dialog 1.3-20250817
@@ -81,7 +82,7 @@ gpac 2.4.0_2
 graphite2 1.3.14
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 11.4.2
+harfbuzz 11.4.3
 highway 1.3.0
 html2text 2.3.0
 htop 3.4.1
@@ -92,7 +93,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-1_1
+imagemagick 7.1.2-2
 imath 3.2.1
 img2pdf 0.6.1
 imlib2 1.12.5
@@ -108,6 +109,7 @@ jpeg-turbo 3.1.1
 jpeg-xl 0.11.1_2
 jq 1.8.1
 jsoncpp 1.9.6
+krb5 1.22.1
 lame 3.100
 leptonica 1.85.0
 libarchive 3.8.1
@@ -232,7 +234,7 @@ openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.3.5_1
 openjpeg 2.5.3
-openldap 2.6.10
+openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.5.2
@@ -287,13 +289,13 @@ snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
 sox 14.4.2_6
-speedtest-cli 2.1.3_1
+speedtest-cli 2.1.3_2
 speex 1.2.1
 sqlite 3.50.4
 srt 1.5.4
 streamlink 7.5.0
 streamripper 1.64.6_2
-svt-av1 3.1.1
+svt-av1 3.1.2
 switchaudio-osx 1.2.2
 tbb 2022.2.0
 tcl-tk 9.0.2
