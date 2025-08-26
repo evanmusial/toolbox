@@ -1,4 +1,4 @@
-# backup: 20250824 @ 2035 (UTC)
+# backup: 20250826 @ 0230 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -12,7 +12,7 @@ assimp 6.0.2
 assimp@5 5.4.3
 at-spi2-core 2.56.4
 augeas 1.14.1
-awscli 2.28.16
+awscli 2.28.17
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -112,7 +112,7 @@ icu4c@77 77.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.2-1_1
+imagemagick 7.1.2-2
 imath 3.2.1
 img2pdf 0.6.1
 imlib2 1.12.5
@@ -338,7 +338,7 @@ soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
 socat 1.8.0.3
 sox 14.4.2_6
-speedtest-cli 2.1.3_1
+speedtest-cli 2.1.3_2
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
@@ -347,7 +347,7 @@ srt 1.5.4
 srtp 2.7.0
 streamlink 7.5.0
 streamripper 1.64.6_2
-svt-av1 3.1.1
+svt-av1 3.1.2
 taglib 2.1.1
 tbb 2022.2.0
 tcl-tk 9.0.2
