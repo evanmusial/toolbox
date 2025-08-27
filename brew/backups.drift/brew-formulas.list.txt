@@ -1,4 +1,4 @@
-# backup: 20250826 @ 1757 (UTC)
+# backup: 20250827 @ 1153 (UTC)
 a52dec
 abseil
 adns
@@ -228,7 +228,6 @@ npth
 numpy
 ocrmypdf
 oniguruma
-onnx
 open-mpi
 openblas
 opencore-amr
@@ -238,7 +237,6 @@ openldap
 openmotif
 openssl@1.1
 openssl@3
-openvino
 opus
 opusfile
 orc
@@ -266,7 +264,6 @@ pyenv
 python-certifi
 python-cryptography
 python-gdbm@3.11
-python-packaging
 python-tk@3.11
 python@3.10
 python@3.11
@@ -299,7 +296,6 @@ streamlink
 streamripper
 svt-av1
 switchaudio-osx
-tbb
 tcl-tk
 tcl-tk@8
 telnet
