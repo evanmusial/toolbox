@@ -1,4 +1,4 @@
-# backup: 20250827 @ 1610 (UTC)
+# backup: 20250828 @ 1642 (UTC)
 a52dec
 abseil
 adns
@@ -8,7 +8,6 @@ aom
 aria2
 aribb24
 assimp
-assimp@5
 augeas
 autoconf
 awscli
@@ -307,6 +306,7 @@ unbound
 unpaper
 utf8cpp
 utf8proc
+uvwasi
 vamp-plugin-sdk
 volk
 watch

@@ -1,4 +1,4 @@
-# backup: 20250827 @ 1610 (UTC)
+# backup: 20250828 @ 1642 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -8,10 +8,9 @@ aom 3.12.1
 aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
-assimp@5 5.4.3
 augeas 1.14.1
 autoconf 2.72
-awscli 2.28.18
+awscli 2.28.19
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -222,7 +221,7 @@ nettle 3.10.2
 nghttp2 1.66.0
 nlohmann-json 3.12.0
 nmap 7.98
-node 24.6.0
+node 24.7.0
 node_exporter 1.9.1
 npth 1.8
 numpy 2.3.2
@@ -244,7 +243,7 @@ p11-kit 0.25.5
 p7zip 17.06
 pango 1.56.4
 pcre 8.45
-pcre2 10.45
+pcre2 10.46
 perl 5.40.2
 pillow 11.3.0
 pinentry 1.3.2
@@ -269,7 +268,7 @@ python@3.12 3.12.11
 python@3.13 3.13.7
 python@3.9 3.9.23
 qpdf 12.2.0
-qt 6.9.1
+qt 6.9.2
 qt@5 5.15.17
 rav1e 0.8.1
 readline 8.3.1
@@ -305,6 +304,7 @@ unbound 1.23.1
 unpaper 7.0.0_3
 utf8cpp 4.0.6
 utf8proc 2.10.0
+uvwasi 0.0.21
 vamp-plugin-sdk 2.10.0_1
 volk 3.2.0
 watch 4.0.5
@@ -323,7 +323,7 @@ xxhash 0.8.3
 xz 5.8.1
 ykman 5.7.2
 youtube-dl 2021.12.17
-yt-dlp 2025.8.22
+yt-dlp 2025.8.27
 zeromq 4.3.5_2
 zimg 3.0.6
 zstd 1.5.7
