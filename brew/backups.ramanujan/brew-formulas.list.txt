@@ -1,4 +1,4 @@
-# backup: 20250827 @ 0123 (UTC)
+# backup: 20250828 @ 1855 (UTC)
 a52dec
 abseil
 adns
@@ -9,7 +9,6 @@ aom
 aria2
 aribb24
 assimp
-assimp@5
 at-spi2-core
 augeas
 awscli
@@ -363,6 +362,7 @@ usb.ids
 usbredir
 utf8cpp
 utf8proc
+uvwasi
 vde
 virt-manager
 volk
