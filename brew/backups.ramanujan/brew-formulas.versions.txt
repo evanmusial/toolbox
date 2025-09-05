@@ -1,17 +1,17 @@
-# backup: 20250904 @ 1715 (UTC)
+# backup: 20250905 @ 1515 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
 adwaita-icon-theme 48.1
 airspy 1.0.10
 airspyhf 1.6.8
-aom 3.12.1
+aom 3.13.0
 aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.56.4
 augeas 1.14.1
-awscli 2.28.23
+awscli 2.28.24
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -123,7 +123,7 @@ jbig2dec 0.20
 jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 9f
-jpeg-turbo 3.1.1
+jpeg-turbo 3.1.2
 jpeg-xl 0.11.1_2
 jq 1.8.1
 json-c 0.18
