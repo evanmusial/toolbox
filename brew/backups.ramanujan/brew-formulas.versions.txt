@@ -1,4 +1,4 @@
-# backup: 20250906 @ 1444 (UTC)
+# backup: 20250906 @ 1730 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -51,7 +51,7 @@ double-conversion 3.3.1
 dtc 1.7.2
 duktape 2.7.0
 exempi 2.6.6
-exiftool 13.30
+exiftool 13.35
 eye-d3 0.9.8
 faac 1.31.1
 faad2 2.11.2
@@ -77,7 +77,7 @@ giflib 5.2.2
 git 2.51.0
 git-lfs 3.7.0
 glfw 3.4
-glib 2.84.4
+glib 2.86.0
 glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.41.1
