@@ -1,11 +1,11 @@
-# backup: 20250906 @ 0136 (UTC)
+# backup: 20250906 @ 1426 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
 adwaita-icon-theme 48.1
 airspy 1.0.10
 airspyhf 1.6.8
-aom 3.13.0
+aom 3.13.1
 aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
@@ -306,7 +306,7 @@ pwgen 2.08
 py3cairo 1.28.0
 pybind11 3.0.1
 pycparser 2.22_1
-pygobject3 3.52.3
+pygobject3 3.54.0
 python-gdbm@3.11 3.11.13
 python-packaging 25.0
 python-setuptools 80.9.0
