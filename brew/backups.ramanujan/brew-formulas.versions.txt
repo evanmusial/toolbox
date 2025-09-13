@@ -1,4 +1,4 @@
-# backup: 20250913 @ 1433 (UTC)
+# backup: 20250913 @ 1535 (UTC)
 a52dec 0.8.0
 abseil 20250814.0
 adns 1.6.1
@@ -84,7 +84,7 @@ gnu-getopt 2.41.1
 gnu-sed 4.9
 gnupg 2.4.8
 gnutls 3.8.10
-gobject-introspection 1.84.0_1
+gobject-introspection 1.86.0
 google-authenticator-libpam 1.11
 gpac 2.4.0_3
 graphene 1.10.8
