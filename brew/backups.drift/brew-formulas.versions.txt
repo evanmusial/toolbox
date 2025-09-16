@@ -1,4 +1,4 @@
-# backup: 20250915 @ 1559 (UTC)
+# backup: 20250916 @ 1242 (UTC)
 a52dec 0.8.0
 abseil 20250814.0_1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1
 autoconf 2.72
-awscli 2.30.1
+awscli 2.30.2
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -221,7 +221,7 @@ nettle 3.10.2
 nghttp2 1.67.0
 nlohmann-json 3.12.0
 nmap 7.98
-node 24.7.0
+node 24.8.0
 node_exporter 1.9.1
 npth 1.8
 numpy 2.3.3
@@ -303,7 +303,7 @@ theora 1.2.0
 tmux 3.5a
 unbound 1.23.1
 unpaper 7.0.0_3
-utf8cpp 4.0.7
+utf8cpp 4.0.8
 utf8proc 2.11.0
 uvwasi 0.0.23
 vamp-plugin-sdk 2.10.0_1
