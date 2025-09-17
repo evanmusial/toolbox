@@ -1,1 +1,5 @@
-# backup: 20250917 @ 0519 (UTC)
+# backup: 20250917 @ 0534 (UTC)
+google-analytics-opt-out 1.0.2
+makemkv 1.18.1
+spundle 1.9,2025.06
+stats 2.11.44
