@@ -1,4 +1,4 @@
-# backup: 20250917 @ 0534 (UTC)
+# backup: 20250918 @ 0249 (UTC)
 a52dec 0.8.0
 abseil 20250814.0_1
 adns 1.6.1
@@ -9,9 +9,9 @@ aom 3.13.1
 aria2 1.37.0
 aribb24 1.0.4
 assimp 6.0.2
-at-spi2-core 2.56.4
+at-spi2-core 2.58.0
 augeas 1.14.1
-awscli 2.30.3
+awscli 2.30.4
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -246,7 +246,7 @@ md4c 0.5.2
 media-info 25.07
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 94.0_1
+mkvtoolnix 95.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -275,7 +275,7 @@ openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.4.0_1
 openjpeg 2.5.3
-openjph 0.23.0
+openjph 0.23.1
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.5.2
@@ -333,6 +333,7 @@ sc-im 0.8.5_1
 sdl2 2.32.10
 shared-mime-info 2.4
 simdjson 3.13.0
+simdutf 7.4.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -367,7 +368,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0
 volk 3.2.0
-vte3 0.80.3
+vte3 0.82.0
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
