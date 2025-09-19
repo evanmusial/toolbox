@@ -1,4 +1,4 @@
-# backup: 20250917 @ 1330 (UTC)
+# backup: 20250919 @ 1442 (UTC)
 a52dec
 abseil
 adns
@@ -114,6 +114,7 @@ leptonica
 libarchive
 libass
 libassuan
+libavif
 libb2
 libbladerf
 libbluray
