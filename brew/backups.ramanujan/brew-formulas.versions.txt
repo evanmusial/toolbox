@@ -1,4 +1,4 @@
-# backup: 20250922 @ 1357 (UTC)
+# backup: 20250922 @ 2305 (UTC)
 a52dec 0.8.0
 abseil 20250814.0_1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.0
 augeas 1.14.1
-awscli 2.30.6
+awscli 2.30.7
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -80,7 +80,7 @@ glfw 3.4
 glib 2.86.0
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.41.1
+gnu-getopt 2.41.2
 gnu-sed 4.9
 gnupg 2.4.8
 gnutls 3.8.10
@@ -285,7 +285,7 @@ opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
 osinfo-db 20250606
-p11-kit 0.25.9
+p11-kit 0.25.10
 p7zip 17.06
 pango 1.57.0
 pcre 8.45
