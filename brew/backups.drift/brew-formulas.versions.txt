@@ -1,4 +1,4 @@
-# backup: 20250923 @ 1719 (UTC)
+# backup: 20250923 @ 2223 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1
 autoconf 2.72
-awscli 2.30.7
+awscli 2.31.0
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
