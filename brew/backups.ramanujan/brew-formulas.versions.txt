@@ -1,4 +1,4 @@
-# backup: 20250925 @ 0254 (UTC)
+# backup: 20250925 @ 1359 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -315,9 +315,9 @@ python-setuptools 80.9.0
 python-tk@3.11 3.11.13
 python@3.10 3.10.18
 python@3.11 3.11.13
-python@3.12 3.12.11
+python@3.12 3.12.11_1
 python@3.13 3.13.7
-python@3.9 3.9.23
+python@3.9 3.9.23_1
 qemu 10.1.0
 qpdf 12.2.0
 qrencode 4.1.1
