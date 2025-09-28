@@ -1,4 +1,4 @@
-# backup: 20250928 @ 1611 (UTC)
+# backup: 20250928 @ 2118 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -308,7 +308,7 @@ pwgen 2.08
 py3cairo 1.28.0
 pybind11 3.0.1
 pycparser 2.23
-pygobject3 3.54.2
+pygobject3 3.54.3
 python-gdbm@3.11 3.11.13
 python-packaging 25.0
 python-setuptools 80.9.0
