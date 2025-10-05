@@ -1,4 +1,4 @@
-# backup: 20251001 @ 1250 (UTC)
+# backup: 20251005 @ 0743 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.0
 augeas 1.14.1
-awscli 2.31.5
+awscli 2.31.8
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
@@ -28,7 +28,7 @@ certifi 2025.8.3
 cffi 2.0.0
 chrony 4.8
 cjson 1.7.19
-cmake 4.1.1
+cmake 4.1.2
 cmocka 1.1.8
 codec2 1.2.0
 coreutils 9.8
@@ -45,8 +45,8 @@ dbus 1.16.2_1
 dialog 1.3-20250817
 docbook 5.1_1
 docbook-xsl 1.79.2_1
-docker 28.4.0
-docker-completion 28.4.0
+docker 28.5.0
+docker-completion 28.5.0
 double-conversion 3.3.1
 dtc 1.7.2
 duktape 2.7.0
@@ -69,7 +69,7 @@ fribidi 1.0.16
 gawk 5.3.1
 gcc 15.2.0
 gdbm 1.26
-gdk-pixbuf 2.44.2
+gdk-pixbuf 2.44.3
 gengetopt 2.23
 gettext 0.26
 ghostscript 10.05.1
@@ -98,7 +98,7 @@ gtk4 4.20.2
 gtksourceview4 4.8.4_1
 guile 3.0.10
 hackrf 2024.02.1
-harfbuzz 12.0.0
+harfbuzz 12.1.0
 hicolor-icon-theme 0.18
 highway 1.3.0
 html2text 2.3.0
@@ -208,7 +208,7 @@ libusb 1.0.29
 libusrsctp 0.9.5.0_1
 libuv 1.51.0
 libvidstab 1.1.1
-libvirt 11.7.0
+libvirt 11.8.0
 libvirt-glib 5.0.0
 libvirt-python 11.7.0
 libvmaf 3.0.0
@@ -263,7 +263,7 @@ nettle 3.10.2
 nghttp2 1.67.1
 nlohmann-json 3.12.0
 nmap 7.98
-node 24.9.0
+node 24.9.0_1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.3.3
@@ -279,7 +279,7 @@ openjpeg 2.5.4
 openjph 0.24.1
 openldap 2.6.10_1
 openmotif 2.3.8_3
-openssl@3 3.5.3
+openssl@3 3.6.0
 openvino 2025.3.0_1
 opus 1.5.2
 opusfile 0.12_1
@@ -333,7 +333,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_1
 sdl2 2.32.10
 shared-mime-info 2.4
-simdjson 3.13.0
+simdjson 4.0.7
 simdutf 7.4.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
