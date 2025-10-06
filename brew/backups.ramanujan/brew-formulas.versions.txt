@@ -1,4 +1,4 @@
-# backup: 20251006 @ 0614 (UTC)
+# backup: 20251006 @ 0837 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -253,7 +253,7 @@ moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.1
 mpfr 4.2.2
-mpg123 1.33.2
+mpg123 1.33.3
 mplayer 1.5_1
 mtr 0.96
 musepack r475
