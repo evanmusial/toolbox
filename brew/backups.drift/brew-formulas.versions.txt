@@ -1,4 +1,4 @@
-# backup: 20251010 @ 1730 (UTC)
+# backup: 20251014 @ 0520 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,21 +10,21 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1
 autoconf 2.72
-awscli 2.31.12
+awscli 2.31.14
 bash 5.3.3
 bdw-gc 8.2.8
 berkeley-db@5 5.3.28_1
 boost 1.89.0
 boost-build 1.89.0
 brotli 1.1.0
-bun 1.2.23
+bun 1.3.0
 bwfmetaedit 25.04.1
 c-ares 1.34.5
 ca-certificates 2025-09-09
 cairo 1.18.4
 certbot 5.1.0
-certifi 2025.10.5
-cffi 2.0.0
+certifi 2025.10.5_1
+cffi 2.0.0_1
 cjson 1.7.19
 cmake 4.1.2
 cmocka 1.1.8
@@ -34,7 +34,7 @@ cowsay 3.8.4
 cpu_features 0.10.1
 cpufetch 1.06
 crc32c 1.1.2
-cryptography 46.0.2
+cryptography 46.0.2_1
 curl 8.16.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.1
@@ -186,7 +186,7 @@ libxext 1.3.6
 libxft 2.3.9
 libxls 1.6.3
 libxlsxwriter 1.2.3
-libxml2 2.13.8
+libxml2 2.13.8_1
 libxmp 4.6.3
 libxmu 1.2.1
 libxp 1.0.4
@@ -263,7 +263,7 @@ protobuf 32.1
 pugixml 1.15
 pwgen 2.08
 pybind11 3.0.1_1
-pycparser 2.23
+pycparser 2.23_1
 pyenv 2.6.10
 python-gdbm@3.11 3.11.14
 python-tk@3.11 3.11.14
@@ -351,7 +351,7 @@ volk 3.2.0
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
-whois 5.6.4
+whois 5.6.5
 x264 r3222
 x265 4.1
 xbitmaps 1.1.3
