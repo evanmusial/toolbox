@@ -1,4 +1,4 @@
-# backup: 20251026 @ 1714 (UTC)
+# backup: 20251028 @ 2323 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.1
 augeas 1.14.1
-awscli 2.31.22
+awscli 2.31.24
 bash 5.3.3
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -74,7 +74,7 @@ gengetopt 2.23
 gettext 0.26
 ghostscript 10.06.0
 giflib 5.2.2
-git 2.51.1
+git 2.51.2
 git-lfs 3.7.1
 glfw 3.4
 glib 2.86.1
@@ -266,7 +266,7 @@ nettle 3.10.2
 nghttp2 1.68.0
 nlohmann-json 3.12.0
 nmap 7.98
-node 24.10.0
+node 24.10.0_1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.3.4
@@ -279,7 +279,7 @@ openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.4.2
 openjpeg 2.5.4
-openjph 0.24.2
+openjph 0.24.3
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
@@ -373,7 +373,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_1
 sdl2 2.32.10
 shared-mime-info 2.4
-simdjson 4.0.7
+simdjson 4.1.0
 simdutf 7.5.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
