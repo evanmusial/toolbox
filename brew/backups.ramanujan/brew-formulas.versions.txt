@@ -1,4 +1,4 @@
-# backup: 20251101 @ 1448 (UTC)
+# backup: 20251102 @ 0105 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -144,7 +144,7 @@ libcaca 0.99b20
 libcbor 0.13.0
 libcuefile r475
 libde265 1.0.16
-libdeflate 1.24
+libdeflate 1.25
 libebml 1.4.5
 libepoxy 1.5.10
 libev 4.33
