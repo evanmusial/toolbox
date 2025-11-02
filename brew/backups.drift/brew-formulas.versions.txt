@@ -1,4 +1,4 @@
-# backup: 20251102 @ 0107 (UTC)
+# backup: 20251102 @ 1658 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -234,9 +234,9 @@ oniguruma 6.9.10
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
-openexr 3.4.2
+openexr 3.4.2_1
 openjpeg 2.5.4
-openjph 0.24.5
+openjph 0.25.0
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
