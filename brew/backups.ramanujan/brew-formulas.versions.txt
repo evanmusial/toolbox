@@ -1,4 +1,4 @@
-# backup: 20251103 @ 0602 (UTC)
+# backup: 20251103 @ 2249 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -209,7 +209,7 @@ libusb 1.0.29
 libusrsctp 0.9.5.0_1
 libuv 1.51.0
 libvidstab 1.1.1
-libvirt 11.8.0
+libvirt 11.9.0
 libvirt-glib 5.0.0
 libvirt-python 11.7.0_1
 libvmaf 3.0.0
