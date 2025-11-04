@@ -1,4 +1,4 @@
-# backup: 20251102 @ 1919 (UTC)
+# backup: 20251104 @ 0119 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1
 autoconf 2.72
-awscli 2.31.27
+awscli 2.31.28
 bash 5.3.3
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -225,7 +225,7 @@ nettle 3.10.2
 nghttp2 1.68.0
 nlohmann-json 3.12.0
 nmap 7.98
-node 25.1.0
+node 25.1.0_1
 node_exporter 1.10.2
 npth 1.8
 numpy 2.3.4
@@ -322,7 +322,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_1
 sdl2 2.32.10
 shared-mime-info 2.4
-simdjson 4.1.0
+simdjson 4.2.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
