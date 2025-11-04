@@ -1,4 +1,4 @@
-# backup: 20251104 @ 0118 (UTC)
+# backup: 20251104 @ 1439 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -20,7 +20,7 @@ boost-build 1.89.0
 brotli 1.2.0
 bwfmetaedit 25.04.1
 c-ares 1.34.5
-ca-certificates 2025-09-09
+ca-certificates 2025-11-04
 cairo 1.18.4
 capstone 5.0.6
 certbot 5.1.0
@@ -186,7 +186,7 @@ libraqm 0.10.3
 libraw 0.21.4
 libreplaygain r475
 librist 0.2.11
-librsvg 2.61.2
+librsvg 2.61.3
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_2
@@ -373,7 +373,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_1
 sdl2 2.32.10
 shared-mime-info 2.4
-simdjson 4.2.0
+simdjson 4.2.1
 simdutf 7.5.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
