@@ -1,4 +1,4 @@
-# backup: 20251105 @ 0158 (UTC)
+# backup: 20251105 @ 1420 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1
 autoconf 2.72
-awscli 2.31.28
+awscli 2.31.29
 bash 5.3.3
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -234,7 +234,7 @@ oniguruma 6.9.10
 open-mpi 5.0.8
 openblas 0.3.30
 opencore-amr 0.1.6
-openexr 3.4.2_1
+openexr 3.4.3
 openjpeg 2.5.4
 openjph 0.25.0
 openldap 2.6.10_1
