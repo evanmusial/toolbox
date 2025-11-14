@@ -1,4 +1,4 @@
-# backup: 20251114 @ 2337 (UTC)
+# backup: 20251114 @ 2358 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -117,7 +117,7 @@ imagemagick 7.1.2-8_1
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.5
-iperf3 3.19.1
+iperf3 3.20
 isl 0.27
 jansson 2.14.1
 jasper 4.2.8
