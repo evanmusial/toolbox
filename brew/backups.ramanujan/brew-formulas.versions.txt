@@ -1,4 +1,4 @@
-# backup: 20251110 @ 1420 (UTC)
+# backup: 20251114 @ 2337 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,11 +11,11 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.1
 augeas 1.14.1_1
-awscli 2.31.32
+awscli 2.31.36
 bash 5.3.3
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
-boost 1.89.0
+boost 1.89.0_1
 boost-build 1.89.0
 brotli 1.2.0
 bwfmetaedit 25.04.1
@@ -24,14 +24,14 @@ ca-certificates 2025-11-04
 cairo 1.18.4
 capstone 5.0.6
 certbot 5.1.0
-certifi 2025.10.5_1
+certifi 2025.11.12
 cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
 cmake 4.1.2
 cmocka 1.1.8
 codec2 1.2.0
-coreutils 9.8
+coreutils 9.9
 cpio 2.15
 cpu_features 0.10.1
 cpufetch 1.07
@@ -45,8 +45,8 @@ dbus 1.16.2_1
 dialog 1.3-20251001
 docbook 5.1_1
 docbook-xsl 1.79.2_1
-docker 28.5.2
-docker-completion 28.5.2
+docker 29.0.1
+docker-completion 29.0.1
 double-conversion 3.3.1
 dtc 1.7.2
 duktape 2.7.0
@@ -91,7 +91,7 @@ graphene 1.10.8
 graphite2 1.3.14
 grep 3.12
 gsettings-desktop-schemas 49.1
-gstreamer 1.26.7_1
+gstreamer 1.26.8
 gtk+3 3.24.51
 gtk-vnc 1.5.0
 gtk4 4.20.2
@@ -99,7 +99,7 @@ gtksourceview4 4.8.4_2
 guile 3.0.10
 gumbo-parser 0.13.2
 hackrf 2024.02.1
-harfbuzz 12.2.0
+harfbuzz 12.2.0_1
 hicolor-icon-theme 0.18
 highway 1.3.0
 html2text 2.3.0
@@ -108,7 +108,8 @@ httrack 3.49.2_1
 hunspell 1.7.2
 hwloc 2.12.2_1
 icu4c@76 76.1_2
-icu4c@77 77.1
+icu4c@77 77.1_1
+icu4c@78 78.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -158,7 +159,7 @@ libheif 1.20.2
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
-libimagequant 4.4.0
+libimagequant 4.4.1
 libiscsi 1.20.3
 libksba 1.6.7
 liblinear 2.49
@@ -225,7 +226,7 @@ libxft 2.3.9
 libxi 1.8.2
 libxls 1.6.3
 libxlsxwriter 1.2.3
-libxml2 2.15.1
+libxml2 2.15.1_1
 libxmp 4.6.3
 libxmu 1.2.1
 libxp 1.0.4
@@ -266,12 +267,12 @@ nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
 nmap 7.98
-node 25.1.0_1
+node 25.2.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.3.4
 nvm 0.40.3
-ocrmypdf 16.11.1_2
+ocrmypdf 16.12.0
 oniguruma 6.9.10
 onnx 1.17.0_9
 open-mpi 5.0.8
@@ -308,7 +309,7 @@ portaudio 19.7.0
 protobuf 33.0
 pugixml 1.15
 pwgen 2.08
-py3cairo 1.28.0_1
+py3cairo 1.29.0
 pybind11 3.0.1_1
 pycparser 2.23_1
 pygobject3 3.54.5
@@ -327,9 +328,9 @@ qpdf 12.2.0
 qrencode 4.1.1
 qt 6.9.3
 qt3d 6.9.3
-qt5compat 6.9.3
+qt5compat 6.9.3_1
 qt@5 5.15.17_1
-qtbase 6.9.3
+qtbase 6.9.3_1
 qtcharts 6.9.3
 qtconnectivity 6.9.3
 qtdatavis3d 6.9.3
@@ -360,7 +361,7 @@ qttools 6.9.3
 qttranslations 6.9.3
 qtvirtualkeyboard 6.9.3
 qtwebchannel 6.9.3
-qtwebengine 6.9.3_1
+qtwebengine 6.9.3_2
 qtwebsockets 6.9.3
 qtwebview 6.9.3
 rav1e 0.8.1
@@ -373,8 +374,8 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_2
 sdl2 2.32.10
 shared-mime-info 2.4_1
-simdjson 4.2.1
-simdutf 7.5.0
+simdjson 4.2.2
+simdutf 7.5.0_1
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -387,15 +388,15 @@ spice-protocol 0.14.5
 sqlite 3.51.0
 srt 1.5.4
 srtp 2.7.0
-streamlink 7.6.0_1
+streamlink 8.0.0
 streamripper 1.64.6_2
 svt-av1 3.1.2
 taglib 2.1.1
 tbb 2022.3.0
-tcl-tk 9.0.2
+tcl-tk 9.0.3
 tcl-tk@8 8.6.17
 telnet 306
-tesseract 5.5.1
+tesseract 5.5.1_1
 thefuck 3.32
 theora 1.2.0
 tmux 3.5a
@@ -404,12 +405,12 @@ unpaper 7.0.0_3
 usb.ids 2025.09.15
 usbredir 0.15.0
 utf8cpp 4.0.8
-utf8proc 2.11.0
+utf8proc 2.11.1
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_1
 volk 3.2.0
-vte3 0.82.1_1
+vte3 0.82.1_2
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
