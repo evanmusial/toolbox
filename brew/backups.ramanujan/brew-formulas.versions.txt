@@ -1,4 +1,4 @@
-# backup: 20251116 @ 1645 (UTC)
+# backup: 20251117 @ 1359 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -52,7 +52,7 @@ dtc 1.7.2
 duktape 2.7.0
 exempi 2.6.6
 exiftool 13.36
-eye-d3 0.9.8
+eye-d3 0.9.9
 faac 1.31.1
 faad2 2.11.2
 fdk-aac 2.0.3
@@ -280,7 +280,7 @@ openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.4.3
 openjpeg 2.5.4
-openjph 0.25.2
+openjph 0.25.3
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
