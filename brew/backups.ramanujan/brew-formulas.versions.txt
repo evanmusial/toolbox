@@ -1,4 +1,4 @@
-# backup: 20251122 @ 0100 (UTC)
+# backup: 20251122 @ 1948 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -376,7 +376,7 @@ sc-im 0.8.5_2
 sdl2 2.32.10
 shared-mime-info 2.4_1
 simdjson 4.2.2
-simdutf 7.6.0
+simdutf 7.7.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -411,7 +411,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_1
 volk 3.2.0
-vte3 0.82.1_3
+vte3 0.82.1_4
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
