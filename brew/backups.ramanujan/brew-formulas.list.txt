@@ -1,4 +1,4 @@
-# backup: 20251119 @ 0001 (UTC)
+# backup: 20251122 @ 0100 (UTC)
 a52dec
 abseil
 adns
@@ -247,6 +247,7 @@ lzo
 m4
 mad
 mbedtls
+mbedtls@3
 md4c
 media-info
 mkvdts2ac3
