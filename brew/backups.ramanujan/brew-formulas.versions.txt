@@ -1,4 +1,4 @@
-# backup: 20251128 @ 1733 (UTC)
+# backup: 20251129 @ 0056 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -276,7 +276,7 @@ nvm 0.40.3
 ocrmypdf 16.12.0
 oniguruma 6.9.10
 onnx 1.17.0_10
-open-mpi 5.0.8
+open-mpi 5.0.9
 openblas 0.3.30
 opencore-amr 0.1.6
 openexr 3.4.4
@@ -401,7 +401,7 @@ tesseract 5.5.1_1
 thefuck 3.32
 theora 1.2.0
 tmux 3.6
-unbound 1.24.1
+unbound 1.24.2
 unpaper 7.0.0_3
 usb.ids 2025.09.15
 usbredir 0.15.0
