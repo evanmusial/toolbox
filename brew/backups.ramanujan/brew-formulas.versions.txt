@@ -1,4 +1,4 @@
-# backup: 20251213 @ 0257 (UTC)
+# backup: 20251213 @ 1601 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -376,7 +376,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_2
 sdl2 2.32.10
 shared-mime-info 2.4_1
-simdjson 4.2.2
+simdjson 4.2.3
 simdutf 7.7.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
