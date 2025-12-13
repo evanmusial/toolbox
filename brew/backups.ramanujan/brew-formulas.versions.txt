@@ -1,4 +1,4 @@
-# backup: 20251213 @ 1601 (UTC)
+# backup: 20251213 @ 2204 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -276,7 +276,7 @@ numpy 2.3.5
 nvm 0.40.3
 ocrmypdf 16.12.0
 oniguruma 6.9.10
-onnx 1.17.0_10
+onnx 1.17.0_11
 open-mpi 5.0.9
 openblas 0.3.30
 opencore-amr 0.1.6
@@ -286,7 +286,7 @@ openjph 0.25.3
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
-openvino 2025.4.0
+openvino 2025.4.0_1
 opus 1.5.2
 opusfile 0.12_1
 orc 0.4.41
@@ -308,7 +308,7 @@ pmix 5.0.9
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.1
+protobuf 33.2
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
@@ -338,7 +338,7 @@ qtconnectivity 6.9.3
 qtdatavis3d 6.9.3
 qtdeclarative 6.9.3
 qtgraphs 6.9.3
-qtgrpc 6.9.3_2
+qtgrpc 6.9.3_3
 qthttpserver 6.9.3
 qtimageformats 6.9.3
 qtlanguageserver 6.9.3
