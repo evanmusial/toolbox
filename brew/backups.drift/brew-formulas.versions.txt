@@ -1,4 +1,4 @@
-# backup: 20251213 @ 2051 (UTC)
+# backup: 20251215 @ 0202 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -130,7 +130,7 @@ libevent 2.1.12_1
 libffi 3.5.2
 libgcrypt 1.11.2
 libgit2 1.9.2
-libgpg-error 1.57
+libgpg-error 1.58
 libheif 1.20.2
 libice 1.1.2
 libidn 1.43
@@ -335,7 +335,7 @@ speedtest-cli 2.1.3_2
 speex 1.2.1
 sqlite 3.51.1
 srt 1.5.4
-streamlink 8.0.0_1
+streamlink 8.1.0
 streamripper 1.64.6_2
 svt-av1 3.1.2
 switchaudio-osx 1.2.2
