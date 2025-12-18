@@ -1,4 +1,4 @@
-# backup: 20251215 @ 0201 (UTC)
+# backup: 20251218 @ 0315 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,12 +11,12 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.2
 augeas 1.14.1_1
-awscli 2.32.16
+awscli 2.32.19
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
-boost 1.89.0_1
-boost-build 1.89.0
+boost 1.90.0
+boost-build 1.90.0
 brotli 1.2.0
 bwfmetaedit 25.04.1
 c-ares 1.34.6
@@ -51,7 +51,7 @@ double-conversion 3.4.0
 dtc 1.7.2
 duktape 2.7.0
 exempi 2.6.6
-exiftool 13.36
+exiftool 13.44
 eye-d3 0.9.9
 faac 1.31.1
 faad2 2.11.2
@@ -80,7 +80,7 @@ glfw 3.4
 glib 2.86.3
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.41.2
+gnu-getopt 2.41.3
 gnu-sed 4.9
 gnupg 2.4.8
 gnutls 3.8.11
@@ -113,7 +113,7 @@ icu4c@78 78.1
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.2-10
+imagemagick 7.1.2-11
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.5
@@ -177,7 +177,7 @@ libnghttp3 1.13.1
 libngtcp2 1.18.0
 libnice 0.1.23
 libogg 1.3.6
-libomp 21.1.7
+libomp 21.1.8
 libosinfo 1.12.0_1
 libpng 1.6.53
 libproxy 0.5.12
@@ -253,7 +253,7 @@ md4c 0.5.2
 media-info 25.10
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 96.0
+mkvtoolnix 96.0_1
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -287,7 +287,7 @@ openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
 openvino 2025.4.0_1
-opus 1.5.2
+opus 1.6
 opusfile 0.12_1
 orc 0.4.41
 osinfo-db 20251212
@@ -404,7 +404,7 @@ theora 1.2.0
 tmux 3.6a
 unbound 1.24.2
 unpaper 7.0.0_3
-usb.ids 2025.09.15
+usb.ids 2025.12.13
 usbredir 0.15.0
 utf8cpp 4.0.8
 utf8proc 2.11.2
@@ -426,7 +426,7 @@ xorgproto 2024.1
 xpdf 4.06
 xvid 1.3.7
 xxhash 0.8.3
-xz 5.8.1
+xz 5.8.2
 yajl 2.1.0
 zeromq 4.3.5_2
 zimg 3.0.6
