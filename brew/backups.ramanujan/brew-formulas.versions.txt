@@ -1,4 +1,4 @@
-# backup: 20251219 @ 0210 (UTC)
+# backup: 20251220 @ 1514 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.2
 augeas 1.14.1_1
-awscli 2.32.20
+awscli 2.32.21
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -29,7 +29,7 @@ cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
 cmake 4.2.1
-cmocka 2.0.0
+cmocka 2.0.1
 codec2 1.2.0
 coreutils 9.9
 cpio 2.15
@@ -286,7 +286,7 @@ openjph 0.25.3
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
-openvino 2025.4.0_1
+openvino 2025.4.1
 opus 1.6
 opusfile 0.12_1
 orc 0.4.41
@@ -422,7 +422,7 @@ x265 4.1
 xbitmaps 1.1.3
 xmlto 0.0.29
 xmp 4.2.0
-xorgproto 2024.1
+xorgproto 2025.1
 xpdf 4.06
 xvid 1.3.7
 xxhash 0.8.3
