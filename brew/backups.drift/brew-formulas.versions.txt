@@ -1,4 +1,4 @@
-# backup: 20251223 @ 1703 (UTC)
+# backup: 20251224 @ 0224 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.32.22
+awscli 2.32.23
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -56,7 +56,7 @@ ffmpeg 8.0.1
 fftw 3.3.10_2
 findutils 4.10.0
 flac 1.5.0
-fluid-synth 2.5.1
+fluid-synth 2.5.2
 fmt 12.1.0
 fontconfig 2.17.1
 freetype 2.14.1_1
