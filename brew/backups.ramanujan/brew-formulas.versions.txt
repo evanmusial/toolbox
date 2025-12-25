@@ -1,4 +1,4 @@
-# backup: 20251225 @ 0554 (UTC)
+# backup: 20251225 @ 1056 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -133,7 +133,7 @@ json-glib 1.10.8
 jsoncpp 1.9.6
 krb5 1.22.1
 lame 3.100
-leptonica 1.86.0
+leptonica 1.87.0
 libarchive 3.8.4
 libass 0.17.4
 libassuan 3.0.2
