@@ -1,4 +1,4 @@
-# backup: 20251227 @ 0343 (UTC)
+# backup: 20251227 @ 1927 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -342,7 +342,7 @@ switchaudio-osx 1.2.2
 tcl-tk 9.0.3
 tcl-tk@8 8.6.17
 telnet 306
-tesseract 5.5.1_1
+tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
 tmux 3.6a
