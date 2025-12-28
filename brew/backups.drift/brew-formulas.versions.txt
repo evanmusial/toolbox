@@ -1,4 +1,4 @@
-# backup: 20251227 @ 2336 (UTC)
+# backup: 20251228 @ 1730 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -233,7 +233,7 @@ node 25.2.1
 node_exporter 1.10.2
 npth 1.8
 numpy 2.4.0
-ocrmypdf 16.13.0
+ocrmypdf 16.13.0_1
 oniguruma 6.9.10
 open-mpi 5.0.9
 openblas 0.3.30
