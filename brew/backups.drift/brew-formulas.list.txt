@@ -1,4 +1,4 @@
-# backup: 20251228 @ 1730 (UTC)
+# backup: 20251229 @ 0421 (UTC)
 a52dec
 abseil
 adns
@@ -64,6 +64,7 @@ frei0r
 fribidi
 gcc
 gdbm
+gdk-pixbuf
 gengetopt
 geoip
 gettext
@@ -159,6 +160,7 @@ libpthread-stubs
 libraqm
 libraw
 librist
+librsvg
 librtlsdr
 libsamplerate
 libsm

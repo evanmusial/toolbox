@@ -1,4 +1,4 @@
-# backup: 20251228 @ 1730 (UTC)
+# backup: 20251229 @ 0421 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -64,6 +64,7 @@ frei0r 2.5.1
 fribidi 1.0.16
 gcc 15.2.0
 gdbm 1.26
+gdk-pixbuf 2.44.4
 gengetopt 2.23
 geoip 1.6.12
 gettext 0.26_1
@@ -95,7 +96,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-11
+imagemagick 7.1.2-12
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.5
@@ -159,6 +160,7 @@ libpthread-stubs 0.5
 libraqm 0.10.3
 libraw 0.21.5
 librist 0.2.11_1
+librsvg 2.61.3_1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libsm 1.2.6
@@ -348,7 +350,7 @@ theora 1.2.0
 tmux 3.6a
 unbound 1.24.2
 unpaper 7.0.0_3
-utf8cpp 4.0.8
+utf8cpp 4.09
 utf8proc 2.11.2
 uvwasi 0.0.23
 vamp-plugin-sdk 2.10.0_1
