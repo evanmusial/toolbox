@@ -1,4 +1,4 @@
-# backup: 20260101 @ 1453 (UTC)
+# backup: 20260101 @ 1835 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -226,7 +226,7 @@ mpg123 1.33.4
 mplayer 1.5_2
 mtr 0.96
 mysql@5.7 5.7.44_1
-ncurses 6.5
+ncurses 6.6
 nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
@@ -350,7 +350,7 @@ theora 1.2.0
 tmux 3.6a
 unbound 1.24.2
 unpaper 7.0.0_3
-utf8cpp 4.09
+utf8cpp 4.0.9
 utf8proc 2.11.3
 uvwasi 0.0.23
 vamp-plugin-sdk 2.10.0_1
