@@ -1,4 +1,4 @@
-# backup: 20260101 @ 2301 (UTC)
+# backup: 20260102 @ 0255 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -264,7 +264,7 @@ mplayer 1.5_2
 mtr 0.96
 musepack r475
 mysql-client@8.4 8.4.7
-ncurses 6.5
+ncurses 6.6
 nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
@@ -406,7 +406,7 @@ unbound 1.24.2
 unpaper 7.0.0_3
 usb.ids 2025.12.13
 usbredir 0.15.0
-utf8cpp 4.09
+utf8cpp 4.0.9
 utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
