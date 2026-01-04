@@ -1,4 +1,4 @@
-# backup: 20260103 @ 0332 (UTC)
+# backup: 20260104 @ 1924 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -9,9 +9,9 @@ aom 3.13.1
 aria2 1.37.0_1
 aribb24 1.0.4
 assimp 6.0.2
-at-spi2-core 2.58.2
+at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.32.27
+awscli 2.32.28
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -116,7 +116,7 @@ id3v2 0.1.12
 imagemagick 7.1.2-12
 imath 3.2.2
 img2pdf 0.6.3
-imlib2 1.12.5
+imlib2 1.12.6
 iperf3 3.20
 isl 0.27
 jansson 2.14.1
@@ -412,7 +412,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_2
 volk 3.2.0
-vte3 0.82.2
+vte3 0.82.3
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
