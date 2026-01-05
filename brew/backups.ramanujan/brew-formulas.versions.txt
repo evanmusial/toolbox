@@ -1,4 +1,4 @@
-# backup: 20260104 @ 1956 (UTC)
+# backup: 20260105 @ 0440 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -24,7 +24,7 @@ ca-certificates 2025-12-02
 cairo 1.18.4
 capstone 5.0.6
 certbot 5.2.2
-certifi 2025.11.12
+certifi 2026.1.4 2025.11.12
 cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
