@@ -1,4 +1,4 @@
-# backup: 20260104 @ 1801 (UTC)
+# backup: 20260106 @ 0448 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.32.28
+awscli 2.32.29
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -23,7 +23,7 @@ c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
 certbot 5.2.2
-certifi 2025.11.12
+certifi 2026.1.4
 cffi 2.0.0_1
 cjson 1.7.19
 cmake 4.2.1
@@ -39,7 +39,7 @@ curl 8.17.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
-deno 2.6.3
+deno 2.6.4
 dialog 1.3-20251223
 docbook 5.1_1
 docbook-xsl 1.79.2_1
@@ -83,7 +83,7 @@ gpac 2.4.0_4
 graphite2 1.3.14
 guile 3.0.11
 gumbo-parser 0.13.2
-hackrf 2024.02.1
+hackrf 2026.01.1
 harfbuzz 12.3.0
 highway 1.3.0
 html2text 2.4.0
