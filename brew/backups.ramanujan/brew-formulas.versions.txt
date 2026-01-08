@@ -1,4 +1,4 @@
-# backup: 20260107 @ 1733 (UTC)
+# backup: 20260108 @ 0520 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.32.30
+awscli 2.32.31
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -38,11 +38,11 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 46.0.3
 cunit 2.1-3
-curl 8.17.0
+curl 8.18.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
-dialog 1.3-20251223
+dialog 1.3-20260107
 docbook 5.1_1
 docbook-xsl 1.79.2_1
 docker 29.1.3
