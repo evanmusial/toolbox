@@ -1,4 +1,4 @@
-# backup: 20260109 @ 0406 (UTC)
+# backup: 20260109 @ 1430 (UTC)
 a52dec 0.8.0
 abseil 20250814.1
 adns 1.6.1
@@ -199,7 +199,7 @@ libsoup 3.6.5
 libsoxr 0.1.3
 libssh 0.11.3
 libssh2 1.11.1
-libtasn1 4.20.0
+libtasn1 4.21.0
 libtiff 4.7.1
 libtommath 1.3.0
 libtool 2.5.4
@@ -289,7 +289,7 @@ openssl@3 3.6.0
 openvino 2025.4.1
 opus 1.6
 opusfile 0.12_1
-orc 0.4.41
+orc 0.4.42
 osinfo-db 20251212
 p11-kit 0.25.10
 p7zip 17.06
