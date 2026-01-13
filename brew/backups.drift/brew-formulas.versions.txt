@@ -1,6 +1,6 @@
-# backup: 20260111 @ 2025 (UTC)
+# backup: 20260113 @ 0139 (UTC)
 a52dec 0.8.0
-abseil 20250814.1
+abseil 20260107.0
 adns 1.6.1
 airspy 1.0.10
 airspyhf 1.6.8
@@ -27,7 +27,7 @@ certifi 2026.1.4
 cffi 2.0.0_1
 cjson 1.7.19
 cmake 4.2.1
-cmocka 2.0.1
+cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.9
 cowsay 3.8.4
@@ -265,7 +265,7 @@ pmix 5.0.9
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.2
+protobuf 33.3
 pugixml 1.15
 pwgen 2.08
 pybind11 3.0.1_1
@@ -290,7 +290,7 @@ qtconnectivity 6.10.1
 qtdatavis3d 6.10.1
 qtdeclarative 6.10.1
 qtgraphs 6.10.1
-qtgrpc 6.10.1
+qtgrpc 6.10.1_1
 qthttpserver 6.10.1
 qtimageformats 6.10.1
 qtlanguageserver 6.10.1
