@@ -1,6 +1,6 @@
-# backup: 20260112 @ 0031 (UTC)
+# backup: 20260113 @ 2329 (UTC)
 a52dec 0.8.0
-abseil 20250814.1
+abseil 20260107.0
 adns 1.6.1
 adwaita-icon-theme 49.0
 airspy 1.0.10
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.2
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.32.32_1
+awscli 2.32.33
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -29,7 +29,7 @@ cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
 cmake 4.2.1
-cmocka 2.0.1
+cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.9
 cpio 2.15
@@ -179,7 +179,7 @@ libnice 0.1.23
 libogg 1.3.6
 libomp 21.1.8
 libosinfo 1.12.0_1
-libpng 1.6.53
+libpng 1.6.54
 libproxy 0.5.12
 libpsl 0.21.5_2
 libpthread-stubs 0.5
@@ -276,7 +276,7 @@ numpy 2.4.1
 nvm 0.40.3
 ocrmypdf 16.13.0_2
 oniguruma 6.9.10
-onnx 1.20.1
+onnx 1.20.1_1
 open-mpi 5.0.9
 openblas 0.3.30
 opencore-amr 0.1.6
@@ -286,7 +286,7 @@ openjph 0.26.0
 openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@3 3.6.0
-openvino 2025.4.1_1
+openvino 2025.4.1_2
 opus 1.6
 opusfile 0.12_1
 orc 0.4.42
@@ -308,7 +308,7 @@ pmix 5.0.9
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.2
+protobuf 33.3
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
@@ -338,7 +338,7 @@ qtconnectivity 6.10.1
 qtdatavis3d 6.10.1
 qtdeclarative 6.10.1
 qtgraphs 6.10.1
-qtgrpc 6.10.1
+qtgrpc 6.10.1_1
 qthttpserver 6.10.1
 qtimageformats 6.10.1
 qtlanguageserver 6.10.1
@@ -377,7 +377,7 @@ sc-im 0.8.5_3
 sdl2 2.32.10
 shared-mime-info 2.4_1
 simdjson 4.2.4
-simdutf 7.7.1
+simdutf 8.0.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -412,7 +412,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_3
 volk 3.2.0
-vte3 0.82.3
+vte3 0.82.3_1
 watch 4.0.5
 webp 1.6.0
 wget 1.25.0
