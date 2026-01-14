@@ -1,4 +1,4 @@
-# backup: 20260113 @ 2329 (UTC)
+# backup: 20260114 @ 1559 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.32.33
+awscli 2.32.34
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -270,7 +270,7 @@ pugixml 1.15
 pwgen 2.08
 pybind11 3.0.1_1
 pycparser 2.23_1
-pyenv 2.6.18
+pyenv 2.6.19
 python-gdbm@3.11 3.11.14
 python-tk@3.11 3.11.14
 python@3.10 3.10.19_1
