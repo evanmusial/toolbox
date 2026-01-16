@@ -1,4 +1,4 @@
-# backup: 20260116 @ 0101 (UTC)
+# backup: 20260116 @ 1519 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -96,7 +96,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-12
+imagemagick 7.1.2-12_1
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.6
@@ -132,7 +132,7 @@ libffi 3.5.2
 libgcrypt 1.11.2
 libgit2 1.9.2
 libgpg-error 1.58
-libheif 1.21.1
+libheif 1.21.2
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
@@ -158,7 +158,7 @@ libpng 1.6.54
 libproxy 0.5.12
 libpthread-stubs 0.5
 libraqm 0.10.3
-libraw 0.21.5
+libraw 0.22.0
 librist 0.2.11_1
 librsvg 2.61.3_1
 librtlsdr 2.0.2
@@ -247,7 +247,7 @@ openldap 2.6.10_1
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.6.0
-opus 1.6
+opus 1.6.1
 opusfile 0.12_1
 orc 0.4.42
 p11-kit 0.25.10
@@ -265,7 +265,7 @@ pmix 5.0.9
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.3
+protobuf 33.4
 pugixml 1.15
 pwgen 2.08
 pybind11 3.0.1_1
@@ -290,7 +290,7 @@ qtconnectivity 6.10.1
 qtdatavis3d 6.10.1
 qtdeclarative 6.10.1
 qtgraphs 6.10.1
-qtgrpc 6.10.1_1
+qtgrpc 6.10.1_2
 qthttpserver 6.10.1
 qtimageformats 6.10.1
 qtlanguageserver 6.10.1
