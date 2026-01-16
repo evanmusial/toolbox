@@ -1,4 +1,4 @@
-# backup: 20260115 @ 1416 (UTC)
+# backup: 20260116 @ 0101 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.33.0
+awscli 2.33.1
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -39,7 +39,7 @@ curl 8.18.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
-deno 2.6.4
+deno 2.6.5
 dialog 1.3-20260107
 docbook 5.1_1
 docbook-xsl 1.79.2_1
