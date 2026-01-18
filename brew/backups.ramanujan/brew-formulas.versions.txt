@@ -1,4 +1,4 @@
-# backup: 20260118 @ 1444 (UTC)
+# backup: 20260118 @ 1803 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -291,7 +291,7 @@ opus 1.6.1
 opusfile 0.12_1
 orc 0.4.42
 osinfo-db 20251212
-p11-kit 0.25.10
+p11-kit 0.26.0
 p7zip 17.06
 pango 1.57.0_1
 pcre 8.45
@@ -390,7 +390,7 @@ spice-protocol 0.14.5
 sqlite 3.51.2
 srt 1.5.4
 srtp 2.7.0
-streamlink 8.1.1
+streamlink 8.1.2
 streamripper 1.64.6_2
 svt-av1 3.1.2
 taglib 2.1.1
