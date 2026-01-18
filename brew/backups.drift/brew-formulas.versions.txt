@@ -1,4 +1,4 @@
-# backup: 20260118 @ 1805 (UTC)
+# backup: 20260118 @ 2301 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -64,7 +64,6 @@ frei0r 2.5.1
 fribidi 1.0.16
 gcc 15.2.0
 gdbm 1.26
-gdk-pixbuf 2.44.4
 gengetopt 2.23
 geoip 1.6.12
 gettext 0.26_1
@@ -96,7 +95,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-12_1
+imagemagick 7.1.2-12_2
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.6
@@ -158,9 +157,7 @@ libpng 1.6.54
 libproxy 0.5.12
 libpthread-stubs 0.5
 libraqm 0.10.3
-libraw 0.22.0
 librist 0.2.11_1
-librsvg 2.61.3_1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libsm 1.2.6
@@ -174,7 +171,6 @@ libtiff 4.7.1
 libtommath 1.3.0
 libtool 2.5.4
 libudfread 1.2.0
-libultrahdr 1.4.0
 libunibreak 6.1
 libunistring 1.4.1
 libusb 1.0.29

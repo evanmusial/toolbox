@@ -1,4 +1,4 @@
-# backup: 20260118 @ 1805 (UTC)
+# backup: 20260118 @ 2301 (UTC)
 a52dec
 abseil
 adns
@@ -64,7 +64,6 @@ frei0r
 fribidi
 gcc
 gdbm
-gdk-pixbuf
 gengetopt
 geoip
 gettext
@@ -158,9 +157,7 @@ libpng
 libproxy
 libpthread-stubs
 libraqm
-libraw
 librist
-librsvg
 librtlsdr
 libsamplerate
 libsm
@@ -174,7 +171,6 @@ libtiff
 libtommath
 libtool
 libudfread
-libultrahdr
 libunibreak
 libunistring
 libusb
