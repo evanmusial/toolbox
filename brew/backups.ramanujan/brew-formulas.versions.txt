@@ -1,4 +1,4 @@
-# backup: 20260119 @ 1817 (UTC)
+# backup: 20260119 @ 2218 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -325,7 +325,7 @@ python@3.13 3.13.11
 python@3.14 3.14.2
 python@3.9 3.9.25
 qemu 10.2.0
-qpdf 12.3.0
+qpdf 12.3.1
 qrencode 4.1.1
 qt 6.10.1
 qt3d 6.10.1
