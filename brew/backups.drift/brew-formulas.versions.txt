@@ -1,4 +1,4 @@
-# backup: 20260122 @ 1606 (UTC)
+# backup: 20260123 @ 1857 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 adns 1.6.1
@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.2
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.33.4
+awscli 2.33.5
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -26,7 +26,7 @@ certbot 5.2.2_1
 certifi 2026.1.4
 cffi 2.0.0_1
 cjson 1.7.19
-cmake 4.2.1
+cmake 4.2.2
 cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.9
@@ -39,7 +39,7 @@ curl 8.18.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
-deno 2.6.5
+deno 2.6.6
 dialog 1.3-20260107
 docbook 5.1_1
 docbook-xsl 1.79.2_1
@@ -197,7 +197,7 @@ libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.11.4
 litehtml 0.9
-little-cms2 2.17
+little-cms2 2.18
 livestreamer 1.12.2_5
 lolcat 100.0.1
 lua 5.4.8
@@ -269,10 +269,10 @@ pycparser 3.0
 pyenv 2.6.20
 python-gdbm@3.11 3.11.14
 python-tk@3.11 3.11.14
-python@3.10 3.10.19_1
-python@3.11 3.11.14_1
-python@3.12 3.12.12
-python@3.13 3.13.11
+python@3.10 3.10.19_2
+python@3.11 3.11.14_2
+python@3.12 3.12.12_1
+python@3.13 3.13.11_1
 python@3.14 3.14.2
 python@3.9 3.9.25
 qpdf 12.3.1
@@ -365,7 +365,7 @@ xpdf 4.06
 xvid 1.3.7
 xxhash 0.8.3
 xz 5.8.2
-ykman 5.8.0_1
+ykman 5.9.0
 youtube-dl 2021.12.17
 yt-dlp 2025.12.8_1
 zeromq 4.3.5_2
