@@ -1,6 +1,7 @@
-# backup: 20260127 @ 2246 (UTC)
+# backup: 20260128 @ 0057 (UTC)
 a52dec
 abseil
+ada-url
 adns
 airspy
 airspyhf
@@ -84,6 +85,7 @@ guile
 gumbo-parser
 hackrf
 harfbuzz
+hdrhistogram_c
 highway
 html2text
 htop
@@ -199,6 +201,7 @@ libzip
 litehtml
 little-cms2
 livestreamer
+llhttp
 lolcat
 lua
 lz4

@@ -1,6 +1,7 @@
-# backup: 20260127 @ 2246 (UTC)
+# backup: 20260128 @ 0057 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
+ada-url 3.4.1
 adns 1.6.1
 airspy 1.0.10
 airspyhf 1.6.8
@@ -10,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.4
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.33.7
+awscli 2.33.8
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -84,6 +85,7 @@ guile 3.0.11
 gumbo-parser 0.13.2
 hackrf 2026.01.2
 harfbuzz 12.3.2
+hdrhistogram_c 0.11.9
 highway 1.3.0
 html2text 2.4.0
 htop 3.4.1
@@ -199,6 +201,7 @@ libzip 1.11.4
 litehtml 0.9
 little-cms2 2.18
 livestreamer 1.12.2_5
+llhttp 9.3.0
 lolcat 100.0.1
 lua 5.4.8
 lz4 1.10.0
@@ -227,7 +230,7 @@ nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
 nmap 7.98
-node 25.4.0
+node 25.5.0
 node_exporter 1.10.2
 npth 1.8
 numpy 2.4.1
