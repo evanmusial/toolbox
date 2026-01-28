@@ -1,4 +1,4 @@
-# backup: 20260128 @ 0057 (UTC)
+# backup: 20260128 @ 0500 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.1
@@ -27,7 +27,7 @@ certbot 5.2.2_1
 certifi 2026.1.4
 cffi 2.0.0_1
 cjson 1.7.19
-cmake 4.2.2
+cmake 4.2.3
 cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.9
