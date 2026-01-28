@@ -1,6 +1,7 @@
-# backup: 20260127 @ 0927 (UTC)
+# backup: 20260128 @ 0056 (UTC)
 a52dec
 abseil
+ada-url
 adns
 adwaita-icon-theme
 airspy
@@ -100,6 +101,7 @@ guile
 gumbo-parser
 hackrf
 harfbuzz
+hdrhistogram_c
 hicolor-icon-theme
 highway
 html2text
@@ -238,6 +240,7 @@ libzen
 libzip
 litehtml
 little-cms2
+llhttp
 logrotate
 lolcat
 lua
