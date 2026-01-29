@@ -1,4 +1,4 @@
-# backup: 20260129 @ 1400 (UTC)
+# backup: 20260129 @ 2220 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.1
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.4
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.33.9
+awscli 2.33.10
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -19,7 +19,7 @@ boost 1.90.0
 boost-build 1.90.0
 brotli 1.2.0
 bun 1.3.8
-bwfmetaedit 25.04.1
+bwfmetaedit 26.01
 c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
@@ -40,7 +40,7 @@ curl 8.18.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
-deno 2.6.6
+deno 2.6.7
 dialog 1.3-20260107
 docbook 5.1_1
 docbook-xsl 1.79.2_1
@@ -191,7 +191,7 @@ libxls 1.6.3
 libxlsxwriter 1.2.4
 libxml2 2.15.1_1
 libxmp 4.6.3
-libxmu 1.3.0
+libxmu 1.3.1
 libxp 1.0.4
 libxrender 0.9.12
 libxt 1.3.1
@@ -354,7 +354,7 @@ utf8proc 2.11.3
 uvwasi 0.0.23
 vamp-plugin-sdk 2.10.0_1
 volk 3.2.0
-watch 4.0.5
+watch 4.0.6
 webp 1.6.0
 wget 1.25.0
 whois 5.6.5
@@ -370,7 +370,7 @@ xxhash 0.8.3
 xz 5.8.2
 ykman 5.9.0
 youtube-dl 2021.12.17
-yt-dlp 2025.12.8_1
+yt-dlp 2026.1.29
 zeromq 4.3.5_2
 zimg 3.0.6
 zstd 1.5.7
