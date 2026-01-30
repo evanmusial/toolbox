@@ -1,4 +1,4 @@
-# backup: 20260130 @ 0142 (UTC)
+# backup: 20260130 @ 1607 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.1
@@ -37,7 +37,6 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 46.0.4
 curl 8.18.0
-cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
 deno 2.6.7
@@ -67,7 +66,7 @@ gcc 15.2.0
 gdbm 1.26
 gengetopt 2.23
 geoip 1.6.12
-gettext 0.26_1
+gettext 1.0
 ghostscript 10.06.0
 giflib 5.2.2
 git 2.52.0_1
@@ -83,7 +82,7 @@ gpac 2.4.0_5
 graphite2 1.3.14
 guile 3.0.11
 gumbo-parser 0.13.2
-hackrf 2026.01.2
+hackrf 2026.01.3
 harfbuzz 12.3.2
 hdrhistogram_c 0.11.9
 highway 1.3.0
@@ -113,7 +112,6 @@ jpeg-turbo 3.1.3
 jpeg-xl 0.11.1_3
 jq 1.8.1
 jsoncpp 1.9.6
-krb5 1.22.1
 lame 3.100
 leptonica 1.87.0
 libarchive 3.8.5
@@ -124,13 +122,14 @@ libb2 0.98.1
 libbladerf 2025.10
 libbluray 1.4.0_1
 libcaca 0.99b20
+libdatrie 0.2.14
 libde265 1.0.16
 libdeflate 1.25
 libebml 1.4.5
 libev 4.33
 libevent 2.1.12_1
 libffi 3.5.2
-libgcrypt 1.11.2
+libgcrypt 1.12.0
 libgit2 1.9.2
 libgpg-error 1.58
 libheif 1.21.2
@@ -169,6 +168,7 @@ libsoxr 0.1.3
 libssh 0.11.3
 libssh2 1.11.1
 libtasn1 4.21.0
+libthai 0.1.30
 libtiff 4.7.1
 libtommath 1.3.0
 libtool 2.5.4
@@ -234,7 +234,7 @@ node 25.5.0
 node_exporter 1.10.2
 npth 1.8
 numpy 2.4.1
-ocrmypdf 16.13.0_2
+ocrmypdf 17.0.0
 oniguruma 6.9.10
 open-mpi 5.0.9
 openblas 0.3.31
@@ -242,7 +242,7 @@ opencore-amr 0.1.6
 openexr 3.4.4_1
 openjpeg 2.5.4
 openjph 0.26.0
-openldap 2.6.10_1
+openldap 2.6.12
 openmotif 2.3.8_3
 openssl@1.1 1.1.1w
 openssl@3 3.6.1
@@ -251,7 +251,7 @@ opusfile 0.12_1
 orc 0.4.42
 p11-kit 0.26.1
 p7zip 17.06
-pango 1.57.0_1
+pango 1.57.0_2
 pcre 8.45
 pcre2 10.47
 perl 5.42.0
@@ -269,6 +269,7 @@ pugixml 1.15
 pwgen 2.08
 pybind11 3.0.1_1
 pycparser 3.0
+pydantic 2.12.5
 pyenv 2.6.20
 python-gdbm@3.11 3.11.14
 python-tk@3.11 3.11.14

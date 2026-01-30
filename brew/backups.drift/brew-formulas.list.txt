@@ -1,4 +1,4 @@
-# backup: 20260130 @ 0142 (UTC)
+# backup: 20260130 @ 1607 (UTC)
 a52dec
 abseil
 ada-url
@@ -37,7 +37,6 @@ cpufetch
 crc32c
 cryptography
 curl
-cyrus-sasl
 dav1d
 dbus
 deno
@@ -113,7 +112,6 @@ jpeg-turbo
 jpeg-xl
 jq
 jsoncpp
-krb5
 lame
 leptonica
 libarchive
@@ -124,6 +122,7 @@ libb2
 libbladerf
 libbluray
 libcaca
+libdatrie
 libde265
 libdeflate
 libebml
@@ -169,6 +168,7 @@ libsoxr
 libssh
 libssh2
 libtasn1
+libthai
 libtiff
 libtommath
 libtool
@@ -269,6 +269,7 @@ pugixml
 pwgen
 pybind11
 pycparser
+pydantic
 pyenv
 python-certifi
 python-cryptography
