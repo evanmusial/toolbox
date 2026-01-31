@@ -1,4 +1,4 @@
-# backup: 20260131 @ 2346 (UTC)
+# backup: 20260131 @ 2349 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -37,7 +37,7 @@ cpio 2.15
 cpu_features 0.10.1
 cpufetch 1.07
 crc32c 1.1.2
-cryptography 46.0.3 46.0.4
+cryptography 46.0.4
 cunit 2.1-3
 curl 8.18.0
 dav1d 1.5.3
@@ -326,7 +326,7 @@ python@3.10 3.10.19_2
 python@3.11 3.11.14_2
 python@3.12 3.12.12_1
 python@3.13 3.13.11_1
-python@3.14 3.14.2_1 3.14.2
+python@3.14 3.14.2_1
 python@3.9 3.9.25
 qemu 10.2.0
 qpdf 12.3.2
