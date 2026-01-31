@@ -1,7 +1,7 @@
-# backup: 20260130 @ 2204 (UTC)
+# backup: 20260131 @ 2338 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
-ada-url 3.4.1
+ada-url 3.4.2
 adns 1.6.1
 airspy 1.0.10
 airspyhf 1.6.8
@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.4
 augeas 1.14.1_1
 autoconf 2.72
-awscli 2.33.11
+awscli 2.33.12
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -234,7 +234,7 @@ node 25.5.0
 node_exporter 1.10.2
 npth 1.8
 numpy 2.4.1
-ocrmypdf 17.0.1
+ocrmypdf 17.1.0
 oniguruma 6.9.10
 open-mpi 5.0.9
 openblas 0.3.31
