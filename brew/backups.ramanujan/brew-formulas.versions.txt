@@ -1,7 +1,7 @@
-# backup: 20260130 @ 0140 (UTC)
+# backup: 20260131 @ 2337 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
-ada-url 3.4.1
+ada-url 3.4.2
 adns 1.6.1
 adwaita-icon-theme 49.0
 airspy 1.0.10
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.11
+awscli 2.33.12
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -40,7 +40,6 @@ crc32c 1.1.2
 cryptography 46.0.3 46.0.4
 cunit 2.1-3
 curl 8.18.0
-cyrus-sasl 2.1.28_2
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
@@ -57,8 +56,8 @@ eye-d3 0.9.9
 faac 1.31.1
 faad2 2.11.2
 fdk-aac 2.0.3
-ffmpeg 8.0.1_1
-ffmpeg@6 6.1.4
+ffmpeg 8.0.1_2
+ffmpeg@6 6.1.4_1
 fftw 3.3.10_3
 findutils 4.10.0
 flac 1.5.0
@@ -72,7 +71,7 @@ gcc 15.2.0
 gdbm 1.26
 gdk-pixbuf 2.44.5
 gengetopt 2.23
-gettext 0.26_1
+gettext 1.0
 ghostscript 10.06.0
 giflib 5.2.2
 git 2.52.0_1
@@ -92,14 +91,14 @@ graphene 1.10.8
 graphite2 1.3.14
 grep 3.12
 gsettings-desktop-schemas 49.1
-gstreamer 1.26.10
+gstreamer 1.28.0_1
 gtk+3 3.24.51
 gtk-vnc 1.5.0
 gtk4 4.20.3
 gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
-hackrf 2026.01.2
+hackrf 2026.01.3
 harfbuzz 12.3.2
 hdrhistogram_c 0.11.9
 hicolor-icon-theme 0.18
@@ -133,7 +132,6 @@ jq 1.8.1
 json-c 0.18
 json-glib 1.10.8
 jsoncpp 1.9.6
-krb5 1.22.1
 lame 3.100
 leptonica 1.87.0
 libarchive 3.8.5
@@ -146,6 +144,7 @@ libbluray 1.4.0_1
 libcaca 0.99b20
 libcbor 0.13.0
 libcuefile r475
+libdatrie 0.2.14
 libde265 1.0.16
 libdeflate 1.25
 libebml 1.4.5
@@ -154,7 +153,7 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.5.2
 libfido2 1.16.0_1
-libgcrypt 1.11.2
+libgcrypt 1.12.0
 libgit2 1.9.2
 libgpg-error 1.58
 libheif 1.21.2
@@ -202,6 +201,7 @@ libsoxr 0.1.3
 libssh 0.11.3
 libssh2 1.11.1
 libtasn1 4.21.0
+libthai 0.1.30
 libtiff 4.7.1
 libtommath 1.3.0
 libtool 2.5.4
@@ -275,8 +275,8 @@ node 25.5.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.4.1
-nvm 0.40.3
-ocrmypdf 16.13.0_2
+nvm 0.40.4
+ocrmypdf 17.1.0
 oniguruma 6.9.10
 onnx 1.20.1_2
 open-mpi 5.0.9
@@ -285,7 +285,7 @@ opencore-amr 0.1.6
 openexr 3.4.4_1
 openjpeg 2.5.4
 openjph 0.26.0
-openldap 2.6.10_1
+openldap 2.6.12
 openmotif 2.3.8_3
 openssl@3 3.6.1
 openvino 2025.4.1_3
@@ -295,7 +295,7 @@ orc 0.4.42
 osinfo-db 20251212
 p11-kit 0.26.1
 p7zip 17.06
-pango 1.57.0_1
+pango 1.57.0_2
 pcre 8.45
 pcre2 10.47
 perl 5.42.0
@@ -316,6 +316,7 @@ pwgen 2.08
 py3cairo 1.29.0
 pybind11 3.0.1_1
 pycparser 3.0
+pydantic 2.12.5
 pygobject3 3.54.5
 python-gdbm@3.11 3.11.14
 python-packaging 26.0
@@ -394,7 +395,7 @@ srt 1.5.4
 srtp 2.7.0
 streamlink 8.1.2
 streamripper 1.64.6_2
-svt-av1 4.0.0
+svt-av1 4.0.1
 taglib 2.1.1
 tbb 2022.3.0
 tcl-tk 9.0.3
