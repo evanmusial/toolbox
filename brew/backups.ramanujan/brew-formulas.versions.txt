@@ -1,4 +1,4 @@
-# backup: 20260201 @ 0213 (UTC)
+# backup: 20260201 @ 2126 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -274,7 +274,7 @@ nmap 7.98
 node 25.5.0
 npth 1.8
 ntp 4.2.8p18
-numpy 2.4.1
+numpy 2.4.2
 nvm 0.40.4
 ocrmypdf 17.1.0
 oniguruma 6.9.10
