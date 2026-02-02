@@ -1,4 +1,4 @@
-# backup: 20260131 @ 2338 (UTC)
+# backup: 20260202 @ 0018 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -233,7 +233,7 @@ nmap 7.98
 node 25.5.0
 node_exporter 1.10.2
 npth 1.8
-numpy 2.4.1
+numpy 2.4.2
 ocrmypdf 17.1.0
 oniguruma 6.9.10
 open-mpi 5.0.9
@@ -371,7 +371,7 @@ xxhash 0.8.3
 xz 5.8.2
 ykman 5.9.0
 youtube-dl 2021.12.17
-yt-dlp 2026.1.29
+yt-dlp 2026.1.31
 zeromq 4.3.5_2
 zimg 3.0.6
 zstd 1.5.7
