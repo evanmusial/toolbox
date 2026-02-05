@@ -1,4 +1,4 @@
-# backup: 20260202 @ 1321 (UTC)
+# backup: 20260205 @ 1030 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.12
+awscli 2.33.15
 bash 5.3.9
 bdw-gc 8.2.10
 berkeley-db@5 5.3.28_1
@@ -24,7 +24,7 @@ c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
 capstone 5.0.6
-certbot 5.2.2_1
+certbot 5.3.0
 certifi 2026.1.4
 cffi 2.0.0_1
 chrony 4.8
@@ -32,21 +32,21 @@ cjson 1.7.19
 cmake 4.2.3
 cmocka 2.0.2
 codec2 1.2.0
-coreutils 9.9
+coreutils 9.10
 cpio 2.15
 cpu_features 0.10.1
 cpufetch 1.07
 crc32c 1.1.2
 cryptography 46.0.4
 cunit 2.1-3
-curl 8.18.0
+curl 8.18.0_1
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
-docbook 5.1_1
+docbook 5.2
 docbook-xsl 1.79.2_1
-docker 29.2.0
-docker-completion 29.2.0
+docker 29.2.1
+docker-completion 29.2.1
 double-conversion 3.4.0
 dtc 1.7.2
 duktape 2.7.0
@@ -167,7 +167,7 @@ liblinear 2.50
 liblqr 0.4.3
 libmagic 5.46
 libmatroska 1.7.1
-libmediainfo 25.10
+libmediainfo 26.01
 libmetalink 0.1.3
 libmicrohttpd 1.0.2
 libmms 0.6.4
@@ -184,7 +184,7 @@ libpng 1.6.54
 libproxy 0.5.12
 libpsl 0.21.5_2
 libpthread-stubs 0.5
-libraqm 0.10.3
+libraqm 0.10.4
 libraw 0.22.0
 libreplaygain r475
 librist 0.2.11_1
@@ -248,11 +248,11 @@ lz4 1.10.0
 lzlib 1.15_1
 lzo 2.10
 m4 1.4.20
-mad 0.15.1b
+mad 0.16.4
 mbedtls 4.0.0
 mbedtls@3 3.6.5
 md4c 0.5.2
-media-info 25.10
+media-info 26.01
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 97.0
@@ -271,7 +271,7 @@ nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
 nmap 7.98
-node 25.5.0
+node 25.6.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.4.2
@@ -280,7 +280,7 @@ ocrmypdf 17.1.0
 oniguruma 6.9.10
 onnx 1.20.1_2
 open-mpi 5.0.9
-openblas 0.3.31
+openblas 0.3.31_1
 opencore-amr 0.1.6
 openexr 3.4.4_1
 openjpeg 2.5.4
@@ -322,10 +322,10 @@ python-gdbm@3.11 3.11.14
 python-packaging 26.0
 python-setuptools 80.10.2
 python-tk@3.11 3.11.14
-python@3.10 3.10.19_2
-python@3.11 3.11.14_2
-python@3.12 3.12.12_1
-python@3.13 3.13.11_1
+python@3.10 3.10.19_3
+python@3.11 3.11.14_3
+python@3.12 3.12.12_2
+python@3.13 3.13.12
 python@3.14 3.14.2_1
 python@3.9 3.9.25
 qemu 10.2.0
@@ -373,7 +373,7 @@ rav1e 0.8.1
 readline 8.3.3
 rename 1.601
 rsync 3.4.1
-rtmpdump 2.4-20151223_3
+rtmpdump 2.6
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5_3
