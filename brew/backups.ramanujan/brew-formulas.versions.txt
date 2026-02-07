@@ -1,4 +1,4 @@
-# backup: 20260206 @ 1903 (UTC)
+# backup: 20260207 @ 0225 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.16
+awscli 2.33.17
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -293,7 +293,7 @@ opus 1.6.1
 opusfile 0.12_1
 orc 0.4.42
 osinfo-db 20251212
-p11-kit 0.26.1
+p11-kit 0.26.2
 p7zip 17.06
 pango 1.57.0_2
 pcre 8.45
@@ -320,7 +320,7 @@ pydantic 2.12.5
 pygobject3 3.54.5
 python-gdbm@3.11 3.11.14
 python-packaging 26.0
-python-setuptools 80.10.2
+python-setuptools 81.0.0
 python-tk@3.11 3.11.14
 python@3.10 3.10.19_3
 python@3.11 3.11.14_3
