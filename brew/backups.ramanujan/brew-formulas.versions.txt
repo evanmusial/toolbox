@@ -1,4 +1,4 @@
-# backup: 20260208 @ 2103 (UTC)
+# backup: 20260208 @ 2206 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -326,7 +326,7 @@ python@3.10 3.10.19_3
 python@3.11 3.11.14_3
 python@3.12 3.12.12_2
 python@3.13 3.13.12_1
-python@3.14 3.14.3
+python@3.14 3.14.3_1
 python@3.9 3.9.25
 qemu 10.2.0
 qpdf 12.3.2
@@ -414,7 +414,7 @@ utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_3
-volk 3.2.0
+volk 3.3.0
 vte3 0.82.3_1
 watch 4.0.6
 webp 1.6.0
