@@ -1,4 +1,4 @@
-# backup: 20260208 @ 0311 (UTC)
+# backup: 20260208 @ 1816 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -16,7 +16,7 @@ awscli 2.33.17
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
-boost 1.90.0
+boost 1.90.0_1
 boost-build 1.90.0
 brotli 1.2.0
 bwfmetaedit 26.01
@@ -39,7 +39,7 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 46.0.4
 cunit 2.1-3
-curl 8.18.0_1
+curl 8.18.0_2
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
@@ -218,7 +218,7 @@ libvirt-python 12.0.0
 libvmaf 3.0.0
 libvorbis 1.3.7
 libvpx 1.15.2
-libx11 1.8.12
+libx11 1.8.13
 libxau 1.0.12
 libxcb 1.17.0
 libxdmcp 1.1.5
