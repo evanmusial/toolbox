@@ -1,4 +1,4 @@
-# backup: 20260208 @ 2206 (UTC)
+# backup: 20260209 @ 2007 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -63,11 +63,11 @@ findutils 4.10.0
 flac 1.5.0
 fmt 12.1.0
 fontconfig 2.17.1
-freetype 2.14.1_1
+freetype 2.14.1_2
 frei0r 2.5.1
 fribidi 1.0.16
 gawk 5.3.1
-gcc 15.2.0
+gcc 15.2.0_1
 gdbm 1.26
 gdk-pixbuf 2.44.5
 gengetopt 2.23
@@ -83,7 +83,7 @@ gmp 6.3.0
 gnu-getopt 2.41.3
 gnu-sed 4.9
 gnupg 2.4.9
-gnutls 3.8.11
+gnutls 3.8.11_1
 gobject-introspection 1.86.0
 google-authenticator-libpam 1.11
 gpac 26.02.0
@@ -107,7 +107,7 @@ html2text 2.4.0
 htop 3.4.1
 httrack 3.49.2_1
 hunspell 1.7.2
-hwloc 2.12.2_1
+hwloc 2.13.0
 icu4c@76 76.1_2
 icu4c@77 77.1_1
 icu4c@78 78.2
@@ -134,7 +134,7 @@ json-glib 1.10.8
 jsoncpp 1.9.6
 lame 3.100
 leptonica 1.87.0
-libarchive 3.8.5
+libarchive 3.8.5_1
 libass 0.17.4
 libassuan 3.0.2
 libavif 1.3.0
@@ -180,7 +180,7 @@ libnice 0.1.23
 libogg 1.3.6
 libomp 21.1.8
 libosinfo 1.12.0_1
-libpng 1.6.54
+libpng 1.6.54_1
 libproxy 0.5.12
 libpsl 0.21.5_2
 libpthread-stubs 0.5
@@ -282,7 +282,7 @@ onnx 1.20.1_2
 open-mpi 5.0.9
 openblas 0.3.31_1
 opencore-amr 0.1.6
-openexr 3.4.4_1
+openexr 3.4.4_2
 openjpeg 2.5.4
 openjph 0.26.0
 openldap 2.6.12
@@ -306,11 +306,11 @@ pinentry-mac 1.3.1.1
 pipx 1.8.0
 pixman 0.46.4
 pkgconf 2.5.1
-pmix 5.0.10
+pmix 5.0.10_1
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.4
+protobuf 33.4_1
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
