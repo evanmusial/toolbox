@@ -1,4 +1,4 @@
-# backup: 20260209 @ 2007 (UTC)
+# backup: 20260210 @ 0137 (UTC)
 a52dec 0.8.0
 abseil 20260107.0
 ada-url 3.4.2
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.17
+awscli 2.33.18
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -23,7 +23,7 @@ bwfmetaedit 26.01
 c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
-capstone 5.0.6
+capstone 5.0.7
 certbot 5.3.0
 certifi 2026.1.4
 cffi 2.0.0_1
@@ -393,7 +393,7 @@ spice-protocol 0.14.5
 sqlite 3.51.2_1
 srt 1.5.4
 srtp 2.7.0
-streamlink 8.1.2
+streamlink 8.2.0
 streamripper 1.64.6_2
 svt-av1 4.0.1
 taglib 2.1.1
