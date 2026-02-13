@@ -1,4 +1,4 @@
-# backup: 20260210 @ 0241 (UTC)
+# backup: 20260213 @ 0245 (UTC)
 a52dec
 abseil
 ada-url
@@ -158,6 +158,7 @@ libgit2
 libgpg-error
 libheif
 libice
+libiconv
 libidn
 libidn2
 libimagequant

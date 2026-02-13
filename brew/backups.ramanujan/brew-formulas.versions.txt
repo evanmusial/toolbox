@@ -1,6 +1,6 @@
-# backup: 20260210 @ 0241 (UTC)
+# backup: 20260213 @ 0245 (UTC)
 a52dec 0.8.0
-abseil 20260107.0
+abseil 20260107.1
 ada-url 3.4.2
 adns 1.6.1
 adwaita-icon-theme 49.0
@@ -9,10 +9,10 @@ airspyhf 1.6.8
 aom 3.13.1
 aria2 1.37.0_1
 aribb24 1.0.4
-assimp 6.0.4
+assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.18
+awscli 2.33.21
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -24,7 +24,7 @@ c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
 capstone 5.0.7
-certbot 5.3.0
+certbot 5.3.1
 certifi 2026.1.4
 cffi 2.0.0_1
 chrony 4.8
@@ -37,7 +37,7 @@ cpio 2.15
 cpu_features 0.10.1
 cpufetch 1.07
 crc32c 1.1.2
-cryptography 46.0.4
+cryptography 46.0.5
 cunit 2.1-3
 curl 8.18.0_2
 dav1d 1.5.3
@@ -56,7 +56,7 @@ eye-d3 0.9.9
 faac 1.31.1
 faad2 2.11.2
 fdk-aac 2.0.3
-ffmpeg 8.0.1_2
+ffmpeg 8.0.1_3
 ffmpeg@6 6.1.4_1
 fftw 3.3.10_3
 findutils 4.10.0
@@ -72,9 +72,9 @@ gdbm 1.26
 gdk-pixbuf 2.44.5
 gengetopt 2.23
 gettext 1.0
-ghostscript 10.06.0
+ghostscript 10.06.0_1
 giflib 5.2.2
-git 2.52.0_1
+git 2.53.0
 git-lfs 3.7.1
 glfw 3.4
 glib 2.86.3
@@ -83,7 +83,7 @@ gmp 6.3.0
 gnu-getopt 2.41.3
 gnu-sed 4.9
 gnupg 2.4.9
-gnutls 3.8.11_1
+gnutls 3.8.12
 gobject-introspection 1.86.0
 google-authenticator-libpam 1.11
 gpac 26.02.0
@@ -127,7 +127,7 @@ jbig2enc 0.30
 jemalloc 5.3.0
 jpeg 10
 jpeg-turbo 3.1.3
-jpeg-xl 0.11.1_3
+jpeg-xl 0.11.2
 jq 1.8.1
 json-c 0.18
 json-glib 1.10.8
@@ -137,7 +137,7 @@ leptonica 1.87.0
 libarchive 3.8.5_1
 libass 0.17.4
 libassuan 3.0.2
-libavif 1.3.0
+libavif 1.3.0_1
 libb2 0.98.1
 libbladerf 2025.10
 libbluray 1.4.0_1
@@ -158,6 +158,7 @@ libgit2 1.9.2_1
 libgpg-error 1.58
 libheif 1.21.2
 libice 1.1.2
+libiconv 1.18
 libidn 1.43
 libidn2 2.3.8
 libimagequant 4.4.1
@@ -180,7 +181,7 @@ libnice 0.1.23
 libogg 1.3.6
 libomp 21.1.8
 libosinfo 1.12.0_1
-libpng 1.6.54_1
+libpng 1.6.55
 libproxy 0.5.12
 libpsl 0.21.5_2
 libpthread-stubs 0.5
@@ -198,7 +199,7 @@ libsndfile 1.2.2_1
 libsodium 1.0.21
 libsoup 3.6.5
 libsoxr 0.1.3
-libssh 0.11.3
+libssh 0.12.0
 libssh2 1.11.1_1
 libtasn1 4.21.0
 libthai 0.1.30
@@ -210,7 +211,7 @@ libunibreak 6.1
 libunistring 1.4.1
 libusb 1.0.29
 libusrsctp 0.9.5.0_1
-libuv 1.51.0
+libuv 1.52.0
 libvidstab 1.1.1
 libvirt 12.0.0
 libvirt-glib 5.0.0_1
@@ -237,7 +238,7 @@ libxt 1.3.1
 libxtst 1.2.5
 libyaml 0.2.5
 libzen 0.4.41_1
-libzip 1.11.4
+libzip 1.11.4_1
 litehtml 0.9
 little-cms2 2.18
 llhttp 9.3.0
@@ -271,12 +272,12 @@ nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
 nmap 7.98
-node 25.6.0
+node 25.6.1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.4.2
 nvm 0.40.4
-ocrmypdf 17.1.0
+ocrmypdf 17.2.0
 oniguruma 6.9.10
 onnx 1.20.1_2
 open-mpi 5.0.9
@@ -300,7 +301,7 @@ pcre 8.45
 pcre2 10.47_1
 perl 5.42.0
 phodav 3.0_1
-pillow 12.1.0
+pillow 12.1.1
 pinentry 1.3.2
 pinentry-mac 1.3.1.1
 pipx 1.8.0
