@@ -1,4 +1,4 @@
-# backup: 20260217 @ 0109 (UTC)
+# backup: 20260217 @ 0935 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.2
@@ -315,7 +315,7 @@ protobuf 33.4_1
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
-pybind11 3.0.1_1
+pybind11 3.0.2
 pycparser 3.0
 pydantic 2.12.5
 pygobject3 3.54.5
