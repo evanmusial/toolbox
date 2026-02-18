@@ -1,4 +1,4 @@
-# backup: 20260217 @ 0935 (UTC)
+# backup: 20260218 @ 0036 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.2
@@ -186,7 +186,7 @@ libproxy 0.5.12
 libpsl 0.21.5_2
 libpthread-stubs 0.5
 libraqm 0.10.4
-libraw 0.22.0
+libraw 0.22.0_1
 libreplaygain r475
 librist 0.2.11_1
 librsvg 2.61.4
@@ -199,7 +199,7 @@ libsndfile 1.2.2_1
 libsodium 1.0.21
 libsoup 3.6.6
 libsoxr 0.1.3
-libssh 0.12.0
+libssh 0.12.0_1
 libssh2 1.11.1_1
 libtasn1 4.21.0
 libthai 0.1.30
@@ -285,7 +285,7 @@ openblas 0.3.31_1
 opencore-amr 0.1.6
 openexr 3.4.4_2
 openjpeg 2.5.4
-openjph 0.26.1
+openjph 0.26.3
 openldap 2.6.12
 openmotif 2.3.8_3
 openssl@3 3.6.1
@@ -420,7 +420,7 @@ vte3 0.82.3_1
 watch 4.0.6
 webp 1.6.0
 wget 1.25.0
-whois 5.6.5
+whois 5.6.6
 x264 r3222
 x265 4.1
 xbitmaps 1.1.3
