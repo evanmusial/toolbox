@@ -1,4 +1,4 @@
-# backup: 20260218 @ 0036 (UTC)
+# backup: 20260219 @ 0108 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.2
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.23
+awscli 2.33.24
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -43,7 +43,7 @@ curl 8.18.0_2
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
-docbook 5.2
+docbook 5.2_1
 docbook-xsl 1.79.2_1
 docker 29.2.1
 docker-completion 29.2.1
@@ -155,7 +155,7 @@ libffi 3.5.2
 libfido2 1.16.0_1
 libgcrypt 1.12.0
 libgit2 1.9.2_1
-libgpg-error 1.58
+libgpg-error 1.59
 libheif 1.21.2
 libice 1.1.2
 libiconv 1.18
@@ -397,7 +397,7 @@ srtp 2.7.0
 streamlink 8.2.0
 streamripper 1.64.6_2
 svt-av1 4.0.1
-taglib 2.1.1_1
+taglib 2.2
 tbb 2022.3.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.17
