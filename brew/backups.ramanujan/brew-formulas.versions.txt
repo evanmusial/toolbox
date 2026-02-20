@@ -1,4 +1,4 @@
-# backup: 20260220 @ 1306 (UTC)
+# backup: 20260220 @ 2214 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.2
@@ -153,7 +153,7 @@ libev 4.33
 libevent 2.1.12_1
 libffi 3.5.2
 libfido2 1.16.0_1
-libgcrypt 1.12.0
+libgcrypt 1.12.1
 libgit2 1.9.2_1
 libgpg-error 1.59
 libheif 1.21.2
