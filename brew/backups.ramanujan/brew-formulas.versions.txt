@@ -1,4 +1,4 @@
-# backup: 20260221 @ 0246 (UTC)
+# backup: 20260223 @ 0317 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.2
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.33.26
+awscli 2.33.27
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -66,7 +66,7 @@ fontconfig 2.17.1
 freetype 2.14.1_2
 frei0r 2.5.1
 fribidi 1.0.16
-gawk 5.3.2
+gawk 5.4.0
 gcc 15.2.0_1
 gdbm 1.26
 gdk-pixbuf 2.44.5
@@ -277,13 +277,13 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.4.2
 nvm 0.40.4
-ocrmypdf 17.2.0
+ocrmypdf 17.3.0
 oniguruma 6.9.10
 onnx 1.20.1_2
 open-mpi 5.0.9
 openblas 0.3.31_1
 opencore-amr 0.1.6
-openexr 3.4.4_2
+openexr 3.4.5
 openjpeg 2.5.4
 openjph 0.26.3
 openldap 2.6.12
