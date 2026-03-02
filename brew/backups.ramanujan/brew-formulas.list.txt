@@ -1,4 +1,4 @@
-# backup: 20260228 @ 2140 (UTC)
+# backup: 20260302 @ 0204 (UTC)
 a52dec
 abseil
 ada-url
@@ -312,6 +312,7 @@ pngquant
 popt
 portaudio
 protobuf
+protobuf@33
 pugixml
 pwgen
 py3cairo
