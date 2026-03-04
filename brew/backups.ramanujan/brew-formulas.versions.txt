@@ -1,4 +1,4 @@
-# backup: 20260302 @ 1623 (UTC)
+# backup: 20260304 @ 0226 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.34.0
+awscli 2.34.1
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -64,7 +64,7 @@ flac 1.5.0
 fmt 12.1.0
 fontconfig 2.17.1
 freetype 2.14.2
-frei0r 2.5.4
+frei0r 2.5.5
 fribidi 1.0.16
 gawk 5.4.0
 gcc 15.2.0_1
@@ -311,7 +311,7 @@ pmix 5.0.10_1
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 33.4_1
+protobuf 34.0
 protobuf@33 33.5
 pugixml 1.15
 pwgen 2.08
@@ -324,9 +324,9 @@ python-gdbm@3.11 3.11.14
 python-packaging 26.0
 python-setuptools 82.0.0
 python-tk@3.11 3.11.14
-python@3.10 3.10.19_3
+python@3.10 3.10.20
 python@3.11 3.11.14_3
-python@3.12 3.12.12_2
+python@3.12 3.12.13
 python@3.13 3.13.12_1
 python@3.14 3.14.3_1
 python@3.9 3.9.25
@@ -343,7 +343,7 @@ qtconnectivity 6.10.2
 qtdatavis3d 6.10.2
 qtdeclarative 6.10.2
 qtgraphs 6.10.2
-qtgrpc 6.10.2
+qtgrpc 6.10.2_1
 qthttpserver 6.10.2
 qtimageformats 6.10.2
 qtlanguageserver 6.10.2
