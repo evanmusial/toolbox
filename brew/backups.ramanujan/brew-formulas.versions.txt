@@ -1,4 +1,4 @@
-# backup: 20260309 @ 0407 (UTC)
+# backup: 20260312 @ 0236 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.34.4_1
+awscli 2.34.7
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -24,7 +24,7 @@ c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
 capstone 5.0.7
-certbot 5.3.1
+certbot 5.4.0
 certifi 2026.2.25
 cffi 2.0.0_1
 chrony 4.8
@@ -39,7 +39,7 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 46.0.5
 cunit 2.1-3
-curl 8.18.0_2
+curl 8.19.0
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
@@ -99,7 +99,7 @@ gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
 hackrf 2026.01.3
-harfbuzz 13.0.1
+harfbuzz 13.1.0
 hdrhistogram_c 0.11.9
 hicolor-icon-theme 0.18
 highway 1.3.0
@@ -134,7 +134,7 @@ json-glib 1.10.8
 jsoncpp 1.9.6
 lame 3.100
 leptonica 1.87.0
-libarchive 3.8.5_1
+libarchive 3.8.6
 libass 0.17.4
 libassuan 3.0.2
 libavif 1.4.0
@@ -179,7 +179,7 @@ libnghttp3 1.15.0
 libngtcp2 1.21.0
 libnice 0.1.23
 libogg 1.3.6
-libomp 22.1.0
+libomp 22.1.1
 libosinfo 1.12.0_1
 libpng 1.6.55
 libproxy 0.5.12
@@ -246,7 +246,7 @@ logrotate 3.22.0
 lolcat 100.0.1
 lua 5.5.0
 lz4 1.10.0
-lzlib 1.15_1
+lzlib 1.16
 lzo 2.10
 m4 1.4.21
 mad 0.16.4
@@ -272,24 +272,24 @@ nettle 3.10.2
 nghttp2 1.68.0_1
 nlohmann-json 3.12.0
 nmap 7.98_1
-node 25.8.0
+node 25.8.1
 npth 1.8
 ntp 4.2.8p18
-numpy 2.4.2
+numpy 2.4.3
 nvm 0.40.4
 ocrmypdf 17.3.0
 oniguruma 6.9.10
-onnx 1.20.1_3
+onnx 1.20.1_4
 open-mpi 5.0.9
 openblas 0.3.31_1
 opencore-amr 0.1.6
 openexr 3.4.6
 openjpeg 2.5.4
 openjph 0.26.3
-openldap 2.6.12
+openldap 2.6.13
 openmotif 2.3.8_4
 openssl@3 3.6.1
-openvino 2026.0.0
+openvino 2026.0.0_1
 opus 1.6.1
 opusfile 0.12_1
 orc 0.4.42
@@ -312,17 +312,16 @@ pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
 protobuf 34.0
-protobuf@33 33.5
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
 pybind11 3.0.2
 pycparser 3.0
 pydantic 2.12.5
-pygobject3 3.56.0
+pygobject3 3.56.1
 python-gdbm@3.11 3.11.15
 python-packaging 26.0
-python-setuptools 82.0.0
+python-setuptools 82.0.1
 python-tk@3.11 3.11.15
 python@3.10 3.10.20
 python@3.11 3.11.15
