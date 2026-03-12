@@ -1,4 +1,4 @@
-# backup: 20260312 @ 0236 (UTC)
+# backup: 20260312 @ 2336 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.58.3
 augeas 1.14.1_1
-awscli 2.34.7
+awscli 2.34.8
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -391,7 +391,7 @@ speedtest-cli 2.1.3_2
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
-sqlite 3.51.2_1
+sqlite 3.52.0
 srt 1.5.4
 srtp 2.7.0
 streamlink 8.2.1
