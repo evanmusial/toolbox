@@ -1,4 +1,4 @@
-# backup: 20260312 @ 2336 (UTC)
+# backup: 20260313 @ 0258 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -82,7 +82,7 @@ glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.41.3
 gnu-sed 4.9
-gnupg 2.4.9
+gnupg 2.5.18
 gnutls 3.8.12
 gobject-introspection 1.86.0
 google-authenticator-libpam 1.11
