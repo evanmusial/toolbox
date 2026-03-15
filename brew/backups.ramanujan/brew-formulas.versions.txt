@@ -1,4 +1,4 @@
-# backup: 20260314 @ 1837 (UTC)
+# backup: 20260315 @ 0029 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -10,7 +10,7 @@ aom 3.13.1
 aria2 1.37.0_1
 aribb24 1.0.4
 assimp 6.0.4_1
-at-spi2-core 2.58.3
+at-spi2-core 2.60.0
 augeas 1.14.1_1
 awscli 2.34.9
 bash 5.3.9
@@ -381,7 +381,7 @@ sc-im 0.8.5_4
 sdl2 2.32.10
 shared-mime-info 2.4_1
 simdjson 4.4.0
-simdutf 8.1.0
+simdutf 8.2.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -416,7 +416,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_3
 volk 3.3.0
-vte3 0.82.3_2
+vte3 0.82.3_3
 watch 4.0.6
 webp 1.6.0
 wget 1.25.0
