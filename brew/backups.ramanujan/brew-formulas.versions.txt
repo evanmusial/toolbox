@@ -1,4 +1,4 @@
-# backup: 20260316 @ 1043 (UTC)
+# backup: 20260317 @ 0043 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.0
 augeas 1.14.1_1
-awscli 2.34.9
+awscli 2.34.10
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -283,7 +283,7 @@ onnx 1.20.1_4
 open-mpi 5.0.9
 openblas 0.3.31_1
 opencore-amr 0.1.6
-openexr 3.4.6
+openexr 3.4.7
 openjpeg 2.5.4
 openjph 0.26.3
 openldap 2.6.13
