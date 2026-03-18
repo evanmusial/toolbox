@@ -1,9 +1,9 @@
-# backup: 20260317 @ 0043 (UTC)
+# backup: 20260318 @ 0100 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
 adns 1.6.1
-adwaita-icon-theme 49.0
+adwaita-icon-theme 50.0
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.13.1
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.0
 augeas 1.14.1_1
-awscli 2.34.10
+awscli 2.34.11
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -24,7 +24,7 @@ c-ares 1.34.6
 ca-certificates 2025-12-02
 cairo 1.18.4
 capstone 5.0.7
-certbot 5.4.0
+certbot 5.4.0_1
 certifi 2026.2.25
 cffi 2.0.0_1
 chrony 4.8
@@ -53,7 +53,7 @@ duktape 2.7.0
 exempi 2.6.6
 exiftool 13.50
 eye-d3 0.9.9
-faac 1.31.1
+faac 1.40
 faad2 2.11.2
 fdk-aac 2.0.3
 ffmpeg 8.0.1_4
@@ -72,12 +72,12 @@ gdbm 1.26
 gdk-pixbuf 2.44.5
 gengetopt 2.23
 gettext 1.0
-ghostscript 10.06.0_1
+ghostscript 10.07.0
 giflib 6.1.2
 git 2.53.0
 git-lfs 3.7.1
 glfw 3.4
-glib 2.86.4
+glib 2.88.0
 glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.41.3
@@ -299,12 +299,12 @@ p7zip 17.06
 pango 1.57.0_2
 pcre 8.45
 pcre2 10.47_1
-perl 5.42.1
+perl 5.42.1_1
 phodav 3.0_1
 pillow 12.1.1
 pinentry 1.3.2
 pinentry-mac 1.3.1.1
-pipx 1.8.0
+pipx 1.9.0
 pixman 0.46.4
 pkgconf 2.5.1
 pmix 5.0.10_1
