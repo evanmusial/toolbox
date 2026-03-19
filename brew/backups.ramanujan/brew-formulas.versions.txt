@@ -1,4 +1,4 @@
-# backup: 20260318 @ 0116 (UTC)
+# backup: 20260319 @ 2353 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.0
 augeas 1.14.1_1
-awscli 2.34.11
+awscli 2.34.12
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -21,7 +21,7 @@ boost-build 1.90.0
 brotli 1.2.0
 bwfmetaedit 26.01
 c-ares 1.34.6
-ca-certificates 2025-12-02
+ca-certificates 2026-03-19
 cairo 1.18.4
 capstone 5.0.7
 certbot 5.4.0_1
@@ -29,7 +29,7 @@ certifi 2026.2.25
 cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
-cmake 4.2.3
+cmake 4.3.0
 cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.10
@@ -56,7 +56,7 @@ eye-d3 0.9.9
 faac 1.40
 faad2 2.11.2
 fdk-aac 2.0.3
-ffmpeg 8.0.1_4
+ffmpeg 8.1
 ffmpeg@6 6.1.4_2
 fftw 3.3.10_3
 findutils 4.10.0
@@ -99,7 +99,7 @@ gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
 hackrf 2026.01.3
-harfbuzz 13.1.1
+harfbuzz 13.2.1
 hdrhistogram_c 0.11.9
 hicolor-icon-theme 0.18
 highway 1.3.0
@@ -110,7 +110,7 @@ hunspell 1.7.2
 hwloc 2.13.0
 icu4c@76 76.1_2
 icu4c@77 77.1_1
-icu4c@78 78.2
+icu4c@78 78.3
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
@@ -145,7 +145,7 @@ libcaca 0.99b20
 libcbor 0.13.0
 libcuefile r475
 libdatrie 0.2.14
-libde265 1.0.16
+libde265 1.0.17
 libdeflate 1.25
 libebml 1.4.5
 libepoxy 1.5.10
@@ -174,7 +174,7 @@ libmicrohttpd 1.0.2
 libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.3.1
-libnghttp2 1.68.0
+libnghttp2 1.68.1
 libnghttp3 1.15.0
 libngtcp2 1.21.0
 libnice 0.1.23
@@ -189,7 +189,7 @@ libraqm 0.10.4
 libraw 0.22.0_1
 libreplaygain r475
 librist 0.2.11_1
-librsvg 2.62.0
+librsvg 2.62.1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_2
@@ -269,7 +269,7 @@ musepack r475
 mysql-client@8.4 8.4.8
 ncurses 6.6
 nettle 3.10.2
-nghttp2 1.68.0_1
+nghttp2 1.68.1
 nlohmann-json 3.12.0
 nmap 7.98_1
 node 25.8.1_1
@@ -304,7 +304,7 @@ phodav 3.0_1
 pillow 12.1.1
 pinentry 1.3.2
 pinentry-mac 1.3.1.1
-pipx 1.9.0
+pipx 1.10.0
 pixman 0.46.4
 pkgconf 2.5.1
 pmix 5.0.10_1
@@ -329,7 +329,7 @@ python@3.12 3.12.13
 python@3.13 3.13.12_1
 python@3.14 3.14.3_1
 python@3.9 3.9.25
-qemu 10.2.1
+qemu 10.2.2
 qpdf 12.3.2
 qrencode 4.1.1
 qt 6.10.2
@@ -380,7 +380,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2 2.32.10
 shared-mime-info 2.4_1
-simdjson 4.4.0
+simdjson 4.4.1
 simdutf 8.2.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
