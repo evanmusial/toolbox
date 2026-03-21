@@ -1,4 +1,4 @@
-# backup: 20260320 @ 0058 (UTC)
+# backup: 20260321 @ 1232 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -6,13 +6,13 @@ adns 1.6.1
 adwaita-icon-theme 50.0
 airspy 1.0.10
 airspyhf 1.6.8
-aom 3.13.1
+aom 3.13.2
 aria2 1.37.0_1
 aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.0
 augeas 1.14.1_1
-awscli 2.34.13
+awscli 2.34.14
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -145,7 +145,7 @@ libcaca 0.99b20
 libcbor 0.13.0
 libcuefile r475
 libdatrie 0.2.14
-libde265 1.0.17
+libde265 1.0.18
 libdeflate 1.25
 libebml 1.4.5
 libepoxy 1.5.10
@@ -173,7 +173,7 @@ libmetalink 0.1.3
 libmicrohttpd 1.0.2
 libmms 0.6.4
 libmng 2.0.3_1
-libmpc 1.3.1
+libmpc 1.4.0
 libnghttp2 1.68.1
 libnghttp3 1.15.0
 libngtcp2 1.21.0
@@ -304,7 +304,7 @@ phodav 3.0_1
 pillow 12.1.1
 pinentry 1.3.2
 pinentry-mac 1.3.1.1
-pipx 1.10.0
+pipx 1.10.1
 pixman 0.46.4
 pkgconf 2.5.1
 pmix 5.0.10_1
@@ -380,7 +380,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2 2.32.10
 shared-mime-info 2.4_1
-simdjson 4.4.1
+simdjson 4.4.2
 simdutf 8.2.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
