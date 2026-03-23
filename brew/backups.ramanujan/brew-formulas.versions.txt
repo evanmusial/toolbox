@@ -1,4 +1,4 @@
-# backup: 20260321 @ 1232 (UTC)
+# backup: 20260323 @ 0031 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.3
@@ -137,7 +137,7 @@ leptonica 1.87.0
 libarchive 3.8.6
 libass 0.17.4
 libassuan 3.0.2
-libavif 1.4.0
+libavif 1.4.1
 libb2 0.98.1
 libbladerf 2025.10
 libbluray 1.4.1
@@ -277,9 +277,9 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.4.3
 nvm 0.40.4
-ocrmypdf 17.3.0
+ocrmypdf 17.4.0
 oniguruma 6.9.10
-onnx 1.20.1_4
+onnx 1.20.1_5
 open-mpi 5.0.9
 openblas 0.3.31_1
 opencore-amr 0.1.6
@@ -289,7 +289,7 @@ openjph 0.26.3
 openldap 2.6.13
 openmotif 2.3.8_4
 openssl@3 3.6.1
-openvino 2026.0.0_1
+openvino 2026.0.0_2
 opus 1.6.1
 opusfile 0.12_1
 orc 0.4.42
@@ -311,7 +311,7 @@ pmix 5.0.10_1
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-protobuf 34.0
+protobuf 34.1
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
@@ -342,7 +342,7 @@ qtconnectivity 6.10.2
 qtdatavis3d 6.10.2
 qtdeclarative 6.10.2
 qtgraphs 6.10.2
-qtgrpc 6.10.2_1
+qtgrpc 6.10.2_2
 qthttpserver 6.10.2
 qtimageformats 6.10.2
 qtlanguageserver 6.10.2
