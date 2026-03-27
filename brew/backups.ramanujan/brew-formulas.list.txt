@@ -1,4 +1,4 @@
-# backup: 20260323 @ 0031 (UTC)
+# backup: 20260327 @ 1855 (UTC)
 a52dec
 abseil
 ada-url
@@ -158,7 +158,6 @@ libgit2
 libgpg-error
 libheif
 libice
-libiconv
 libidn
 libidn2
 libimagequant
@@ -337,6 +336,7 @@ qt3d
 qt5compat
 qt@5
 qtbase
+qtcanvaspainter
 qtcharts
 qtconnectivity
 qtdatavis3d
@@ -363,6 +363,7 @@ qtserialport
 qtshadertools
 qtspeech
 qtsvg
+qttasktree
 qttools
 qttranslations
 qtvirtualkeyboard
