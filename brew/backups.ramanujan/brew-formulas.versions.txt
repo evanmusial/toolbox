@@ -1,4 +1,4 @@
-# backup: 20260330 @ 2013 (UTC)
+# backup: 20260331 @ 2122 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.0
 augeas 1.14.1_1
-awscli 2.34.19
+awscli 2.34.20
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -249,8 +249,8 @@ lzlib 1.16
 lzo 2.10
 m4 1.4.21
 mad 0.16.4
-mbedtls 4.0.0
-mbedtls@3 3.6.5
+mbedtls 4.1.0
+mbedtls@3 3.6.6
 md4c 0.5.2
 media-info 26.01
 mkvdts2ac3 1.6.0_3
@@ -276,7 +276,7 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.4.4
 nvm 0.40.4
-ocrmypdf 17.4.0
+ocrmypdf 17.4.0_1
 oniguruma 6.9.10
 onnx 1.21.0
 open-mpi 5.0.9
@@ -303,7 +303,7 @@ phodav 3.0_1
 pillow 12.1.1
 pinentry 1.3.2
 pinentry-mac 1.3.1.1
-pipx 1.11.0
+pipx 1.11.1
 pixman 0.46.4
 pkgconf 2.5.1
 pmix 5.0.10_1
