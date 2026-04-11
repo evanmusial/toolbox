@@ -1,4 +1,4 @@
-# backup: 20260411 @ 1231 (UTC)
+# backup: 20260411 @ 2331 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -64,7 +64,7 @@ flac 1.5.0
 fmt 12.1.0
 fontconfig 2.17.1
 freetype 2.14.3
-frei0r 3.0.1
+frei0r 3.1.0
 fribidi 1.0.16
 gawk 5.4.0
 gcc 15.2.0_1
@@ -392,10 +392,10 @@ speedtest-cli 2.1.3_2
 speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
-sqlite 3.52.0
+sqlite 3.53.0
 srt 1.5.4
 srtp 2.8.0
-streamlink 8.2.1_1
+streamlink 8.3.0
 streamripper 1.64.6_2
 svt-av1 4.1.0
 taglib 2.2.1
