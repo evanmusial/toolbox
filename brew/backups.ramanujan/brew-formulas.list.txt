@@ -1,4 +1,4 @@
-# backup: 20260413 @ 0416 (UTC)
+# backup: 20260413 @ 1340 (UTC)
 a52dec
 abseil
 ada-url
@@ -253,6 +253,7 @@ mbedtls
 mbedtls@3
 md4c
 media-info
+merve
 mkvdts2ac3
 mkvtomp4
 mkvtoolnix
@@ -266,6 +267,7 @@ mplayer
 mtr
 musepack
 mysql-client@8.4
+nbytes
 ncurses
 nettle
 nghttp2

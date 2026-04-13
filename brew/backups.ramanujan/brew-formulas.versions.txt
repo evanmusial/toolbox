@@ -1,4 +1,4 @@
-# backup: 20260413 @ 0416 (UTC)
+# backup: 20260413 @ 1340 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -64,7 +64,7 @@ flac 1.5.0
 fmt 12.1.0
 fontconfig 2.17.1
 freetype 2.14.3
-frei0r 3.1.0
+frei0r 3.1.1
 fribidi 1.0.16
 gawk 5.4.0
 gcc 15.2.0_1
@@ -114,7 +114,7 @@ icu4c@78 78.3
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.2-18
+imagemagick 7.1.2-19
 imath 3.2.2
 img2pdf 0.6.3
 imlib2 1.12.6
@@ -253,6 +253,7 @@ mbedtls 4.1.0
 mbedtls@3 3.6.6
 md4c 0.5.2
 media-info 26.01
+merve 1.2.2
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 98.0
@@ -266,12 +267,13 @@ mplayer 1.5_2
 mtr 0.96
 musepack r475
 mysql-client@8.4 8.4.8
+nbytes 0.1.4
 ncurses 6.6
 nettle 3.10.2
 nghttp2 1.68.1
 nlohmann-json 3.12.0
 nmap 7.99
-node 25.9.0_1
+node 25.9.0_2
 npth 1.8
 ntp 4.2.8p18
 numpy 2.4.4
