@@ -1,4 +1,4 @@
-# backup: 20260415 @ 2232 (UTC)
+# backup: 20260416 @ 0119 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -321,7 +321,7 @@ pycparser 3.0
 pydantic 2.13.0
 pygobject3 3.56.2
 python-gdbm@3.11 3.11.15
-python-packaging 26.0
+python-packaging 26.1
 python-setuptools 82.0.1
 python-tk@3.11 3.11.15
 python@3.10 3.10.20
