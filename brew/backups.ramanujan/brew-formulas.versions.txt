@@ -1,4 +1,4 @@
-# backup: 20260418 @ 0109 (UTC)
+# backup: 20260419 @ 2336 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -7,10 +7,10 @@ adwaita-icon-theme 50.0
 airspy 1.0.10
 airspyhf 1.6.8
 aom 3.13.3
-aria2 1.37.0_1
+aria2 1.37.0_2
 aribb24 1.0.4
 assimp 6.0.4_1
-at-spi2-core 2.60.0
+at-spi2-core 2.60.1
 augeas 1.14.1_1
 awscli 2.34.32
 bash 5.3.9
@@ -94,7 +94,7 @@ gsettings-desktop-schemas 50.1
 gstreamer 1.28.2
 gtk+3 3.24.52
 gtk-vnc 1.5.0
-gtk4 4.22.2
+gtk4 4.22.3
 gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
@@ -172,7 +172,7 @@ libmetalink 0.1.3
 libmicrohttpd 1.0.5
 libmms 0.6.4
 libmng 2.0.3_1
-libmpc 1.4.0
+libmpc 1.4.1
 libnghttp2 1.68.1
 libnghttp3 1.15.0
 libngtcp2 1.22.1
@@ -187,7 +187,7 @@ libpthread-stubs 0.5
 libraqm 0.10.5
 libraw 0.22.1
 libreplaygain r475
-librist 0.2.11_1
+librist 0.2.13
 librsvg 2.62.1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
@@ -316,9 +316,9 @@ protobuf 34.1
 pugixml 1.15
 pwgen 2.08
 py3cairo 1.29.0
-pybind11 3.0.3
+pybind11 3.0.4
 pycparser 3.0
-pydantic 2.13.1
+pydantic 2.13.2
 pygobject3 3.56.2
 python-gdbm@3.11 3.11.15
 python-packaging 26.1
@@ -383,7 +383,7 @@ s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2 2.32.10
 shared-mime-info 2.4_1
-simdjson 4.6.1
+simdjson 4.6.2
 simdutf 8.2.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
