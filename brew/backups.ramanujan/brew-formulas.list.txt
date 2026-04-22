@@ -1,4 +1,4 @@
-# backup: 20260421 @ 0153 (UTC)
+# backup: 20260422 @ 0226 (UTC)
 a52dec
 abseil
 ada-url
@@ -437,5 +437,5 @@ xz
 yajl
 zeromq
 zimg
-zlib
+zlib-ng-compat
 zstd
