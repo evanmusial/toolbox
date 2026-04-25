@@ -1,4 +1,4 @@
-# backup: 20260424 @ 0201 (UTC)
+# backup: 20260425 @ 1803 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.4_1
 at-spi2-core 2.60.1
 augeas 1.14.1_1
-awscli 2.34.36
+awscli 2.34.37
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -25,7 +25,7 @@ ca-certificates 2026-03-19
 cairo 1.18.4
 capstone 5.0.7
 certbot 5.5.0
-certifi 2026.2.25
+certifi 2026.4.22
 cffi 2.0.0_1
 chrony 4.8
 cjson 1.7.19
@@ -82,7 +82,7 @@ glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.42
 gnu-sed 4.10
-gnupg 2.5.18
+gnupg 2.5.19
 gnutls 3.8.12
 gobject-introspection 1.86.0_1
 google-authenticator-libpam 1.11
@@ -155,7 +155,7 @@ libffi 3.5.2
 libfido2 1.17.0
 libgcrypt 1.12.2
 libgit2 1.9.2_1
-libgpg-error 1.59
+libgpg-error 1.60
 libheif 1.21.2_2
 libice 1.1.2
 libidn 1.43
@@ -187,7 +187,7 @@ libpthread-stubs 0.5
 libraqm 0.10.5
 libraw 0.22.1
 libreplaygain r475
-librist 0.2.13
+librist 0.2.14
 librsvg 2.62.1
 librtlsdr 2.0.2
 libsamplerate 0.2.2
@@ -239,7 +239,7 @@ libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.11.4_1
 litehtml 0.9
-little-cms2 2.18
+little-cms2 2.19
 llhttp 9.3.1
 logrotate 3.22.0
 lolcat 100.0.1
@@ -262,7 +262,7 @@ moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.1
 mpfr 4.2.2
-mpg123 1.33.4
+mpg123 1.33.5
 mplayer 1.5_2
 mtr 0.96
 musepack r475
@@ -282,7 +282,7 @@ ocrmypdf 17.4.2
 oniguruma 6.9.10
 onnx 1.21.0
 open-mpi 5.0.9
-openblas 0.3.32
+openblas 0.3.33
 opencore-amr 0.1.6
 openexr 3.4.10
 openjpeg 2.5.4
@@ -326,7 +326,7 @@ python-setuptools 82.0.1
 python-tk@3.11 3.11.15
 python@3.10 3.10.20
 python@3.11 3.11.15
-python@3.12 3.12.13
+python@3.12 3.12.13_1
 python@3.13 3.13.13
 python@3.14 3.14.4
 python@3.9 3.9.25
@@ -404,7 +404,7 @@ taglib 2.2.1
 tbb 2022.3.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.17
-telnet 306
+telnet 308
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
