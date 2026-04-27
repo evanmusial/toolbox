@@ -1,4 +1,4 @@
-# backup: 20260426 @ 0355 (UTC)
+# backup: 20260427 @ 0907 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -10,7 +10,7 @@ aom 3.13.3
 aria2 1.37.0_2
 aribb24 1.0.4
 assimp 6.0.4_1
-at-spi2-core 2.60.1
+at-spi2-core 2.60.2
 augeas 1.14.1_1
 awscli 2.34.37
 bash 5.3.9
@@ -105,7 +105,7 @@ hicolor-icon-theme 0.18
 highway 1.4.0
 html2text 2.4.0
 htop 3.5.0
-httrack 3.49.2_1
+httrack 3.49.2_2
 hunspell 1.7.2
 hwloc 2.13.0
 icu4c@76 76.1_2
@@ -118,7 +118,7 @@ imagemagick 7.1.2-21
 imath 3.2.2
 img2pdf 0.6.3_1
 imlib2 1.12.6
-iperf3 3.21
+iperf3 3.21_1
 isl 0.27
 jansson 2.15.0
 jasper 4.2.9
@@ -290,6 +290,7 @@ openjph 0.27.0
 openldap 2.6.13
 openmotif 2.3.8_4
 openssl@3 3.6.2
+openssl@4 4.0.0
 openvino 2026.1.0
 opus 1.6.1
 opusfile 0.12_1
