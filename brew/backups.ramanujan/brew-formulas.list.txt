@@ -1,4 +1,4 @@
-# backup: 20260429 @ 0138 (UTC)
+# backup: 20260430 @ 0331 (UTC)
 a52dec
 abseil
 ada-url
@@ -401,6 +401,7 @@ srtp
 streamlink
 streamripper
 svt-av1
+syncthing
 taglib
 tbb
 tcl-tk

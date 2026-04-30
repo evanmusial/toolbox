@@ -1,4 +1,4 @@
-# backup: 20260429 @ 0138 (UTC)
+# backup: 20260430 @ 0331 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -10,9 +10,9 @@ aom 3.13.3
 aria2 1.37.0_2
 aribb24 1.0.4
 assimp 6.0.4_1
-at-spi2-core 2.60.2
+at-spi2-core 2.60.3
 augeas 1.14.1_1
-awscli 2.34.38
+awscli 2.34.39
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -39,7 +39,7 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 47.0.0
 cunit 2.1-3
-curl 8.19.0
+curl 8.20.0
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
@@ -329,7 +329,7 @@ python@3.10 3.10.20_1
 python@3.11 3.11.15_1
 python@3.12 3.12.13_2
 python@3.13 3.13.13_1
-python@3.14 3.14.4
+python@3.14 3.14.4_1
 python@3.9 3.9.25
 qemu 11.0.0
 qpdf 12.3.2
@@ -401,6 +401,7 @@ srtp 2.8.0
 streamlink 8.3.0_1
 streamripper 1.64.6_2
 svt-av1 4.1.0
+syncthing 2.0.16
 taglib 2.2.1
 tbb 2022.3.0
 tcl-tk 9.0.3
@@ -410,7 +411,7 @@ tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
 tmux 3.6a
-unbound 1.24.2
+unbound 1.25.0
 unpaper 7.0.0_3
 usb.ids 2025.12.13
 usbredir 0.15.0
