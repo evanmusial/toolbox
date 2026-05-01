@@ -1,4 +1,4 @@
-# backup: 20260430 @ 0331 (UTC)
+# backup: 20260501 @ 0355 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -9,10 +9,10 @@ airspyhf 1.6.8
 aom 3.13.3
 aria2 1.37.0_2
 aribb24 1.0.4
-assimp 6.0.4_1
+assimp 6.0.5
 at-spi2-core 2.60.3
 augeas 1.14.1_1
-awscli 2.34.39
+awscli 2.34.40
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -83,7 +83,7 @@ gmp 6.3.0
 gnu-getopt 2.42
 gnu-sed 4.10
 gnupg 2.5.19
-gnutls 3.8.12
+gnutls 3.8.13
 gobject-introspection 1.86.0_1
 google-authenticator-libpam 1.11
 gpac 26.02.0
@@ -94,7 +94,7 @@ gsettings-desktop-schemas 50.1
 gstreamer 1.28.2_1
 gtk+3 3.24.52
 gtk-vnc 1.5.0
-gtk4 4.22.3
+gtk4 4.22.4
 gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
@@ -284,7 +284,7 @@ onnx 1.21.0
 open-mpi 5.0.9
 openblas 0.3.33
 opencore-amr 0.1.6
-openexr 3.4.10
+openexr 3.4.11
 openjpeg 2.5.4
 openjph 0.27.0
 openldap 2.6.13
@@ -403,7 +403,7 @@ streamripper 1.64.6_2
 svt-av1 4.1.0
 syncthing 2.0.16
 taglib 2.2.1
-tbb 2022.3.0
+tbb 2023.0.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.17
 telnet 308
