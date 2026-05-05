@@ -1,4 +1,4 @@
-# backup: 20260504 @ 0205 (UTC)
+# backup: 20260505 @ 2059 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -12,7 +12,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.3
 augeas 1.14.1_1
-awscli 2.34.41
+awscli 2.34.42
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -56,8 +56,8 @@ eye-d3 0.9.9
 faac 1.50
 faad2 2.11.2
 fdk-aac 2.0.3
-ffmpeg 8.1_1
-ffmpeg@6 6.1.4_3
+ffmpeg 8.1.1
+ffmpeg@6 6.1.5
 fftw 3.3.11
 findutils 4.10.0
 flac 1.5.0
@@ -154,7 +154,7 @@ libevent 2.1.12_1
 libffi 3.5.2
 libfido2 1.17.0
 libgcrypt 1.12.2
-libgit2 1.9.2_2
+libgit2 1.9.3
 libgpg-error 1.60
 libheif 1.21.2_2
 libice 1.1.2
