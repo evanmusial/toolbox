@@ -1,4 +1,4 @@
-# backup: 20260511 @ 2154 (UTC)
+# backup: 20260512 @ 0141 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -405,7 +405,7 @@ syncthing 2.0.16
 taglib 2.3
 tbb 2023.0.0
 tcl-tk 9.0.3
-tcl-tk@8 8.6.17
+tcl-tk@8 8.6.18
 telnet 308
 tesseract 5.5.2
 thefuck 3.32
