@@ -1,4 +1,4 @@
-# backup: 20260512 @ 0141 (UTC)
+# backup: 20260517 @ 2045 (UTC)
 a52dec
 abseil
 ada-url
@@ -72,6 +72,7 @@ gdbm
 gdk-pixbuf
 gengetopt
 gettext
+gh
 ghostscript
 giflib
 git
