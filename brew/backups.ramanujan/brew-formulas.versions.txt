@@ -1,4 +1,4 @@
-# backup: 20260525 @ 1431 (UTC)
+# backup: 20260525 @ 2330 (UTC)
 a52dec 0.8.0
 abseil 20260107.1
 ada-url 3.4.4
@@ -81,7 +81,7 @@ glfw 3.4
 glib 2.88.1
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.42
+gnu-getopt 2.42.1
 gnu-sed 4.10
 gnupg 2.5.20
 gnutls 3.8.13_2
