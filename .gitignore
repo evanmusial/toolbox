@@ -1,0 +1,9 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
