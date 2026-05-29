@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Get the hostname of this machine
-THIS_HOSTNAME=$(hostname | sed -e 's/.local//g' | cut -d'.' -f1)
+#THIS_HOSTNAME=$(hostname | sed -e 's/.local//g' | cut -d'.' -f1)
+THIS_HOSTNAME=$(hostname -s)
 
 # Bounce to the directory where I have git installed.
 mkdir -p ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
