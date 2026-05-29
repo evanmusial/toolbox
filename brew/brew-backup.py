@@ -195,6 +195,12 @@ def short_hostname() -> str:
     return hostname.split(".", 1)[0]
 
 
+def colorize_output(value: str, color: str) -> str:
+    if not sys.stdout.isatty() or "NO_COLOR" in os.environ:
+        return value
+    return f"{color}{value}{RESET_COLOR}"
+
+
 def write_command_output(args: list[str], destination: Path, *, env: dict[str, str] | None = None) -> None:
     with destination.open("w", encoding="utf-8") as output:
         run(args, cwd=destination.parent, env=env, stdout=output, quiet=True)
@@ -204,8 +210,10 @@ def main() -> int:
     this_hostname = short_hostname()
     backup_dir = Path.home() / "git" / "toolbox" / "brew" / f"backups.{this_hostname}"
     this_date = datetime.now(timezone.utc).strftime("%Y%m%d @ %H%M (UTC)")
+    display_hostname = colorize_output(this_hostname, FILLED_COLOR)
 
-    print("Backup of Homebrew state...")
+    print()
+    print(f"Backing up Homebrew state for host {display_hostname}")
     progress = ProgressBar("Preparing backup", 15)
     progress.draw(step=1)
 
@@ -282,9 +290,10 @@ def main() -> int:
         progress.advance("Staged backup files")
         diff = run(["git", "diff", "--cached", "--quiet"], cwd=backup_dir, check=False, quiet=True)
         progress.advance("Checked for changes")
+        no_changes = False
         if diff.returncode == 0:
             progress.advance("No changes found")
-            print("No Homebrew changes to commit.")
+            no_changes = True
         else:
             run(["git", "commit", "-m", f"Homebrew backup: {this_date}"], cwd=backup_dir, quiet=True)
             run(["git", "push"], cwd=backup_dir, quiet=True)
@@ -292,6 +301,10 @@ def main() -> int:
 
         run(["git", "pull", "--ff-only"], cwd=backup_dir, quiet=True)
         progress.advance("Synced final state")
+        if no_changes:
+            print("No Homebrew changes to commit.")
+        print(f"Homebrew backup complete for host {display_hostname}")
+        print()
     finally:
         tmp_brewfile_path.unlink(missing_ok=True)
 

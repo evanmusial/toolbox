@@ -7,12 +7,21 @@ THIS_HOSTNAME="$(hostname -s)"
 BACKUP_DIR="${HOME}/git/toolbox/brew/backups.${THIS_HOSTNAME}"
 THIS_DATE="$(date -u +"%Y%m%d @ %H%M (UTC)")"
 
+if [[ -t 1 && -z "${NO_COLOR:-}" ]]; then
+  LIGHT_BLUE=$'\033[38;5;153m'
+  RESET_COLOR=$'\033[0m'
+else
+  LIGHT_BLUE=""
+  RESET_COLOR=""
+fi
+
 mkdir -p "$BACKUP_DIR"
 cd "$BACKUP_DIR"
 
 git pull --ff-only
 
-echo "Backup of Homebrew state..."
+echo
+echo "Backing up Homebrew state for host ${LIGHT_BLUE}${THIS_HOSTNAME}${RESET_COLOR}"
 
 TMP_BREWFILE="$(mktemp)"
 trap 'rm -f "$TMP_BREWFILE"' EXIT
@@ -52,3 +61,5 @@ else
 fi
 
 git pull --ff-only
+echo "Homebrew backup complete for host ${LIGHT_BLUE}${THIS_HOSTNAME}${RESET_COLOR}"
+echo
