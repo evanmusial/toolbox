@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.4
 augeas 1.14.1_1
-awscli 2.34.56
+awscli 2.34.57
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -156,7 +156,7 @@ libfido2 1.17.0
 libgcrypt 1.12.2
 libgit2 1.9.4
 libgpg-error 1.61
-libheif 1.22.2
+libheif 1.23.0
 libice 1.1.2
 libidn 1.43
 libidn2 2.3.8
