@@ -1,0 +1,651 @@
+# backup: 20260529 @ 2148 (UTC)
+# host: ramanujan
+
+tap "homebrew/services"
+tap "ngrok/ngrok"
+# Library for decoding ATSC A/52 streams (AKA 'AC-3')
+brew "a52dec"
+# C++ Common Libraries
+brew "abseil"
+# Open-source formatting library for C++
+brew "fmt"
+# C/C++ resolver library and DNS resolver utilities
+brew "adns"
+# Library for manipulating PNG images
+brew "libpng"
+# Software library to render fonts
+brew "freetype"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# XML-based font configuration API for X Windows
+brew "fontconfig"
+# Perl compatible regular expressions library with a new API
+brew "pcre2"
+# Core application library for C
+brew "glib"
+# X.Org: Protocol Headers
+brew "xorgproto"
+# X.Org: A Sample Authorization Protocol for X
+brew "libxau"
+# X.Org: X Display Manager Control Protocol library
+brew "libxdmcp"
+# X.Org: Interface to the X Window System protocol
+brew "libxcb"
+# X.Org: Core X11 protocol client library
+brew "libx11"
+# X.Org: Library for common extensions to the X11 protocol
+brew "libxext"
+# X.Org: Library for the Render Extension to the X11 protocol
+brew "libxrender"
+# Real-time data compression library
+brew "lzo"
+# Low-level library for pixel manipulation
+brew "pixman"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# Implementation of the Unicode BiDi algorithm
+brew "fribidi"
+# JPEG image codec that aids compression and decompression
+brew "jpeg-turbo"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
+# TIFF library and utilities
+brew "libtiff"
+# Smart font renderer for non-Roman scripts
+brew "graphite2"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Library for USB device access
+brew "libusb"
+# Driver and tools for a software-defined radio
+brew "airspy"
+# Driver and tools for a software-defined radio
+brew "airspyhf"
+# Perceptual video quality assessment based on multi-method fusion
+brew "libvmaf"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Asynchronous DNS library
+brew "c-ares"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Library for ARIB STD-B24, decoding JIS 8 bit characters and parsing MPEG-TS
+brew "aribb24"
+# Portable library for importing many well-known 3D model formats
+brew "assimp"
+# Message bus system, providing inter-application communication
+brew "dbus"
+# Configuration editing tool and API
+brew "augeas"
+# Library for decimal floating point arithmetic
+brew "mpdecimal"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Text-based UI library
+brew "ncurses"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Garbage collector for C and C++
+brew "bdw-gc"
+# High performance key/value database
+brew "berkeley-db@5"
+# Collection of portable C++ source libraries
+brew "boost"
+# C++ build system
+brew "boost-build"
+# Generic-purpose lossless compression algorithm by Google
+brew "brotli"
+# Tool for embedding, validating, and exporting BWF file metadata
+brew "bwfmetaedit"
+# Mozilla CA bundle for Python
+brew "certifi"
+# C parser in Python
+brew "pycparser"
+# C Foreign Function Interface for Python
+brew "cffi"
+# Cryptographic recipes and primitives for Python
+brew "cryptography"
+# Tool to obtain certs from Let's Encrypt and autoenable HTTPS
+brew "certbot"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
+# ASN.1 structure parser library
+brew "libtasn1"
+# Low-level cryptographic library
+brew "nettle"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Asynchronous event library
+brew "libevent"
+# HTTP/2 C Library
+brew "libnghttp2"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# Versatile implementation of the Network Time Protocol (NTP)
+brew "chrony"
+# Ultralightweight JSON parser in ANSI C
+brew "cjson"
+# Cross-platform make
+brew "cmake"
+# Unit testing framework for C
+brew "cmocka"
+# Open source speech codec
+brew "codec2"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Cross platform C99 library to get cpu features at runtime
+brew "cpu_features"
+# CPU architecture fetching tool
+brew "cpufetch"
+# Implementation of CRC32C with CPU-specific acceleration
+brew "crc32c"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# AV1 decoder targeted to be small and fast
+brew "dav1d"
+# Display user-friendly message boxes from shell scripts
+brew "dialog"
+# Standard XML representation system for technical documents
+brew "docbook"
+# XML vocabulary to create presentation-neutral documents
+brew "docbook-xsl"
+# Bash, Zsh and Fish completion for Docker
+brew "docker-completion"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Binary-decimal and decimal-binary routines for IEEE doubles
+brew "double-conversion"
+# Embeddable Javascript engine with compact footprint
+brew "duktape"
+# Library to parse XMP metadata
+brew "exempi"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+# Work with ID3 metadata in .mp3 files
+brew "eye-d3"
+# High quality MPEG Audio Layer III (MP3) encoder
+brew "lame"
+# VP8/VP9 video codec
+brew "libvpx"
+# Audio codec
+brew "opus"
+# Low-level access to audio, keyboard, mouse, joystick, and graphics
+brew "sdl2"
+# AV1 encoder
+brew "svt-av1"
+# H.264/AVC encoder
+brew "x264"
+# H.265/HEVC encoder
+brew "x265"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Ogg Bitstream Library
+brew "libogg"
+# Free lossless audio codec
+brew "flac"
+# Minimalistic plugin API for video effects
+brew "frei0r"
+# Library and utilities for processing GIFs
+brew "giflib"
+# Performance-portable, length-agnostic SIMD with runtime dispatch
+brew "highway"
+# Library of 2D and 3D vector, matrix, and math operations
+brew "imath"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
+# High dynamic-range image file format
+brew "openexr"
+# New file format for still image compression
+brew "jpeg-xl"
+# Library for JPEG-2000 image manipulation
+brew "openjpeg"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Image processing and image analysis library
+brew "leptonica"
+# Secure hashing function
+brew "libb2"
+# Multi-format archive and compression library
+brew "libarchive"
+# Implementation of the Unicode line- and word-breaking algorithms
+brew "libunibreak"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# Blu-Ray disc playback library for media players like VLC
+brew "libbluray"
+# Light HTTP/1.1 server library
+brew "libmicrohttpd"
+# Reliable Internet Stream Transport (RIST)
+brew "librist"
+# Library for sample rate conversion of audio data
+brew "libsamplerate"
+# Vorbis general audio compression codec
+brew "libvorbis"
+# MP3 player for Linux and UNIX
+brew "mpg123"
+# C library for files containing sampled sound
+brew "libsndfile"
+# NaCl networking and cryptography library
+brew "libsodium"
+# High quality, one-dimensional sample-rate conversion library
+brew "libsoxr"
+# C library SSHv1/SSHv2 client and server protocols
+brew "libssh"
+# Transcode video stabilization plugin
+brew "libvidstab"
+# Audio codecs extracted from Android open source project
+brew "opencore-amr"
+# Fastest and safest AV1 video encoder
+brew "rav1e"
+# Audio time stretcher tool and library
+brew "rubberband"
+# Compression/decompression library aiming for high speed
+brew "snappy"
+# Audio codec designed for speech
+brew "speex"
+# Secure Reliable Transport
+brew "srt"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Open video compression format
+brew "theora"
+# High-performance, high-quality MPEG-4 video library
+brew "xvid"
+# High-performance, asynchronous messaging library
+brew "zeromq"
+# Scaling, colorspace conversion, and dithering library
+brew "zimg"
+# LLVM's OpenMP runtime library
+brew "libomp"
+# C routines to compute the Discrete Fourier Transform
+brew "fftw"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# C library for multiple-precision floating-point computations
+brew "mpfr"
+# GNU awk utility
+brew "gawk"
+# Integer Set Library for the polyhedral model
+brew "isl"
+# C library for the arithmetic of high precision complex numbers
+brew "libmpc"
+# GNU compiler collection
+brew "gcc"
+# GNU database manager
+brew "gdbm"
+# Generate C code to parse command-line arguments via getopt_long
+brew "gengetopt"
+# GitHub command-line tool
+brew "gh"
+# JBIG2 decoder and library (for monochrome documents)
+brew "jbig2dec"
+# International domain name library
+brew "libidn"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
+# Distributed revision control system
+brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
+# Multi-platform library for OpenGL applications
+brew "glfw"
+# Core utilities for Python packages
+brew "python-packaging"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Command-line option parsing utility
+brew "gnu-getopt"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Common error values for all GnuPG components
+brew "libgpg-error"
+# Assuan IPC Library
+brew "libassuan"
+# Cryptographic library based on the code from GnuPG
+brew "libgcrypt"
+# X.509 and CMS library
+brew "libksba"
+# New GNU portable threads library
+brew "npth"
+# Passphrase entry dialog utilizing the Assuan protocol
+brew "pinentry"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# PAM module for two-factor authentication
+brew "google-authenticator-libpam"
+# Multimedia framework for research and academic purposes
+brew "gpac"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# GNU grep, egrep and fgrep
+brew "grep"
+# Oil Runtime Compiler (ORC)
+brew "orc"
+# Tool for downloading RTMP streaming media
+brew "rtmpdump"
+# UTF-8 with C++ in a Portable Way
+brew "utf8cpp"
+# Macro processing language
+brew "m4"
+# Generic library support script
+brew "libtool"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
+# Low cost software radio platform
+brew "hackrf"
+# Advanced HTML-to-text converter
+brew "html2text"
+# Improved top (interactive process viewer)
+brew "htop"
+# Website copier/offline browser
+brew "httrack"
+# Spell checker and morphological analyzer
+brew "hunspell"
+# Portable abstraction of the hierarchical topology of modern architectures
+brew "hwloc"
+# ID3 tag manipulation
+brew "id3lib"
+# ID3 editing tool
+brew "id3tool"
+# Command-line editor
+brew "id3v2"
+# Open h.265 video codec implementation
+brew "libde265"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Palette quantization library extracted from pnquant2
+brew "libimagequant"
+# Library for complex text layout
+brew "libraqm"
+# Friendly PIL fork (Python Imaging Library)
+brew "pillow"
+# Tools for and transforming and inspecting PDF files
+brew "qpdf"
+# Convert images to PDF via direct JPEG inclusion
+brew "img2pdf"
+# Image loading and rendering library
+brew "imlib2"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# C library for encoding, decoding, and manipulating JSON
+brew "jansson"
+# Library for manipulating JPEG-2000 images
+brew "jasper"
+# JBIG2 encoder (for monochrome documents)
+brew "jbig2enc"
+# Implementation of malloc emphasizing fragmentation avoidance
+brew "jemalloc"
+# Image manipulation library
+brew "jpeg"
+# Regular expressions library
+brew "oniguruma"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Library for interacting with JSON
+brew "jsoncpp"
+# USB 3.0 Superspeed Software Defined Radio Source
+brew "libbladerf"
+# Convert pixel information into colored ASCII art
+brew "libcaca"
+# Sort of a sbinary version of XML
+brew "libebml"
+# Asynchronous event library
+brew "libev"
+# Portable Foreign Function Interface library
+brew "libffi"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
+# X.Org: Inter-Client Exchange Library
+brew "libice"
+# Library for large linear classification
+brew "liblinear"
+# C/C++ seam carving library
+brew "liblqr"
+# Implementation of the file(1) command
+brew "libmagic"
+# Extensible, open standard container format for audio/video
+brew "libmatroska"
+# Library for parsing mms:// and mmsh:// network streams
+brew "libmms"
+# Shared library for libmediainfo
+brew "libzen"
+# Shared library for mediainfo
+brew "libmediainfo"
+# C library to parse Metalink XML files
+brew "libmetalink"
+# MNG/JNG reference library
+brew "libmng"
+# Library that provides automatic proxy configuration management
+brew "libproxy"
+# X.Org: pthread-stubs.pc
+brew "libpthread-stubs"
+# Library for reading RAW files from digital photo cameras
+brew "libraw"
+# Use Realtek DVB-T dongles as a cheap SDR
+brew "librtlsdr"
+# X.Org: X Session Management Library
+brew "libsm"
+# Multi-platform support library with a focus on asynchronous I/O
+brew "libuv"
+# X.Org: X FreeType library
+brew "libxft"
+# Read binary Excel files from C/C++
+brew "libxls"
+# C library for creating Excel XLSX files
+brew "libxlsxwriter"
+# GNOME XML library
+brew "libxml2"
+# C library for playback of module music (MOD, S3M, IT, etc)
+brew "libxmp"
+# X.Org: X Toolkit Intrinsics library
+brew "libxt"
+# X.Org: X miscellaneous utility routines library
+brew "libxmu"
+# X Print Client Library
+brew "libxp"
+# C library for reading, creating, and modifying zip archives
+brew "libzip"
+# Library like getopt(3) with a number of enhancements
+brew "popt"
+# Rotates, compresses, and mails system logs
+brew "logrotate"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Powerful, lightweight programming language
+brew "lua"
+# Data compression library
+brew "lzlib"
+# MPEG audio decoder
+brew "mad"
+# Cryptographic & SSL/TLS library
+brew "mbedtls"
+# C Markdown parser. Fast. SAX-like interface
+brew "md4c"
+# Unified display of technical and tag data for audio/video
+brew "media-info"
+# Light-weight C++ XML processing library
+brew "pugixml"
+# JSON for modern C++
+brew "nlohmann-json"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Cross-platform application and UI framework
+brew "qt"
+# Convert DTS audio to AC3 within a matroska file
+brew "mkvdts2ac3"
+# Convert mkv files to mp4
+brew "mkvtomp4"
+# Move, copy, append, and link multiple files
+brew "mmv"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
+# MP3 technical info viewer and ID3 1.x tag editor
+brew "mp3info"
+# UNIX movie player
+brew "mplayer"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr"
+# Open source relational database management system
+brew "mysql-client@8.4"
+# HTTP/2 C Library
+brew "nghttp2"
+# Port scanning utility for large networks
+brew "nmap"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Network Time Protocol (NTP) Distribution
+brew "ntp"
+# Optimized BLAS library
+brew "openblas"
+# Package for scientific computing with Python
+brew "numpy"
+# Manage multiple Node.js versions
+brew "nvm"
+# PNG image optimizing utility
+brew "pngquant"
+# Seamless operability between C++11 and Python
+brew "pybind11"
+# Post-processing for scanned/photocopied books
+brew "unpaper"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
+# Process Management Interface for HPC environments
+brew "pmix"
+# High performance message passing library
+brew "open-mpi"
+# Open source suite of directory software
+brew "openldap"
+# Bitmap images used by multiple X11 applications
+brew "xbitmaps"
+# LGPL release of the Motif toolkit
+brew "openmotif"
+# Rich and complete approach to parallelism in C++
+brew "tbb"
+# Open Visual Inference And Optimization toolkit for AI inference
+brew "openvino"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Perl compatible regular expressions library
+brew "pcre"
+# Highly capable, feature-rich programming language
+brew "perl"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Password generator
+brew "pwgen"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Python interface to gdbm
+brew "python-gdbm@3.11"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
+# Python interface to Tcl/Tk
+brew "python-tk@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Generic machine emulator and virtualizer
+brew "qemu"
+# Cross-platform application and UI framework
+brew "qt@5"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Extremely fast non-cryptographic hash algorithm
+brew "xxhash"
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Command-line tool for the Amazon S3 service
+brew "s3cmd"
+# Spreadsheet program for the terminal, using ncurses
+brew "sc-im"
+# Database of common MIME types
+brew "shared-mime-info"
+# Vendor and platform neutral SDR support library
+brew "soapysdr"
+# SoapySDR RTL-SDR Support Module
+brew "soapyrtlsdr"
+# SOcket CAT: netcat on steroids
+brew "socat"
+# SOund eXchange: universal sound sample translator
+brew "sox"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Convert XML to another format (based on XSL or other tools)
+brew "xmlto"
+# CLI for extracting streams from various websites to a video player
+brew "streamlink"
+# Separate tracks via Shoutcasts title-streaming
+brew "streamripper"
+# Open source continuous file synchronization application
+brew "syncthing", restart_service: :changed
+# Tool Command Language
+brew "tcl-tk"
+# User interface to the TELNET protocol
+brew "telnet"
+# Programmatically correct mistyped console commands
+brew "thefuck"
+# Clean C library for processing UTF-8 Unicode data
+brew "utf8proc"
+# Terminal multiplexer
+brew "tmux"
+# App for managing virtual machines
+brew "virt-manager"
+# Vector Optimized Library of Kernels
+brew "volk"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Lookup tool for domain names and other internet resources
+brew "whois"
+# Command-line player for module music formats (MOD, S3M, IT, etc)
+brew "xmp"
+# PDF viewer
+brew "xpdf"
+# Prevent website visitor's data from being used by Google Analytics JavaScript
+cask "google-analytics-opt-out"
+# Video format converter (transcoder)
+cask "makemkv", args: { appdir: "/Applications" }
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Create, resize and compact sparse bundles
+cask "spundle"
+# System monitor for the menu bar
+cask "stats"
+npm "esm"
+npm "gcp-docs"
