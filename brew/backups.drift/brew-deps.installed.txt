@@ -99,7 +99,7 @@ id3lib:
 id3tool: 
 id3v2: id3lib
 ilmbase: 
-imagemagick: aom freetype giflib jpeg-turbo libde265 libheif libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
+imagemagick: aom freetype giflib jpeg-turbo libde265 libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
 imath: 
 img2pdf: aom ca-certificates cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 pcre2 pillow pixman python@3.14 qpdf readline sqlite webp xorgproto xz zstd
 imlib2: freetype giflib jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
@@ -243,7 +243,7 @@ node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libnghtt
 node_exporter: 
 npth: 
 numpy: gcc gmp isl libmpc libomp lz4 mpfr openblas xz zstd
-ocrmypdf: aom ca-certificates cairo cffi cryptography dav1d ffmpeg fontconfig freetype fribidi gettext ghostscript giflib glib graphite2 harfbuzz icu4c@78 img2pdf jbig2dec jbig2enc jpeg-turbo lame leptonica libarchive libavif libb2 libdatrie libde265 libheif libidn libimagequant libpng libraqm libthai libtiff libunistring libvmaf libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 opus pango pcre2 pillow pixman pngquant pybind11 pycparser pydantic python@3.14 qpdf readline sdl2 sqlite svt-av1 tesseract unpaper webp x264 x265 xorgproto xz zstd
+ocrmypdf: aom ca-certificates cairo cffi cryptography dav1d ffmpeg fontconfig freetype fribidi gettext ghostscript giflib glib graphite2 harfbuzz icu4c@78 img2pdf jbig2dec jbig2enc jpeg-turbo lame leptonica libarchive libavif libb2 libdatrie libde265 libidn libimagequant libpng libraqm libthai libtiff libunistring libvmaf libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 opus pango pcre2 pillow pixman pngquant pybind11 pycparser pydantic python@3.14 qpdf readline sdl2 sqlite svt-av1 tesseract unpaper webp x264 x265 xorgproto xz zstd
 oniguruma: 
 open-mpi: ca-certificates gcc gmp hwloc isl libevent libmpc lz4 mpfr openssl@3 pmix xz zstd
 openblas: gcc gmp isl libmpc libomp lz4 mpfr xz zstd
