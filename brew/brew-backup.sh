@@ -1,40 +1,52 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# brew-backup.sh
 
-# Get the hostname of this machine
-#THIS_HOSTNAME=$(hostname | sed -e 's/.local//g' | cut -d'.' -f1)
-THIS_HOSTNAME=$(hostname -s)
+set -euo pipefail
 
-# Bounce to the directory where I have git installed.
-mkdir -p ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
-cd ~/git/toolbox/brew/backups.${THIS_HOSTNAME}
+THIS_HOSTNAME="$(hostname -s)"
+BACKUP_DIR="${HOME}/git/toolbox/brew/backups.${THIS_HOSTNAME}"
+THIS_DATE="$(date -u +"%Y%m%d @ %H%M (UTC)")"
 
-# Pull since multiple machines use this
-git pull
+mkdir -p "$BACKUP_DIR"
+cd "$BACKUP_DIR"
 
-# Handy visual indicator that the backup is happening.
-echo "🦺 Backup of brew casks and formulae..."
+git pull --ff-only
 
-# An eyeball friendly date string, but use UTC for consistency.
-THIS_DATE=$(date -u +"%Y%m%d @ %H%M (UTC)")
+echo "Backup of Homebrew state..."
 
-# Mark the files more handily.
-echo "# backup: $THIS_DATE" > brew-formulas.list.txt
-echo "# backup: $THIS_DATE" > brew-casks.list.txt
-echo "# backup: $THIS_DATE" > brew-casks.versions.txt
-echo "# backup: $THIS_DATE" > brew-formulas.versions.txt
+TMP_BREWFILE="$(mktemp)"
+trap 'rm -f "$TMP_BREWFILE"' EXIT
 
-# Get list of brew formulas, and add that list to git.
-brew list --formula -1 >> brew-formulas.list.txt
-brew list --cask -1 >> brew-casks.list.txt
-brew list --cask --versions >> brew-casks.versions.txt
-brew list --formula --versions >> brew-formulas.versions.txt
+brew bundle dump --force --describe --file="$TMP_BREWFILE"
 
-# Add the text files to a git commit, then push it.
-git add brew-formulas.list.txt
-git add brew-casks.list.txt
-git add brew-casks.versions.txt
-git add brew-formulas.versions.txt
+{
+  echo "# backup: $THIS_DATE"
+  echo "# host: $THIS_HOSTNAME"
+  echo
+  cat "$TMP_BREWFILE"
+} > Brewfile
 
-# Make a git push with the date and time referenced, then push that to the remove repo.
-git commit -m "Brew formula & casks backup: ${THIS_DATE}"
-git push
+brew leaves --installed-on-request > brew-formulae.requested.txt
+brew leaves --installed-as-dependency > brew-formulae.dependency-leaves.txt
+brew list --formula --versions > brew-formulae.versions.txt
+brew list --cask --versions > brew-casks.versions.txt
+HOMEBREW_NO_ENV_HINTS=1 brew deps --installed --tree --annotate > brew-deps.declared.tree.txt
+brew deps --installed > brew-deps.installed.txt
+brew info --json=v2 --installed > brew-installed.json
+
+git add \
+  Brewfile \
+  brew-formulae.requested.txt \
+  brew-formulae.dependency-leaves.txt \
+  brew-formulae.versions.txt \
+  brew-casks.versions.txt \
+  brew-deps.declared.tree.txt \
+  brew-deps.installed.txt \
+  brew-installed.json
+
+if git diff --cached --quiet; then
+  echo "No Homebrew changes to commit."
+else
+  git commit -m "Homebrew backup: ${THIS_DATE}"
+  git push
+fi

@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+# brew-restore.sh
+
 set -euo pipefail
 
 BREWFILE="${1:-Brewfile}"
 
 if ! command -v brew >/dev/null 2>&1; then
-  echo "Homebrew is not installed yet."
+  echo "Homebrew is not installed."
   echo "Install it from https://brew.sh, then rerun this script."
   exit 1
 fi
@@ -14,17 +16,19 @@ if [[ ! -f "$BREWFILE" ]]; then
   exit 1
 fi
 
+echo "Updating Homebrew..."
 brew update
 
-echo "Checking missing dependencies..."
-brew bundle check --file="$BREWFILE" --verbose || true
+echo "Checking Brewfile..."
+if brew bundle check --file="$BREWFILE" --verbose; then
+  echo "Everything in $BREWFILE is already installed."
+else
+  echo "Installing from $BREWFILE..."
+  brew bundle install --file="$BREWFILE" --no-upgrade
+fi
 
-echo "Installing from $BREWFILE..."
-brew bundle install --file="$BREWFILE" --no-upgrade
-
-echo
 echo "Restore complete."
-echo "To preview removals not listed in the Brewfile:"
+echo "Optional cleanup preview:"
 echo "  brew bundle cleanup --file=\"$BREWFILE\""
-echo "To actually remove them:"
+echo "Optional cleanup execute:"
 echo "  brew bundle cleanup --file=\"$BREWFILE\" --force"
