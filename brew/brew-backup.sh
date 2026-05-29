@@ -50,3 +50,5 @@ else
   git commit -m "Homebrew backup: ${THIS_DATE}"
   git push
 fi
+
+git pull --ff-only

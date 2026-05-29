@@ -14,7 +14,8 @@ from pathlib import Path
 
 BAR_WIDTH = 50
 STATUS_WIDTH = 36
-ANIMATION_SECONDS = 0.35
+ANIMATION_SECONDS = 0.08
+MAX_ANIMATION_FRAMES = 6
 FILLED_SEGMENT = "▰"
 EMPTY_SEGMENT = "▱"
 FILLED_COLOR = "\033[38;5;153m"
@@ -94,12 +95,19 @@ class ProgressBar:
             self.render(target_percent)
             return
 
-        direction = 1 if target_percent > self.current_percent else -1
-        delay = min(0.02, ANIMATION_SECONDS / distance)
-        for percent in range(self.current_percent + direction, target_percent + direction, direction):
+        start_percent = self.current_percent
+        frame_count = min(distance, MAX_ANIMATION_FRAMES)
+        delay = ANIMATION_SECONDS / frame_count
+        previous_percent = start_percent
+        for frame in range(1, frame_count + 1):
+            percent = round(start_percent + ((target_percent - start_percent) * frame / frame_count))
+            if percent == previous_percent and frame != frame_count:
+                continue
             self.current_percent = percent
             self.render(percent)
-            time.sleep(delay)
+            previous_percent = percent
+            if frame != frame_count:
+                time.sleep(delay)
 
     def advance(self, label: str | None = None) -> None:
         self.completed_steps = min(self.completed_steps + 1, self.total_steps)
