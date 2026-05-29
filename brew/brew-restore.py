@@ -3,14 +3,23 @@
 
 from __future__ import annotations
 
+import os
 import shutil
 import socket
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 
 BAR_WIDTH = 50
+STATUS_WIDTH = 36
+ANIMATION_SECONDS = 0.35
+FILLED_SEGMENT = "▰"
+EMPTY_SEGMENT = "▱"
+FILLED_COLOR = "\033[38;5;153m"
+EMPTY_COLOR = "\033[38;5;24m"
+RESET_COLOR = "\033[0m"
 
 
 class ProgressBar:
@@ -18,26 +27,85 @@ class ProgressBar:
         self.label = label
         self.total_steps = total_steps
         self.completed_steps = 0
+        self.current_percent = 0
         self.interactive = sys.stdout.isatty()
+        self.use_color = self.interactive and "NO_COLOR" not in os.environ
         self.active = False
 
-    def draw(self, label: str | None = None) -> None:
-        if label is not None:
-            self.label = label
+    def colorize(self, value: str, color: str) -> str:
+        if not self.use_color:
+            return value
+        return f"{color}{value}{RESET_COLOR}"
 
-        percent = round((self.completed_steps / self.total_steps) * 100)
-        filled = BAR_WIDTH if self.completed_steps >= self.total_steps else percent // 2
-        bar = "█" * filled + "░" * (BAR_WIDTH - filled)
-        line = f"{self.label:<28} [{bar}] {percent:3d}%"
+    def format_status(self, step: int | None = None) -> str:
+        display_step = step if step is not None else self.completed_steps
+        display_step = min(max(display_step, 1), self.total_steps)
+        step_text = f"{display_step}/{self.total_steps}"
+        available_label_width = STATUS_WIDTH - len(step_text) - 5
+        label = self.label
+        if len(label) > available_label_width:
+            label = label[: max(available_label_width - 3, 0)] + "..."
+
+        raw_status = f"  [{step_text}] {label}"
+        padding = " " * max(STATUS_WIDTH - len(raw_status), 0)
+        if not self.use_color:
+            return f"{raw_status}{padding}"
+
+        return (
+            "  "
+            f"{self.colorize('[', EMPTY_COLOR)}"
+            f"{self.colorize(step_text, FILLED_COLOR)}"
+            f"{self.colorize(']', EMPTY_COLOR)} "
+            f"{self.colorize(label, FILLED_COLOR)}"
+            f"{padding}"
+        )
+
+    def render(self, percent: int, *, step: int | None = None) -> None:
+        percent = min(max(percent, 0), 100)
+        filled = BAR_WIDTH if percent >= 100 else percent // 2
+        filled_bar = self.colorize(FILLED_SEGMENT * filled, FILLED_COLOR)
+        empty_bar = self.colorize(EMPTY_SEGMENT * (BAR_WIDTH - filled), EMPTY_COLOR)
+        percent_text = self.colorize(f"{percent:3d}%", FILLED_COLOR)
+        line = f"{self.format_status(step)} {filled_bar}{empty_bar} {percent_text}"
         if self.interactive:
             print(f"\r{line}\033[K", end="", flush=True)
         else:
             print(line, flush=True)
         self.active = True
 
+    def target_percent(self) -> int:
+        return round((self.completed_steps / self.total_steps) * 100)
+
+    def draw(self, label: str | None = None, *, step: int | None = None) -> None:
+        if label is not None:
+            self.label = label
+
+        self.current_percent = self.target_percent()
+        self.render(self.current_percent, step=step)
+
+    def animate_to(self, target_percent: int) -> None:
+        if not self.interactive:
+            self.current_percent = target_percent
+            self.render(target_percent)
+            return
+
+        distance = abs(target_percent - self.current_percent)
+        if distance == 0:
+            self.render(target_percent)
+            return
+
+        direction = 1 if target_percent > self.current_percent else -1
+        delay = min(0.02, ANIMATION_SECONDS / distance)
+        for percent in range(self.current_percent + direction, target_percent + direction, direction):
+            self.current_percent = percent
+            self.render(percent)
+            time.sleep(delay)
+
     def advance(self, label: str | None = None) -> None:
         self.completed_steps = min(self.completed_steps + 1, self.total_steps)
-        self.draw(label)
+        if label is not None:
+            self.label = label
+        self.animate_to(self.target_percent())
         if self.completed_steps >= self.total_steps and self.interactive:
             print(flush=True)
         if self.completed_steps >= self.total_steps:
@@ -109,11 +177,11 @@ def main() -> int:
     print(f"Restoring Homebrew state from {brewfile}")
 
     progress = ProgressBar("Updating Homebrew", 3)
-    progress.draw()
+    progress.draw(step=1)
     run(["brew", "update"], quiet=True)
     progress.advance("Updated Homebrew")
 
-    progress.draw("Checking Brewfile")
+    progress.draw("Checking Brewfile", step=2)
     check = run(
         ["brew", "bundle", "check", f"--file={brewfile}", "--verbose"],
         check=False,
@@ -124,7 +192,7 @@ def main() -> int:
         progress.advance("Already installed")
         print(f"Everything in {brewfile} is already installed.")
     else:
-        progress.draw("Installing packages")
+        progress.draw("Installing packages", step=3)
         run(["brew", "bundle", "install", f"--file={brewfile}", "--no-upgrade"], quiet=True)
         progress.advance("Installed packages")
 
