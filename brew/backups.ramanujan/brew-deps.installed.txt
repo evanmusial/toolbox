@@ -1,0 +1,448 @@
+a52dec: 
+abseil: 
+ada-url: fmt
+adns: 
+adwaita-icon-theme: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libdatrie libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
+airspy: libusb
+airspyhf: libusb
+aom: libvmaf
+aria2: c-ares ca-certificates gettext libssh2 libunistring openssl@3 readline sqlite
+aribb24: libpng
+assimp: 
+at-spi2-core: dbus gettext glib libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxtst pcre2 xorgproto
+augeas: readline
+awscli: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+bash: gettext libunistring ncurses readline
+bdw-gc: 
+berkeley-db@5: 
+boost: icu4c@78 lz4 xz zstd
+boost-build: 
+brotli: 
+bwfmetaedit: 
+c-ares: 
+ca-certificates: 
+cairo: fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+capstone: gettext libunistring
+certbot: augeas ca-certificates certifi cffi cryptography libyaml lz4 mpdecimal openssl@3 pycparser pydantic python@3.14 readline sqlite xz zstd
+certifi: ca-certificates
+cffi: pycparser
+chrony: ca-certificates gettext gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit unbound
+cjson: 
+cmake: 
+cmocka: 
+codec2: 
+coreutils: gmp
+cpio: 
+cpu_features: 
+cpufetch: 
+crc32c: 
+cryptography: ca-certificates cffi openssl@3 pycparser
+cunit: 
+curl: brotli ca-certificates libnghttp2 libnghttp3 libngtcp2 libssh2 lz4 openssl@3 xz zstd
+dav1d: 
+dbus: 
+dialog: 
+docbook: 
+docbook-xsl: docbook
+docker: docker-completion
+docker-completion: 
+double-conversion: 
+dtc: libyaml
+duktape: 
+exempi: 
+exiftool: 
+eye-d3: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+faac: 
+faad2: 
+fdk-aac: 
+ffmpeg: ca-certificates dav1d lame libvmaf libvpx openssl@3 opus sdl2 svt-av1 x264 x265
+ffmpeg@6: aom aribb24 brotli ca-certificates cairo cjson dav1d flac fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway icu4c@78 imath jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libdatrie libdeflate libevent libidn2 libmicrohttpd libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libthai libtiff libudfread libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls@3 mpg123 nettle opencore-amr openexr openjpeg openjph openssl@3 opus p11-kit pango pcre2 pixman rav1e rubberband sdl2 snappy speex srt svt-av1 tesseract theora unbound webp x264 x265 xorgproto xvid xz zeromq zimg zstd
+fftw: libomp
+findutils: 
+flac: libogg
+fmt: 
+fontconfig: freetype gettext libpng libunistring
+freetype: libpng
+frei0r: 
+fribidi: 
+gawk: gettext gmp libunistring mpfr readline
+gcc: gmp isl libmpc lz4 mpfr xz zstd
+gdbm: 
+gdk-pixbuf: gettext glib jpeg-turbo libpng libtiff libunistring lz4 pcre2 xz zstd
+gengetopt: 
+gettext: libunistring
+gh: 
+ghostscript: cairo fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jbig2dec jpeg-turbo leptonica libarchive libb2 libdatrie libidn libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pango pcre2 pixman tesseract webp xorgproto xz zstd
+giflib: 
+git: gettext libunistring pcre2
+git-lfs: 
+glfw: 
+glib: gettext libunistring pcre2
+glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libtasn1 libunistring mpdecimal nettle openssl@3 p11-kit pcre2 python-packaging python@3.13 readline sqlite unbound xz
+gmp: 
+gnu-getopt: 
+gnu-sed: 
+gnupg: ca-certificates gettext gmp gnutls libassuan libevent libgcrypt libgpg-error libidn2 libksba libnghttp2 libtasn1 libunistring libusb nettle npth openssl@3 p11-kit pinentry readline unbound
+gnutls: ca-certificates gettext gmp libidn2 libtasn1 libunistring nettle p11-kit
+gobject-introspection: ca-certificates cairo fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf python@3.14 readline sqlite xorgproto xz zstd
+google-analytics-opt-out: 
+google-authenticator-libpam: libpng qrencode
+gpac: ca-certificates dav1d ffmpeg freetype jpeg-turbo lame libnghttp2 libogg libpng libtiff libvorbis libvpx libx11 libxau libxcb libxdmcp libxext little-cms2 lz4 openjpeg openssl@3 opus sdl2 svt-av1 theora x264 x265 xorgproto xz zstd
+graphene: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
+graphite2: 
+grep: pcre2
+gsettings-desktop-schemas: gettext glib libunistring pcre2
+gstreamer: aom at-spi2-core ca-certificates cairo dav1d dbus faac faad2 fdk-aac ffmpeg flac fontconfig freetype fribidi gdk-pixbuf gettext giflib glib glib-networking gmp gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gtk+3 gtk4 harfbuzz hicolor-icon-theme icu4c@78 imath jpeg-turbo json-glib lame libass libcuefile libdatrie libdeflate libepoxy libevent libidn2 libnghttp2 libnice libogg libpng libpsl libreplaygain librsvg libshout libsndfile libsodium libsoup libtasn1 libthai libtiff libunibreak libunistring libusrsctp libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mpdecimal mpg123 musepack nettle opencore-amr openexr openjpeg openjph openssl@3 opus orc p11-kit pango pcre2 pixman pkgconf py3cairo pygobject3 python@3.14 readline rtmpdump sdl2 speex sqlite srt srtp svt-av1 taglib theora unbound utf8cpp webp x264 x265 xorgproto xz zstd
+gtk+3: at-spi2-core cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 gsettings-desktop-schemas harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo libdatrie libepoxy libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo pango pcre2 pixman xorgproto xz zstd
+gtk-vnc: at-spi2-core ca-certificates cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib gmp gnutls graphite2 gsettings-desktop-schemas gtk+3 harfbuzz hicolor-icon-theme icu4c@76 jpeg-turbo libepoxy libevent libgcrypt libgpg-error libidn2 libnghttp2 libpng libtasn1 libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo mpdecimal nettle openssl@3 p11-kit pango pcre2 pixman python-packaging python@3.13 readline sqlite unbound xorgproto xz zstd
+gtk4: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphene graphite2 harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo libdatrie libepoxy libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
+gtksourceview4: at-spi2-core cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 gsettings-desktop-schemas gtk+3 harfbuzz hicolor-icon-theme icu4c@77 jpeg-turbo libepoxy libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo pango pcre2 pixman xorgproto xz zstd
+guile: bdw-gc gmp libtool libunistring m4 pkgconf readline
+gumbo-parser: 
+hackrf: fftw libomp libusb
+harfbuzz: cairo fontconfig freetype gettext glib graphite2 icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+hdrhistogram_c: 
+hicolor-icon-theme: 
+highway: 
+html2text: 
+htop: ncurses
+httrack: ca-certificates openssl@4
+hunspell: gettext libunistring readline
+hwloc: 
+icu4c@76: 
+icu4c@77: 
+icu4c@78: 
+id3lib: 
+id3tool: 
+id3v2: id3lib
+imagemagick: aom freetype giflib jpeg-turbo libde265 libheif libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
+imath: 
+img2pdf: aom ca-certificates cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 pcre2 pillow pixman python@3.14 qpdf readline sqlite webp xorgproto xz zstd
+imlib2: freetype giflib jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
+iperf3: ca-certificates openssl@4
+isl: gmp
+jansson: 
+jasper: jpeg-turbo
+jbig2dec: 
+jbig2enc: giflib jpeg-turbo leptonica libpng libtiff little-cms2 lz4 openjpeg webp xz zstd
+jemalloc: 
+jpeg: 
+jpeg-turbo: 
+jpeg-xl: brotli giflib highway imath jpeg-turbo libdeflate libpng libtiff little-cms2 lz4 openexr openjph xz zstd
+jq: oniguruma
+json-c: 
+json-glib: gettext glib libunistring pcre2
+jsoncpp: 
+lame: 
+leptonica: giflib jpeg-turbo libpng libtiff little-cms2 lz4 openjpeg webp xz zstd
+libarchive: libb2 lz4 xz zstd
+libass: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunibreak libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+libassuan: gettext libgpg-error libunistring
+libavif: aom dav1d jpeg-turbo libpng libvmaf
+libb2: 
+libbladerf: libusb ncurses
+libbluray: fontconfig freetype gettext libpng libudfread libunistring
+libcaca: freetype giflib imlib2 jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
+libcbor: 
+libcuefile: 
+libdatrie: 
+libde265: 
+libdeflate: 
+libebml: 
+libepoxy: 
+libev: 
+libevent: ca-certificates openssl@3
+libffi: 
+libfido2: ca-certificates libcbor openssl@3
+libgcrypt: gettext libgpg-error libunistring
+libgit2: ca-certificates libssh2 llhttp openssl@3
+libgpg-error: gettext libunistring
+libheif: aom giflib jpeg-turbo libde265 libpng libtiff libvmaf lz4 webp x265 xz zstd
+libice: xorgproto
+libidn: 
+libidn2: gettext libunistring
+libimagequant: 
+libiscsi: cunit
+libksba: gettext libgpg-error libunistring
+liblinear: 
+liblqr: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
+libmagic: 
+libmatroska: libebml
+libmediainfo: gettext glib libmms libunistring libzen pcre2
+libmetalink: 
+libmicrohttpd: ca-certificates gettext gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit unbound
+libmms: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
+libmng: jpeg-turbo libtiff little-cms2 lz4 xz zstd
+libmpc: gmp mpfr
+libnghttp2: 
+libnghttp3: 
+libngtcp2: ca-certificates openssl@3
+libnice: ca-certificates gettext glib gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 unbound
+libogg: 
+libomp: 
+libosinfo: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libsoup libtasn1 libunistring nettle openssl@3 osinfo-db p11-kit pcre2 readline sqlite unbound usb.ids
+libpng: 
+libproxy: duktape gettext glib libunistring pcre2
+libpsl: gettext libidn2 libunistring
+libpthread-stubs: pkg-config
+libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+libraw: jpeg-turbo libomp libtiff little-cms2 lz4 xz zstd
+libreplaygain: 
+librist: ca-certificates cjson gettext gmp gnutls libevent libidn2 libmicrohttpd libnghttp2 libtasn1 libunistring mbedtls@3 nettle openssl@3 p11-kit unbound
+librsvg: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libdatrie libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
+librtlsdr: libusb
+libsamplerate: 
+libshout: ca-certificates libogg libvorbis openssl@3 speex theora
+libslirp: gettext glib libunistring pcre2
+libsm: libice xorgproto
+libsndfile: flac lame libogg libvorbis mpg123 opus
+libsodium: 
+libsoup: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline sqlite unbound
+libsoxr: 
+libssh: ca-certificates openssl@3
+libssh2: ca-certificates openssl@3
+libtasn1: 
+libthai: libdatrie
+libtiff: jpeg-turbo lz4 xz zstd
+libtommath: 
+libtool: m4
+libudfread: 
+libunibreak: 
+libunistring: 
+libusb: 
+libusrsctp: 
+libuv: 
+libvidstab: 
+libvirt: ca-certificates cunit gettext glib gmp gnutls json-c libevent libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline unbound
+libvirt-glib: ca-certificates cunit gettext glib gmp gnutls json-c libevent libgcrypt libgpg-error libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring libvirt nettle openssl@3 p11-kit pcre2 readline unbound yajl
+libvirt-python: ca-certificates cunit gettext glib gmp gnutls json-c libevent libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring libvirt lz4 mpdecimal nettle openssl@3 p11-kit pcre2 python@3.14 readline sqlite unbound xz zstd
+libvmaf: 
+libvorbis: libogg
+libvpx: 
+libx11: libxau libxcb libxdmcp xorgproto
+libxau: xorgproto
+libxcb: libxau libxdmcp xorgproto
+libxdmcp: xorgproto
+libxext: libx11 libxau libxcb libxdmcp xorgproto
+libxfixes: libx11 libxau libxcb libxdmcp xorgproto
+libxft: fontconfig freetype libpng libx11 libxau libxcb libxdmcp libxrender xorgproto
+libxi: libx11 libxau libxcb libxdmcp libxext libxfixes xorgproto
+libxls: 
+libxlsxwriter: 
+libxml2: readline
+libxmp: 
+libxmu: libice libsm libx11 libxau libxcb libxdmcp libxext libxt xorgproto
+libxp: libx11 libxau libxcb libxdmcp libxext xorgproto
+libxrender: libx11 libxau libxcb libxdmcp xorgproto
+libxt: libice libsm libx11 libxau libxcb libxdmcp xorgproto
+libxtst: libx11 libxau libxcb libxdmcp libxext libxfixes libxi xorgproto
+libyaml: 
+libzen: 
+libzip: lz4 xz zstd
+litehtml: gumbo-parser
+little-cms2: jpeg-turbo libtiff lz4 xz zstd
+llhttp: 
+logrotate: popt
+lolcat: 
+lua: 
+lz4: 
+lzlib: 
+lzo: 
+m4: 
+mad: 
+makemkv: 
+mbedtls: 
+mbedtls@3: 
+md4c: 
+media-info: gettext glib libmediainfo libmms libunistring libzen pcre2
+merve: icu4c@78 simdutf
+mkvdts2ac3: aom aribb24 assimp boost brotli ca-certificates cairo cjson dav1d dbus double-conversion ffmpeg flac fmt fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway hunspell icu4c imath jasper jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libebml libevent libidn2 libmatroska libmicrohttpd libmng libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls md4c mkvtoolnix mpdecimal mpg123 nettle nlohmann-json opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman pugixml python@3.12 qt rav1e readline rubberband sdl2 snappy speex sqlite srt svt-av1 tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg zstd
+mkvtomp4: aom aribb24 assimp boost brotli ca-certificates cairo cjson dav1d dbus double-conversion ffmpeg flac fmt fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls gpac graphite2 harfbuzz highway hunspell icu4c imath jasper jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libebml libevent libidn2 libmatroska libmicrohttpd libmng libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls md4c mkvtoolnix mpdecimal mpg123 nettle nlohmann-json opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman pugixml python@3.12 qt rav1e readline rubberband sdl2 snappy speex sqlite srt svt-av1 tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg zstd
+mkvtoolnix: boost brotli ca-certificates cairo dbus double-conversion flac fmt fontconfig freetype gettext glib gmp graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libebml libmatroska libogg libpng libunistring libvorbis libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman pugixml qtbase xorgproto xz zstd
+mmv: bdw-gc
+moreutils: 
+mp3info: 
+mpdecimal: 
+mpfr: gmp
+mpg123: 
+mplayer: fontconfig freetype gettext giflib imlib2 jpeg-turbo libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
+mtr: jansson
+musepack: libcuefile libreplaygain
+mysql-client@8.4: ca-certificates libcbor libevent libfido2 lz4 openssl@3 xz zlib-ng-compat zstd
+nbytes: 
+ncurses: 
+nettle: gmp
+nghttp2: c-ares ca-certificates jemalloc libev libnghttp2 openssl@3
+ngrok: 
+nlohmann-json: 
+nmap: ca-certificates liblinear libssh2 lua lz4 mpdecimal openssl@3 pcre2 python@3.14 readline sqlite xz zstd
+node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libnghttp2 libnghttp3 libngtcp2 libuv llhttp lz4 merve nbytes openssl@3 readline simdjson simdutf sqlite uvwasi xz zstd
+npth: 
+ntp: ca-certificates openssl@3
+numpy: gcc gmp isl libmpc libomp lz4 mpfr openblas xz zstd
+nvm: 
+ocrmypdf: aom ca-certificates cairo cffi cryptography dav1d ffmpeg fontconfig freetype fribidi gettext ghostscript giflib glib graphite2 harfbuzz icu4c@78 img2pdf jbig2dec jbig2enc jpeg-turbo lame leptonica libarchive libavif libb2 libdatrie libde265 libheif libidn libimagequant libpng libraqm libthai libtiff libunistring libvmaf libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 opus pango pcre2 pillow pixman pngquant pybind11 pycparser pydantic python@3.14 qpdf readline sdl2 sqlite svt-av1 tesseract unpaper webp x264 x265 xorgproto xz zstd
+oniguruma: 
+onnx: abseil protobuf
+open-mpi: ca-certificates gcc gmp hwloc isl libevent libmpc lz4 mpfr openssl@3 pmix xz zstd
+openblas: gcc gmp isl libmpc libomp lz4 mpfr xz zstd
+opencore-amr: 
+openexr: imath jpeg-turbo libdeflate libtiff lz4 openjph xz zstd
+openjpeg: jpeg-turbo libpng libtiff little-cms2 lz4 xz zstd
+openjph: jpeg-turbo libtiff lz4 xz zstd
+openldap: ca-certificates openssl@3
+openmotif: fontconfig freetype gettext jpeg-turbo libice libpng libsm libunistring libx11 libxau libxcb libxdmcp libxext libxft libxmu libxp libxrender libxt xbitmaps xorgproto
+openssl@3: ca-certificates
+openssl@4: ca-certificates
+openvino: abseil gcc gmp hwloc isl libmpc libomp lz4 mpfr nlohmann-json numpy onnx openblas protobuf pugixml snappy tbb xz zstd
+opus: 
+opusfile: ca-certificates libogg openssl@3 opus
+orc: 
+osinfo-db: 
+p11-kit: ca-certificates libtasn1
+p7zip: 
+pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libdatrie libpng libthai libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+pcre: 
+pcre2: 
+perl: berkeley-db@5 gdbm
+phodav: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libsoup libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline sqlite unbound
+pillow: aom brotli cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz highway icu4c@78 imath jpeg-turbo jpeg-xl libavif libdeflate libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openexr openjpeg openjph pcre2 pixman webp xorgproto xz zstd
+pinentry: gettext libassuan libgpg-error libunistring
+pinentry-mac: gettext libassuan libgpg-error libunistring
+pipx: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+pixman: 
+pkgconf: 
+pmix: ca-certificates hwloc libevent openssl@3
+pngquant: jpeg-turbo libpng libtiff little-cms2 lz4 xz zstd
+popt: 
+portaudio: 
+protobuf: abseil
+pugixml: 
+pwgen: 
+py3cairo: cairo fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+pybind11: 
+pycparser: 
+pydantic: 
+pygobject3: ca-certificates cairo fontconfig freetype gettext glib gobject-introspection libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf py3cairo python@3.14 readline sqlite xorgproto xz zstd
+python-gdbm@3.11: ca-certificates gdbm mpdecimal openssl@3 python@3.11 readline sqlite xz
+python-packaging: 
+python-setuptools: 
+python-tk@3.11: ca-certificates mpdecimal openssl@3 python@3.11 readline sqlite tcl-tk@8 xz
+python@3.10: ca-certificates gdbm mpdecimal openssl@3 readline sqlite xz
+python@3.11: ca-certificates mpdecimal openssl@3 readline sqlite xz
+python@3.12: ca-certificates mpdecimal openssl@3 readline sqlite xz
+python@3.13: ca-certificates mpdecimal openssl@3 readline sqlite xz
+python@3.14: ca-certificates lz4 mpdecimal openssl@3 readline sqlite xz zstd
+python@3.9: ca-certificates gdbm mpdecimal openssl@3 readline sqlite xz
+qemu: ca-certificates capstone dtc gettext glib gmp gnutls jpeg-turbo libidn2 libpng libslirp libssh libtasn1 libunistring libusb libyaml lz4 lzo ncurses nettle openssl@3 p11-kit pcre2 pixman snappy vde xz zstd
+qpdf: ca-certificates jpeg-turbo openssl@3
+qrencode: libpng
+qt: abseil assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext giflib glib graphite2 gumbo-parser harfbuzz hunspell icu4c@78 jasper jpeg-turbo libb2 libmng libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml little-cms2 lz4 lzo md4c openssl@3 pcre2 pixman protobuf qt3d qt5compat qtbase qtcanvaspainter qtcharts qtconnectivity qtdatavis3d qtdeclarative qtgraphs qtgrpc qthttpserver qtimageformats qtlanguageserver qtlocation qtlottie qtmultimedia qtnetworkauth qtpositioning qtquick3d qtquick3dphysics qtquickeffectmaker qtquicktimeline qtremoteobjects qtscxml qtsensors qtserialbus qtserialport qtshadertools qtspeech qtsvg qttasktree qttools qttranslations qtvirtualkeyboard qtwebchannel qtwebengine qtwebsockets qtwebview readline webp xorgproto xz zstd
+qt3d: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtshadertools qtsvg xorgproto xz zstd
+qt5compat: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtshadertools qtsvg xorgproto xz zstd
+qt@5: freetype gettext giflib glib jpeg-turbo libpng libtiff libunistring lz4 md4c pcre2 readline sqlite webp xz zstd
+qtbase: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman xorgproto xz zstd
+qtcanvaspainter: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtcharts: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtconnectivity: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qtdatavis3d: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtdeclarative: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtsvg xorgproto xz zstd
+qtgraphs: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtgrpc: abseil brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman protobuf qtbase qtdeclarative qtsvg xorgproto xz zstd
+qthttpserver: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg qtwebsockets xorgproto xz zstd
+qtimageformats: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext giflib glib graphite2 harfbuzz icu4c@78 jasper jpeg-turbo libb2 libmng libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo md4c openssl@3 pcre2 pixman qtbase webp xorgproto xz zstd
+qtlanguageserver: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qtlocation: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg xorgproto xz zstd
+qtlottie: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtmultimedia: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtnetworkauth: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qtpositioning: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtserialport qtsvg xorgproto xz zstd
+qtquick3d: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtquick3dphysics: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtquickeffectmaker: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtquicktimeline: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtremoteobjects: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtscxml: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtsensors: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtserialbus: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtserialport xorgproto xz zstd
+qtserialport: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qtshadertools: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qtspeech: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtmultimedia qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtsvg: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qttasktree: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
+qttools: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qttranslations: 
+qtvirtualkeyboard: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz hunspell icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtmultimedia qtquick3d qtquicktimeline qtshadertools qtsvg readline xorgproto xz zstd
+qtwebchannel: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtwebengine: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg qttools qtwebchannel xorgproto xz zstd
+qtwebsockets: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtwebview: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg qttools qtwebchannel qtwebengine xorgproto xz zstd
+rav1e: 
+readline: 
+rename: 
+rsync: ca-certificates lz4 openssl@3 popt xxhash xz zstd
+rtmpdump: ca-certificates openssl@3
+rubberband: flac lame libogg libsamplerate libsndfile libvorbis mpg123 opus
+s3cmd: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
+sc-im: libxls libxlsxwriter libxml2 libzip lua lz4 ncurses readline xz zstd
+sdl2: 
+shared-mime-info: gettext glib libunistring pcre2
+simdjson: 
+simdutf: icu4c@78
+snappy: 
+soapyrtlsdr: ca-certificates librtlsdr libusb mpdecimal openssl@3 python@3.12 readline soapysdr sqlite xz
+soapysdr: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
+socat: ca-certificates openssl@3
+sox: ca-certificates flac lame libogg libpng libsndfile libvorbis mad mpg123 openssl@3 opus opusfile
+speedtest-cli: ca-certificates mpdecimal openssl@3 python@3.13 readline sqlite xz
+speex: libogg
+spice-gtk: aom aribb24 at-spi2-core brotli ca-certificates cairo cjson dav1d dbus docbook docbook-xsl faac faad2 fdk-aac ffmpeg@6 flac fontconfig freetype frei0r fribidi gcc gdk-pixbuf gettext giflib glib glib-networking gmp gnu-getopt gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gstreamer gtk+3 gtk4 harfbuzz hicolor-icon-theme highway hwloc icu4c imath isl jpeg-turbo jpeg-xl json-glib lame leptonica libarchive libass libb2 libbluray libcuefile libepoxy libevent libidn2 libmicrohttpd libmpc libnghttp2 libogg libpng libpsl libpthread-stubs libreplaygain librist libsamplerate libshout libsndfile libsodium libsoup libsoxr libssh libtasn1 libtiff libunibreak libunistring libusb libusrsctp libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mbedtls mpdecimal mpfr mpg123 musepack nettle numpy openblas opencore-amr openexr openjpeg openssl@3 openvino opus orc p11-kit pango pcre2 phodav pixman pkg-config pugixml py3cairo pygobject3 python@3.12 rav1e readline rtmpdump rubberband sdl2 snappy speex spice-protocol sqlite srt srtp svt-av1 taglib tbb tesseract theora unbound usbredir webp x264 x265 xmlto xorgproto xvid xz zeromq zimg zstd
+spice-protocol: 
+spundle: 
+sqlite: readline
+srt: ca-certificates openssl@3
+srtp: ca-certificates openssl@3
+stats: 
+streamlink: ca-certificates certifi libxml2 lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+streamripper: ca-certificates gettext glib mad mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
+svt-av1: 
+syncthing: 
+taglib: utf8cpp
+tbb: hwloc
+tcl-tk: ca-certificates libtommath openssl@3
+tcl-tk@8: ca-certificates openssl@3
+telnet: 
+tesseract: cairo fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo leptonica libarchive libb2 libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pango pcre2 pixman webp xorgproto xz zstd
+thefuck: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
+theora: libogg libvorbis
+tmux: ca-certificates libevent ncurses openssl@3 utf8proc
+unbound: ca-certificates libevent libnghttp2 openssl@3
+unpaper: aom aribb24 brotli ca-certificates cairo cjson dav1d ffmpeg flac fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway icu4c@77 imath jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libdeflate libevent libidn2 libmicrohttpd libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libudfread libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls mpg123 nettle opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman rav1e rubberband sdl2 snappy speex srt svt-av1 tesseract theora unbound webp x264 x265 xorgproto xvid xz zeromq zimg zstd
+usb.ids: 
+usbredir: ca-certificates gettext glib libunistring libusb mpdecimal openssl@3 pcre2 python-packaging python@3.13 readline sqlite xz
+utf8cpp: 
+utf8proc: 
+uvwasi: libuv
+vde: 
+virt-manager: adwaita-icon-theme aom at-spi2-core ca-certificates cairo certifi cpio cunit dav1d dbus faac faad2 fdk-aac ffmpeg flac fontconfig freetype fribidi gdk-pixbuf gettext giflib glib glib-networking gmp gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gstreamer gtk+3 gtk-vnc gtk4 gtksourceview4 harfbuzz hicolor-icon-theme icu4c@78 imath jpeg-turbo json-c json-glib lame libass libcuefile libdatrie libdeflate libepoxy libevent libidn2 libiscsi libnghttp2 libnice libogg libosinfo libpng libpsl libreplaygain librsvg libshout libsndfile libsodium libsoup libssh2 libtasn1 libthai libtiff libunibreak libunistring libusb libusrsctp libvirt libvirt-glib libvirt-python libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mpdecimal mpg123 musepack nettle opencore-amr openexr openjpeg openjph openssl@3 opus orc osinfo-db p11-kit pango pcre2 phodav pixman pkgconf py3cairo pygobject3 python@3.14 readline rtmpdump sdl2 simdutf speex spice-gtk spice-protocol sqlite srt srtp svt-av1 taglib theora unbound usb.ids usbredir utf8cpp vte3 webp x264 x265 xorgproto xz zstd
+volk: ca-certificates cpu_features fmt lz4 mpdecimal openssl@3 orc python@3.14 readline sqlite xz zstd
+vte3: at-spi2-core ca-certificates cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib gmp gnutls graphene graphite2 gsettings-desktop-schemas gtk+3 gtk4 harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo libdatrie libepoxy libevent libidn2 libnghttp2 libpng librsvg libtasn1 libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo nettle openssl@3 p11-kit pango pcre2 pixman simdutf unbound xorgproto xz zstd
+watch: ncurses
+webp: giflib jpeg-turbo libpng libtiff lz4 xz zstd
+wget: ca-certificates gettext libidn2 libunistring openssl@3
+whois: gettext libidn2 libunistring
+x264: 
+x265: 
+xbitmaps: 
+xmlto: docbook docbook-xsl gnu-getopt
+xmp: libxmp
+xorgproto: 
+xpdf: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtsvg xorgproto xz zstd
+xvid: 
+xxhash: 
+xz: 
+yajl: 
+zeromq: libsodium
+zimg: 
+zlib-ng-compat: 
+zstd: lz4 xz
