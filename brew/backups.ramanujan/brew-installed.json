@@ -81194,7 +81194,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610",
+      "tap_git_head": "eac341970d57f4a56e1bb434951270e63f38b33f",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -81299,7 +81299,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610",
+      "tap_git_head": "eac341970d57f4a56e1bb434951270e63f38b33f",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -81372,7 +81372,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610",
+      "tap_git_head": "eac341970d57f4a56e1bb434951270e63f38b33f",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -81445,7 +81445,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610",
+      "tap_git_head": "eac341970d57f4a56e1bb434951270e63f38b33f",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -81539,7 +81539,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610",
+      "tap_git_head": "eac341970d57f4a56e1bb434951270e63f38b33f",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
