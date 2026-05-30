@@ -7,6 +7,30 @@ My public toolbox.
 The `brew/` directory contains Python 3 scripts for backing up and restoring
 Homebrew state on macOS.
 
+### Usage
+
+Install to `~/git/toolbox` and invoke directly for backup:
+
+```~/git/toolbox/brew/brew-backup.py```
+
+Integrate into a daily update shortcut called `brewup` inside `~/.zshrc`:
+
+```function brewup() {
+
+  # Update omzsh if there's an update, but keep it from exiting 0 and stopping the rest of the tasks.
+  ZSH="${ZSH:-$HOME/.oh-my-zsh}" zsh "$ZSH/tools/upgrade.sh" || true
+
+  # Do brew updates and cleanup
+  brew update && brew upgrade && brew cleanup &&
+
+  # Back up brew installed components
+  ~/git/toolbox/brew/brew-backup.py &&
+
+  # Download (but don't automatically install) any updates to Apple components
+  softwareupdate --download --all
+
+}```
+
 ### Important Forking Note
 
 This repository includes backup folders for my own Macs. If you fork or copy
