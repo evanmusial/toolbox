@@ -9,6 +9,7 @@ specific Brewfile path can be passed as the first argument to override that.
 
 from __future__ import annotations
 
+import atexit
 import os
 import shutil
 import socket
@@ -31,6 +32,8 @@ EMPTY_SEGMENT = "▱"
 FILLED_COLOR = "\033[38;5;153m"
 EMPTY_COLOR = "\033[38;5;24m"
 RESET_COLOR = "\033[0m"
+HIDE_CURSOR = "\033[?25l"
+SHOW_CURSOR = "\033[?25h"
 
 
 class ProgressBar:
@@ -43,13 +46,28 @@ class ProgressBar:
         self.current_percent = 0
         self.interactive = sys.stdout.isatty()
         self.use_color = self.interactive and "NO_COLOR" not in os.environ
+        self.cursor_hidden = False
         self.active = False
+        if self.interactive:
+            atexit.register(self.show_cursor)
 
     def colorize(self, value: str, color: str) -> str:
         """Apply ANSI color only when it will render cleanly."""
         if not self.use_color:
             return value
         return f"{color}{value}{RESET_COLOR}"
+
+    def hide_cursor(self) -> None:
+        """Hide the terminal cursor while the progress bar is repainting."""
+        if self.interactive and not self.cursor_hidden:
+            print(HIDE_CURSOR, end="", flush=True)
+            self.cursor_hidden = True
+
+    def show_cursor(self) -> None:
+        """Restore the terminal cursor after progress output completes."""
+        if self.cursor_hidden:
+            print(SHOW_CURSOR, end="", flush=True)
+            self.cursor_hidden = False
 
     def format_status(self, step: int | None = None) -> str:
         """Format the left status field without moving the bar column."""
@@ -84,6 +102,7 @@ class ProgressBar:
         percent_text = self.colorize(f"{percent:3d}%", FILLED_COLOR)
         line = f"{self.format_status(step)} {filled_bar}{empty_bar} {percent_text}"
         if self.interactive:
+            self.hide_cursor()
             print(f"\r{line}\033[K", end="", flush=True)
         else:
             print(line, flush=True)
@@ -138,6 +157,7 @@ class ProgressBar:
         self.animate_to(self.target_percent())
         if self.completed_steps >= self.total_steps and self.interactive:
             print(flush=True)
+            self.show_cursor()
         if self.completed_steps >= self.total_steps:
             self.active = False
 
