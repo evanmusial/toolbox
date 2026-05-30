@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Back up the current Homebrew state for this host."""
+"""Back up the current Homebrew state for this host.
+
+This script writes Homebrew inventory files into a host-specific backup
+directory, commits any changes, pushes them, and leaves the local checkout
+synchronized with the remote.
+"""
+
+# Author: Evan Musial <evan@evan.engineer>
 
 from __future__ import annotations
 
@@ -17,12 +24,17 @@ BAR_WIDTH = 50
 STATUS_WIDTH = 36
 ANIMATION_SECONDS = 0.08
 MAX_ANIMATION_FRAMES = 6
+
+# The progress bar uses 256-color ANSI codes in interactive terminals. It
+# falls back to plain text automatically for logs, pipes, or NO_COLOR.
 FILLED_SEGMENT = "▰"
 EMPTY_SEGMENT = "▱"
 FILLED_COLOR = "\033[38;5;153m"
 EMPTY_COLOR = "\033[38;5;24m"
 RESET_COLOR = "\033[0m"
 
+# These are the files that make up one complete Homebrew backup snapshot.
+# They are added to Git after each run from inside the host backup directory.
 BACKUP_FILES = [
     "Brewfile",
     "brew-formulae.requested.txt",
@@ -36,6 +48,8 @@ BACKUP_FILES = [
 
 
 class ProgressBar:
+    """Render a fixed-width, host-script-friendly terminal progress line."""
+
     def __init__(self, label: str, total_steps: int) -> None:
         self.label = label
         self.total_steps = total_steps
@@ -46,11 +60,13 @@ class ProgressBar:
         self.active = False
 
     def colorize(self, value: str, color: str) -> str:
+        """Apply color only where ANSI output is appropriate."""
         if not self.use_color:
             return value
         return f"{color}{value}{RESET_COLOR}"
 
     def format_status(self, step: int | None = None) -> str:
+        """Build the fixed-width status field to keep the bar from shifting."""
         display_step = step if step is not None else self.completed_steps
         display_step = min(max(display_step, 1), self.total_steps)
         step_text = f"{display_step}/{self.total_steps}"
@@ -74,6 +90,7 @@ class ProgressBar:
         )
 
     def render(self, percent: int, *, step: int | None = None) -> None:
+        """Draw one progress frame at the requested percentage."""
         percent = min(max(percent, 0), 100)
         filled = BAR_WIDTH if percent >= 100 else percent // 2
         filled_bar = self.colorize(FILLED_SEGMENT * filled, FILLED_COLOR)
@@ -87,9 +104,11 @@ class ProgressBar:
         self.active = True
 
     def target_percent(self) -> int:
+        """Convert completed task count into an integer percentage."""
         return round((self.completed_steps / self.total_steps) * 100)
 
     def draw(self, label: str | None = None, *, step: int | None = None) -> None:
+        """Draw the current state without advancing the task count."""
         if label is not None:
             self.label = label
 
@@ -97,6 +116,7 @@ class ProgressBar:
         self.render(self.current_percent, step=step)
 
     def animate_to(self, target_percent: int) -> None:
+        """Animate between step boundaries without overworking slow terminals."""
         if not self.interactive:
             self.current_percent = target_percent
             self.render(target_percent)
@@ -107,6 +127,8 @@ class ProgressBar:
             self.render(target_percent)
             return
 
+        # Cap the number of redraws so older Intel Macs still get a smooth
+        # transition without spending noticeable time repainting the terminal.
         start_percent = self.current_percent
         frame_count = min(distance, MAX_ANIMATION_FRAMES)
         delay = ANIMATION_SECONDS / frame_count
@@ -122,6 +144,7 @@ class ProgressBar:
                 time.sleep(delay)
 
     def advance(self, label: str | None = None) -> None:
+        """Mark one logical step complete and animate to the new percentage."""
         self.completed_steps = min(self.completed_steps + 1, self.total_steps)
         if label is not None:
             self.label = label
@@ -141,6 +164,13 @@ def run(
     check: bool = True,
     quiet: bool = False,
 ) -> subprocess.CompletedProcess[str]:
+    """Run a subprocess with consistent error handling and optional capture.
+
+    Most Homebrew and Git commands are intentionally quiet on success so the
+    progress bar stays readable. If a quiet command fails, captured output is
+    replayed before raising the same style of exception subprocess.run(check)
+    would have raised.
+    """
     merged_env = os.environ.copy()
     if env:
         merged_env.update(env)
@@ -178,7 +208,11 @@ def run(
 
 
 def short_hostname() -> str:
+    """Return the short host name used to choose the backup directory."""
     try:
+        # `hostname -s` is the source of truth because the backup directory is
+        # named backups.<short-hostname>. The socket fallback keeps the script
+        # usable if the command is unavailable for some reason.
         hostname = subprocess.run(
             ["hostname", "-s"],
             check=True,
@@ -196,18 +230,23 @@ def short_hostname() -> str:
 
 
 def colorize_output(value: str, color: str) -> str:
+    """Color one-off status text using the same terminal rules as the bar."""
     if not sys.stdout.isatty() or "NO_COLOR" in os.environ:
         return value
     return f"{color}{value}{RESET_COLOR}"
 
 
 def write_command_output(args: list[str], destination: Path, *, env: dict[str, str] | None = None) -> None:
+    """Write a command's stdout directly to one backup artifact."""
     with destination.open("w", encoding="utf-8") as output:
         run(args, cwd=destination.parent, env=env, stdout=output, quiet=True)
 
 
 def main() -> int:
     this_hostname = short_hostname()
+
+    # Backups are host-scoped so the same repository can carry separate
+    # Homebrew inventories for multiple Macs without overwriting each other.
     backup_dir = Path.home() / "git" / "toolbox" / "brew" / f"backups.{this_hostname}"
     this_date = datetime.now(timezone.utc).strftime("%Y%m%d @ %H%M (UTC)")
     display_hostname = colorize_output(this_hostname, FILLED_COLOR)
@@ -220,9 +259,13 @@ def main() -> int:
     backup_dir.mkdir(parents=True, exist_ok=True)
     progress.advance("Prepared backup dir")
 
+    # Pull before collecting data so this host starts from the latest remote
+    # backup history and can fast-forward safely.
     run(["git", "pull", "--ff-only"], cwd=backup_dir, quiet=True)
     progress.advance("Synced backup repo")
 
+    # `brew bundle dump` writes a Brewfile, but we wrap it with our own header
+    # so each snapshot records when and where it was created.
     tmp_brewfile = tempfile.NamedTemporaryFile(delete=False)
     tmp_brewfile_path = Path(tmp_brewfile.name)
     tmp_brewfile.close()
@@ -249,6 +292,9 @@ def main() -> int:
         )
         progress.advance("Wrote Brewfile")
 
+        # The remaining files are audit/detail views of the same Homebrew
+        # state. Restore only needs Brewfile, but these files make diffs and
+        # reviews much easier to understand.
         write_command_output(
             ["brew", "leaves", "--installed-on-request"],
             backup_dir / "brew-formulae.requested.txt",
@@ -286,6 +332,8 @@ def main() -> int:
         )
         progress.advance("Saved installed JSON")
 
+        # Stage only the expected backup artifacts. This avoids accidentally
+        # committing local scratch files from the backup directory.
         run(["git", "add", *BACKUP_FILES], cwd=backup_dir, quiet=True)
         progress.advance("Staged backup files")
         diff = run(["git", "diff", "--cached", "--quiet"], cwd=backup_dir, check=False, quiet=True)
@@ -299,6 +347,8 @@ def main() -> int:
             run(["git", "push"], cwd=backup_dir, quiet=True)
             progress.advance("Published backup")
 
+        # Pull again after the run so the checkout is clean and synchronized
+        # for the next daily alias invocation.
         run(["git", "pull", "--ff-only"], cwd=backup_dir, quiet=True)
         progress.advance("Synced final state")
         if no_changes:

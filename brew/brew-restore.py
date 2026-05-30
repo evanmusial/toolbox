@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Restore Homebrew state from a Brewfile."""
+"""Restore Homebrew state from a host-specific Brewfile.
+
+By default this script restores from the current host's backup directory. A
+specific Brewfile path can be passed as the first argument to override that.
+"""
+
+# Author: Evan Musial <evan@evan.engineer>
 
 from __future__ import annotations
 
@@ -16,6 +22,10 @@ BAR_WIDTH = 50
 STATUS_WIDTH = 36
 ANIMATION_SECONDS = 0.08
 MAX_ANIMATION_FRAMES = 6
+
+# Keep the restore progress display visually aligned with brew-backup.py.
+# Colors are only emitted for interactive terminals and are disabled by
+# NO_COLOR.
 FILLED_SEGMENT = "▰"
 EMPTY_SEGMENT = "▱"
 FILLED_COLOR = "\033[38;5;153m"
@@ -24,6 +34,8 @@ RESET_COLOR = "\033[0m"
 
 
 class ProgressBar:
+    """Render a fixed-width progress bar for the restore workflow."""
+
     def __init__(self, label: str, total_steps: int) -> None:
         self.label = label
         self.total_steps = total_steps
@@ -34,11 +46,13 @@ class ProgressBar:
         self.active = False
 
     def colorize(self, value: str, color: str) -> str:
+        """Apply ANSI color only when it will render cleanly."""
         if not self.use_color:
             return value
         return f"{color}{value}{RESET_COLOR}"
 
     def format_status(self, step: int | None = None) -> str:
+        """Format the left status field without moving the bar column."""
         display_step = step if step is not None else self.completed_steps
         display_step = min(max(display_step, 1), self.total_steps)
         step_text = f"{display_step}/{self.total_steps}"
@@ -62,6 +76,7 @@ class ProgressBar:
         )
 
     def render(self, percent: int, *, step: int | None = None) -> None:
+        """Draw one restore progress frame."""
         percent = min(max(percent, 0), 100)
         filled = BAR_WIDTH if percent >= 100 else percent // 2
         filled_bar = self.colorize(FILLED_SEGMENT * filled, FILLED_COLOR)
@@ -75,9 +90,11 @@ class ProgressBar:
         self.active = True
 
     def target_percent(self) -> int:
+        """Convert completed restore steps into an integer percentage."""
         return round((self.completed_steps / self.total_steps) * 100)
 
     def draw(self, label: str | None = None, *, step: int | None = None) -> None:
+        """Draw the current state without completing another step."""
         if label is not None:
             self.label = label
 
@@ -85,6 +102,7 @@ class ProgressBar:
         self.render(self.current_percent, step=step)
 
     def animate_to(self, target_percent: int) -> None:
+        """Animate progress while keeping redraws cheap on older terminals."""
         if not self.interactive:
             self.current_percent = target_percent
             self.render(target_percent)
@@ -95,6 +113,9 @@ class ProgressBar:
             self.render(target_percent)
             return
 
+        # Limit the number of terminal repaints. Homebrew work is done by
+        # subprocesses, so this animation is decorative rather than a live
+        # measure of Homebrew internals.
         start_percent = self.current_percent
         frame_count = min(distance, MAX_ANIMATION_FRAMES)
         delay = ANIMATION_SECONDS / frame_count
@@ -110,6 +131,7 @@ class ProgressBar:
                 time.sleep(delay)
 
     def advance(self, label: str | None = None) -> None:
+        """Mark one restore step complete and animate to its percentage."""
         self.completed_steps = min(self.completed_steps + 1, self.total_steps)
         if label is not None:
             self.label = label
@@ -121,6 +143,7 @@ class ProgressBar:
 
 
 def run(args: list[str], *, check: bool = True, quiet: bool = False) -> subprocess.CompletedProcess[str]:
+    """Run a command, optionally hiding successful output for cleaner UI."""
     process_stdout = subprocess.PIPE if quiet else None
     process_stderr = subprocess.PIPE if quiet else None
     completed = subprocess.run(
@@ -149,7 +172,9 @@ def run(args: list[str], *, check: bool = True, quiet: bool = False) -> subproce
 
 
 def short_hostname() -> str:
+    """Return the short host name used to locate the default backup folder."""
     try:
+        # Match brew-backup.py exactly: restore defaults to backups.<hostname -s>.
         hostname = subprocess.run(
             ["hostname", "-s"],
             check=True,
@@ -167,10 +192,13 @@ def short_hostname() -> str:
 
 
 def default_brewfile() -> Path:
+    """Build the default Brewfile path for this host's backup directory."""
     return Path.home() / "git" / "toolbox" / "brew" / f"backups.{short_hostname()}" / "Brewfile"
 
 
 def main() -> int:
+    # Passing a Brewfile explicitly lets a user restore another host's backup
+    # on purpose. With no argument, restore stays scoped to this host.
     brewfile = Path(sys.argv[1]) if len(sys.argv) > 1 else default_brewfile()
 
     if shutil.which("brew") is None:
@@ -184,6 +212,8 @@ def main() -> int:
 
     print(f"Restoring Homebrew state from {brewfile}")
 
+    # Homebrew itself owns the actual install/upgrade decisions. This script
+    # updates brew metadata, checks the Brewfile, and installs only if needed.
     progress = ProgressBar("Updating Homebrew", 3)
     progress.draw(step=1)
     run(["brew", "update"], quiet=True)
