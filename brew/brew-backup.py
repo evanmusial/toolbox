@@ -353,7 +353,7 @@ def main() -> int:
         progress.advance("Synced final state")
         if no_changes:
             print("No Homebrew changes to commit.")
-        print(f"Homebrew backup complete for host {display_hostname}")
+        print(f"Homebrew backup complete for host  {display_hostname}")
         print()
     finally:
         tmp_brewfile_path.unlink(missing_ok=True)
