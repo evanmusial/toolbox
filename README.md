@@ -29,7 +29,8 @@ Integrate into a daily update shortcut called `brewup` inside `~/.zshrc`:
   # Download (but don't automatically install) any updates to Apple components
   softwareupdate --download --all
 
-}```
+}
+```
 
 ### Important Forking Note
 
