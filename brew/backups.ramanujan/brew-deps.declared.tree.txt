@@ -824,6 +824,7 @@ ffmpeg@6
 │   │       │   └── libtasn1 
 │   │       └── gettext 
 │   │           └── libunistring 
+│   ├── lz4 
 │   └── mbedtls@3 
 ├── libsoxr 
 ├── libssh 
@@ -6692,6 +6693,7 @@ librist
 │       │   └── libtasn1 
 │       └── gettext 
 │           └── libunistring 
+├── lz4 
 └── mbedtls@3 
 
 librsvg

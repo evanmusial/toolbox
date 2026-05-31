@@ -188,7 +188,7 @@ libpthread-stubs: pkg-config
 libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 libraw: jpeg-turbo libomp libtiff little-cms2 lz4 xz zstd
 libreplaygain: 
-librist: ca-certificates cjson gettext gmp gnutls libidn2 libmicrohttpd libtasn1 libunistring mbedtls@3 nettle p11-kit
+librist: ca-certificates cjson gettext gmp gnutls libidn2 libmicrohttpd libtasn1 libunistring lz4 mbedtls@3 nettle p11-kit
 librsvg: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libdatrie libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
 librtlsdr: libusb
 libsamplerate: 
