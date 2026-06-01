@@ -162,7 +162,7 @@ libpng:
 libproxy: duktape gettext glib libunistring pcre2
 libpthread-stubs: pkg-config
 libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
-librist: ca-certificates cjson gettext gmp gnutls libevent libidn2 libmicrohttpd libnghttp2 libtasn1 libunistring mbedtls@3 nettle openssl@3 p11-kit unbound
+librist: ca-certificates cjson gettext gmp gnutls libidn2 libmicrohttpd libtasn1 libunistring lz4 mbedtls@3 nettle p11-kit
 librtlsdr: libusb
 libsamplerate: 
 libsm: libice xorgproto
