@@ -188,7 +188,7 @@ libraqm 0.10.5
 libraw 0.22.1
 libreplaygain r475
 librist 0.2.17
-librsvg 2.62.2
+librsvg 2.62.3
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libshout 2.4.6_2
@@ -401,7 +401,7 @@ srtp 2.8.0
 streamlink 8.4.0_1
 streamripper 1.64.6_2
 svt-av1 4.1.0
-syncthing 2.1.0
+syncthing 2.1.1
 taglib 2.3
 tbb 2023.0.0
 tcl-tk 9.0.3
