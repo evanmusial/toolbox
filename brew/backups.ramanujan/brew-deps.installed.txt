@@ -213,9 +213,9 @@ libusb:
 libusrsctp: 
 libuv: 
 libvidstab: 
-libvirt: ca-certificates cunit gettext glib gmp gnutls json-c libevent libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline unbound
+libvirt: ca-certificates cunit gettext glib gmp gnutls json-c libidn2 libiscsi libssh2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline
 libvirt-glib: ca-certificates cunit gettext glib gmp gnutls json-c libevent libgcrypt libgpg-error libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring libvirt nettle openssl@3 p11-kit pcre2 readline unbound yajl
-libvirt-python: ca-certificates cunit gettext glib gmp gnutls json-c libevent libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring libvirt lz4 mpdecimal nettle openssl@3 p11-kit pcre2 python@3.14 readline sqlite unbound xz zstd
+libvirt-python: ca-certificates cunit gettext glib gmp gnutls json-c libidn2 libiscsi libssh2 libtasn1 libunistring libvirt lz4 mpdecimal nettle openssl@3 p11-kit pcre2 python@3.14 readline sqlite xz zstd
 libvmaf: 
 libvorbis: libogg
 libvpx: 

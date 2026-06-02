@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.4
 augeas 1.14.1_1
-awscli 2.34.57
+awscli 2.34.58
 bash 5.3.9
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -33,7 +33,7 @@ cmocka 2.0.2
 codec2 1.2.0
 coreutils 9.11
 cpio 2.15
-cpu_features 0.10.1
+cpu_features 0.11.0
 cpufetch 1.07
 crc32c 1.1.2
 cryptography 48.0.0
@@ -88,7 +88,7 @@ gobject-introspection 1.86.0_2
 google-authenticator-libpam 1.11
 gpac 26.02.0
 graphene 1.10.8
-graphite2 1.3.14
+graphite2 1.3.15
 grep 3.12
 gsettings-desktop-schemas 50.1
 gstreamer 1.28.3
@@ -212,9 +212,9 @@ libusb 1.0.30
 libusrsctp 0.9.5.0_1
 libuv 1.52.1
 libvidstab 1.1.1
-libvirt 12.3.0
+libvirt 12.4.0
 libvirt-glib 5.0.0_1
-libvirt-python 12.3.0
+libvirt-python 12.4.0
 libvmaf 3.1.0
 libvorbis 1.3.7
 libvpx 1.16.0
