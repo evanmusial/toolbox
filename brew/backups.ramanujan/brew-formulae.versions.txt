@@ -277,7 +277,7 @@ node 26.0.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.4.6
-nvm 0.40.4
+nvm 0.40.5
 ocrmypdf 17.5.0
 oniguruma 6.9.10
 onnx 1.21.0_1
