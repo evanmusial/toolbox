@@ -18,6 +18,7 @@ crc32c
 curl
 dialog
 docker
+docker-completion
 exempi
 exiftool
 eye-d3

@@ -44,7 +44,7 @@ dbus:
 dialog: 
 docbook: 
 docbook-xsl: docbook
-docker: docker-completion
+docker: 
 docker-completion: 
 double-conversion: 
 dtc: libyaml

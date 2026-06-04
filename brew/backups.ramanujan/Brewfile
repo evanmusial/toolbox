@@ -1,4 +1,4 @@
-# backup: 20260603 @ 0225 (UTC)
+# backup: 20260604 @ 0333 (UTC)
 # host: ramanujan
 
 tap "homebrew/services"
@@ -173,10 +173,10 @@ brew "dialog"
 brew "docbook"
 # XML vocabulary to create presentation-neutral documents
 brew "docbook-xsl"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # Embeddable Javascript engine with compact footprint
