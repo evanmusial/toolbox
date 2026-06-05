@@ -42,8 +42,7 @@ deno: jpeg-turbo libtiff little-cms2 lz4 readline sqlite xz zstd
 dialog: 
 docbook: 
 docbook-xsl: docbook
-docker: docker-completion
-docker-completion: 
+docker: 
 double-conversion: 
 dssim: 
 duktape: 

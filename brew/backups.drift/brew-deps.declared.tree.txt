@@ -225,8 +225,6 @@ docbook-xsl
 
 docker
 
-docker-completion
-
 double-conversion
 
 dssim
