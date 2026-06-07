@@ -529,6 +529,9 @@ cmocka
 
 codec2
 
+colima
+└── lima 
+
 coreutils
 └── gmp 
 
@@ -578,6 +581,10 @@ docbook-xsl
 docker
 
 docker-completion
+
+docker-compose
+
+docker-desktop
 
 double-conversion
 
@@ -7426,6 +7433,8 @@ libzip
 └── zstd 
     ├── lz4 
     └── xz 
+
+lima
 
 litehtml
 └── gumbo-parser 

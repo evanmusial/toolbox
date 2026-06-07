@@ -12,6 +12,7 @@ chrony
 cmake
 cmocka
 codec2
+colima
 coreutils
 cpufetch
 crc32c
@@ -19,6 +20,7 @@ curl
 dialog
 docker
 docker-completion
+docker-compose
 exempi
 exiftool
 eye-d3

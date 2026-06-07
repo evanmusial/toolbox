@@ -31,6 +31,7 @@ cjson 1.7.19
 cmake 4.3.3
 cmocka 2.0.2
 codec2 1.2.0
+colima 0.10.3
 coreutils 9.11
 cpio 2.15
 cpu_features 0.11.0
@@ -46,6 +47,7 @@ docbook 5.2_1
 docbook-xsl 1.79.2_1
 docker 29.5.3
 docker-completion 29.5.3
+docker-compose 5.1.4
 double-conversion 3.4.0
 dtc 1.8.1
 duktape 2.7.0
@@ -238,6 +240,7 @@ libxtst 1.2.5
 libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.11.4_1
+lima 2.1.2
 litehtml 0.9
 little-cms2 2.19
 llhttp 9.4.1

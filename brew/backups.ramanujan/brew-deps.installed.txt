@@ -31,6 +31,7 @@ cjson:
 cmake: 
 cmocka: 
 codec2: 
+colima: lima
 coreutils: gmp
 cpio: 
 cpu_features: 
@@ -46,6 +47,8 @@ docbook:
 docbook-xsl: docbook
 docker: 
 docker-completion: 
+docker-compose: 
+docker-desktop: 
 double-conversion: 
 dtc: libyaml
 duktape: 
@@ -239,6 +242,7 @@ libxtst: libx11 libxau libxcb libxdmcp libxext libxfixes libxi xorgproto
 libyaml: 
 libzen: 
 libzip: lz4 xz zstd
+lima: 
 litehtml: gumbo-parser
 little-cms2: jpeg-turbo libtiff lz4 xz zstd
 llhttp: 

@@ -1,4 +1,4 @@
-# backup: 20260607 @ 1352 (UTC)
+# backup: 20260607 @ 1554 (UTC)
 # host: ramanujan
 
 tap "homebrew/services"
@@ -155,6 +155,8 @@ brew "cmake"
 brew "cmocka"
 # Open source speech codec
 brew "codec2"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Cross platform C99 library to get cpu features at runtime
@@ -174,9 +176,11 @@ brew "docbook"
 # XML vocabulary to create presentation-neutral documents
 brew "docbook-xsl"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Bash, Zsh and Fish completion for Docker
-brew "docker-completion"
+brew "docker-completion", link: false
+# Isolated development environments using Docker
+brew "docker-compose"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # Embeddable Javascript engine with compact footprint
@@ -637,6 +641,8 @@ brew "whois"
 brew "xmp"
 # PDF viewer
 brew "xpdf"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Prevent website visitor's data from being used by Google Analytics JavaScript
 cask "google-analytics-opt-out"
 # Video format converter (transcoder)
