@@ -262,7 +262,7 @@ moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.1
 mpfr 4.2.2
-mpg123 1.33.5
+mpg123 1.33.6
 mplayer 1.5_2
 mtr 0.96
 musepack r475
