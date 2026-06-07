@@ -7445,6 +7445,10 @@ logrotate
 └── popt 
 
 lolcat
+└── ruby 
+    ├── libyaml 
+    └── openssl@3 
+        └── ca-certificates 
 
 lua
 
