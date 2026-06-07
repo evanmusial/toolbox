@@ -416,6 +416,7 @@ tbb: hwloc
 tcl-tk: ca-certificates libtommath openssl@3
 tcl-tk@8: ca-certificates openssl@3
 telnet: 
+hashicorp/tap/terraform: 
 tesseract: cairo fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo leptonica libarchive libb2 libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pango pcre2 pixman webp xorgproto xz zstd
 thefuck: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 theora: libogg libvorbis

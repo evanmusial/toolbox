@@ -42940,6 +42940,8 @@ tcl-tk@8
 
 telnet
 
+hashicorp/tap/terraform
+
 tesseract
 ├── cairo 
 │   ├── fontconfig 

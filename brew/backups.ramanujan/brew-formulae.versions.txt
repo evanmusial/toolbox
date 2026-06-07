@@ -410,6 +410,7 @@ tbb 2023.0.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.18
 telnet 308
+terraform 1.15.5
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0

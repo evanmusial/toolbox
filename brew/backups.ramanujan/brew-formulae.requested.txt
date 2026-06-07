@@ -37,6 +37,7 @@ google-authenticator-libpam
 grep
 guile
 hackrf
+hashicorp/tap/terraform
 html2text
 htop
 httrack

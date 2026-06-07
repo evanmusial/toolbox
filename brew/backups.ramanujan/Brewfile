@@ -1,6 +1,7 @@
-# backup: 20260607 @ 2312 (UTC)
+# backup: 20260607 @ 2357 (UTC)
 # host: ramanujan
 
+tap "hashicorp/tap"
 tap "homebrew/services"
 tap "ngrok/ngrok"
 # Library for decoding ATSC A/52 streams (AKA 'AC-3')
@@ -641,6 +642,8 @@ brew "whois"
 brew "xmp"
 # PDF viewer
 brew "xpdf"
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Prevent website visitor's data from being used by Google Analytics JavaScript
