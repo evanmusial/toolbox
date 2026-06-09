@@ -49,7 +49,6 @@ jpeg
 jq
 jsoncpp
 libbladerf
-libffi
 libgit2
 liblqr
 libmagic

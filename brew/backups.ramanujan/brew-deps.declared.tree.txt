@@ -8015,6 +8015,7 @@ node
 ├── c-ares 
 ├── hdrhistogram_c 
 ├── icu4c@78 
+├── libffi 
 ├── libnghttp2 
 ├── libnghttp3 
 ├── libngtcp2 
