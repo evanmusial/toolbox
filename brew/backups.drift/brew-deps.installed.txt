@@ -238,7 +238,7 @@ nghttp2: c-ares ca-certificates jemalloc libev libnghttp2 openssl@3
 ngrok: 
 nlohmann-json: 
 nmap: ca-certificates liblinear libssh2 lua lz4 mpdecimal openssl@3 pcre2 python@3.14 readline sqlite xz zstd
-node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libnghttp2 libnghttp3 libngtcp2 libuv llhttp lz4 merve nbytes openssl@3 readline simdjson simdutf sqlite uvwasi xz zstd
+node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libffi libnghttp2 libnghttp3 libngtcp2 libuv llhttp lz4 merve nbytes openssl@3 readline simdjson simdutf sqlite uvwasi xz zstd
 node_exporter: 
 npth: 
 numpy: gcc gmp isl libmpc libomp lz4 mpfr openblas xz zstd

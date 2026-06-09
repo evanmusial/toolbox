@@ -2020,6 +2020,10 @@ livestreamer
 llhttp
 
 lolcat
+└── ruby 
+    ├── libyaml 
+    └── openssl@3 
+        └── ca-certificates 
 
 lua
 
@@ -2570,6 +2574,7 @@ node
 ├── c-ares 
 ├── hdrhistogram_c 
 ├── icu4c@78 
+├── libffi 
 ├── libnghttp2 
 ├── libnghttp3 
 ├── libngtcp2 
