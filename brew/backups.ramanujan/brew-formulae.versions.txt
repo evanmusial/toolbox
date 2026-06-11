@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.4
 augeas 1.14.1_1
-awscli 2.34.64
+awscli 2.35.1
 bash 5.3.12
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -70,7 +70,7 @@ fribidi 1.0.16
 gawk 5.4.0
 gcc 15.2.0_1
 gdbm 1.26
-gdk-pixbuf 2.44.6
+gdk-pixbuf 2.44.6_1
 gengetopt 2.23
 gettext 1.0
 gh 2.93.0

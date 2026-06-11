@@ -1,9 +1,9 @@
-# backup: 20260609 @ 1442 (UTC)
+# backup: 20260611 @ 0032 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
 tap "homebrew/services"
-tap "ngrok/ngrok"
+tap "ngrok/ngrok", trusted: true
 # Library for decoding ATSC A/52 streams (AKA 'AC-3')
 brew "a52dec"
 # C++ Common Libraries
