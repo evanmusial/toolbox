@@ -11,8 +11,8 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.4
 augeas 1.14.1_1
-awscli 2.35.1
-bash 5.3.12
+awscli 2.35.2
+bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
 boost 1.90.0_1
@@ -73,7 +73,7 @@ gdbm 1.26
 gdk-pixbuf 2.44.6_1
 gengetopt 2.23
 gettext 1.0
-gh 2.93.0
+gh 2.94.0
 ghostscript 10.07.1
 giflib 6.1.3
 git 2.54.0
@@ -293,7 +293,7 @@ openjph 0.27.4
 openldap 2.6.13
 openmotif 2.3.8_4
 openssl@3 3.6.2
-openssl@4 4.0.0
+openssl@4 4.0.1
 openvino 2026.1.0_1
 opus 1.6.1
 opusfile 0.12_1
@@ -410,7 +410,7 @@ tbb 2023.0.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.18
 telnet 308
-terraform 1.15.5
+terraform 1.15.6
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
