@@ -241,7 +241,7 @@ libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.11.4_1
 lima 2.1.2
-litehtml 0.9
+litehtml 0.10
 little-cms2 2.19
 llhttp 9.4.1
 logrotate 3.22.0
@@ -332,7 +332,7 @@ python@3.10 3.10.20_3
 python@3.11 3.11.15_3
 python@3.12 3.12.13_4
 python@3.13 3.13.13_1
-python@3.14 3.14.5
+python@3.14 3.14.6
 python@3.9 3.9.25
 qemu 11.0.1
 qpdf 12.3.2
