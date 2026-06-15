@@ -74,8 +74,6 @@ boost-build
 
 brotli
 
-oven-sh/bun/bun
-
 bwfmetaedit
 
 c-ares

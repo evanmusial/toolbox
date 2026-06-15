@@ -65,7 +65,6 @@ numpy
 ocrmypdf
 openldap
 openmotif
-oven-sh/bun/bun
 p7zip
 perl
 pipx

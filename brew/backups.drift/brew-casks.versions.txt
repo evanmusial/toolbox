@@ -3,6 +3,6 @@ font-meslo-for-powerline 2015-12-04
 jt-bridge 3.4.3
 makemkv 1.18.3
 mkvtoolnix-app 99.0-1
-ngrok 3.39.6,k7isA2b3nWo,a
-stats 2.9.20
+ngrok 3.39.7,6dNgLJ13mhH,a
+stats 3.0.3
 sync 2.2.58

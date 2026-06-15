@@ -1,4 +1,4 @@
-# backup: 20260609 @ 1915 (UTC)
+# backup: 20260615 @ 1617 (UTC)
 # host: drift
 
 tap "jakehilborn/jakehilborn"
@@ -521,8 +521,6 @@ brew "ykman"
 brew "youtube-dl"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun"
 cask "font-meslo-for-powerlevel10k"
 cask "font-meslo-for-powerline"
 # Acts as a bridge between WSJT-X and ham radio logging application

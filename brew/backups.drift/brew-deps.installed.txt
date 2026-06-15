@@ -17,7 +17,6 @@ berkeley-db@5:
 boost: icu4c@78 lz4 xz zstd
 boost-build: 
 brotli: 
-oven-sh/bun/bun: 
 bwfmetaedit: 
 c-ares: 
 ca-certificates: 
