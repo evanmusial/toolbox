@@ -1,6 +1,6 @@
 docker-desktop 4.78.0,229452
 google-analytics-opt-out 1.0.2
 makemkv 1.18.4
-ngrok 3.39.7,8b4quNGobbF,a
+ngrok 3.39.8,npvVigbewP5,a
 spundle 1.9,2025.06
 stats 3.0.3
