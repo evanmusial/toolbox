@@ -68,7 +68,7 @@ freetype 2.14.3
 frei0r 3.2.1
 fribidi 1.0.16
 gawk 5.4.0
-gcc 15.3.0
+gcc 16.1.0
 gdbm 1.26
 gdk-pixbuf 2.44.6_1
 gengetopt 2.23
