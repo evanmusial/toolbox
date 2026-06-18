@@ -160,7 +160,7 @@ libgit2 1.9.4
 libgpg-error 1.61
 libheif 1.23.0
 libice 1.1.2
-libidn 1.43
+libidn 1.44
 libidn2 2.3.8
 libimagequant 4.4.1
 libiscsi 1.20.3
