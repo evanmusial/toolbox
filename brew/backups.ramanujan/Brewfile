@@ -1,4 +1,4 @@
-# backup: 20260618 @ 1652 (UTC)
+# backup: 20260619 @ 0140 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -179,7 +179,7 @@ brew "docbook-xsl"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Bash, Zsh and Fish completion for Docker
-brew "docker-completion", link: false
+brew "docker-completion"
 # Isolated development environments using Docker
 brew "docker-compose"
 # Binary-decimal and decimal-binary routines for IEEE doubles
