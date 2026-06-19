@@ -1,4 +1,4 @@
-# backup: 20260619 @ 0140 (UTC)
+# backup: 20260619 @ 1119 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -198,8 +198,8 @@ brew "lame"
 brew "libvpx"
 # Audio codec
 brew "opus"
-# Low-level access to audio, keyboard, mouse, joystick, and graphics
-brew "sdl2"
+# SDL2 compatibility layer that uses SDL3 behind the scenes
+brew "sdl2-compat"
 # AV1 encoder
 brew "svt-av1"
 # H.264/AVC encoder

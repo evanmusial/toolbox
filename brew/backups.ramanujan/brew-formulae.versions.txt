@@ -281,7 +281,7 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.4.6
 nvm 0.40.5
-ocrmypdf 17.6.0
+ocrmypdf 17.7.0
 oniguruma 6.9.10
 onnx 1.21.0_1
 open-mpi 5.0.9
@@ -385,7 +385,8 @@ rtmpdump 2.6
 rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
-sdl2 2.32.10
+sdl2-compat 2.32.70
+sdl3 3.4.10
 shared-mime-info 2.4_1
 simdjson 4.6.4
 simdutf 9.0.0
