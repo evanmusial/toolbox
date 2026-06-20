@@ -62,7 +62,7 @@ ffmpeg@6 6.1.5
 fftw 3.3.11
 findutils 4.10.0
 flac 1.5.0
-fmt 12.1.0
+fmt 12.2.0
 fontconfig 2.18.1
 freetype 2.14.3
 frei0r 3.2.1
