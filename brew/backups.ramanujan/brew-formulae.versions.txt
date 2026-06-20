@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.4
 augeas 1.14.1_1
-awscli 2.35.8
+awscli 2.35.9
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -125,7 +125,7 @@ isl 0.27
 jansson 2.15.0
 jasper 4.2.9
 jbig2dec 0.20
-jbig2enc 0.31
+jbig2enc 0.32
 jemalloc 5.3.0
 jpeg 10
 jpeg-turbo 3.1.4.1
@@ -287,7 +287,7 @@ onnx 1.21.0_1
 open-mpi 5.0.9
 openblas 0.3.33
 opencore-amr 0.1.6
-openexr 3.4.12_2
+openexr 3.4.13
 openjpeg 2.5.4
 openjph 0.29.0
 openldap 2.6.13
