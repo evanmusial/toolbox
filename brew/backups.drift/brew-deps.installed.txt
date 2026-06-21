@@ -50,7 +50,7 @@ exempi:
 exiftool: 
 eye-d3: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
 fd: 
-ffmpeg: ca-certificates dav1d lame libvmaf libvpx openssl@3 opus sdl2 svt-av1 x264 x265
+ffmpeg: ca-certificates dav1d lame libvmaf libvpx openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265
 fftw: libomp
 findutils: 
 flac: libogg
@@ -241,7 +241,7 @@ node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libffi l
 node_exporter: 
 npth: 
 numpy: gcc gmp isl libmpc libomp lz4 mpfr openblas xz zstd
-ocrmypdf: aom ca-certificates cairo cffi cryptography dav1d ffmpeg fontconfig freetype fribidi gettext ghostscript giflib glib graphite2 harfbuzz icu4c@78 img2pdf jbig2dec jbig2enc jpeg-turbo lame leptonica libarchive libavif libb2 libdatrie libde265 libheif libidn libimagequant libpng libraqm libthai libtiff libunistring libvmaf libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 opus pango pcre2 pillow pixman pngquant pybind11 pycparser pydantic python@3.14 qpdf readline sdl2 sqlite svt-av1 tesseract unpaper webp x264 x265 xorgproto xz zstd
+ocrmypdf: aom ca-certificates cairo cffi cryptography dav1d ffmpeg fontconfig freetype fribidi gettext ghostscript giflib glib graphite2 harfbuzz icu4c@78 img2pdf jbig2dec jbig2enc jpeg-turbo lame leptonica libarchive libavif libb2 libdatrie libde265 libheif libidn libimagequant libpng libraqm libthai libtiff libunistring libvmaf libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 opus pango pcre2 pillow pixman pngquant pybind11 pycparser pydantic python@3.14 qpdf readline sdl2-compat sdl3 sqlite svt-av1 tesseract unpaper webp x264 x265 xorgproto xz zstd
 oniguruma: 
 open-mpi: ca-certificates gcc gmp hwloc isl libevent libmpc lz4 mpfr openssl@3 pmix xz zstd
 openblas: gcc gmp isl libmpc libomp lz4 mpfr xz zstd
@@ -337,7 +337,8 @@ rtmpdump: ca-certificates openssl@3
 rubberband: flac lame libogg libsamplerate libsndfile libvorbis mpg123 opus
 s3cmd: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 sc-im: libxls libxlsxwriter libxml2 libzip lua lz4 ncurses readline xz zstd
-sdl2: 
+sdl2-compat: sdl3
+sdl3: 
 shared-mime-info: gettext glib libunistring pcre2
 simdjson: 
 simdutf: icu4c@78

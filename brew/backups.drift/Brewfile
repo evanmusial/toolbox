@@ -1,4 +1,4 @@
-# backup: 20260615 @ 1617 (UTC)
+# backup: 20260621 @ 1532 (UTC)
 # host: drift
 
 tap "jakehilborn/jakehilborn"
@@ -124,7 +124,7 @@ brew "docbook"
 # XML vocabulary to create presentation-neutral documents
 brew "docbook-xsl"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # RGBA Structural Similarity Rust implementation
@@ -145,8 +145,8 @@ brew "lame"
 brew "libvpx"
 # Audio codec
 brew "opus"
-# Low-level access to audio, keyboard, mouse, joystick, and graphics
-brew "sdl2"
+# SDL2 compatibility layer that uses SDL3 behind the scenes
+brew "sdl2-compat"
 # H.264/AVC encoder
 brew "x264"
 # H.265/HEVC encoder
