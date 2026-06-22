@@ -189,7 +189,7 @@ libpthread-stubs 0.5
 libraqm 0.10.5
 libraw 0.22.1
 libreplaygain r475
-librist 0.2.17
+librist 0.2.18
 librsvg 2.62.3
 librtlsdr 2.0.2
 libsamplerate 0.2.2
@@ -287,9 +287,9 @@ onnx 1.22.0
 open-mpi 5.0.9
 openblas 0.3.33
 opencore-amr 0.1.6
-openexr 3.4.13
+openexr 3.4.13_1
 openjpeg 2.5.4
-openjph 0.29.0
+openjph 0.30.1
 openldap 2.6.13
 openmotif 2.3.8_4
 openssl@3 3.6.2
