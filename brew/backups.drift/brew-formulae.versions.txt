@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.5
 augeas 1.14.1_1
 autoconf 2.73
-awscli 2.35.9
+awscli 2.35.11
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -96,7 +96,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-25
+imagemagick 7.1.2-26
 imath 3.2.2
 img2pdf 0.6.3_1
 imlib2 1.12.6
@@ -158,7 +158,7 @@ libpng 1.6.58
 libproxy 0.5.12
 libpthread-stubs 0.5
 libraqm 0.10.5
-librist 0.2.17
+librist 0.2.18
 librtlsdr 2.0.2
 libsamplerate 0.2.2
 libsm 1.2.6
@@ -241,9 +241,9 @@ oniguruma 6.9.10
 open-mpi 5.0.9
 openblas 0.3.33
 opencore-amr 0.1.6
-openexr 3.4.13
+openexr 3.4.13_1
 openjpeg 2.5.4
-openjph 0.29.0
+openjph 0.30.1
 openldap 2.6.13
 openmotif 2.3.8_4
 openssl@1.1 1.1.1w
