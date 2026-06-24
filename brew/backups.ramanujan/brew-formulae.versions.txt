@@ -39,7 +39,7 @@ cpufetch 1.07
 crc32c 1.1.2
 cryptography 49.0.0
 cunit 2.1-3
-curl 8.20.0
+curl 8.21.0
 dav1d 1.5.3
 dbus 1.16.2_1
 dialog 1.3-20260107
@@ -136,8 +136,8 @@ json-glib 1.10.8
 jsoncpp 1.9.8
 lame 3.100
 leptonica 1.87.0
-libarchive 3.8.7
-libass 0.17.4_1
+libarchive 3.8.8
+libass 0.17.5
 libassuan 3.0.2
 libavif 1.4.2
 libb2 0.98.1
@@ -411,7 +411,7 @@ tbb 2023.0.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.18
 telnet 308
-terraform 1.15.6
+terraform 1.15.7
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
