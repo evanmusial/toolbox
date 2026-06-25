@@ -35,7 +35,7 @@ cpu_features 0.11.0
 cpufetch 1.07
 crc32c 1.1.2
 cryptography 49.0.0
-curl 8.20.0
+curl 8.21.0
 dav1d 1.5.3
 dbus 1.16.2_1
 deno 2.8.3
@@ -114,8 +114,8 @@ jq 1.8.2
 jsoncpp 1.9.8
 lame 3.100
 leptonica 1.87.0
-libarchive 3.8.7
-libass 0.17.4_1
+libarchive 3.8.8
+libass 0.17.5
 libassuan 3.0.2
 libavif 1.4.2
 libb2 0.98.1
@@ -232,7 +232,7 @@ nettle 4.0
 nghttp2 1.69.0
 nlohmann-json 3.12.0
 nmap 7.99
-node 26.3.1
+node 26.4.0
 node_exporter 1.11.1
 npth 1.8
 numpy 2.4.6
@@ -263,7 +263,7 @@ pinentry 1.3.2
 pipx 1.14.1
 pixman 0.46.4
 pkgconf 2.5.1
-pmix 5.0.10_1
+pmix 5.0.11
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
@@ -273,7 +273,7 @@ pwgen 2.08
 pybind11 3.0.4
 pycparser 3.0
 pydantic 2.13.4
-pyenv 2.7.2
+pyenv 2.7.3
 python-gdbm@3.11 3.11.15
 python-tk@3.11 3.11.15
 python@3.10 3.10.20_3
