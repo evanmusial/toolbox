@@ -3273,11 +3273,6 @@ gstreamer
 │   │       └── libunistring 
 │   ├── libnghttp2 
 │   ├── libpsl 
-│   │   ├── libidn2 
-│   │   │   ├── libunistring 
-│   │   │   └── gettext 
-│   │   │       └── libunistring 
-│   │   └── libunistring 
 │   ├── sqlite 
 │   │   └── readline 
 │   └── gettext 
@@ -6577,11 +6572,6 @@ libosinfo
 │   │       └── libunistring 
 │   ├── libnghttp2 
 │   ├── libpsl 
-│   │   ├── libidn2 
-│   │   │   ├── libunistring 
-│   │   │   └── gettext 
-│   │   │       └── libunistring 
-│   │   └── libunistring 
 │   ├── sqlite 
 │   │   └── readline 
 │   └── gettext 
@@ -6601,11 +6591,6 @@ libproxy
         └── libunistring 
 
 libpsl
-├── libidn2 
-│   ├── libunistring 
-│   └── gettext 
-│       └── libunistring 
-└── libunistring 
 
 libpthread-stubs
 └── pkgconf 
@@ -7037,11 +7022,6 @@ libsoup
 │       └── libunistring 
 ├── libnghttp2 
 ├── libpsl 
-│   ├── libidn2 
-│   │   ├── libunistring 
-│   │   └── gettext 
-│   │       └── libunistring 
-│   └── libunistring 
 ├── sqlite 
 │   └── readline 
 └── gettext 
@@ -9526,11 +9506,6 @@ phodav
 │   │       └── libunistring 
 │   ├── libnghttp2 
 │   ├── libpsl 
-│   │   ├── libidn2 
-│   │   │   ├── libunistring 
-│   │   │   └── gettext 
-│   │   │       └── libunistring 
-│   │   └── libunistring 
 │   ├── sqlite 
 │   │   └── readline 
 │   └── gettext 
@@ -41557,11 +41532,6 @@ spice-gtk
 │   │   │       └── libunistring 
 │   │   ├── libnghttp2 
 │   │   ├── libpsl 
-│   │   │   ├── libidn2 
-│   │   │   │   ├── libunistring 
-│   │   │   │   └── gettext 
-│   │   │   │       └── libunistring 
-│   │   │   └── libunistring 
 │   │   ├── sqlite 
 │   │   │   └── readline 
 │   │   └── gettext 
@@ -42483,11 +42453,6 @@ spice-gtk
 │   │       └── libunistring 
 │   ├── libnghttp2 
 │   ├── libpsl 
-│   │   ├── libidn2 
-│   │   │   ├── libunistring 
-│   │   │   └── gettext 
-│   │   │       └── libunistring 
-│   │   └── libunistring 
 │   ├── sqlite 
 │   │   └── readline 
 │   └── gettext 
@@ -42544,11 +42509,6 @@ spice-gtk
 │   │   │       └── libunistring 
 │   │   ├── libnghttp2 
 │   │   ├── libpsl 
-│   │   │   ├── libidn2 
-│   │   │   │   ├── libunistring 
-│   │   │   │   └── gettext 
-│   │   │   │       └── libunistring 
-│   │   │   └── libunistring 
 │   │   ├── sqlite 
 │   │   │   └── readline 
 │   │   └── gettext 
@@ -44438,11 +44398,6 @@ virt-manager
 │   │   │       └── libunistring 
 │   │   ├── libnghttp2 
 │   │   ├── libpsl 
-│   │   │   ├── libidn2 
-│   │   │   │   ├── libunistring 
-│   │   │   │   └── gettext 
-│   │   │   │       └── libunistring 
-│   │   │   └── libunistring 
 │   │   ├── sqlite 
 │   │   │   └── readline 
 │   │   └── gettext 
@@ -46181,11 +46136,6 @@ virt-manager
 │   │   │   │       └── libunistring 
 │   │   │   ├── libnghttp2 
 │   │   │   ├── libpsl 
-│   │   │   │   ├── libidn2 
-│   │   │   │   │   ├── libunistring 
-│   │   │   │   │   └── gettext 
-│   │   │   │   │       └── libunistring 
-│   │   │   │   └── libunistring 
 │   │   │   ├── sqlite 
 │   │   │   │   └── readline 
 │   │   │   └── gettext 
@@ -47107,11 +47057,6 @@ virt-manager
 │   │   │       └── libunistring 
 │   │   ├── libnghttp2 
 │   │   ├── libpsl 
-│   │   │   ├── libidn2 
-│   │   │   │   ├── libunistring 
-│   │   │   │   └── gettext 
-│   │   │   │       └── libunistring 
-│   │   │   └── libunistring 
 │   │   ├── sqlite 
 │   │   │   └── readline 
 │   │   └── gettext 
@@ -47168,11 +47113,6 @@ virt-manager
 │   │   │   │       └── libunistring 
 │   │   │   ├── libnghttp2 
 │   │   │   ├── libpsl 
-│   │   │   │   ├── libidn2 
-│   │   │   │   │   ├── libunistring 
-│   │   │   │   │   └── gettext 
-│   │   │   │   │       └── libunistring 
-│   │   │   │   └── libunistring 
 │   │   │   ├── sqlite 
 │   │   │   │   └── readline 
 │   │   │   └── gettext 
