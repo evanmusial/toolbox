@@ -1,4 +1,4 @@
-# backup: 20260626 @ 0028 (UTC)
+# backup: 20260626 @ 2005 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -177,7 +177,7 @@ brew "docbook"
 # XML vocabulary to create presentation-neutral documents
 brew "docbook-xsl"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
 # Isolated development environments using Docker
