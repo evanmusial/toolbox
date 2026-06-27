@@ -176,7 +176,7 @@ libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.4.1
 libnghttp2 1.69.0
-libnghttp3 1.16.0
+libnghttp3 1.17.0
 libngtcp2 1.23.0
 libnice 0.1.23
 libogg 1.3.6

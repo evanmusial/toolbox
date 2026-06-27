@@ -558,6 +558,7 @@ curl
 ├── libngtcp2 
 │   └── openssl@3 
 │       └── ca-certificates 
+├── libpsl 
 ├── libssh2 
 │   └── openssl@3 
 │       └── ca-certificates 
