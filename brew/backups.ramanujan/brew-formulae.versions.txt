@@ -316,6 +316,7 @@ pmix 5.0.11
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
+prometheus 3.12.0
 protobuf 35.1
 pugixml 1.16
 pwgen 2.08

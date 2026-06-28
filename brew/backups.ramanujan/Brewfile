@@ -1,4 +1,4 @@
-# backup: 20260628 @ 1515 (UTC)
+# backup: 20260628 @ 1746 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -570,6 +570,8 @@ brew "pinentry-mac"
 brew "pipx"
 # Cross-platform library for audio I/O
 brew "portaudio"
+# Service monitoring system and time series database
+brew "prometheus"
 # Password generator
 brew "pwgen"
 # Interpreted, interactive, object-oriented programming language

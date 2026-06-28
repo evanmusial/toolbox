@@ -82,6 +82,7 @@ perl
 pinentry-mac
 pipx
 portaudio
+prometheus
 pwgen
 python-gdbm@3.11
 python-setuptools

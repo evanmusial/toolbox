@@ -320,6 +320,7 @@ pmix: ca-certificates hwloc libevent openssl@3
 pngquant: jpeg-turbo libpng libtiff little-cms2 lz4 xz zstd
 popt: 
 portaudio: 
+prometheus: 
 protobuf: abseil
 pugixml: 
 pwgen: 
