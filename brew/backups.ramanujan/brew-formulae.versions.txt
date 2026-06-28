@@ -131,7 +131,7 @@ jpeg 10
 jpeg-turbo 3.1.4.1
 jpeg-xl 0.11.2
 jq 1.8.2
-json-c 0.18
+json-c 0.19
 json-glib 1.10.8
 jsoncpp 1.9.8
 lame 3.100
