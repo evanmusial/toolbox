@@ -214,9 +214,9 @@ libusb 1.0.30
 libusrsctp 0.9.5.0_1
 libuv 1.52.1
 libvidstab 1.1.1
-libvirt 12.4.0
+libvirt 12.5.0
 libvirt-glib 5.0.0_1
-libvirt-python 12.4.0
+libvirt-python 12.5.0
 libvmaf 3.2.0
 libvorbis 1.3.7
 libvpx 1.16.0
