@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_1
-awscli 2.35.12
+awscli 2.35.13
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
