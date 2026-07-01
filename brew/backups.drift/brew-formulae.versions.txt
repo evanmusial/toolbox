@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.5
 augeas 1.14.1_1
 autoconf 2.73
-awscli 2.35.12
+awscli 2.35.13
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -356,7 +356,7 @@ telnet 308
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
-tmux 3.7
+tmux 3.7a
 unbound 1.25.1
 unpaper 7.0.0_3
 utf8cpp 4.1.1
