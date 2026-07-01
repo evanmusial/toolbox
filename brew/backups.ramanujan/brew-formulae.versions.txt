@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_1
-awscli 2.35.13
+awscli 2.35.14
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -122,13 +122,13 @@ img2pdf 0.6.3_1
 imlib2 1.12.6
 iperf3 3.21_1
 isl 0.27
-jansson 2.15.0
+jansson 2.15.1
 jasper 4.2.9
 jbig2dec 0.20
 jbig2enc 0.32
 jemalloc 5.3.0
 jpeg 10
-jpeg-turbo 3.1.4.1
+jpeg-turbo 3.2.0
 jpeg-xl 0.11.2
 jq 1.8.2
 json-c 0.19
@@ -152,7 +152,7 @@ libdeflate 1.25
 libebml 1.4.5
 libepoxy 1.5.10
 libev 4.33
-libevent 2.1.12_1
+libevent 2.1.13
 libffi 3.6.0
 libfido2 1.17.0
 libgcrypt 1.12.2
@@ -307,7 +307,7 @@ pcre2 10.47_1
 perl 5.42.2
 phodav 3.0_1
 pillow 12.2.0
-pinentry 1.3.2
+pinentry 1.3.3
 pinentry-mac 1.3.1.1
 pipx 1.15.0
 pixman 0.46.4
@@ -316,7 +316,7 @@ pmix 5.0.11
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-prometheus 3.12.0
+prometheus 3.13.0
 protobuf 35.1
 pugixml 1.16
 pwgen 2.08
@@ -387,7 +387,7 @@ rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2-compat 2.32.70
-sdl3 3.4.10
+sdl3 3.4.12
 shared-mime-info 2.5.1
 simdjson 4.6.4
 simdutf 9.0.0
@@ -416,7 +416,7 @@ terraform 1.15.7
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
-tmux 3.7a
+tmux 3.7b
 unbound 1.25.1
 unpaper 7.0.0_3
 usb.ids 2026.06.26
