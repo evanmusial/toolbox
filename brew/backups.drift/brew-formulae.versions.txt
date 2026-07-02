@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.5
 augeas 1.14.1_1
 autoconf 2.73
-awscli 2.35.13
+awscli 2.35.14
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -38,7 +38,7 @@ cryptography 49.0.0
 curl 8.21.0
 dav1d 1.5.3
 dbus 1.16.2_1
-deno 2.9.0
+deno 2.9.1
 dialog 1.3-20260107
 docbook 5.2_1
 docbook-xsl 1.79.2_1
@@ -102,13 +102,13 @@ img2pdf 0.6.3_1
 imlib2 1.12.6
 iperf3 3.21_1
 isl 0.27
-jansson 2.15.0
+jansson 2.15.1
 jasper 4.2.9
 jbig2dec 0.20
 jbig2enc 0.32
 jemalloc 5.3.0
 jpeg 10
-jpeg-turbo 3.1.4.1
+jpeg-turbo 3.2.0
 jpeg-xl 0.11.2
 jq 1.8.2
 jsoncpp 1.9.8
@@ -127,7 +127,7 @@ libde265 1.1.1
 libdeflate 1.25
 libebml 1.4.5
 libev 4.33
-libevent 2.1.12_1
+libevent 2.1.13
 libffi 3.6.0
 libgcrypt 1.12.2
 libgit2 1.9.4
@@ -236,7 +236,7 @@ node 26.4.0
 node_exporter 1.11.1
 npth 1.8
 numpy 2.4.6
-ocrmypdf 17.7.1
+ocrmypdf 17.8.0
 oniguruma 6.9.10
 open-mpi 5.0.9
 openblas 0.3.33
@@ -259,7 +259,7 @@ pcre 8.45
 pcre2 10.47_1
 perl 5.42.2
 pillow 12.2.0
-pinentry 1.3.2
+pinentry 1.3.3
 pipx 1.15.0
 pixman 0.46.4
 pkgconf 2.5.1
@@ -333,7 +333,7 @@ rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2-compat 2.32.70
-sdl3 3.4.10
+sdl3 3.4.12
 shared-mime-info 2.5.1
 simdjson 4.6.4
 simdutf 9.0.0
@@ -356,7 +356,7 @@ telnet 308
 tesseract 5.5.2
 thefuck 3.32
 theora 1.2.0
-tmux 3.7a
+tmux 3.7b
 unbound 1.25.1
 unpaper 7.0.0_3
 utf8cpp 4.1.1
@@ -378,7 +378,7 @@ xpdf 4.06
 xvid 1.3.7
 xxhash 0.8.3
 xz 5.8.3
-ykman 5.9.1
+ykman 5.9.2
 youtube-dl 2021.12.17
 yt-dlp 2026.6.9
 zeromq 4.3.5_2
