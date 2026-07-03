@@ -85,7 +85,7 @@ glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schem
 gmp: 
 gnu-getopt: 
 gnu-sed: 
-gnupg: ca-certificates gettext gmp gnutls libassuan libevent libgcrypt libgpg-error libidn2 libksba libnghttp2 libtasn1 libunistring libusb nettle npth openssl@3 p11-kit pinentry readline unbound
+gnupg: ca-certificates gettext gmp gnutls libassuan libgcrypt libgpg-error libidn2 libksba libtasn1 libunistring libusb nettle npth p11-kit pinentry readline
 gnutls: ca-certificates gettext gmp libidn2 libtasn1 libunistring nettle p11-kit
 gobject-introspection: ca-certificates cairo fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf python@3.14 readline sqlite xorgproto xz zstd
 google-analytics-opt-out: 
@@ -310,7 +310,7 @@ pcre:
 pcre2: 
 perl: berkeley-db@5 gdbm
 phodav: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libsoup libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline sqlite unbound
-pillow: aom brotli cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz highway icu4c@78 imath jpeg-turbo jpeg-xl libavif libdeflate libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openexr openjpeg openjph pcre2 pixman webp xorgproto xz zstd
+pillow: aom cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pcre2 pixman webp xorgproto xz zstd
 pinentry: gettext libassuan libgpg-error libunistring
 pinentry-mac: gettext libassuan libgpg-error libunistring
 pipx: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd

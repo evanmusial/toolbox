@@ -9103,11 +9103,21 @@ open-mpi
 ├── libevent 
 │   └── openssl@3 
 │       └── ca-certificates 
-└── pmix 
+├── pmix 
+│   ├── hwloc 
+│   └── libevent 
+│       └── openssl@3 
+│           └── ca-certificates 
+└── prrte 
     ├── hwloc 
-    └── libevent 
-        └── openssl@3 
-            └── ca-certificates 
+    ├── libevent 
+    │   └── openssl@3 
+    │       └── ca-certificates 
+    └── pmix 
+        ├── hwloc 
+        └── libevent 
+            └── openssl@3 
+                └── ca-certificates 
 
 openblas
 ├── gcc 
