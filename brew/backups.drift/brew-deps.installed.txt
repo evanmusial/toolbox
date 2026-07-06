@@ -54,7 +54,7 @@ ffmpeg: ca-certificates dav1d lame libvmaf libvpx openssl@3 opus sdl2-compat sdl
 fftw: libomp
 findutils: 
 flac: libogg
-fluid-synth: flac gettext glib lame libogg libsndfile libunistring libvorbis mpg123 opus pcre2 portaudio readline
+fluid-synth: flac gettext glib json-c lame libogg libsndfile libunistring libvorbis mpg123 opus pcre2 portaudio readline
 fmt: 
 font-meslo-for-powerlevel10k: 
 font-meslo-for-powerline: 
@@ -76,7 +76,7 @@ glib: gettext libunistring pcre2
 gmp: 
 gnu-getopt: 
 gnu-sed: 
-gnupg: ca-certificates gettext gmp gnutls libassuan libevent libgcrypt libgpg-error libidn2 libksba libnghttp2 libtasn1 libunistring libusb nettle npth openssl@3 p11-kit pinentry readline unbound
+gnupg: ca-certificates gettext gmp gnutls json-c libassuan libgcrypt libgpg-error libidn2 libksba libtasn1 libunistring libusb nettle npth p11-kit pinentry readline
 gnutls: ca-certificates gettext gmp libidn2 libtasn1 libunistring nettle p11-kit
 gobject-introspection: ca-certificates cairo fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf python@3.14 readline sqlite xorgproto xz zstd
 gpac: ca-certificates dav1d ffmpeg freetype jpeg-turbo lame libnghttp2 libogg libpng libtiff libvorbis libvpx libx11 libxau libxcb libxdmcp libxext little-cms2 lz4 openjpeg openssl@3 opus sdl2 svt-av1 theora x264 x265 xorgproto xz zstd
@@ -112,6 +112,7 @@ jpeg:
 jpeg-turbo: 
 jpeg-xl: brotli giflib highway imath jpeg-turbo libdeflate libpng libtiff little-cms2 lz4 openexr openjph xz zstd
 jq: oniguruma
+json-c: 
 jsoncpp: 
 jt-bridge: 
 lame: 
@@ -219,7 +220,7 @@ media-info: gettext glib libmediainfo libmms libunistring libzen pcre2
 merve: icu4c@78 simdutf
 mkvdts2ac3: aom bdw-gc boost c-ares cairo dav1d ffmpeg flac fmt fontconfig freetype frei0r fribidi gdbm gettext giflib glib gmp gnutls gobject-introspection graphite2 guile harfbuzz icu4c jemalloc jpeg lame leptonica libass libbluray libebml libev libevent libffi libidn2 libmagic libmatroska libogg libpng libpthread-stubs libsamplerate libsndfile libsodium libsoxr libtasn1 libtiff libtool libunistring libvidstab libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lzo m4 mkvtoolnix mpdecimal nettle nghttp2 nlohmann-json opencore-amr openjpeg openssl@1.1 opus p11-kit pcre pcre2 pixman pkg-config pugixml python@3.9 rav1e readline rubberband sdl2 snappy speex sqlite srt tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg
 mkvtomp4: aom assimp bdw-gc boost brotli ca-certificates cairo cjson cmocka dav1d dbus double-conversion ffmpeg flac fmt fontconfig freetype frei0r fribidi gdbm gettext giflib glib gmp gnutls gpac graphite2 guile harfbuzz hunspell icu4c imath jasper jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libebml libevent libffi libidn2 libmatroska libmng libnghttp2 libogg libpng libpthread-stubs librist libsamplerate libsndfile libsodium libsoxr libtasn1 libtiff libtool libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo m4 mbedtls md4c mkvtoolnix mpdecimal nettle nlohmann-json opencore-amr openexr openjpeg openssl@1.1 opus p11-kit pcre pcre2 pixman pkg-config pugixml python@3.10 qt rav1e readline rubberband sdl2 snappy speex sqlite srt tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg zstd
-mkvtoolnix: boost brotli ca-certificates cairo dbus double-conversion flac fmt fontconfig freetype gettext glib gmp graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libebml libmatroska libogg libpng libunistring libvorbis libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman pugixml qtbase xorgproto xz zstd
+mkvtoolnix: boost brotli ca-certificates cairo dbus double-conversion flac fmt fontconfig freetype gettext glib gmp graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libb2 libebml libmatroska libogg libpng libunistring libvorbis libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman pugixml qtbase xorgproto xz zstd
 mkvtoolnix-app: 
 mmv: bdw-gc
 moreutils: 
@@ -263,7 +264,7 @@ pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@7
 pcre: 
 pcre2: 
 perl: berkeley-db@5 gdbm
-pillow: aom brotli cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz highway icu4c@78 imath jpeg-turbo jpeg-xl libavif libdeflate libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openexr openjpeg openjph pcre2 pixman webp xorgproto xz zstd
+pillow: aom cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pcre2 pixman webp xorgproto xz zstd
 pinentry: gettext libassuan libgpg-error libunistring
 pipx: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
 pixman: 
