@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_2
-awscli 2.35.16
+awscli 2.35.17
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -47,7 +47,7 @@ docbook 5.2_1
 docbook-xsl 1.79.2_1
 docker 29.6.1
 docker-completion 29.6.1
-docker-compose 5.3.0
+docker-compose 5.3.1
 double-conversion 3.4.0
 dtc 1.8.1
 duktape 2.7.0
@@ -252,8 +252,8 @@ lzlib 1.16
 lzo 2.10
 m4 1.4.21
 mad 0.16.4
-mbedtls 4.1.0
-mbedtls@3 3.6.6
+mbedtls 4.2.0
+mbedtls@3 3.6.7
 md4c 0.5.3
 media-info 26.05
 merve 1.2.2_1
@@ -279,7 +279,7 @@ nmap 7.99
 node 26.4.0
 npth 1.8
 ntp 4.2.8p18
-numpy 2.4.6
+numpy 2.5.1
 nvm 0.40.5
 ocrmypdf 17.8.0
 oniguruma 6.9.10
@@ -332,7 +332,7 @@ python-tk@3.11 3.11.15
 python@3.10 3.10.20_3
 python@3.11 3.11.15_3
 python@3.12 3.12.13_4
-python@3.13 3.13.14
+python@3.13 3.13.14_1
 python@3.14 3.14.6
 python@3.9 3.9.25
 qemu 11.0.2
