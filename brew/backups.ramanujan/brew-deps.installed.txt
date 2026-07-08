@@ -173,7 +173,7 @@ libmagic:
 libmatroska: libebml
 libmediainfo: gettext glib libmms libunistring libzen pcre2
 libmetalink: 
-libmicrohttpd: ca-certificates gettext gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit unbound
+libmicrohttpd: ca-certificates gettext gmp gnutls json-c libidn2 libtasn1 libunistring nettle p11-kit
 libmms: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
 libmng: jpeg-turbo libtiff little-cms2 lz4 xz zstd
 libmpc: gmp mpfr
