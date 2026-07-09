@@ -1,4 +1,4 @@
-# backup: 20260708 @ 2055 (UTC)
+# backup: 20260709 @ 2120 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -192,6 +192,8 @@ brew "exempi"
 brew "exiftool"
 # Work with ID3 metadata in .mp3 files
 brew "eye-d3"
+# MP3 player for Linux and UNIX
+brew "mpg123"
 # High quality MPEG Audio Layer III (MP3) encoder
 brew "lame"
 # VP8/VP9 video codec
@@ -250,8 +252,6 @@ brew "librist"
 brew "libsamplerate"
 # Vorbis general audio compression codec
 brew "libvorbis"
-# MP3 player for Linux and UNIX
-brew "mpg123"
 # C library for files containing sampled sound
 brew "libsndfile"
 # NaCl networking and cryptography library
