@@ -37,7 +37,7 @@ cryptography: ca-certificates cffi openssl@3 pycparser
 curl: brotli ca-certificates libnghttp2 libnghttp3 libngtcp2 libssh2 lz4 openssl@3 xz zstd
 dav1d: 
 dbus: 
-deno: jpeg-turbo libtiff little-cms2 lz4 readline sqlite xz zstd
+deno: giflib jpeg-turbo libpng libtiff little-cms2 lz4 readline sqlite webp xz zstd
 dialog: 
 docbook: 
 docbook-xsl: docbook
@@ -58,7 +58,7 @@ fluid-synth: flac gettext glib json-c lame libogg libsndfile libunistring libvor
 fmt: 
 font-meslo-for-powerlevel10k: 
 font-meslo-for-powerline: 
-fontconfig: freetype gettext libpng libunistring
+fontconfig: freetype gettext json-c libpng libunistring
 fpart: 
 freetype: libpng
 frei0r: 
@@ -115,7 +115,7 @@ jq: oniguruma
 json-c: 
 jsoncpp: 
 jt-bridge: 
-lame: 
+lame: mpg123
 leptonica: giflib jpeg-turbo libpng libtiff little-cms2 lz4 openjpeg webp xz zstd
 libarchive: libb2 lz4 xz zstd
 libass: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunibreak libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
@@ -148,7 +148,7 @@ libmagic:
 libmatroska: libebml
 libmediainfo: gettext glib libmms libunistring libzen pcre2
 libmetalink: 
-libmicrohttpd: ca-certificates gettext gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit unbound
+libmicrohttpd: ca-certificates gettext gmp gnutls json-c libidn2 libtasn1 libunistring nettle p11-kit
 libmms: gettext glib pcre2
 libmng: jpeg-turbo libtiff little-cms2
 libmpc: gmp mpfr

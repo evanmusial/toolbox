@@ -1,4 +1,4 @@
-# backup: 20260707 @ 1413 (UTC)
+# backup: 20260710 @ 1228 (UTC)
 # host: drift
 
 tap "jakehilborn/jakehilborn"
@@ -113,10 +113,14 @@ brew "curl"
 brew "dav1d"
 # Message bus system, providing inter-application communication
 brew "dbus"
+# Library and utilities for processing GIFs
+brew "giflib"
 # TIFF library and utilities
 brew "libtiff"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Display user-friendly message boxes from shell scripts
 brew "dialog"
 # Standard XML representation system for technical documents
@@ -191,8 +195,6 @@ brew "gdbm"
 brew "gengetopt"
 # This library is for the GeoIP Legacy format (dat)
 brew "geoip"
-# Library and utilities for processing GIFs
-brew "giflib"
 # Smart font renderer for non-Roman scripts
 brew "graphite2"
 # OpenType text shaping engine
@@ -201,8 +203,6 @@ brew "harfbuzz"
 brew "jbig2dec"
 # Library for JPEG-2000 image manipulation
 brew "openjpeg"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Image processing and image analysis library
 brew "leptonica"
 # Secure hashing function
@@ -329,8 +329,6 @@ brew "libmagic"
 brew "libmatroska"
 # C library to parse Metalink XML files
 brew "libmetalink"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # Library that provides automatic proxy configuration management
 brew "libproxy"
 # Use Realtek DVB-T dongles as a cheap SDR
@@ -389,6 +387,8 @@ brew "snappy"
 brew "speex"
 # Secure Reliable Transport
 brew "srt"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # High-performance, high-quality MPEG-4 video library
 brew "xvid"
 # High-performance, asynchronous messaging library
