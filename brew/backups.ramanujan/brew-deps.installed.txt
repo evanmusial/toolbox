@@ -64,11 +64,11 @@ fftw: libomp
 findutils: 
 flac: libogg
 fmt: 
-fontconfig: freetype gettext libpng libunistring
+fontconfig: freetype gettext json-c libpng libunistring
 freetype: libpng
 frei0r: 
 fribidi: 
-gawk: gettext gmp libunistring mpfr readline
+gawk: gettext gmp json-c libunistring mpfr readline
 gcc: gmp isl libmpc lz4 mpfr xz zstd
 gdbm: 
 gdk-pixbuf: gettext glib jpeg-turbo libpng libtiff libunistring lz4 pcre2 xz zstd

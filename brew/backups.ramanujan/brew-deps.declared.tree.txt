@@ -7723,6 +7723,12 @@ libuv
 libvidstab
 
 libvirt
+├── cyrus-sasl 
+│   ├── krb5 
+│   │   └── openssl@3 
+│   │       └── ca-certificates 
+│   └── openssl@3 
+│       └── ca-certificates 
 ├── glib 
 │   ├── pcre2 
 │   └── gettext 
@@ -7764,6 +7770,12 @@ libvirt-glib
 │       ├── json-c 
 │       └── libunistring 
 ├── libvirt 
+│   ├── cyrus-sasl 
+│   │   ├── krb5 
+│   │   │   └── openssl@3 
+│   │   │       └── ca-certificates 
+│   │   └── openssl@3 
+│   │       └── ca-certificates 
 │   ├── glib 
 │   │   ├── pcre2 
 │   │   └── gettext 
@@ -7803,6 +7815,12 @@ libvirt-glib
 
 libvirt-python
 ├── libvirt 
+│   ├── cyrus-sasl 
+│   │   ├── krb5 
+│   │   │   └── openssl@3 
+│   │   │       └── ca-certificates 
+│   │   └── openssl@3 
+│   │       └── ca-certificates 
 │   ├── glib 
 │   │   ├── pcre2 
 │   │   └── gettext 
@@ -47600,6 +47618,12 @@ virt-manager
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── libvirt 
+│   │   ├── cyrus-sasl 
+│   │   │   ├── krb5 
+│   │   │   │   └── openssl@3 
+│   │   │   │       └── ca-certificates 
+│   │   │   └── openssl@3 
+│   │   │       └── ca-certificates 
 │   │   ├── glib 
 │   │   │   ├── pcre2 
 │   │   │   └── gettext 
@@ -47638,6 +47662,12 @@ virt-manager
 │       └── libunistring 
 ├── libvirt-python 
 │   ├── libvirt 
+│   │   ├── cyrus-sasl 
+│   │   │   ├── krb5 
+│   │   │   │   └── openssl@3 
+│   │   │   │       └── ca-certificates 
+│   │   │   └── openssl@3 
+│   │   │       └── ca-certificates 
 │   │   ├── glib 
 │   │   │   ├── pcre2 
 │   │   │   └── gettext 
