@@ -134,7 +134,7 @@ jq 1.8.2
 json-c 0.19
 json-glib 1.10.8
 jsoncpp 1.9.8
-lame 3.101
+lame 4.0
 leptonica 1.87.0
 libarchive 3.8.8
 libass 0.17.5
