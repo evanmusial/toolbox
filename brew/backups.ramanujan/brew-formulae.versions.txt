@@ -60,7 +60,7 @@ fdk-aac 2.0.3
 ffmpeg 8.1.2_1
 ffmpeg@6 6.1.6_1
 fftw 3.3.11
-findutils 4.10.0
+findutils 4.11.0
 flac 1.5.0
 fmt 12.2.0
 fontconfig 2.18.2
@@ -107,7 +107,7 @@ hicolor-icon-theme 0.18
 highway 1.4.0
 html2text 2.4.0
 htop 3.5.1
-httrack 3.49.2_2
+httrack 3.49.12
 hunspell 1.7.3
 hwloc 2.13.0
 icu4c@76 76.1_2
