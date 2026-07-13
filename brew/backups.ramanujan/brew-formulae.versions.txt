@@ -408,7 +408,7 @@ streamripper 1.64.6_2
 svt-av1 4.1.0
 syncthing 2.1.2
 taglib 2.3
-tbb 2023.0.0
+tbb 2023.1.0
 tcl-tk 9.0.3
 tcl-tk@8 8.6.18
 telnet 308
