@@ -86,7 +86,7 @@ gnu-getopt 2.42.2
 gnu-sed 4.10
 gnupg 2.5.21
 gnutls 3.8.13_2
-gobject-introspection 1.86.0_2
+gobject-introspection 1.86.0_3
 google-authenticator-libpam 1.11
 gpac 26.02.0
 graphene 1.10.8
@@ -329,8 +329,8 @@ python-gdbm@3.11 3.11.15
 python-packaging 26.2
 python-setuptools 83.0.0
 python-tk@3.11 3.11.15
-python@3.10 3.10.20_3
-python@3.11 3.11.15_3
+python@3.10 3.10.20_4
+python@3.11 3.11.15_4
 python@3.12 3.12.13_4
 python@3.13 3.13.14_1
 python@3.14 3.14.6
