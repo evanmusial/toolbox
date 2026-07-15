@@ -40,7 +40,7 @@ crc32c 1.1.2
 cryptography 49.0.0
 cunit 2.1-3
 curl 8.21.0
-dav1d 1.5.3
+dav1d 1.5.4
 dbus 1.16.2_1
 dialog 1.3-20260107
 docbook 5.2_1
@@ -109,7 +109,7 @@ html2text 2.4.0
 htop 3.5.1
 httrack 3.49.12
 hunspell 1.7.3
-hwloc 2.13.0
+hwloc 2.14.0
 icu4c@76 76.1_2
 icu4c@77 77.1_1
 icu4c@78 78.3
