@@ -186,7 +186,7 @@ libomp:
 libosinfo: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libsoup libtasn1 libunistring nettle openssl@3 osinfo-db p11-kit pcre2 readline sqlite unbound usb.ids
 libpng: 
 libproxy: duktape gettext glib libunistring pcre2
-libpsl: gettext libidn2 libunistring
+libpsl: 
 libpthread-stubs: pkg-config
 libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 libraw: giflib jpeg-turbo libomp libpng libtiff little-cms2 lz4 webp xz zstd

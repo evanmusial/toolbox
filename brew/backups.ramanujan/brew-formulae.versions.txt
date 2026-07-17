@@ -184,7 +184,7 @@ libomp 22.1.8
 libosinfo 1.12.0_1
 libpng 1.6.58
 libproxy 0.5.12
-libpsl 0.22.0
+libpsl 0.23.0
 libpthread-stubs 0.5
 libraqm 0.10.5
 libraw 0.22.2
