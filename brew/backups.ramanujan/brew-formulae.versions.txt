@@ -285,7 +285,7 @@ ocrmypdf 17.8.0
 oniguruma 6.9.10
 onnx 1.22.0
 open-mpi 5.0.9
-openblas 0.3.33
+openblas 0.3.34
 opencore-amr 0.1.6
 openexr 3.4.13_1
 openjpeg 2.5.4
