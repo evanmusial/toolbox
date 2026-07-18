@@ -106,7 +106,7 @@ hdrhistogram_c 0.11.10
 hicolor-icon-theme 0.18
 highway 1.4.0
 html2text 2.4.0
-htop 3.5.1
+htop 3.5.2
 httrack 3.49.13
 hunspell 1.7.3
 hwloc 2.14.0
@@ -156,7 +156,7 @@ libevent 2.1.13
 libffi 3.7.1
 libfido2 1.17.0
 libgcrypt 1.12.2
-libgit2 1.9.4
+libgit2 1.9.6
 libgpg-error 1.61
 libheif 1.23.1
 libice 1.1.2
