@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_2
-awscli 2.36.1
+awscli 2.36.2
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -281,7 +281,7 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.5.1
 nvm 0.40.6
-ocrmypdf 17.8.0
+ocrmypdf 17.8.1
 oniguruma 6.9.10
 onnx 1.22.0
 open-mpi 5.0.9
