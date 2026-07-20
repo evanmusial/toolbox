@@ -149,7 +149,7 @@ libcuefile r475
 libdatrie 0.2.14
 libde265 1.1.1
 libdeflate 1.25
-libebml 1.4.5
+libebml 1.4.6
 libepoxy 1.5.10
 libev 4.33
 libevent 2.1.13
@@ -407,7 +407,7 @@ streamlink 8.4.0_1
 streamripper 1.64.6_2
 svt-av1 4.2.0
 syncthing 2.1.2
-taglib 2.3
+taglib 2.3.1
 tbb 2023.1.0
 tcl-tk 9.0.4
 tcl-tk@8 8.6.18
