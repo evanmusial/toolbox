@@ -1,4 +1,4 @@
-docker-desktop 4.82.0,233772
+docker-desktop 4.83.0,234302
 google-analytics-opt-out 1.0.2
 makemkv 1.18.4
 ngrok 3.39.9,6pfVfGALLzX,a
