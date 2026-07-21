@@ -43,7 +43,7 @@ curl 8.21.0
 dav1d 1.5.4
 dbus 1.16.2_1
 dialog 1.3-20260107
-docbook 5.2_1
+docbook 5.2.1
 docbook-xsl 1.79.2_1
 docker 29.6.2
 docker-completion 29.6.2
@@ -200,7 +200,7 @@ libsndfile 1.2.2_1
 libsodium 1.0.22
 libsoup 3.6.6
 libsoxr 0.1.3
-libssh 0.12.0_1
+libssh 0.12.1
 libssh2 1.11.1_3
 libtasn1 4.21.0
 libthai 0.1.30
@@ -240,7 +240,7 @@ libxtst 1.2.5
 libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.11.4_1
-lima 2.1.4
+lima 2.2.0
 litehtml 0.10
 little-cms2 2.19
 llhttp 9.4.2
