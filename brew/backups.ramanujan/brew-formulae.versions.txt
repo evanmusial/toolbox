@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_2
-awscli 2.36.2
+awscli 2.36.4
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -401,7 +401,7 @@ speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
 sqlite 3.53.3
-srt 1.5.5
+srt 1.5.6
 srtp 2.8.0
 streamlink 8.4.0_1
 streamripper 1.64.6_2
