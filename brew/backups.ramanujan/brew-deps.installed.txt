@@ -340,7 +340,7 @@ python@3.12: ca-certificates mpdecimal openssl@3 readline sqlite xz
 python@3.13: ca-certificates mpdecimal openssl@3 readline sqlite xz
 python@3.14: ca-certificates lz4 mpdecimal openssl@3 readline sqlite xz zstd
 python@3.9: ca-certificates gdbm mpdecimal openssl@3 readline sqlite xz
-qemu: ca-certificates capstone dtc gettext glib gmp gnutls jpeg-turbo libidn2 libpng libslirp libssh libtasn1 libunistring libusb libyaml lz4 lzo ncurses nettle openssl@3 p11-kit pcre2 pixman snappy vde xz zstd
+qemu: ca-certificates capstone dtc gettext glib gmp gnutls jpeg-turbo json-c libidn2 libpng libslirp libssh libtasn1 libunistring libusb libyaml lz4 lzo ncurses nettle openssl@3 p11-kit pcre2 pixman snappy vde xz zstd
 qpdf: ca-certificates jpeg-turbo openssl@3
 qrencode: libpng
 qt: abseil assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext giflib glib graphite2 gumbo-parser harfbuzz hunspell icu4c@78 jasper jpeg-turbo libb2 libmng libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml little-cms2 lz4 lzo md4c openssl@3 pcre2 pixman protobuf qt3d qt5compat qtbase qtcanvaspainter qtcharts qtconnectivity qtdatavis3d qtdeclarative qtgraphs qtgrpc qthttpserver qtimageformats qtlanguageserver qtlocation qtlottie qtmultimedia qtnetworkauth qtpositioning qtquick3d qtquick3dphysics qtquickeffectmaker qtquicktimeline qtremoteobjects qtscxml qtsensors qtserialbus qtserialport qtshadertools qtspeech qtsvg qttasktree qttools qttranslations qtvirtualkeyboard qtwebchannel qtwebengine qtwebsockets qtwebview readline webp xorgproto xz zstd
