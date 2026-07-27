@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.5
 augeas 1.14.1_2
 autoconf 2.73
-awscli 2.36.7
+awscli 2.36.8
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -55,7 +55,7 @@ ffmpeg 8.1.2_1
 fftw 3.3.11
 findutils 4.11.0
 flac 1.5.0
-fluid-synth 2.5.6
+fluid-synth 2.5.7
 fmt 12.2.0
 fontconfig 2.18.2
 fpart 1.7.1
@@ -78,7 +78,7 @@ gnu-sed 4.10
 gnupg 2.5.21
 gnutls 3.8.13_2
 gobject-introspection 1.86.0_3
-gpac 26.02.0
+gpac 26.07.0
 graphite2 1.3.15
 guile 3.0.11
 gumbo-parser 0.13.2
@@ -96,7 +96,7 @@ id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
 ilmbase 2.5.8
-imagemagick 7.1.2-27
+imagemagick 7.1.2-28
 imath 3.2.2
 img2pdf 0.6.3_1
 imlib2 1.12.6
@@ -151,8 +151,8 @@ libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.4.1
 libnghttp2 1.69.0
-libnghttp3 1.17.0
-libngtcp2 1.24.0
+libnghttp3 1.18.0
+libngtcp2 1.25.0
 libogg 1.3.6
 libomp 22.1.8
 libpng 1.6.58
@@ -191,7 +191,7 @@ libxft 2.3.9
 libxls 1.6.3
 libxlsxwriter 1.2.4
 libxml2 2.15.3
-libxmp 4.7.1
+libxmp 4.7.2
 libxmu 1.3.1
 libxp 1.0.4
 libxrender 0.9.12
@@ -239,7 +239,7 @@ npth 1.8
 numpy 2.5.1
 ocrmypdf 17.8.1
 oniguruma 6.9.10
-open-mpi 5.0.9
+open-mpi 5.0.9_1
 openblas 0.3.34
 opencore-amr 0.1.6
 openexr 3.4.13_1
@@ -269,6 +269,7 @@ pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
 protobuf 35.1
+prrte 4.1.0_1
 pugixml 1.16
 pwgen 2.08
 pybind11 3.0.4
@@ -344,7 +345,7 @@ soapysdr 0.8.1_1
 sox 14.4.2_6
 speedtest-cli 2.1.3_2
 speex 1.2.1
-sqlite 3.53.3
+sqlite 3.53.4
 srt 1.5.6
 streamlink 8.4.0_1
 streamripper 1.64.6_2
@@ -354,7 +355,7 @@ syncthing 2.1.2
 tcl-tk 9.0.4
 tcl-tk@8 8.6.18
 telnet 308
-tesseract 5.5.2
+tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.7b
