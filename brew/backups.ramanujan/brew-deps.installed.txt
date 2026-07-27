@@ -291,9 +291,9 @@ onnx: abseil protobuf
 open-mpi: ca-certificates gcc gmp hwloc isl libevent libmpc lz4 mpfr openssl@3 pmix prrte xz zstd
 openblas: gcc gmp isl libmpc libomp lz4 mpfr xz zstd
 opencore-amr: 
-openexr: imath jpeg-turbo libdeflate libtiff lz4 openjph xz zstd
+openexr: giflib imath jpeg-turbo libdeflate libpng libtiff lz4 openjph webp xz zstd
 openjpeg: jpeg-turbo libpng libtiff little-cms2 lz4 xz zstd
-openjph: jpeg-turbo libtiff lz4 xz zstd
+openjph: giflib jpeg-turbo libpng libtiff lz4 webp xz zstd
 openldap: ca-certificates openssl@3
 openmotif: fontconfig freetype gettext jpeg-turbo libice libpng libsm libunistring libx11 libxau libxcb libxdmcp libxext libxft libxmu libxp libxrender libxt xbitmaps xorgproto
 openssl@3: ca-certificates

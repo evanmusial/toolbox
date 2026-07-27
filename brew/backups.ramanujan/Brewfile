@@ -1,4 +1,4 @@
-# backup: 20260726 @ 1745 (UTC)
+# backup: 20260727 @ 2202 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -224,14 +224,14 @@ brew "highway"
 brew "imath"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # High dynamic-range image file format
 brew "openexr"
 # New file format for still image compression
 brew "jpeg-xl"
 # Library for JPEG-2000 image manipulation
 brew "openjpeg"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Image processing and image analysis library
 brew "leptonica"
 # Secure hashing function
