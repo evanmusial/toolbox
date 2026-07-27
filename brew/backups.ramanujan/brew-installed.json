@@ -83425,7 +83425,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/d/docker-desktop.rb",
       "ruby_source_checksum": {
@@ -83485,7 +83485,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -83590,7 +83590,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -83678,7 +83678,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -83751,7 +83751,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -83845,7 +83845,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "619e009c0bfa59923ac77ef653076f5d4a5806a5",
+      "tap_git_head": "e7394be765aef87876f832c07b030ae88aeb1c78",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
