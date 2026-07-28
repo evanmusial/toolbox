@@ -136,7 +136,7 @@ json-glib 1.10.8
 jsoncpp 1.9.8
 lame 4.0
 leptonica 1.87.0
-libarchive 3.8.8
+libarchive 3.8.9
 libass 0.17.5
 libassuan 3.0.2
 libavif 1.4.2
