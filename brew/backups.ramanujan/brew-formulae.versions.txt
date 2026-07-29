@@ -390,7 +390,7 @@ sc-im 0.8.5_4
 sdl2-compat 2.32.70
 sdl3 3.4.12
 shared-mime-info 2.5.1
-simdjson 4.6.4
+simdjson 4.6.5
 simdutf 9.0.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
