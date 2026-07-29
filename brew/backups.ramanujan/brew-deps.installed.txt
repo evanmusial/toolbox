@@ -144,7 +144,7 @@ libassuan: gettext libgpg-error libunistring
 libavif: aom dav1d jpeg-turbo libpng libvmaf
 libb2: 
 libbladerf: libusb ncurses
-libbluray: fontconfig freetype gettext libpng libudfread libunistring
+libbluray: fontconfig freetype gettext json-c libpng libudfread libunistring
 libcaca: freetype giflib imlib2 jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
 libcbor: 
 libcuefile: 

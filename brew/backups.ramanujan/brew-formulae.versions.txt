@@ -58,7 +58,7 @@ faac 1.50
 faad2 2.11.2
 fdk-aac 2.0.3
 ffmpeg 8.1.2_1
-ffmpeg@6 6.1.6_1
+ffmpeg@6 6.1.6_2
 fftw 3.3.11
 findutils 4.11.0
 flac 1.5.0
@@ -142,7 +142,7 @@ libassuan 3.0.2
 libavif 1.4.2
 libb2 0.98.1
 libbladerf 2025.10
-libbluray 1.4.1
+libbluray 1.5.0
 libcaca 0.99b20
 libcbor 0.14.0
 libcuefile r475
