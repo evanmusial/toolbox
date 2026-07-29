@@ -126,7 +126,7 @@ jansson 2.15.1
 jasper 4.2.9
 jbig2dec 0.20
 jbig2enc 0.32
-jemalloc 5.3.0
+jemalloc 5.3.1
 jpeg 10
 jpeg-turbo 3.2.0
 jpeg-xl 0.12.0
