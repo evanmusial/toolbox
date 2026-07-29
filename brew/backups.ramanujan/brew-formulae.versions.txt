@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.5
 augeas 1.14.1_2
-awscli 2.36.9
+awscli 2.36.10
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -189,7 +189,7 @@ libpthread-stubs 0.5
 libraqm 0.11.0
 libraw 0.22.2
 libreplaygain r475
-librist 0.2.18
+librist 0.2.19
 librsvg 2.62.3
 librtlsdr 2.0.2
 libsamplerate 0.2.2
