@@ -80,7 +80,7 @@ giflib:
 git: gettext libunistring pcre2
 git-lfs: 
 glfw: 
-glib: gettext libunistring pcre2
+glib: gettext json-c libunistring pcre2
 glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libtasn1 libunistring mpdecimal nettle openssl@3 p11-kit pcre2 python-packaging python@3.13 readline sqlite unbound xz
 gmp: 
 gnu-getopt: 
@@ -103,7 +103,7 @@ gtksourceview4: at-spi2-core cairo dbus fontconfig freetype fribidi gdk-pixbuf g
 guile: bdw-gc gmp libtool libunistring m4 pkgconf readline
 gumbo-parser: 
 hackrf: fftw libomp libusb
-harfbuzz: cairo fontconfig freetype gettext glib graphite2 icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+harfbuzz: cairo fontconfig freetype gettext glib graphite2 icu4c@78 json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 hdrhistogram_c: 
 hicolor-icon-theme: 
 highway: 
