@@ -37,7 +37,7 @@ cpio 2.15
 cpu_features 0.11.0
 cpufetch 1.07
 crc32c 1.1.2
-cryptography 49.0.0
+cryptography 50.0.0
 cunit 2.1-3
 curl 8.21.0
 dav1d 1.5.4
@@ -184,7 +184,7 @@ libomp 22.1.8
 libosinfo 1.12.0_1
 libpng 1.6.58
 libproxy 0.5.12
-libpsl 0.23.0
+libpsl 0.23.1
 libpthread-stubs 0.5
 libraqm 0.11.0
 libraw 0.22.2
@@ -428,7 +428,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
 volk 3.3.0_2
-vte3 0.84.0
+vte3 0.84.1
 watch 4.0.6
 webp 1.6.0
 wget 1.25.0
