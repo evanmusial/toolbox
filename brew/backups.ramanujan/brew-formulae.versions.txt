@@ -9,7 +9,7 @@ aom 3.14.1
 aria2 1.37.0_2
 aribb24 1.0.4
 assimp 6.0.5
-at-spi2-core 2.60.5
+at-spi2-core 2.60.6
 augeas 1.14.1_2
 awscli 2.36.14
 bash 5.3.15

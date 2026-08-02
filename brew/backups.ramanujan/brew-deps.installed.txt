@@ -9,7 +9,7 @@ aom: libvmaf
 aria2: c-ares ca-certificates gettext libssh2 libunistring openssl@3 readline sqlite
 aribb24: libpng
 assimp: 
-at-spi2-core: dbus gettext glib libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxtst pcre2 xorgproto
+at-spi2-core: dbus gettext glib json-c libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxtst pcre2 xorgproto
 augeas: readline
 awscli: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
 bash: gettext libunistring ncurses readline
