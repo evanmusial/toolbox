@@ -4,5 +4,5 @@ jt-bridge 3.4.3
 makemkv 1.18.4
 mkvtoolnix-app 100.0-1
 ngrok 3.39.10,eQUAEd6HW8t,a
-stats 3.0.9
+stats 3.0.10
 sync 2.2.58

@@ -72,7 +72,7 @@ ghostscript: cairo fontconfig freetype fribidi gettext giflib glib graphite2 har
 giflib: 
 git: gettext libunistring pcre2
 glfw: 
-glib: gettext libunistring pcre2
+glib: gettext json-c libunistring pcre2
 gmp: 
 gnu-getopt: 
 gnu-sed: 
@@ -84,7 +84,7 @@ graphite2:
 guile: bdw-gc gmp libtool libunistring m4 pkgconf readline
 gumbo-parser: 
 hackrf: ca-certificates fftw gcc gmp hwloc isl libevent libmpc libomp libusb lz4 mpfr open-mpi openssl@3 pmix xz zstd
-harfbuzz: cairo fontconfig freetype gettext glib graphite2 icu4c@78 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+harfbuzz: cairo fontconfig freetype gettext glib graphite2 icu4c@78 json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 hdrhistogram_c: 
 highway: 
 html2text: 
@@ -123,7 +123,7 @@ libassuan: gettext libgpg-error libunistring
 libavif: aom dav1d jpeg-turbo libpng libvmaf
 libb2: 
 libbladerf: libusb ncurses
-libbluray: fontconfig freetype gettext libpng libudfread libunistring
+libbluray: fontconfig freetype gettext json-c libpng libudfread libunistring
 libcaca: freetype giflib imlib2 jpeg libpng libpthread-stubs libtiff libx11 libxau libxcb libxdmcp libxext pkg-config xorgproto
 libdatrie: 
 libde265: 
@@ -161,7 +161,7 @@ libpng:
 libproxy: duktape gettext glib libunistring pcre2
 libpthread-stubs: pkg-config
 libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
-librist: ca-certificates cjson gettext gmp gnutls libidn2 libmicrohttpd libtasn1 libunistring lz4 mbedtls@3 nettle p11-kit
+librist: ca-certificates cjson gettext gmp gnutls json-c libidn2 libmicrohttpd libtasn1 libunistring lz4 mbedtls@3 nettle p11-kit
 librtlsdr: libusb
 libsamplerate: 
 libsm: libice xorgproto
@@ -247,9 +247,9 @@ oniguruma:
 open-mpi: ca-certificates gcc gmp hwloc isl libevent libmpc lz4 mpfr openssl@3 pmix prrte xz zstd
 openblas: gcc gmp isl libmpc libomp lz4 mpfr xz zstd
 opencore-amr: 
-openexr: imath jpeg-turbo libdeflate libtiff lz4 openjph xz zstd
+openexr: giflib imath jpeg-turbo libdeflate libpng libtiff lz4 openjph webp xz zstd
 openjpeg: jpeg-turbo libpng libtiff little-cms2 lz4 xz zstd
-openjph: jpeg-turbo libtiff lz4 xz zstd
+openjph: giflib jpeg-turbo libpng libtiff lz4 webp xz zstd
 openldap: ca-certificates openssl@3
 openmotif: fontconfig freetype gettext jpeg-turbo libice libpng libsm libunistring libx11 libxau libxcb libxdmcp libxext libxft libxmu libxp libxrender libxt xbitmaps xorgproto
 openssl@1.1: ca-certificates
