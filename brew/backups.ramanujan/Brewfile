@@ -1,4 +1,4 @@
-# backup: 20260802 @ 2338 (UTC)
+# backup: 20260803 @ 0208 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -660,3 +660,4 @@ cask "spundle"
 cask "stats"
 npm "esm"
 npm "gcp-docs"
+npm "openclaw"
