@@ -40,6 +40,7 @@ crc32c:
 cryptography: ca-certificates cffi openssl@3 pycparser
 cunit: 
 curl: brotli ca-certificates libnghttp2 libnghttp3 libngtcp2 libssh2 lz4 openssl@3 xz zstd
+cyrus-sasl: ca-certificates krb5 openssl@3
 dav1d: 
 dbus: 
 dialog: 
@@ -136,6 +137,7 @@ jq: oniguruma
 json-c: 
 json-glib: gettext glib libunistring pcre2
 jsoncpp: 
+krb5: ca-certificates openssl@3
 lame: mpg123
 leptonica: giflib jpeg-turbo libpng libtiff little-cms2 lz4 openjpeg webp xz zstd
 libarchive: libb2 lz4 xz zstd
@@ -216,9 +218,9 @@ libusb:
 libusrsctp: 
 libuv: 
 libvidstab: 
-libvirt: ca-certificates cunit gettext glib gmp gnutls json-c libidn2 libiscsi libssh2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline
+libvirt: ca-certificates cunit cyrus-sasl gettext glib gmp gnutls json-c krb5 libidn2 libiscsi libssh2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline
 libvirt-glib: ca-certificates cunit gettext glib gmp gnutls json-c libevent libgcrypt libgpg-error libidn2 libiscsi libnghttp2 libssh2 libtasn1 libunistring libvirt nettle openssl@3 p11-kit pcre2 readline unbound yajl
-libvirt-python: ca-certificates cunit gettext glib gmp gnutls json-c libidn2 libiscsi libssh2 libtasn1 libunistring libvirt lz4 mpdecimal nettle openssl@3 p11-kit pcre2 python@3.14 readline sqlite xz zstd
+libvirt-python: ca-certificates cunit cyrus-sasl gettext glib gmp gnutls json-c krb5 libidn2 libiscsi libssh2 libtasn1 libunistring libvirt lz4 mpdecimal nettle openssl@3 p11-kit pcre2 python@3.14 readline sqlite xz zstd
 libvmaf: 
 libvorbis: libogg
 libvpx: 
