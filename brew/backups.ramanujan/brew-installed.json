@@ -2041,11 +2041,11 @@
       "caveats": "The \"examples\" directory has been installed to:\n  $HOMEBREW_PREFIX/share/awscli/examples\n",
       "installed": [
         {
-          "version": "2.36.14",
+          "version": "2.36.15",
           "used_options": [],
           "built_as_bottle": true,
           "poured_from_bottle": true,
-          "time": 1785575357,
+          "time": 1785809857,
           "runtime_dependencies": [
             {
               "full_name": "ca-certificates",
@@ -2123,9 +2123,9 @@
           "installed_on_request": true
         }
       ],
-      "linked_keg": "2.36.14",
+      "linked_keg": "2.36.15",
       "pinned": false,
-      "outdated": true,
+      "outdated": false,
       "deprecated": false,
       "deprecation_date": null,
       "deprecation_reason": null,
@@ -44035,11 +44035,11 @@
       "caveats": "Single Executable Application is disabled as it doesn't work with shared libnode.\nTemporal support is disabled as it doesn't work with shared ICU library.\n",
       "installed": [
         {
-          "version": "26.5.1",
+          "version": "26.6.0",
           "used_options": [],
           "built_as_bottle": true,
           "poured_from_bottle": true,
-          "time": 1785523758,
+          "time": 1785809860,
           "runtime_dependencies": [
             {
               "full_name": "fmt",
@@ -44099,10 +44099,10 @@
             },
             {
               "full_name": "libnghttp2",
-              "version": "1.69.0",
+              "version": "1.70.0",
               "revision": 0,
               "bottle_rebuild": 0,
-              "pkg_version": "1.69.0",
+              "pkg_version": "1.70.0",
               "declared_directly": true
             },
             {
@@ -44237,9 +44237,9 @@
           "installed_on_request": true
         }
       ],
-      "linked_keg": "26.5.1",
+      "linked_keg": "26.6.0",
       "pinned": false,
-      "outdated": true,
+      "outdated": false,
       "deprecated": false,
       "deprecation_date": null,
       "deprecation_reason": null,
