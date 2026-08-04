@@ -108,7 +108,7 @@ hicolor-icon-theme 0.18
 highway 1.4.0
 html2text 2.4.0
 htop 3.5.2
-httrack 3.49.15
+httrack 3.49.16
 hunspell 1.7.3
 hwloc 2.14.0
 icu4c@76 76.1_2
