@@ -248,7 +248,7 @@ little-cms2 2.19
 llhttp 9.4.3
 logrotate 3.22.0
 lolcat 100.0.1
-lua 5.5.0
+lua 5.5.1
 lz4 1.10.0
 lzlib 1.16
 lzo 2.10
@@ -420,7 +420,7 @@ tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.7b
-unbound 1.25.2
+unbound 1.26.0
 unpaper 7.0.0_3
 usb.ids 2026.06.26
 usbredir 0.15.0
