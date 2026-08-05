@@ -10,7 +10,7 @@ aribb24 1.0.4
 assimp 6.0.5
 augeas 1.14.1_2
 autoconf 2.73
-awscli 2.36.14
+awscli 2.36.16
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -24,7 +24,7 @@ ca-certificates 2026-07-16
 cairo 1.18.4
 certbot 5.7.0
 certifi 2026.7.22
-cffi 2.1.0
+cffi 2.1.1
 cjson 1.7.19
 cmake 4.4.2
 cmocka 2.0.2
@@ -204,7 +204,7 @@ little-cms2 2.19
 livestreamer 1.12.2_5
 llhttp 9.4.3
 lolcat 100.0.1
-lua 5.5.0
+lua 5.5.1
 lz4 1.10.0
 lzlib 1.16
 lzo 2.10
@@ -223,7 +223,7 @@ moreutils 0.70
 mp3info 0.8.5a
 mpdecimal 4.0.1
 mpfr 4.2.2
-mpg123 1.33.6
+mpg123 1.33.7
 mplayer 1.5_2
 mtr 0.96
 mysql@5.7 5.7.44_1
@@ -233,7 +233,7 @@ nettle 4.0
 nghttp2 1.70.0
 nlohmann-json 3.12.0
 nmap 7.99
-node 26.5.1
+node 26.6.0
 node_exporter 1.12.1
 npth 1.8
 numpy 2.5.1
@@ -275,7 +275,7 @@ pwgen 2.08
 pybind11 3.0.4
 pycparser 3.0
 pydantic 2.13.4
-pyenv 2.8.1
+pyenv 2.8.2
 python-gdbm@3.11 3.11.15
 python-tk@3.11 3.11.15
 python@3.10 3.10.20_4
@@ -335,7 +335,7 @@ rubberband 4.0.0
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2-compat 2.32.70
-sdl3 3.4.12
+sdl3 3.4.14
 shared-mime-info 2.5.1
 simdjson 4.6.6
 simdutf 9.0.0
@@ -347,7 +347,7 @@ speedtest-cli 2.1.3_2
 speex 1.2.1
 sqlite 3.53.4
 srt 1.5.6
-streamlink 8.4.0_1
+streamlink 8.5.0
 streamripper 1.64.6_2
 svt-av1 4.2.0
 switchaudio-osx 1.2.2
@@ -359,7 +359,7 @@ tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.7b
-unbound 1.25.2
+unbound 1.26.0
 unpaper 7.0.0_3
 utf8cpp 4.1.1
 utf8proc 2.11.3
