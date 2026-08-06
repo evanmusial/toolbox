@@ -307,7 +307,7 @@ orc:
 osinfo-db: 
 p11-kit: ca-certificates libtasn1
 p7zip: 
-pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libdatrie libpng libthai libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 json-c libdatrie libpng libthai libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 pcre: 
 pcre2: 
 perl: berkeley-db@5 gdbm

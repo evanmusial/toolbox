@@ -303,7 +303,7 @@ orc 0.4.42
 osinfo-db 20251212
 p11-kit 0.26.4
 p7zip 17.06
-pango 1.58.0
+pango 1.58.2
 pcre 8.45
 pcre2 10.47_1
 perl 5.42.2
