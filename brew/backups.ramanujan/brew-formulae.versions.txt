@@ -145,7 +145,7 @@ libavif 1.4.2
 libb2 0.98.1
 libbladerf 2025.10
 libbluray 1.5.0
-libcaca 0.99b20
+libcaca 0.99.beta20
 libcbor 0.14.0
 libcuefile r475
 libdatrie 0.2.14
