@@ -11,7 +11,7 @@ aribb24 1.0.4
 assimp 6.0.5
 at-spi2-core 2.60.6
 augeas 1.14.1_2
-awscli 2.36.17
+awscli 2.36.18
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -277,7 +277,7 @@ ncurses 6.6
 nettle 4.0
 nghttp2 1.70.0
 nlohmann-json 3.12.0
-nmap 7.99
+nmap 7.991
 node 26.7.0
 npth 1.8
 ntp 4.2.8p18
@@ -289,7 +289,7 @@ onnx 1.22.0
 open-mpi 5.0.9_1
 openblas 0.3.34
 opencore-amr 0.1.6
-openexr 3.4.13_2
+openexr 3.4.14
 openjpeg 2.5.4
 openjph 0.31.0
 openldap 2.6.13
@@ -324,7 +324,7 @@ prrte 4.1.0_1
 pugixml 1.16
 pwgen 2.08
 py3cairo 1.29.0
-pybind11 3.0.4
+pybind11 3.1.0
 pycparser 3.0
 pydantic 2.13.4
 pygobject3 3.56.3
