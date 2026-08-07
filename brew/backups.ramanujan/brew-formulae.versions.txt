@@ -292,7 +292,7 @@ opencore-amr 0.1.6
 openexr 3.4.14
 openjpeg 2.5.4
 openjph 0.31.0
-openldap 2.6.13
+openldap 2.7.0
 openmotif 2.3.8_4
 openssl@3 3.6.3
 openssl@4 4.0.1
