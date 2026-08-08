@@ -173,7 +173,7 @@ libmagic 5.48
 libmatroska 1.7.2
 libmediainfo 26.05
 libmetalink 0.1.3
-libmicrohttpd 1.0.9
+libmicrohttpd 1.0.10
 libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.4.1
