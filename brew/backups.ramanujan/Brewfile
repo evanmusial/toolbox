@@ -1,4 +1,4 @@
-# backup: 20260807 @ 1809 (UTC)
+# backup: 20260808 @ 0421 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -630,6 +630,8 @@ brew "thefuck"
 brew "utf8proc"
 # Terminal multiplexer
 brew "tmux"
+# Vulnerability scanner for container images, file systems, and Git repos
+brew "trivy"
 # App for managing virtual machines
 brew "virt-manager"
 # Vector Optimized Library of Kernels
@@ -646,6 +648,8 @@ brew "xmp"
 brew "xpdf"
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
+# Terminal-based AI coding assistant
+cask "claude-code"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Prevent website visitor's data from being used by Google Analytics JavaScript

@@ -107,6 +107,7 @@ tcl-tk
 telnet
 thefuck
 tmux
+trivy
 virt-manager
 volk
 watch

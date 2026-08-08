@@ -28,6 +28,7 @@ certifi: ca-certificates
 cffi: pycparser
 chrony: ca-certificates gettext gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit unbound
 cjson: 
+claude-code: 
 cmake: 
 cmocka: 
 codec2: 
@@ -426,6 +427,7 @@ tesseract: cairo fontconfig freetype fribidi gettext giflib glib graphite2 harfb
 thefuck: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 theora: libogg libvorbis
 tmux: ca-certificates libevent ncurses openssl@3 utf8proc
+trivy: 
 unbound: ca-certificates libevent libnghttp2 openssl@3
 unpaper: aom aribb24 brotli ca-certificates cairo cjson dav1d ffmpeg flac fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway icu4c@77 imath jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libdeflate libevent libidn2 libmicrohttpd libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libudfread libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls mpg123 nettle opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman rav1e rubberband sdl2 snappy speex srt svt-av1 tesseract theora unbound webp x264 x265 xorgproto xvid xz zeromq zimg zstd
 usb.ids: 

@@ -558,6 +558,8 @@ chrony
 
 cjson
 
+claude-code
+
 cmake
 
 cmocka
@@ -46118,6 +46120,8 @@ tmux
 │       └── ca-certificates 
 ├── ncurses 
 └── utf8proc 
+
+trivy
 
 unbound
 ├── libevent 
