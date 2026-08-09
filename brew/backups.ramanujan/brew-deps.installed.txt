@@ -328,7 +328,7 @@ protobuf: abseil
 prrte: ca-certificates hwloc libevent openssl@3 pmix
 pugixml: 
 pwgen: 
-py3cairo: cairo fontconfig freetype gettext glib libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+py3cairo: cairo fontconfig freetype gettext glib json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 pybind11: 
 pycparser: 
 pydantic: 

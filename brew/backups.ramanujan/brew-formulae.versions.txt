@@ -323,7 +323,7 @@ protobuf 35.1
 prrte 4.1.0_1
 pugixml 1.16
 pwgen 2.08
-py3cairo 1.29.0
+py3cairo 1.29.1
 pybind11 3.1.0
 pycparser 3.0
 pydantic 2.13.4
