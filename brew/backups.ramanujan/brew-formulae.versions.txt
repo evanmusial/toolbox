@@ -330,7 +330,7 @@ pydantic 2.13.4
 pygobject3 3.56.3
 python-gdbm@3.11 3.11.15
 python-packaging 26.3
-python-setuptools 83.0.0
+python-setuptools 84.0.0
 python-tk@3.11 3.11.15
 python@3.10 3.10.20_4
 python@3.11 3.11.15_4
@@ -339,7 +339,7 @@ python@3.13 3.13.15
 python@3.14 3.14.6
 python@3.9 3.9.25
 qemu 11.0.3
-qpdf 12.3.2
+qpdf 12.4.0
 qrencode 4.1.1
 qt 6.11.1
 qt3d 6.11.1
