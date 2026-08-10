@@ -11,7 +11,18 @@ aribb24: libpng
 assimp: 
 at-spi2-core: dbus gettext glib json-c libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxtst pcre2 xorgproto
 augeas: readline
-awscli: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+aws-c-auth: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils ca-certificates openssl@3 s2n
+aws-c-cal: aws-c-common
+aws-c-common: 
+aws-c-compression: aws-c-common
+aws-c-event-stream: aws-c-cal aws-c-common aws-c-io aws-checksums ca-certificates openssl@3 s2n
+aws-c-http: aws-c-cal aws-c-common aws-c-compression aws-c-io ca-certificates openssl@3 s2n
+aws-c-io: aws-c-cal aws-c-common ca-certificates openssl@3 s2n
+aws-c-mqtt: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io ca-certificates openssl@3 s2n
+aws-c-s3: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils aws-checksums ca-certificates openssl@3 s2n
+aws-c-sdkutils: aws-c-common
+aws-checksums: aws-c-common
+awscli: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-event-stream aws-c-http aws-c-io aws-c-mqtt aws-c-s3 aws-c-sdkutils aws-checksums ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline s2n sqlite xz zstd
 bash: gettext libunistring ncurses readline
 bdw-gc: 
 berkeley-db@5: 
@@ -392,6 +403,7 @@ rename:
 rsync: ca-certificates lz4 openssl@3 popt xxhash xz zstd
 rtmpdump: ca-certificates openssl@3
 rubberband: flac lame libogg libsamplerate libsndfile libvorbis mpg123 opus
+s2n: ca-certificates openssl@3
 s3cmd: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 sc-im: libxls libxlsxwriter libxml2 libzip lua lz4 ncurses readline xz zstd
 sdl2-compat: sdl3
