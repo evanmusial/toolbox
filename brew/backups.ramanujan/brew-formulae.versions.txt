@@ -281,7 +281,7 @@ nmap 7.991
 node 26.7.0
 npth 1.8
 ntp 4.2.8p18
-numpy 2.5.1
+numpy 2.5.2
 nvm 0.40.6
 ocrmypdf 17.10.0
 oniguruma 6.9.10
