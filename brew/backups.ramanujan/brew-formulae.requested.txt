@@ -5,6 +5,7 @@ airspyhf
 aria2
 awscli
 bash
+berkeley-db@5
 boost-build
 bwfmetaedit
 certbot
