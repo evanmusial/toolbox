@@ -1002,7 +1002,8 @@ ffmpeg
 │   └── sdl3 
 ├── svt-av1 
 ├── x264 
-└── x265 
+├── x265 
+└── xz 
 
 ffmpeg@6
 ├── aom 
@@ -2346,7 +2347,8 @@ gpac
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 ├── freetype 
 │   └── libpng 
 ├── jpeg-turbo 
@@ -2497,7 +2499,8 @@ gstreamer
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 ├── flac 
 │   └── libogg 
 ├── gdk-pixbuf 
@@ -8526,7 +8529,8 @@ mkvdts2ac3
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 └── mkvtoolnix 
     ├── boost 
     │   ├── icu4c@78 
@@ -8646,7 +8650,8 @@ mkvtomp4
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 ├── gpac 
 │   ├── ffmpeg 
 │   │   ├── dav1d 
@@ -8661,7 +8666,8 @@ mkvtomp4
 │   │   │   └── sdl3 
 │   │   ├── svt-av1 
 │   │   ├── x264 
-│   │   └── x265 
+│   │   ├── x265 
+│   │   └── xz 
 │   ├── freetype 
 │   │   └── libpng 
 │   ├── jpeg-turbo 
@@ -10251,7 +10257,8 @@ ocrmypdf
         │   └── sdl3 
         ├── svt-av1 
         ├── x264 
-        └── x265 
+        ├── x265 
+        └── xz 
 
 oniguruma
 
@@ -43419,7 +43426,8 @@ spice-gtk
 │   │   │   └── sdl3 
 │   │   ├── svt-av1 
 │   │   ├── x264 
-│   │   └── x265 
+│   │   ├── x265 
+│   │   └── xz 
 │   ├── flac 
 │   │   └── libogg 
 │   ├── gdk-pixbuf 
@@ -46478,7 +46486,8 @@ unpaper
     │   └── sdl3 
     ├── svt-av1 
     ├── x264 
-    └── x265 
+    ├── x265 
+    └── xz 
 
 usb.ids
 
@@ -48453,7 +48462,8 @@ virt-manager
 │   │   │   │   └── sdl3 
 │   │   │   ├── svt-av1 
 │   │   │   ├── x264 
-│   │   │   └── x265 
+│   │   │   ├── x265 
+│   │   │   └── xz 
 │   │   ├── flac 
 │   │   │   └── libogg 
 │   │   ├── gdk-pixbuf 
