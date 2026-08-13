@@ -1,4 +1,4 @@
-# backup: 20260812 @ 2143 (UTC)
+# backup: 20260813 @ 1509 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -48,6 +48,8 @@ brew "pixman"
 brew "cairo"
 # Implementation of the Unicode BiDi algorithm
 brew "fribidi"
+# Library and utilities for processing GIFs
+brew "giflib"
 # JPEG image codec that aids compression and decompression
 brew "jpeg-turbo"
 # Extremely Fast Compression algorithm
@@ -58,6 +60,8 @@ brew "xz"
 brew "zstd"
 # TIFF library and utilities
 brew "libtiff"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Smart font renderer for non-Roman scripts
 brew "graphite2"
 # OpenType text shaping engine
@@ -216,16 +220,12 @@ brew "libogg"
 brew "flac"
 # Minimalistic plugin API for video effects
 brew "frei0r"
-# Library and utilities for processing GIFs
-brew "giflib"
 # Performance-portable, length-agnostic SIMD with runtime dispatch
 brew "highway"
 # Library of 2D and 3D vector, matrix, and math operations
 brew "imath"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # High dynamic-range image file format
 brew "openexr"
 # New file format for still image compression

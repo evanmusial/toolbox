@@ -84,7 +84,7 @@ fribidi:
 gawk: gettext gmp json-c libunistring mpfr readline
 gcc: gmp isl libmpc lz4 mpfr xz zstd
 gdbm: 
-gdk-pixbuf: gettext glib jpeg-turbo libpng libtiff libunistring lz4 pcre2 xz zstd
+gdk-pixbuf: gettext giflib glib jpeg-turbo json-c libpng libtiff libunistring lz4 pcre2 webp xz zstd
 gengetopt: 
 gettext: libunistring
 gh: 
