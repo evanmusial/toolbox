@@ -26,8 +26,8 @@ awscli 2.36.23
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
-boost 1.90.0_1
-boost-build 1.90.0
+boost 1.92.0
+boost-build 1.92.0
 brotli 1.2.0
 bwfmetaedit 26.01
 c-ares 1.34.8
@@ -272,7 +272,7 @@ media-info 26.05
 merve 1.2.2_1
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 100.0
+mkvtoolnix 100.0_1
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -432,7 +432,7 @@ tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.7b
-trivy 0.73.0
+trivy 0.74.0
 unbound 1.26.0
 unpaper 7.0.0_4
 usb.ids 2026.06.26
