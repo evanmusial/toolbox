@@ -99,7 +99,7 @@ gnu-sed 4.10
 gnupg 2.5.21
 gnutls 3.8.13_2
 gobject-introspection 1.86.0_3
-google-authenticator-libpam 1.11
+google-authenticator-libpam 1.11_1
 gpac 26.07.0_1
 graphene 1.10.8
 graphite2 1.3.15
@@ -322,7 +322,7 @@ phodav 3.0_1
 pillow 12.3.0
 pinentry 1.3.3
 pinentry-mac 1.3.1.1
-pipx 1.16.6
+pipx 1.16.7
 pixman 0.46.4
 pkgconf 3.0.5
 pmix 6.1.0
@@ -351,7 +351,7 @@ python@3.14 3.14.7
 python@3.9 3.9.25
 qemu 11.1.0
 qpdf 12.4.0
-qrencode 4.1.1
+qrencode 4.1.1_1
 qt 6.11.1
 qt3d 6.11.1
 qt5compat 6.11.1
@@ -404,7 +404,7 @@ sc-im 0.8.5_4
 sdl2-compat 2.32.70
 sdl3 3.4.14
 shared-mime-info 2.5.1
-simdjson 4.6.6
+simdjson 4.6.7
 simdutf 9.0.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
