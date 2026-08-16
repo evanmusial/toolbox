@@ -466,6 +466,7 @@ xvid:
 xxhash: 
 xz: 
 yajl: 
+yq: 
 zeromq: libsodium
 zimg: 
 zlib-ng-compat: 

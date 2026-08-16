@@ -1,4 +1,4 @@
-# backup: 20260816 @ 1839 (UTC)
+# backup: 20260816 @ 2309 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -646,6 +646,8 @@ brew "whois"
 brew "xmp"
 # PDF viewer
 brew "xpdf"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
 # Terminal-based AI coding assistant

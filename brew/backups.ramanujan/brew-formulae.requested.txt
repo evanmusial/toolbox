@@ -116,3 +116,4 @@ wget
 whois
 xmp
 xpdf
+yq
