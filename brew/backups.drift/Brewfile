@@ -1,4 +1,4 @@
-# backup: 20260805 @ 1234 (UTC)
+# backup: 20260817 @ 0007 (UTC)
 # host: drift
 
 tap "jakehilborn/jakehilborn"
@@ -31,8 +31,6 @@ brew "readline"
 brew "sqlite"
 # Download with resuming and segmented downloading
 brew "aria2"
-# Library for manipulating PNG images
-brew "libpng"
 # Portable library for importing many well-known 3D model formats
 brew "assimp"
 # Configuration editing tool and API
@@ -63,6 +61,8 @@ brew "boost-build"
 brew "brotli"
 # Tool for embedding, validating, and exporting BWF file metadata
 brew "bwfmetaedit"
+# Library for manipulating PNG images
+brew "libpng"
 # Software library to render fonts
 brew "freetype"
 # XML-based font configuration API for X Windows

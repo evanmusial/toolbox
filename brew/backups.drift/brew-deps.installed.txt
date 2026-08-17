@@ -6,14 +6,23 @@ airspy: libusb
 airspyhf: libusb
 aom: libvmaf
 aria2: c-ares ca-certificates gettext libssh2 libunistring openssl@3 readline sqlite
-aribb24: libpng
 assimp: 
 augeas: readline
 autoconf: m4
-awscli: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+aws-c-auth: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils ca-certificates openssl@3 s2n
+aws-c-cal: aws-c-common
+aws-c-common: 
+aws-c-compression: aws-c-common
+aws-c-event-stream: aws-c-cal aws-c-common aws-c-io aws-checksums ca-certificates openssl@3 s2n
+aws-c-http: aws-c-cal aws-c-common aws-c-compression aws-c-io ca-certificates openssl@3 s2n
+aws-c-io: aws-c-cal aws-c-common ca-certificates openssl@3 s2n
+aws-c-mqtt: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io ca-certificates openssl@3 s2n
+aws-c-s3: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils aws-checksums ca-certificates openssl@3 s2n
+aws-c-sdkutils: aws-c-common
+aws-checksums: aws-c-common
+awscli: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-event-stream aws-c-http aws-c-io aws-c-mqtt aws-c-s3 aws-c-sdkutils aws-checksums ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline s2n sqlite xz zstd
 bash: gettext libunistring ncurses readline
 bdw-gc: 
-berkeley-db@5: 
 boost: icu4c@78 lz4 xz zstd
 boost-build: 
 brotli: 
@@ -50,7 +59,7 @@ exempi:
 exiftool: 
 eye-d3: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
 fd: 
-ffmpeg: ca-certificates dav1d lame libvmaf libvpx openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265
+ffmpeg: ca-certificates dav1d lame libvmaf libvpx mpg123 openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265 xz
 fftw: libomp
 findutils: 
 flac: libogg
@@ -91,7 +100,6 @@ html2text:
 htop: ncurses
 hunspell: gettext libunistring readline
 hwloc: 
-icu4c@77: 
 icu4c@78: 
 id3lib: 
 id3tool: 
@@ -168,7 +176,6 @@ libsm: libice xorgproto
 libsndfile: flac lame libogg libvorbis mpg123 opus
 libsodium: 
 libsoxr: 
-libssh: ca-certificates openssl@3
 libssh2: ca-certificates openssl@3
 libtasn1: 
 libthai: libdatrie
@@ -260,10 +267,10 @@ opusfile: ca-certificates libogg openssl@3 opus
 orc: 
 p11-kit: ca-certificates libtasn1
 p7zip: 
-pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libdatrie libpng libthai libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+pango: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 json-c libdatrie libpng libthai libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 pcre: 
 pcre2: 
-perl: berkeley-db@5 gdbm
+perl: gdbm
 pillow: aom cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pcre2 pixman webp xorgproto xz zstd
 pinentry: gettext libassuan libgpg-error libunistring
 pipx: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
@@ -301,13 +308,13 @@ qtconnectivity: brotli ca-certificates cairo dbus double-conversion fontconfig f
 qtdatavis3d: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
 qtdeclarative: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtsvg xorgproto xz zstd
 qtgraphs: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
-qtgrpc: abseil brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman protobuf qtbase qtdeclarative qtsvg xorgproto xz zstd
+qtgrpc: abseil brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman protobuf qtbase qtdeclarative qtsvg xorgproto xz zstd
 qthttpserver: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg qtwebsockets xorgproto xz zstd
 qtimageformats: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext giflib glib graphite2 harfbuzz icu4c@78 jasper jpeg-turbo libb2 libmng libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo md4c openssl@3 pcre2 pixman qtbase webp xorgproto xz zstd
 qtlanguageserver: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
 qtlocation: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg xorgproto xz zstd
 qtlottie: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
-qtmultimedia: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
+qtmultimedia: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquick3d qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
 qtnetworkauth: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase xorgproto xz zstd
 qtpositioning: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtserialport qtsvg xorgproto xz zstd
 qtquick3d: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtquicktimeline qtshadertools qtsvg xorgproto xz zstd
@@ -337,6 +344,7 @@ rename:
 rsync: ca-certificates lz4 openssl@3 popt xxhash xz zstd
 rtmpdump: ca-certificates openssl@3
 rubberband: flac lame libogg libsamplerate libsndfile libvorbis mpg123 opus
+s2n: ca-certificates openssl@3
 s3cmd: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 sc-im: libxls libxlsxwriter libxml2 libzip lua lz4 ncurses readline xz zstd
 sdl2-compat: sdl3
@@ -367,7 +375,7 @@ thefuck: ca-certificates gdbm mpdecimal openssl@1.1 python@3.10 readline sqlite 
 theora: libogg libvorbis
 tmux: ca-certificates libevent ncurses openssl@3 utf8proc
 unbound: ca-certificates libevent libnghttp2 openssl@3
-unpaper: aom aribb24 brotli ca-certificates cairo cjson dav1d ffmpeg flac fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway icu4c@77 imath jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libdeflate libevent libidn2 libmicrohttpd libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libudfread libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls mpg123 nettle opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman rav1e rubberband sdl2 snappy speex srt svt-av1 tesseract theora unbound webp x264 x265 xorgproto xvid xz zeromq zimg zstd
+unpaper: ca-certificates dav1d ffmpeg lame libvmaf libvpx mpg123 openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265 xz
 utf8cpp: 
 utf8proc: 
 uvwasi: libuv

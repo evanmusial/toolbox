@@ -29,9 +29,6 @@ aria2
     ├── json-c 
     └── libunistring 
 
-aribb24
-└── libpng 
-
 assimp
 
 augeas
@@ -40,9 +37,338 @@ augeas
 autoconf
 └── m4 
 
-awscli
+aws-c-auth
+├── aws-c-cal 
+│   └── aws-c-common 
+├── aws-c-common 
+├── aws-c-http 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-compression 
+│   │   └── aws-c-common 
+│   └── aws-c-io 
+│       ├── aws-c-cal 
+│       │   └── aws-c-common 
+│       ├── aws-c-common 
+│       ├── openssl@3 
+│       │   └── ca-certificates 
+│       └── s2n 
+│           └── openssl@3 
+│               └── ca-certificates 
+├── aws-c-io 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
+└── aws-c-sdkutils 
+    └── aws-c-common 
+
+aws-c-cal
+└── aws-c-common 
+
+aws-c-common
+
+aws-c-compression
+└── aws-c-common 
+
+aws-c-event-stream
+├── aws-c-common 
+├── aws-c-io 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
+└── aws-checksums 
+    └── aws-c-common 
+
+aws-c-http
+├── aws-c-cal 
+│   └── aws-c-common 
+├── aws-c-common 
+├── aws-c-compression 
+│   └── aws-c-common 
+└── aws-c-io 
+    ├── aws-c-cal 
+    │   └── aws-c-common 
+    ├── aws-c-common 
+    ├── openssl@3 
+    │   └── ca-certificates 
+    └── s2n 
+        └── openssl@3 
+            └── ca-certificates 
+
+aws-c-io
+├── aws-c-cal 
+│   └── aws-c-common 
+├── aws-c-common 
 ├── openssl@3 
 │   └── ca-certificates 
+└── s2n 
+    └── openssl@3 
+        └── ca-certificates 
+
+aws-c-mqtt
+├── aws-c-common 
+├── aws-c-http 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-compression 
+│   │   └── aws-c-common 
+│   └── aws-c-io 
+│       ├── aws-c-cal 
+│       │   └── aws-c-common 
+│       ├── aws-c-common 
+│       ├── openssl@3 
+│       │   └── ca-certificates 
+│       └── s2n 
+│           └── openssl@3 
+│               └── ca-certificates 
+└── aws-c-io 
+    ├── aws-c-cal 
+    │   └── aws-c-common 
+    ├── aws-c-common 
+    ├── openssl@3 
+    │   └── ca-certificates 
+    └── s2n 
+        └── openssl@3 
+            └── ca-certificates 
+
+aws-c-s3
+├── aws-c-auth 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-http 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── aws-c-compression 
+│   │   │   └── aws-c-common 
+│   │   └── aws-c-io 
+│   │       ├── aws-c-cal 
+│   │       │   └── aws-c-common 
+│   │       ├── aws-c-common 
+│   │       ├── openssl@3 
+│   │       │   └── ca-certificates 
+│   │       └── s2n 
+│   │           └── openssl@3 
+│   │               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   └── aws-c-sdkutils 
+│       └── aws-c-common 
+├── aws-c-cal 
+│   └── aws-c-common 
+├── aws-c-common 
+├── aws-c-http 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-compression 
+│   │   └── aws-c-common 
+│   └── aws-c-io 
+│       ├── aws-c-cal 
+│       │   └── aws-c-common 
+│       ├── aws-c-common 
+│       ├── openssl@3 
+│       │   └── ca-certificates 
+│       └── s2n 
+│           └── openssl@3 
+│               └── ca-certificates 
+├── aws-c-io 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
+└── aws-checksums 
+    └── aws-c-common 
+
+aws-c-sdkutils
+└── aws-c-common 
+
+aws-checksums
+└── aws-c-common 
+
+awscli
+├── aws-c-auth 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-http 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── aws-c-compression 
+│   │   │   └── aws-c-common 
+│   │   └── aws-c-io 
+│   │       ├── aws-c-cal 
+│   │       │   └── aws-c-common 
+│   │       ├── aws-c-common 
+│   │       ├── openssl@3 
+│   │       │   └── ca-certificates 
+│   │       └── s2n 
+│   │           └── openssl@3 
+│   │               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   └── aws-c-sdkutils 
+│       └── aws-c-common 
+├── aws-c-cal 
+│   └── aws-c-common 
+├── aws-c-common 
+├── aws-c-event-stream 
+│   ├── aws-c-common 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   └── aws-checksums 
+│       └── aws-c-common 
+├── aws-c-http 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-compression 
+│   │   └── aws-c-common 
+│   └── aws-c-io 
+│       ├── aws-c-cal 
+│       │   └── aws-c-common 
+│       ├── aws-c-common 
+│       ├── openssl@3 
+│       │   └── ca-certificates 
+│       └── s2n 
+│           └── openssl@3 
+│               └── ca-certificates 
+├── aws-c-io 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
+├── aws-c-mqtt 
+│   ├── aws-c-common 
+│   ├── aws-c-http 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── aws-c-compression 
+│   │   │   └── aws-c-common 
+│   │   └── aws-c-io 
+│   │       ├── aws-c-cal 
+│   │       │   └── aws-c-common 
+│   │       ├── aws-c-common 
+│   │       ├── openssl@3 
+│   │       │   └── ca-certificates 
+│   │       └── s2n 
+│   │           └── openssl@3 
+│   │               └── ca-certificates 
+│   └── aws-c-io 
+│       ├── aws-c-cal 
+│       │   └── aws-c-common 
+│       ├── aws-c-common 
+│       ├── openssl@3 
+│       │   └── ca-certificates 
+│       └── s2n 
+│           └── openssl@3 
+│               └── ca-certificates 
+├── aws-c-s3 
+│   ├── aws-c-auth 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── aws-c-http 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── aws-c-compression 
+│   │   │   │   └── aws-c-common 
+│   │   │   └── aws-c-io 
+│   │   │       ├── aws-c-cal 
+│   │   │       │   └── aws-c-common 
+│   │   │       ├── aws-c-common 
+│   │   │       ├── openssl@3 
+│   │   │       │   └── ca-certificates 
+│   │   │       └── s2n 
+│   │   │           └── openssl@3 
+│   │   │               └── ca-certificates 
+│   │   ├── aws-c-io 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
+│   │   └── aws-c-sdkutils 
+│   │       └── aws-c-common 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── aws-c-http 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── aws-c-compression 
+│   │   │   └── aws-c-common 
+│   │   └── aws-c-io 
+│   │       ├── aws-c-cal 
+│   │       │   └── aws-c-common 
+│   │       ├── aws-c-common 
+│   │       ├── openssl@3 
+│   │       │   └── ca-certificates 
+│   │       └── s2n 
+│   │           └── openssl@3 
+│   │               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   └── aws-checksums 
+│       └── aws-c-common 
+├── aws-checksums 
+│   └── aws-c-common 
 └── python@3.14 
     ├── mpdecimal 
     ├── openssl@3 
@@ -62,8 +388,6 @@ bash
     └── libunistring 
 
 bdw-gc
-
-berkeley-db@5
 
 boost
 ├── icu4c@78 
@@ -277,7 +601,8 @@ ffmpeg
 │   └── sdl3 
 ├── svt-av1 
 ├── x264 
-└── x265 
+├── x265 
+└── xz 
 
 fftw
 └── libomp 
@@ -288,11 +613,6 @@ flac
 └── libogg 
 
 fluid-synth
-├── glib 
-│   ├── pcre2 
-│   └── gettext 
-│       ├── json-c 
-│       └── libunistring 
 ├── libsndfile 
 │   ├── flac 
 │   │   └── libogg 
@@ -948,7 +1268,8 @@ gpac
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 ├── freetype 
 │   └── libpng 
 ├── jpeg-turbo 
@@ -1103,8 +1424,6 @@ hunspell
     └── libunistring 
 
 hwloc
-
-icu4c@77
 
 icu4c@78
 
@@ -1966,10 +2285,6 @@ libsodium
 
 libsoxr
 
-libssh
-└── openssl@3 
-    └── ca-certificates 
-
 libssh2
 └── openssl@3 
     └── ca-certificates 
@@ -2248,7 +2563,8 @@ mkvdts2ac3
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 └── mkvtoolnix 
     ├── boost 
     │   ├── icu4c@78 
@@ -2368,7 +2684,8 @@ mkvtomp4
 │   │   └── sdl3 
 │   ├── svt-av1 
 │   ├── x264 
-│   └── x265 
+│   ├── x265 
+│   └── xz 
 ├── gpac 
 │   ├── ffmpeg 
 │   │   ├── dav1d 
@@ -2383,7 +2700,8 @@ mkvtomp4
 │   │   │   └── sdl3 
 │   │   ├── svt-av1 
 │   │   ├── x264 
-│   │   └── x265 
+│   │   ├── x265 
+│   │   └── xz 
 │   ├── freetype 
 │   │   └── libpng 
 │   ├── jpeg-turbo 
@@ -3962,7 +4280,8 @@ ocrmypdf
         │   └── sdl3 
         ├── svt-av1 
         ├── x264 
-        └── x265 
+        ├── x265 
+        └── xz 
 
 oniguruma
 
@@ -36484,6 +36803,10 @@ rubberband
     ├── mpg123 
     └── opus 
 
+s2n
+└── openssl@3 
+    └── ca-certificates 
+
 s3cmd
 ├── libmagic 
 └── python@3.14 
@@ -37005,7 +37328,8 @@ unpaper
     │   └── sdl3 
     ├── svt-av1 
     ├── x264 
-    └── x265 
+    ├── x265 
+    └── xz 
 
 utf8cpp
 
