@@ -417,15 +417,20 @@ aws-c-auth
 │   ├── aws-c-common 
 │   ├── aws-c-compression 
 │   │   └── aws-c-common 
-│   └── aws-c-io 
-│       ├── aws-c-cal 
-│       │   └── aws-c-common 
-│       ├── aws-c-common 
-│       ├── openssl@3 
-│       │   └── ca-certificates 
-│       └── s2n 
-│           └── openssl@3 
-│               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
 ├── aws-c-io 
 │   ├── aws-c-cal 
 │   │   └── aws-c-common 
@@ -466,15 +471,20 @@ aws-c-http
 ├── aws-c-common 
 ├── aws-c-compression 
 │   └── aws-c-common 
-└── aws-c-io 
-    ├── aws-c-cal 
-    │   └── aws-c-common 
-    ├── aws-c-common 
-    ├── openssl@3 
-    │   └── ca-certificates 
-    └── s2n 
-        └── openssl@3 
-            └── ca-certificates 
+├── aws-c-io 
+│   ├── aws-c-cal 
+│   │   └── aws-c-common 
+│   ├── aws-c-common 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
+├── openssl@3 
+│   └── ca-certificates 
+└── s2n 
+    └── openssl@3 
+        └── ca-certificates 
 
 aws-c-io
 ├── aws-c-cal 
@@ -494,15 +504,20 @@ aws-c-mqtt
 │   ├── aws-c-common 
 │   ├── aws-c-compression 
 │   │   └── aws-c-common 
-│   └── aws-c-io 
-│       ├── aws-c-cal 
-│       │   └── aws-c-common 
-│       ├── aws-c-common 
-│       ├── openssl@3 
-│       │   └── ca-certificates 
-│       └── s2n 
-│           └── openssl@3 
-│               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
 └── aws-c-io 
     ├── aws-c-cal 
     │   └── aws-c-common 
@@ -524,15 +539,20 @@ aws-c-s3
 │   │   ├── aws-c-common 
 │   │   ├── aws-c-compression 
 │   │   │   └── aws-c-common 
-│   │   └── aws-c-io 
-│   │       ├── aws-c-cal 
-│   │       │   └── aws-c-common 
-│   │       ├── aws-c-common 
-│   │       ├── openssl@3 
-│   │       │   └── ca-certificates 
-│   │       └── s2n 
-│   │           └── openssl@3 
-│   │               └── ca-certificates 
+│   │   ├── aws-c-io 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
 │   ├── aws-c-io 
 │   │   ├── aws-c-cal 
 │   │   │   └── aws-c-common 
@@ -553,15 +573,20 @@ aws-c-s3
 │   ├── aws-c-common 
 │   ├── aws-c-compression 
 │   │   └── aws-c-common 
-│   └── aws-c-io 
-│       ├── aws-c-cal 
-│       │   └── aws-c-common 
-│       ├── aws-c-common 
-│       ├── openssl@3 
-│       │   └── ca-certificates 
-│       └── s2n 
-│           └── openssl@3 
-│               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
 ├── aws-c-io 
 │   ├── aws-c-cal 
 │   │   └── aws-c-common 
@@ -591,15 +616,20 @@ awscli
 │   │   ├── aws-c-common 
 │   │   ├── aws-c-compression 
 │   │   │   └── aws-c-common 
-│   │   └── aws-c-io 
-│   │       ├── aws-c-cal 
-│   │       │   └── aws-c-common 
-│   │       ├── aws-c-common 
-│   │       ├── openssl@3 
-│   │       │   └── ca-certificates 
-│   │       └── s2n 
-│   │           └── openssl@3 
-│   │               └── ca-certificates 
+│   │   ├── aws-c-io 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
 │   ├── aws-c-io 
 │   │   ├── aws-c-cal 
 │   │   │   └── aws-c-common 
@@ -633,15 +663,20 @@ awscli
 │   ├── aws-c-common 
 │   ├── aws-c-compression 
 │   │   └── aws-c-common 
-│   └── aws-c-io 
-│       ├── aws-c-cal 
-│       │   └── aws-c-common 
-│       ├── aws-c-common 
-│       ├── openssl@3 
-│       │   └── ca-certificates 
-│       └── s2n 
-│           └── openssl@3 
-│               └── ca-certificates 
+│   ├── aws-c-io 
+│   │   ├── aws-c-cal 
+│   │   │   └── aws-c-common 
+│   │   ├── aws-c-common 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
+│   ├── openssl@3 
+│   │   └── ca-certificates 
+│   └── s2n 
+│       └── openssl@3 
+│           └── ca-certificates 
 ├── aws-c-io 
 │   ├── aws-c-cal 
 │   │   └── aws-c-common 
@@ -659,15 +694,20 @@ awscli
 │   │   ├── aws-c-common 
 │   │   ├── aws-c-compression 
 │   │   │   └── aws-c-common 
-│   │   └── aws-c-io 
-│   │       ├── aws-c-cal 
-│   │       │   └── aws-c-common 
-│   │       ├── aws-c-common 
-│   │       ├── openssl@3 
-│   │       │   └── ca-certificates 
-│   │       └── s2n 
-│   │           └── openssl@3 
-│   │               └── ca-certificates 
+│   │   ├── aws-c-io 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
 │   └── aws-c-io 
 │       ├── aws-c-cal 
 │       │   └── aws-c-common 
@@ -688,15 +728,20 @@ awscli
 │   │   │   ├── aws-c-common 
 │   │   │   ├── aws-c-compression 
 │   │   │   │   └── aws-c-common 
-│   │   │   └── aws-c-io 
-│   │   │       ├── aws-c-cal 
-│   │   │       │   └── aws-c-common 
-│   │   │       ├── aws-c-common 
-│   │   │       ├── openssl@3 
-│   │   │       │   └── ca-certificates 
-│   │   │       └── s2n 
-│   │   │           └── openssl@3 
-│   │   │               └── ca-certificates 
+│   │   │   ├── aws-c-io 
+│   │   │   │   ├── aws-c-cal 
+│   │   │   │   │   └── aws-c-common 
+│   │   │   │   ├── aws-c-common 
+│   │   │   │   ├── openssl@3 
+│   │   │   │   │   └── ca-certificates 
+│   │   │   │   └── s2n 
+│   │   │   │       └── openssl@3 
+│   │   │   │           └── ca-certificates 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
 │   │   ├── aws-c-io 
 │   │   │   ├── aws-c-cal 
 │   │   │   │   └── aws-c-common 
@@ -717,15 +762,20 @@ awscli
 │   │   ├── aws-c-common 
 │   │   ├── aws-c-compression 
 │   │   │   └── aws-c-common 
-│   │   └── aws-c-io 
-│   │       ├── aws-c-cal 
-│   │       │   └── aws-c-common 
-│   │       ├── aws-c-common 
-│   │       ├── openssl@3 
-│   │       │   └── ca-certificates 
-│   │       └── s2n 
-│   │           └── openssl@3 
-│   │               └── ca-certificates 
+│   │   ├── aws-c-io 
+│   │   │   ├── aws-c-cal 
+│   │   │   │   └── aws-c-common 
+│   │   │   ├── aws-c-common 
+│   │   │   ├── openssl@3 
+│   │   │   │   └── ca-certificates 
+│   │   │   └── s2n 
+│   │   │       └── openssl@3 
+│   │   │           └── ca-certificates 
+│   │   ├── openssl@3 
+│   │   │   └── ca-certificates 
+│   │   └── s2n 
+│   │       └── openssl@3 
+│   │           └── ca-certificates 
 │   ├── aws-c-io 
 │   │   ├── aws-c-cal 
 │   │   │   └── aws-c-common 
@@ -46460,7 +46510,8 @@ tmux
 │   └── openssl@3 
 │       └── ca-certificates 
 ├── ncurses 
-└── utf8proc 
+├── utf8proc 
+└── jemalloc 
 
 trivy
 

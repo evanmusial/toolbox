@@ -438,7 +438,7 @@ hashicorp/tap/terraform:
 tesseract: cairo fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c leptonica libarchive libb2 libdatrie libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pango pcre2 pixman webp xorgproto xz zstd
 thefuck: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
 theora: libogg libvorbis
-tmux: ca-certificates libevent ncurses openssl@3 utf8proc
+tmux: ca-certificates jemalloc libevent ncurses openssl@3 utf8proc
 trivy: 
 unbound: ca-certificates libevent libnghttp2 openssl@3
 unpaper: ca-certificates dav1d ffmpeg lame libvmaf libvpx mpg123 openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265 xz

@@ -16,13 +16,13 @@ aws-c-cal 0.9.15
 aws-c-common 0.14.5
 aws-c-compression 0.3.3
 aws-c-event-stream 0.7.2
-aws-c-http 0.11.0
+aws-c-http 0.11.1
 aws-c-io 0.27.7
 aws-c-mqtt 0.16.2
 aws-c-s3 0.13.6
 aws-c-sdkutils 0.2.10
 aws-checksums 0.2.11
-awscli 2.36.24
+awscli 2.36.25
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -293,7 +293,7 @@ node 26.7.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.2
-nvm 0.40.6
+nvm 0.40.7
 ocrmypdf 17.10.0
 oniguruma 6.9.10
 onnx 1.22.0_1
@@ -329,7 +329,7 @@ pmix 6.1.0
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-prometheus 3.13.2
+prometheus 3.14.0
 protobuf 35.1_1
 prrte 4.1.0_1
 pugixml 1.16
@@ -431,7 +431,7 @@ terraform 1.15.8
 tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
-tmux 3.7b
+tmux 3.7c
 trivy 0.74.0
 unbound 1.26.0
 unpaper 7.0.0_4
