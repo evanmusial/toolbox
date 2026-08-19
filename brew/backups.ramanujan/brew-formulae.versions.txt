@@ -269,7 +269,7 @@ mbedtls 4.2.0
 mbedtls@3 3.6.7
 md4c 0.5.3
 media-info 26.05
-merve 1.2.2_1
+merve 1.2.2_2
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 100.0_1
@@ -405,7 +405,7 @@ sdl2-compat 2.32.70
 sdl3 3.4.14
 shared-mime-info 2.5.1
 simdjson 4.6.7
-simdutf 9.0.0
+simdutf 9.1.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -443,7 +443,7 @@ uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
 volk 3.3.0_2
-vte3 0.84.1
+vte3 0.84.1_1
 watch 4.0.7
 webp 1.6.0
 wget 1.25.0
