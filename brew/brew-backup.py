@@ -11,6 +11,7 @@ synchronized with the remote.
 from __future__ import annotations
 
 import atexit
+import json
 import os
 import socket
 import subprocess
@@ -153,7 +154,10 @@ class ProgressBar:
         delay = ANIMATION_SECONDS / frame_count
         previous_percent = start_percent
         for frame in range(1, frame_count + 1):
-            percent = round(start_percent + ((target_percent - start_percent) * frame / frame_count))
+            percent = round(
+                start_percent
+                + ((target_percent - start_percent) * frame / frame_count)
+            )
             if percent == previous_percent and frame != frame_count:
                 continue
             self.current_percent = percent
@@ -256,10 +260,53 @@ def colorize_output(value: str, color: str) -> str:
     return f"{color}{value}{RESET_COLOR}"
 
 
-def write_command_output(args: list[str], destination: Path, *, env: dict[str, str] | None = None) -> None:
+def write_command_output(
+    args: list[str],
+    destination: Path,
+    *,
+    env: dict[str, str] | None = None,
+) -> None:
     """Write a command's stdout directly to one backup artifact."""
     with destination.open("w", encoding="utf-8") as output:
-        run(args, cwd=destination.parent, env=env, stdout=output, quiet=True)
+        run(
+            args,
+            cwd=destination.parent,
+            env=env,
+            stdout=output,
+            quiet=True,
+        )
+
+
+def write_cask_versions(destination: Path) -> None:
+    """Write installed cask versions using Homebrew's JSON inventory path.
+
+    Homebrew's plain `brew list --cask --versions` command currently triggers
+    an upstream Cask::CaskLoader load-order regression. The JSON code path
+    avoids the affected implementation.
+
+    Parse the JSON here and write the same plaintext format this backup script
+    used previously so existing Git history and backup artifacts remain
+    consistent.
+    """
+    completed = run(
+        ["brew", "list", "--cask", "--versions", "--json"],
+        cwd=destination.parent,
+        quiet=True,
+    )
+
+    data = json.loads(completed.stdout or "{}")
+
+    lines: list[str] = []
+    for cask in data.get("casks", []):
+        token = cask["token"]
+        versions = cask.get("versions", [])
+        lines.append(" ".join([token, *versions]))
+
+    contents = "\n".join(lines)
+    if contents:
+        contents += "\n"
+
+    destination.write_text(contents, encoding="utf-8")
 
 
 def main() -> int:
@@ -267,7 +314,13 @@ def main() -> int:
 
     # Backups are host-scoped so the same repository can carry separate
     # Homebrew inventories for multiple Macs without overwriting each other.
-    backup_dir = Path.home() / "git" / "toolbox" / "brew" / f"backups.{this_hostname}"
+    backup_dir = (
+        Path.home()
+        / "git"
+        / "toolbox"
+        / "brew"
+        / f"backups.{this_hostname}"
+    )
     this_date = datetime.now(timezone.utc).strftime("%Y%m%d @ %H%M (UTC)")
     display_hostname = colorize_output(this_hostname, FILLED_COLOR)
 
@@ -307,7 +360,9 @@ def main() -> int:
 
         brewfile_contents = tmp_brewfile_path.read_text(encoding="utf-8")
         (backup_dir / "Brewfile").write_text(
-            f"# backup: {this_date}\n# host: {this_hostname}\n\n{brewfile_contents}",
+            f"# backup: {this_date}\n"
+            f"# host: {this_hostname}\n\n"
+            f"{brewfile_contents}",
             encoding="utf-8",
         )
         progress.advance("Wrote Brewfile")
@@ -320,32 +375,39 @@ def main() -> int:
             backup_dir / "brew-formulae.requested.txt",
         )
         progress.advance("Saved requested formulae")
+
         write_command_output(
             ["brew", "leaves", "--installed-as-dependency"],
             backup_dir / "brew-formulae.dependency-leaves.txt",
         )
         progress.advance("Saved dependency leaves")
+
         write_command_output(
             ["brew", "list", "--formula", "--versions"],
             backup_dir / "brew-formulae.versions.txt",
         )
         progress.advance("Saved formula versions")
-        write_command_output(
-            ["brew", "list", "--cask", "--versions"],
+
+        # Use Homebrew's JSON cask-listing path to avoid the current upstream
+        # Cask::CaskLoader regression, then preserve our existing text format.
+        write_cask_versions(
             backup_dir / "brew-casks.versions.txt",
         )
         progress.advance("Saved cask versions")
+
         write_command_output(
             ["brew", "deps", "--installed", "--tree", "--annotate"],
             backup_dir / "brew-deps.declared.tree.txt",
             env={"HOMEBREW_NO_ENV_HINTS": "1"},
         )
         progress.advance("Saved declared deps")
+
         write_command_output(
             ["brew", "deps", "--installed"],
             backup_dir / "brew-deps.installed.txt",
         )
         progress.advance("Saved installed deps")
+
         write_command_output(
             ["brew", "info", "--json=v2", "--installed"],
             backup_dir / "brew-installed.json",
@@ -354,27 +416,58 @@ def main() -> int:
 
         # Stage only the expected backup artifacts. This avoids accidentally
         # committing local scratch files from the backup directory.
-        run(["git", "add", *BACKUP_FILES], cwd=backup_dir, quiet=True)
+        run(
+            ["git", "add", *BACKUP_FILES],
+            cwd=backup_dir,
+            quiet=True,
+        )
         progress.advance("Staged backup files")
-        diff = run(["git", "diff", "--cached", "--quiet"], cwd=backup_dir, check=False, quiet=True)
+
+        diff = run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=backup_dir,
+            check=False,
+            quiet=True,
+        )
         progress.advance("Checked for changes")
+
         no_changes = False
         if diff.returncode == 0:
             progress.advance("No changes found")
             no_changes = True
         else:
-            run(["git", "commit", "-m", f"Homebrew backup: {this_date}"], cwd=backup_dir, quiet=True)
-            run(["git", "push"], cwd=backup_dir, quiet=True)
+            run(
+                [
+                    "git",
+                    "commit",
+                    "-m",
+                    f"Homebrew backup: {this_date}",
+                ],
+                cwd=backup_dir,
+                quiet=True,
+            )
+            run(
+                ["git", "push"],
+                cwd=backup_dir,
+                quiet=True,
+            )
             progress.advance("Published backup")
 
         # Pull again after the run so the checkout is clean and synchronized
         # for the next daily alias invocation.
-        run(["git", "pull", "--ff-only"], cwd=backup_dir, quiet=True)
+        run(
+            ["git", "pull", "--ff-only"],
+            cwd=backup_dir,
+            quiet=True,
+        )
         progress.advance("Synced final state")
+
         if no_changes:
             print("No Homebrew changes to commit.")
+
         print(f"Homebrew backup complete for host  {display_hostname}")
         print()
+
     finally:
         tmp_brewfile_path.unlink(missing_ok=True)
 
