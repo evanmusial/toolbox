@@ -937,8 +937,6 @@ chrony
 
 cjson
 
-claude-code
-
 cmake
 
 cmocka
@@ -1007,8 +1005,6 @@ docker
 docker-completion
 
 docker-compose
-
-docker-desktop
 
 double-conversion
 
@@ -2376,8 +2372,6 @@ gobject-introspection
     └── zstd 
         ├── lz4 
         └── xz 
-
-google-analytics-opt-out
 
 google-authenticator-libpam
 └── qrencode 
@@ -8542,8 +8536,6 @@ m4
 
 mad
 
-makemkv
-
 mbedtls
 
 mbedtls@3
@@ -9096,8 +9088,6 @@ nghttp2
 ├── libnghttp2 
 └── openssl@3 
     └── ca-certificates 
-
-ngrok
 
 nlohmann-json
 
@@ -46116,8 +46106,6 @@ spice-gtk
 
 spice-protocol
 
-spundle
-
 sqlite
 └── readline 
 
@@ -46128,8 +46116,6 @@ srt
 srtp
 └── openssl@3 
     └── ca-certificates 
-
-stats
 
 streamlink
 ├── certifi 
