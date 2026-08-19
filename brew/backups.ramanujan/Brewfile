@@ -1,4 +1,4 @@
-# backup: 20260819 @ 1730 (UTC)
+# backup: 20260819 @ 1946 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -650,6 +650,20 @@ brew "xpdf"
 brew "yq"
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
+# Terminal-based AI coding assistant
+cask "claude-code"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Prevent website visitor's data from being used by Google Analytics JavaScript
+cask "google-analytics-opt-out"
+# Video format converter (transcoder)
+cask "makemkv", args: { appdir: "/Applications" }
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Create, resize and compact sparse bundles
+cask "spundle"
+# System monitor for the menu bar
+cask "stats"
 npm "esm"
 npm "gcp-docs"
 npm "openclaw"
