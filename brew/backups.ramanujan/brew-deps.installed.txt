@@ -12,7 +12,7 @@ assimp:
 at-spi2-core: dbus gettext glib json-c libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxtst pcre2 xorgproto
 augeas: readline
 aws-c-auth: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils ca-certificates openssl@3 s2n
-aws-c-cal: aws-c-common
+aws-c-cal: aws-c-common ca-certificates openssl@3
 aws-c-common: 
 aws-c-compression: aws-c-common
 aws-c-event-stream: aws-c-cal aws-c-common aws-c-io aws-checksums ca-certificates openssl@3 s2n
