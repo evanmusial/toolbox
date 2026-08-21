@@ -77,10 +77,10 @@ flac 1.5.0
 fmt 12.2.0
 fontconfig 2.18.3
 freetype 2.14.3
-frei0r 3.4.0
+frei0r 3.4.3
 fribidi 1.0.16
 gawk 5.4.1
-gcc 16.1.0
+gcc 16.2.0
 gdbm 1.26
 gdk-pixbuf 2.44.8
 gengetopt 2.23
