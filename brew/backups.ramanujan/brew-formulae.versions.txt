@@ -161,7 +161,7 @@ libcbor 0.14.0
 libcuefile r475
 libdatrie 0.2.14
 libde265 1.1.1
-libdeflate 1.25
+libdeflate 1.26
 libebml 1.4.7
 libepoxy 1.5.10
 libev 4.33
