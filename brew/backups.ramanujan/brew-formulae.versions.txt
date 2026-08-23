@@ -128,7 +128,7 @@ icu4c@78 78.3
 id3lib 3.8.3_1
 id3tool 1.2a
 id3v2 0.1.12
-imagemagick 7.1.2-29
+imagemagick 7.1.2-30
 imath 3.2.3
 img2pdf 0.6.3_1
 imlib2 1.12.6
@@ -437,7 +437,7 @@ unbound 1.26.0
 unpaper 7.0.0_4
 usb.ids 2026.06.26
 usbredir 0.15.0
-utf8cpp 4.1.1
+utf8cpp 4.2.0
 utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
