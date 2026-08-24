@@ -258,7 +258,7 @@ libzen:
 libzip: lz4 xz zstd
 lima: 
 litehtml: gumbo-parser
-little-cms2: jpeg-turbo libtiff lz4 xz zstd
+little-cms2: giflib jpeg-turbo libpng libtiff lz4 webp xz zstd
 llhttp: 
 logrotate: popt
 lolcat: 

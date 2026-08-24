@@ -255,7 +255,7 @@ libzen 0.4.41_1
 libzip 1.11.4_1
 lima 2.2.0
 litehtml 0.10
-little-cms2 2.19
+little-cms2 2.19.1
 llhttp 9.4.3
 logrotate 3.22.0
 lolcat 100.0.1
@@ -297,7 +297,7 @@ nvm 0.40.7
 ocrmypdf 17.10.0
 oniguruma 6.9.10
 onnx 1.22.0_3
-open-mpi 5.0.9_1
+open-mpi 5.0.10
 openblas 0.3.34
 opencore-amr 0.1.6
 openexr 3.4.15
