@@ -1,4 +1,4 @@
-# backup: 20260817 @ 0007 (UTC)
+# backup: 20260824 @ 0827 (UTC)
 # host: drift
 
 tap "jakehilborn/jakehilborn"
@@ -117,10 +117,10 @@ brew "dbus"
 brew "giflib"
 # TIFF library and utilities
 brew "libtiff"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
 # Display user-friendly message boxes from shell scripts
 brew "dialog"
 # Standard XML representation system for technical documents
