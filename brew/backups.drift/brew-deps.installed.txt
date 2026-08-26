@@ -148,7 +148,7 @@ libice: xorgproto
 libidn: 
 libidn2: gettext libunistring
 libimagequant: 
-libksba: gettext libgpg-error libunistring
+libksba: gettext json-c libgpg-error libunistring
 liblinear: 
 liblo: 
 liblqr: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
