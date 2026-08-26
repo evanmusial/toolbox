@@ -22,7 +22,7 @@ aws-c-mqtt 0.16.2
 aws-c-s3 0.13.7
 aws-c-sdkutils 0.2.10
 aws-checksums 0.2.11
-awscli 2.36.30
+awscli 2.36.31
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -207,7 +207,7 @@ librsvg 2.62.3
 librtlsdr 2.0.3
 libsamplerate 0.2.2
 libshout 2.4.6_2
-libslirp 4.9.3
+libslirp 4.9.4
 libsm 1.2.6
 libsndfile 1.2.2_1
 libsodium 1.0.22
@@ -306,7 +306,7 @@ openjph 0.31.0
 openldap 2.7.0
 openmotif 2.3.8_4
 openssl@3 3.6.3
-openssl@4 4.0.1
+openssl@4 4.0.2
 openvino 2026.3.0_2
 opus 1.6.1
 opusfile 0.12_1

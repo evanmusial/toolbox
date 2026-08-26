@@ -210,7 +210,7 @@ librsvg: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 har
 librtlsdr: libusb
 libsamplerate: 
 libshout: ca-certificates libogg libvorbis openssl@3 speex theora
-libslirp: gettext glib libunistring pcre2
+libslirp: gettext glib json-c libunistring pcre2
 libsm: libice xorgproto
 libsndfile: flac lame libogg libvorbis mpg123 opus
 libsodium: 
