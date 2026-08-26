@@ -39,7 +39,7 @@ certifi 2026.7.22
 cffi 2.1.1
 chrony 4.8_1
 cjson 1.7.19
-cmake 4.4.2
+cmake 4.4.3
 cmocka 2.0.2
 codec2 1.2.0
 colima 0.10.3
