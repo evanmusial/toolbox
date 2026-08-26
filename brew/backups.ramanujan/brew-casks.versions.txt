@@ -1,5 +1,5 @@
 claude-code 2.1.231
-docker-desktop 4.87.0,236836
+docker-desktop 4.88.1,237512
 google-analytics-opt-out 1.0.2
 makemkv 1.18.4
 ngrok 3.39.11,dy27whJwwmb,a
