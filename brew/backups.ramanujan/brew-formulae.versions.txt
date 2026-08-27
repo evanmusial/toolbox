@@ -22,7 +22,7 @@ aws-c-mqtt 0.16.2
 aws-c-s3 0.13.7
 aws-c-sdkutils 0.2.10
 aws-checksums 0.2.11
-awscli 2.36.31
+awscli 2.36.32
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -416,7 +416,7 @@ speex 1.2.1
 spice-gtk 0.42_3
 spice-protocol 0.14.5
 sqlite 3.53.4
-srt 1.5.6
+srt 1.5.7
 srtp 2.8.0
 streamlink 8.5.0
 streamripper 1.64.6_2
