@@ -171,7 +171,7 @@ libev:
 libevent: ca-certificates openssl@3
 libffi: 
 libfido2: ca-certificates libcbor openssl@3
-libgcrypt: gettext libgpg-error libunistring
+libgcrypt: gettext json-c libgpg-error libunistring
 libgit2: ca-certificates libssh2 llhttp openssl@3
 libgpg-error: gettext libunistring
 libheif: aom giflib jpeg-turbo libde265 libpng libtiff libvmaf lz4 webp x265 xz zstd

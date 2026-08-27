@@ -113,7 +113,7 @@ gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.13.2
 hackrf 2026.01.3
-harfbuzz 14.3.1
+harfbuzz 14.4.0
 hdrhistogram_c 0.11.10
 hicolor-icon-theme 0.18
 highway 1.4.0
@@ -168,7 +168,7 @@ libev 4.33
 libevent 2.1.13
 libffi 3.8.0
 libfido2 1.17.0
-libgcrypt 1.12.2
+libgcrypt 1.12.3
 libgit2 1.9.7
 libgpg-error 1.61
 libheif 1.23.2
