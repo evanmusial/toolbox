@@ -1,4 +1,4 @@
-# backup: 20260827 @ 2330 (UTC)
+# backup: 20260828 @ 0755 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -144,12 +144,6 @@ brew "nettle"
 brew "p11-kit"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
-# Asynchronous event library
-brew "libevent"
-# HTTP/2 C Library
-brew "libnghttp2"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # Versatile implementation of the Network Time Protocol (NTP)
 brew "chrony"
 # Ultralightweight JSON parser in ANSI C
@@ -170,6 +164,8 @@ brew "cpu_features"
 brew "cpufetch"
 # Implementation of CRC32C with CPU-specific acceleration
 brew "crc32c"
+# HTTP/2 C Library
+brew "libnghttp2"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # AV1 decoder targeted to be small and fast
@@ -318,10 +314,14 @@ brew "git"
 brew "git-lfs"
 # Multi-platform library for OpenGL applications
 brew "glfw"
+# Asynchronous event library
+brew "libevent"
 # Core utilities for Python packages
 brew "python-packaging"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # GNU implementation of the famous stream editor
