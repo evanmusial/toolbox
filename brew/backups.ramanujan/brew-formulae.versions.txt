@@ -22,7 +22,7 @@ aws-c-mqtt 1.0.0
 aws-c-s3 1.0.0
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.0
-awscli 2.36.33_1
+awscli 2.36.34
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -310,7 +310,7 @@ openssl@4 4.0.2
 openvino 2026.3.0_2
 opus 1.6.1
 opusfile 0.12_1
-orc 0.4.42
+orc 0.4.43
 osinfo-db 20251212
 p11-kit 0.26.5
 p7zip 17.06
