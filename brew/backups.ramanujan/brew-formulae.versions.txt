@@ -289,7 +289,7 @@ nettle 4.0
 nghttp2 1.70.0
 nlohmann-json 3.12.0
 nmap 7.991
-node 26.7.0
+node 26.8.1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.2
