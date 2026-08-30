@@ -9169,6 +9169,8 @@ ncurses
 nettle
 └── gmp 
 
+nexttrace
+
 nghttp2
 ├── c-ares 
 ├── jemalloc 

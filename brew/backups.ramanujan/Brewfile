@@ -1,9 +1,10 @@
-# backup: 20260829 @ 2220 (UTC)
+# backup: 20260830 @ 1021 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
 tap "homebrew/services"
 tap "ngrok/ngrok", trusted: true
+tap "xgadget-lab/nexttrace"
 # Library for decoding ATSC A/52 streams (AKA 'AC-3')
 brew "a52dec"
 # C++ Common Libraries
@@ -522,6 +523,8 @@ brew "mplayer"
 brew "mtr"
 # Open source relational database management system
 brew "mysql-client@8.4"
+# Open source visual route tracking CLI tool
+brew "nexttrace"
 # HTTP/2 C Library
 brew "nghttp2"
 # Port scanning utility for large networks

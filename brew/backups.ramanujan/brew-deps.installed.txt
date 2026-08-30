@@ -134,7 +134,7 @@ id3v2: id3lib
 imagemagick: aom freetype giflib jpeg-turbo libde265 libheif libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
 imath: 
 img2pdf: aom ca-certificates cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 pcre2 pillow pixman python@3.14 qpdf readline sqlite webp xorgproto xz zstd
-imlib2: freetype giflib jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 xorgproto xz zstd
+imlib2: freetype giflib jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 webp xorgproto xz zstd
 iperf3: ca-certificates openssl@4
 isl: gmp
 jansson: 
@@ -290,6 +290,7 @@ mysql-client@8.4: ca-certificates libcbor libevent libfido2 lz4 openssl@3 xz zli
 nbytes: 
 ncurses: 
 nettle: gmp
+nexttrace: 
 nghttp2: c-ares ca-certificates jemalloc libev libnghttp2 openssl@3
 ngrok: 
 nlohmann-json: 

@@ -68,6 +68,7 @@ mp3info
 mplayer
 mtr
 mysql-client@8.4
+nexttrace
 nghttp2
 nmap
 node
