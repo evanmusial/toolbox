@@ -98,7 +98,7 @@ glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schem
 gmp: 
 gnu-getopt: 
 gnu-sed: 
-gnupg: ca-certificates gettext gmp gnutls libassuan libgcrypt libgpg-error libidn2 libksba libtasn1 libunistring libusb nettle npth p11-kit pinentry readline
+gnupg: ca-certificates gettext gmp gnutls json-c libassuan libgcrypt libgpg-error libidn2 libksba libtasn1 libunistring libusb nettle npth p11-kit pinentry readline
 gnutls: ca-certificates gettext gmp libidn2 libtasn1 libunistring nettle p11-kit
 gobject-introspection: ca-certificates cairo fontconfig freetype gettext glib json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf python@3.14 readline sqlite xorgproto xz zstd
 google-analytics-opt-out: 

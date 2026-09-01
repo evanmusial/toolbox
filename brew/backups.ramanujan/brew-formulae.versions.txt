@@ -96,7 +96,7 @@ glib-networking 2.80.1
 gmp 6.3.0
 gnu-getopt 2.42.2
 gnu-sed 4.10
-gnupg 2.5.21
+gnupg 2.5.22
 gnutls 3.8.13_2
 gobject-introspection 1.86.0_3
 google-authenticator-libpam 1.11_1
@@ -308,7 +308,7 @@ openldap 2.7.0
 openmotif 2.3.8_4
 openssl@3 3.6.4
 openssl@4 4.0.2
-openvino 2026.3.0_2
+openvino 2026.3.1
 opus 1.6.1
 opusfile 0.12_1
 orc 0.4.43
