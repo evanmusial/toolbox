@@ -405,7 +405,7 @@ sc-im 0.8.5_4
 sdl2-compat 2.32.72
 sdl3 3.4.16
 shared-mime-info 2.5.1
-simdjson 4.6.10
+simdjson 4.6.11
 simdutf 9.1.0
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
