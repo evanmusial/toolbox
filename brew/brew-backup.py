@@ -350,7 +350,7 @@ def main() -> int:
                 "bundle",
                 "dump",
                 "--force",
-                "--describe",
+                #"--describe",
                 f"--file={tmp_brewfile_path}",
             ],
             cwd=backup_dir,
