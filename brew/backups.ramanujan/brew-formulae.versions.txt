@@ -29,7 +29,7 @@ berkeley-db@5 5.3.28_1
 boost 1.92.0
 boost-build 1.92.0
 brotli 1.2.0
-bwfmetaedit 26.08
+bwfmetaedit 26.08.1
 c-ares 1.34.8
 ca-certificates 2026-08-13
 cairo 1.18.4
