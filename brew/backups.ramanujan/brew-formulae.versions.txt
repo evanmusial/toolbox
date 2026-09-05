@@ -297,7 +297,7 @@ numpy 2.5.2
 nvm 0.40.7
 ocrmypdf 17.11.0
 oniguruma 6.9.10
-onnx 1.22.0_3
+onnx 1.22.0_4
 open-mpi 5.0.10
 openblas 0.3.34
 opencore-amr 0.1.6
@@ -308,7 +308,7 @@ openldap 2.7.0
 openmotif 2.3.8_4
 openssl@3 3.6.4
 openssl@4 4.0.2
-openvino 2026.3.1
+openvino 2026.3.1_1
 opus 1.6.1
 opusfile 0.12_1
 orc 0.4.43
@@ -331,7 +331,7 @@ pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
 prometheus 3.14.0
-protobuf 36.0
+protobuf 36.1
 prrte 4.1.0_1
 pugixml 1.16
 pwgen 2.08
@@ -364,7 +364,7 @@ qtconnectivity 6.11.2
 qtdatavis3d 6.11.2
 qtdeclarative 6.11.2
 qtgraphs 6.11.2
-qtgrpc 6.11.2
+qtgrpc 6.11.2_1
 qthttpserver 6.11.2
 qtimageformats 6.11.2
 qtlanguageserver 6.11.2
