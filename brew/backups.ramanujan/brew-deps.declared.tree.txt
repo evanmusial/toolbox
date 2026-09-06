@@ -2615,7 +2615,6 @@ gstreamer
 ├── dav1d 
 ├── faac 
 ├── faad2 
-├── fdk-aac 
 ├── ffmpeg 
 │   ├── dav1d 
 │   ├── lame 
@@ -43544,7 +43543,6 @@ spice-gtk
 │   ├── dav1d 
 │   ├── faac 
 │   ├── faad2 
-│   ├── fdk-aac 
 │   ├── ffmpeg 
 │   │   ├── dav1d 
 │   │   ├── lame 
@@ -48581,7 +48579,6 @@ virt-manager
 │   │   ├── dav1d 
 │   │   ├── faac 
 │   │   ├── faad2 
-│   │   ├── fdk-aac 
 │   │   ├── ffmpeg 
 │   │   │   ├── dav1d 
 │   │   │   ├── lame 
