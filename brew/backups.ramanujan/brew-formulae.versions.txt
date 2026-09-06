@@ -171,7 +171,7 @@ libfido2 1.17.0
 libgcrypt 1.12.3
 libgit2 1.9.7
 libgpg-error 1.61
-libheif 1.23.3
+libheif 1.23.4
 libice 1.1.2
 libidn 1.44
 libidn2 2.3.8
