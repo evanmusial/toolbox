@@ -194,7 +194,7 @@ libmpc: gmp mpfr
 libnghttp2: 
 libnghttp3: 
 libngtcp2: ca-certificates openssl@3
-libnice: ca-certificates gettext glib gmp gnutls libevent libidn2 libnghttp2 libtasn1 libunistring nettle openssl@3 p11-kit pcre2 unbound
+libnice: ca-certificates gettext glib gmp gnutls json-c libidn2 libtasn1 libunistring nettle p11-kit pcre2
 libogg: 
 libomp: 
 libosinfo: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libsoup libtasn1 libunistring nettle openssl@3 osinfo-db p11-kit pcre2 readline sqlite unbound usb.ids
