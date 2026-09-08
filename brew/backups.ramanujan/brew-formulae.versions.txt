@@ -406,7 +406,7 @@ sdl2-compat 2.32.72
 sdl3 3.4.16
 shared-mime-info 2.5.1
 simdjson 4.6.11
-simdutf 9.1.0
+simdutf 9.1.1
 snappy 1.2.2
 soapyrtlsdr 0.3.3_2
 soapysdr 0.8.1_1
@@ -428,7 +428,7 @@ tbb 2023.1.0
 tcl-tk 9.0.4
 tcl-tk@8 8.6.18
 telnet 308
-terraform 1.16.0
+terraform 1.16.1
 tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
