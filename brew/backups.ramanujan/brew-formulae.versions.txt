@@ -22,7 +22,7 @@ aws-c-mqtt 1.0.0
 aws-c-s3 1.0.0
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.0
-awscli 2.36.41
+awscli 2.36.42
 bash 5.3.15
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -290,7 +290,7 @@ nexttrace 1.7.3
 nghttp2 1.70.0
 nlohmann-json 3.12.0
 nmap 7.991
-node 26.8.1
+node 26.8.2
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.3
