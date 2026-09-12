@@ -458,7 +458,7 @@ xorgproto 2025.1
 xpdf 4.06
 xvid 1.3.7
 xxhash 0.8.3
-xz 5.8.3
+xz 5.8.4
 yajl 2.1.0_1
 yq 4.53.6
 zeromq 4.3.5_2

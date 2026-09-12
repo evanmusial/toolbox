@@ -1342,6 +1342,25 @@ ffmpeg@6
 │   └── libudfread 
 ├── librist 
 │   ├── cjson 
+│   ├── gmp 
+│   ├── gnutls 
+│   │   ├── ca-certificates 
+│   │   ├── gmp 
+│   │   ├── libidn2 
+│   │   │   ├── libunistring 
+│   │   │   └── gettext 
+│   │   │       ├── json-c 
+│   │   │       └── libunistring 
+│   │   ├── libtasn1 
+│   │   ├── libunistring 
+│   │   ├── nettle 
+│   │   │   └── gmp 
+│   │   ├── p11-kit 
+│   │   │   ├── ca-certificates 
+│   │   │   └── libtasn1 
+│   │   └── gettext 
+│   │       ├── json-c 
+│   │       └── libunistring 
 │   ├── libmicrohttpd 
 │   │   └── gnutls 
 │   │       ├── ca-certificates 
@@ -1362,7 +1381,8 @@ ffmpeg@6
 │   │           ├── json-c 
 │   │           └── libunistring 
 │   ├── lz4 
-│   └── mbedtls@3 
+│   └── nettle 
+│       └── gmp 
 ├── libsoxr 
 ├── libssh 
 │   └── openssl@3 
@@ -7761,6 +7781,25 @@ libreplaygain
 
 librist
 ├── cjson 
+├── gmp 
+├── gnutls 
+│   ├── ca-certificates 
+│   ├── gmp 
+│   ├── libidn2 
+│   │   ├── libunistring 
+│   │   └── gettext 
+│   │       ├── json-c 
+│   │       └── libunistring 
+│   ├── libtasn1 
+│   ├── libunistring 
+│   ├── nettle 
+│   │   └── gmp 
+│   ├── p11-kit 
+│   │   ├── ca-certificates 
+│   │   └── libtasn1 
+│   └── gettext 
+│       ├── json-c 
+│       └── libunistring 
 ├── libmicrohttpd 
 │   └── gnutls 
 │       ├── ca-certificates 
@@ -7781,7 +7820,8 @@ librist
 │           ├── json-c 
 │           └── libunistring 
 ├── lz4 
-└── mbedtls@3 
+└── nettle 
+    └── gmp 
 
 librsvg
 ├── cairo 
