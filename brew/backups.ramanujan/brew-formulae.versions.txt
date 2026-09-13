@@ -1,7 +1,7 @@
 a52dec 0.8.0
 abseil 20260817.0
 ada-url 4.0.0
-adns 1.6.2
+adns 1.7.0
 adwaita-icon-theme 50.0
 airspy 1.0.10
 airspyhf 1.6.8
