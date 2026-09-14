@@ -160,7 +160,7 @@ libcaca 0.99.beta20
 libcbor 0.14.0
 libcuefile r475
 libdatrie 0.2.14
-libde265 1.1.2
+libde265 1.1.3
 libdeflate 1.26
 libebml 1.4.7
 libepoxy 1.5.10
@@ -214,7 +214,7 @@ libsodium 1.0.22
 libsoup 3.6.6
 libsoxr 0.1.3
 libssh 0.12.2
-libssh2 1.11.1_4
+libssh2 1.11.1_5
 libtasn1 4.21.0
 libthai 0.1.30
 libtiff 4.7.2
@@ -230,7 +230,7 @@ libvidstab 1.1.2
 libvirt 12.7.0
 libvirt-glib 5.0.0_1
 libvirt-python 12.7.0
-libvmaf 3.2.0
+libvmaf 3.2.1
 libvorbis 1.3.7
 libvpx 1.17.0
 libx11 1.8.13
@@ -272,7 +272,7 @@ media-info 26.05
 merve 1.2.2_2
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 101.0
+mkvtoolnix 102.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -428,7 +428,7 @@ tbb 2023.1.0
 tcl-tk 9.0.4
 tcl-tk@8 8.6.18
 telnet 308
-terraform 1.16.1
+terraform 1.16.2
 tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
