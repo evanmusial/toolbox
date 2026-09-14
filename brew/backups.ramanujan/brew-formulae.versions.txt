@@ -399,7 +399,7 @@ rename 1.601
 rsync 3.5.0
 rtmpdump 2.6
 rubberband 4.0.0
-s2n 1.7.9
+s2n 1.7.10
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2-compat 2.32.72
