@@ -153,7 +153,7 @@ krb5: ca-certificates openssl@3
 lame: mpg123
 leptonica: giflib jpeg-turbo libpng libtiff little-cms2 lz4 openjpeg webp xz zstd
 libarchive: libb2 lz4 xz zstd
-libass: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 libpng libunibreak libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+libass: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c@78 json-c libpng libunibreak libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 libassuan: gettext libgpg-error libunistring
 libavif: aom dav1d jpeg-turbo libpng libvmaf
 libb2: 
