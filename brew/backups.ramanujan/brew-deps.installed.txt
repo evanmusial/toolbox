@@ -2,7 +2,7 @@ a52dec:
 abseil: 
 ada-url: fmt
 adns: 
-adwaita-icon-theme: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo libdatrie libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
+adwaita-icon-theme: cairo fontconfig freetype fribidi gdk-pixbuf gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libdatrie libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman webp xorgproto xz zstd
 airspy: libusb
 airspyhf: libusb
 aom: libvmaf
@@ -23,7 +23,7 @@ aws-c-s3: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-i
 aws-c-sdkutils: aws-c-common
 aws-checksums: aws-c-common
 awscli: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-event-stream aws-c-http aws-c-io aws-c-mqtt aws-c-s3 aws-c-sdkutils aws-checksums ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline s2n sqlite xz zstd
-bash: gettext libunistring ncurses readline
+bash: gettext json-c libunistring ncurses readline
 bdw-gc: 
 berkeley-db@5: 
 boost: icu4c@78 lz4 xz zstd
