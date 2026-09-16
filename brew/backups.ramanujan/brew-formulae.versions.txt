@@ -434,7 +434,7 @@ thefuck 3.32
 theora 1.2.0
 tmux 3.7c
 trivy 0.74.0
-unbound 1.26.0
+unbound 1.26.1
 unpaper 7.0.0_4
 usb.ids 2026.06.26
 usbredir 0.15.0
