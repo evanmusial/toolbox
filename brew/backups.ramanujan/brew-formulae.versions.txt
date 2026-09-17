@@ -308,7 +308,7 @@ openldap 2.7.1
 openmotif 2.3.8_4
 openssl@3 3.6.4
 openssl@4 4.0.2
-openvino 2026.3.1_1
+openvino 2026.4.0
 opus 1.6.1
 opusfile 0.12_1
 orc 0.4.44
