@@ -111,7 +111,7 @@ gsettings-desktop-schemas: gettext glib json-c libunistring pcre2
 gstreamer: aom at-spi2-core ca-certificates cairo dav1d dbus faac faad2 ffmpeg flac fontconfig freetype fribidi gdk-pixbuf gettext giflib glib glib-networking gmp gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gtk+3 gtk4 harfbuzz hicolor-icon-theme icu4c@78 imath jpeg-turbo json-c json-glib lame libass libcuefile libdatrie libdeflate libepoxy libidn2 libnghttp2 libnice libogg libpng libpsl libreplaygain librsvg libshout libsndfile libsodium libsoup libtasn1 libthai libtiff libunibreak libunistring libusrsctp libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mpdecimal mpg123 musepack nettle opencore-amr openexr openjpeg openjph openssl@3 opus orc p11-kit pango pcre2 pixman pkgconf py3cairo pygobject3 python@3.14 readline rtmpdump sdl2-compat sdl3 speex sqlite srt srtp svt-av1 taglib theora utf8cpp webp x264 x265 xorgproto xz zstd
 gtk+3: at-spi2-core cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 gsettings-desktop-schemas harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo libdatrie libepoxy libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo pango pcre2 pixman xorgproto xz zstd
 gtk-vnc: at-spi2-core ca-certificates cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib gmp gnutls graphite2 gsettings-desktop-schemas gtk+3 harfbuzz hicolor-icon-theme icu4c@76 jpeg-turbo libepoxy libevent libgcrypt libgpg-error libidn2 libnghttp2 libpng libtasn1 libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo mpdecimal nettle openssl@3 p11-kit pango pcre2 pixman python-packaging python@3.13 readline sqlite unbound xorgproto xz zstd
-gtk4: cairo fontconfig freetype fribidi gdk-pixbuf gettext glib graphene graphite2 harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo libdatrie libepoxy libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman xorgproto xz zstd
+gtk4: cairo fontconfig freetype fribidi gdk-pixbuf gettext giflib glib graphene graphite2 harfbuzz hicolor-icon-theme icu4c@78 jpeg-turbo json-c libdatrie libepoxy libpng librsvg libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman webp xorgproto xz zstd
 gtksourceview4: at-spi2-core cairo dbus fontconfig freetype fribidi gdk-pixbuf gettext glib graphite2 gsettings-desktop-schemas gtk+3 harfbuzz hicolor-icon-theme icu4c@77 jpeg-turbo libepoxy libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst lz4 lzo pango pcre2 pixman xorgproto xz zstd
 guile: bdw-gc gmp libtool libunistring m4 pkgconf readline
 gumbo-parser: 
@@ -295,7 +295,7 @@ nghttp2: c-ares ca-certificates jemalloc libev libnghttp2 openssl@3
 ngrok: 
 nlohmann-json: 
 nmap: ca-certificates liblinear libssh2 lua lz4 mpdecimal openssl@3 pcre2 python@3.14 readline sqlite xz zstd
-node: ada-url brotli c-ares ca-certificates fmt hdrhistogram_c icu4c@78 libffi libnghttp2 libnghttp3 libngtcp2 libuv llhttp lz4 merve nbytes openssl@3 readline simdjson simdutf sqlite uvwasi xz zstd
+node: abseil ada-url brotli c-ares ca-certificates fmt hdrhistogram_c highway icu4c@78 libffi libnghttp2 libuv llhttp lz4 merve nbytes openssl@3 readline simdjson simdutf sqlite uvwasi xz zstd
 npth: 
 ntp: ca-certificates openssl@3
 numpy: gcc gmp isl libmpc libomp lz4 mpfr openblas xz zstd

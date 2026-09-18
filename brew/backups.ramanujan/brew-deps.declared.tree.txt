@@ -9243,6 +9243,7 @@ nmap
         └── xz 
 
 node
+├── abseil 
 ├── ada-url 
 │   └── fmt 
 ├── brotli 
@@ -9251,10 +9252,6 @@ node
 ├── icu4c@78 
 ├── libffi 
 ├── libnghttp2 
-├── libnghttp3 
-├── libngtcp2 
-│   └── openssl@3 
-│       └── ca-certificates 
 ├── libuv 
 ├── llhttp 
 ├── merve 
@@ -9268,9 +9265,10 @@ node
 │   └── readline 
 ├── uvwasi 
 │   └── libuv 
-└── zstd 
-    ├── lz4 
-    └── xz 
+├── zstd 
+│   ├── lz4 
+│   └── xz 
+└── highway 
 
 npth
 
