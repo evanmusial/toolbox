@@ -69,7 +69,7 @@ eye-d3 0.9.9
 faac 2.1
 faad2 2.11.3
 fdk-aac 2.0.3
-ffmpeg 9.0.1_1
+ffmpeg 9.0.2
 ffmpeg@6 6.1.6_3
 fftw 3.3.11
 findutils 4.11.0
@@ -457,7 +457,7 @@ xmp 4.3.1
 xorgproto 2025.1
 xpdf 4.06
 xvid 1.3.7
-xxhash 0.8.3
+xxhash 0.8.4
 xz 5.8.4
 yajl 2.1.0_1
 yq 4.53.6
