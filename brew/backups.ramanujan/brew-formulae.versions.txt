@@ -203,7 +203,7 @@ libraqm 0.11.0
 libraw 0.22.2
 libreplaygain r475
 librist 0.2.20
-librsvg 2.63.0
+librsvg 2.63.2
 librtlsdr 2.0.3
 libsamplerate 0.2.2
 libshout 2.4.6_2
