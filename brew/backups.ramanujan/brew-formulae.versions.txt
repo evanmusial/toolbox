@@ -438,7 +438,7 @@ unbound 1.26.1
 unpaper 7.0.0_4
 usb.ids 2026.06.26
 usbredir 0.15.0
-utf8cpp 4.2.0
+utf8cpp 4.2.1
 utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
