@@ -419,7 +419,7 @@ spice-gtk 0.42_3
 spice-protocol 0.14.5
 sqlite 3.53.4
 srt 1.5.7
-srtp 2.8.0
+srtp 2.8.1
 streamlink 8.6.1
 streamripper 1.64.6_2
 svt-av1 4.2.0
