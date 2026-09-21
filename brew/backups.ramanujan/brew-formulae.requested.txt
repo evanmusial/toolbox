@@ -22,6 +22,7 @@ dialog
 docker
 docker-completion
 docker-compose
+dotnet
 exempi
 exiftool
 eye-d3
@@ -111,6 +112,7 @@ thefuck
 tmux
 trivy
 virt-manager
+virtualenv
 volk
 watch
 wget

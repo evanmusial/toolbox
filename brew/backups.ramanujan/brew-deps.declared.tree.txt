@@ -1090,6 +1090,12 @@ docker-compose
 
 docker-desktop
 
+dotnet
+├── brotli 
+├── icu4c@78 
+└── openssl@3 
+    └── ca-certificates 
+
 double-conversion
 
 dtc
@@ -52541,6 +52547,18 @@ virt-manager
     └── gettext 
         ├── json-c 
         └── libunistring 
+
+virtualenv
+└── python@3.14 
+    ├── mpdecimal 
+    ├── openssl@3 
+    │   └── ca-certificates 
+    ├── sqlite 
+    │   └── readline 
+    ├── xz 
+    └── zstd 
+        ├── lz4 
+        └── xz 
 
 volk
 ├── cpu_features 

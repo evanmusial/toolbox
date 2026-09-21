@@ -1,4 +1,4 @@
-# backup: 20260920 @ 1910 (UTC)
+# backup: 20260921 @ 0005 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -183,6 +183,8 @@ brew "docker", link: false
 brew "docker-completion"
 # Isolated development environments using Docker
 brew "docker-compose"
+# .NET Core
+brew "dotnet"
 # Binary-decimal and decimal-binary routines for IEEE doubles
 brew "double-conversion"
 # Embeddable Javascript engine with compact footprint
@@ -637,6 +639,8 @@ brew "tmux"
 brew "trivy"
 # App for managing virtual machines
 brew "virt-manager"
+# Tool for creating isolated virtual python environments
+brew "virtualenv"
 # Vector Optimized Library of Kernels
 brew "volk"
 # Executes a program periodically, showing output fullscreen
