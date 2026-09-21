@@ -43307,6 +43307,11 @@ readline
 rename
 
 rsync
+├── libidn2 
+│   ├── libunistring 
+│   └── gettext 
+│       ├── json-c 
+│       └── libunistring 
 ├── lz4 
 ├── openssl@3 
 │   └── ca-certificates 

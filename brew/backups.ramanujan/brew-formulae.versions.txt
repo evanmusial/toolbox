@@ -95,7 +95,7 @@ glfw 3.5.1
 glib 2.90.0
 glib-networking 2.80.1
 gmp 6.3.0
-gnu-getopt 2.42.3
+gnu-getopt 2.42.4
 gnu-sed 4.10
 gnupg 2.5.22
 gnutls 3.8.13_2
@@ -397,7 +397,7 @@ qtwebview 6.11.2
 rav1e 0.8.1
 readline 8.3.6
 rename 1.601
-rsync 3.5.0
+rsync 3.5.1
 rtmpdump 2.6
 rubberband 4.0.0
 s2n 1.7.10

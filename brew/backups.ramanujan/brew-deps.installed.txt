@@ -402,7 +402,7 @@ qtwebview: brotli ca-certificates cairo dbus double-conversion fontconfig freety
 rav1e: 
 readline: 
 rename: 
-rsync: ca-certificates lz4 openssl@3 popt xxhash xz zstd
+rsync: ca-certificates gettext json-c libidn2 libunistring lz4 openssl@3 popt xxhash xz zstd
 rtmpdump: ca-certificates openssl@3
 rubberband: flac lame libogg libsamplerate libsndfile libvorbis mpg123 opus
 s2n: ca-certificates openssl@3
