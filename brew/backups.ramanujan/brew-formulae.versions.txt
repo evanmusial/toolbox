@@ -295,7 +295,7 @@ node 26.9.0
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.3
-nvm 0.40.7
+nvm 0.40.8
 ocrmypdf 17.12.1
 oniguruma 6.9.10
 onnx 1.23.0
@@ -444,7 +444,7 @@ utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
-virtualenv 21.8.1
+virtualenv 21.9.0
 volk 3.3.0_2
 vte3 0.84.1_2
 watch 4.0.7
