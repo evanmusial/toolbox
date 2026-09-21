@@ -268,7 +268,7 @@ m4 1.4.21
 mad 0.16.4
 mbedtls 4.2.0
 mbedtls@3 3.6.7
-md4c 0.5.3
+md4c 0.6.0
 media-info 26.05
 merve 1.2.2_3
 mkvdts2ac3 1.6.0_3
