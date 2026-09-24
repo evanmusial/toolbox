@@ -145,7 +145,7 @@ jbig2enc: giflib jpeg-turbo leptonica libpng libtiff little-cms2 lz4 openjpeg we
 jemalloc: 
 jpeg: 
 jpeg-turbo: 
-jpeg-xl: brotli giflib highway imath jpeg-turbo libdeflate libpng libtiff little-cms2 lz4 openexr openjph xz zstd
+jpeg-xl: brotli giflib highway imath jpeg-turbo libdeflate libpng libtiff little-cms2 lz4 openexr openjph webp xz zstd
 jq: oniguruma
 json-c: 
 json-glib: gettext glib libunistring pcre2
