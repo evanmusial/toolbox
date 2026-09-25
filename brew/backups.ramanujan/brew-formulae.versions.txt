@@ -19,10 +19,10 @@ aws-c-event-stream 1.0.0
 aws-c-http 1.0.0
 aws-c-io 1.0.0
 aws-c-mqtt 1.0.0
-aws-c-s3 1.1.3
+aws-c-s3 1.2.0
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.0
-awscli 2.37.2
+awscli 2.37.2_1
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -31,7 +31,7 @@ boost-build 1.92.0
 brotli 1.2.0
 bwfmetaedit 26.08.1
 c-ares 1.34.8
-ca-certificates 2026-08-13
+ca-certificates 2026-09-25
 cairo 1.18.6
 capstone 5.0.9
 certbot 5.8.0
@@ -226,7 +226,7 @@ libunibreak 8.0
 libunistring 1.4.2
 libusb 1.0.30
 libusrsctp 0.9.5.0_1
-libuv 1.52.1
+libuv 1.53.0
 libvidstab 1.1.2
 libvirt 12.7.0
 libvirt-glib 5.0.0_1
@@ -444,7 +444,7 @@ utf8proc 2.11.3
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
-virtualenv 21.11.1
+virtualenv 21.12.0
 volk 3.3.0_2
 vte3 0.84.1_2
 watch 4.0.7
