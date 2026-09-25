@@ -9276,6 +9276,8 @@ node
 ├── openssl@3 
 │   └── ca-certificates 
 ├── simdjson 
+├── simdutf 
+│   └── icu4c@78 
 ├── sqlite 
 │   └── readline 
 ├── uvwasi 
