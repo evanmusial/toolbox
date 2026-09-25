@@ -22,7 +22,7 @@ aws-c-mqtt 1.0.0
 aws-c-s3 1.2.0
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.0
-awscli 2.37.2_1
+awscli 2.37.3
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -331,7 +331,7 @@ pmix 6.1.0
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-prometheus 3.14.0
+prometheus 3.15.0
 protobuf 36.2
 prrte 4.1.0_1
 pugixml 1.16
@@ -440,7 +440,7 @@ unpaper 7.0.0_4
 usb.ids 2026.06.26
 usbredir 0.15.0
 utf8cpp 4.2.1
-utf8proc 2.11.3
+utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
