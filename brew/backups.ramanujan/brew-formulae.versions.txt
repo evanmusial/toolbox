@@ -22,7 +22,7 @@ aws-c-mqtt 1.0.0
 aws-c-s3 1.2.0
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.0
-awscli 2.37.3
+awscli 2.37.4
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -444,7 +444,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
-virtualenv 21.12.0
+virtualenv 21.12.1
 volk 3.3.0_2
 vte3 0.84.1_2
 watch 4.0.7
