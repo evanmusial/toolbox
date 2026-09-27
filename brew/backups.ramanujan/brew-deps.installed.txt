@@ -124,7 +124,7 @@ highway:
 html2text: 
 htop: ncurses
 httrack: ca-certificates openssl@4
-hunspell: gettext libunistring readline
+hunspell: gettext json-c libunistring readline
 hwloc: 
 icu4c@76: 
 icu4c@77: 

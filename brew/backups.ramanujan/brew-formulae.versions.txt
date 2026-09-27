@@ -121,7 +121,7 @@ highway 1.4.0
 html2text 2.4.0
 htop 3.5.3
 httrack 3.50.4
-hunspell 1.7.3
+hunspell 1.7.4
 hwloc 2.15.0
 icu4c@76 76.1_2
 icu4c@77 77.1_1
