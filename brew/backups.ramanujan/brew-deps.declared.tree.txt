@@ -46315,9 +46315,7 @@ tbb
 └── hwloc 
 
 tcl-tk
-├── libtommath 
-└── openssl@3 
-    └── ca-certificates 
+└── libtommath 
 
 tcl-tk@8
 └── openssl@3 

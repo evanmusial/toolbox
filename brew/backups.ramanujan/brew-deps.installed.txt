@@ -433,7 +433,7 @@ svt-av1:
 syncthing: 
 taglib: utf8cpp
 tbb: hwloc
-tcl-tk: ca-certificates libtommath openssl@3
+tcl-tk: libtommath
 tcl-tk@8: ca-certificates openssl@3
 telnet: 
 hashicorp/tap/terraform: 
