@@ -112,7 +112,7 @@ gtk-vnc 1.5.0
 gtk4 4.24.0
 gtksourceview4 4.8.4_2
 guile 3.0.11
-gumbo-parser 0.14.0
+gumbo-parser 0.14.1
 hackrf 2026.01.3
 harfbuzz 14.5.0
 hdrhistogram_c 0.11.10
