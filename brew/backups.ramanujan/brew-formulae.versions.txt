@@ -307,8 +307,8 @@ openjpeg 2.5.4
 openjph 0.32.0
 openldap 2.7.1
 openmotif 2.3.8_4
-openssl@3 3.6.4
-openssl@4 4.0.2
+openssl@3 3.6.4_1
+openssl@4 4.0.2_1
 openvino 2026.4.0_1
 opus 1.6.1
 opusfile 0.12_1
