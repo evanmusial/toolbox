@@ -86556,7 +86556,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/c/claude-code.rb",
       "ruby_source_checksum": {
@@ -86577,20 +86577,20 @@
       ],
       "desc": "App to build and share containerised applications and microservices",
       "homepage": "https://www.docker.com/products/docker-desktop",
-      "url": "https://desktop.docker.com/mac/main/arm64/240144/Docker.dmg",
+      "url": "https://desktop.docker.com/mac/main/arm64/240920/Docker.dmg",
       "url_specs": {},
-      "version": "4.92.0,240144",
+      "version": "4.93.0,240920",
       "autobump": true,
       "no_autobump_message": null,
       "skip_livecheck": false,
-      "installed": "4.92.0,240144",
-      "installed_time": 1790037751,
-      "bundle_version": "240144",
-      "bundle_short_version": "4.92.0",
+      "installed": "4.93.0,240920",
+      "installed_time": 1790618068,
+      "bundle_version": "240920",
+      "bundle_short_version": "4.93.0",
       "pinned": false,
       "pinned_version": null,
       "outdated": false,
-      "sha256": "e513bbfeca246165595e2f17cabf6579936f36057f3f4fb689c619e6aac6d188",
+      "sha256": "bf062f45334c711bd2fc2ed47a5588d050fbb950be3ae3aa4ac9826f04ad4dba",
       "artifacts": [
         {
           "uninstall": [
@@ -86803,11 +86803,11 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/d/docker-desktop.rb",
       "ruby_source_checksum": {
-        "sha256": "0bdc4fda909468e716a7f66fdcfd1377991a76d1982b5b66d7ad0c2ec01ef810"
+        "sha256": "8de5738de63ee7c84d20839137b09a21de8e9fa6e799fde492e57da75a81c670"
       }
     },
     {
@@ -86863,7 +86863,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -86964,7 +86964,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -87097,7 +87097,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -87170,7 +87170,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -87266,7 +87266,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "47bfb6f551c97d8d578e2fd7baeffcae0b109cfb",
+      "tap_git_head": "134e0a610026776d9f6075e7b7462f5f814b4651",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
