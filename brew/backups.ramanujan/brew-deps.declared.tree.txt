@@ -9230,7 +9230,7 @@ nghttp2
 ├── jemalloc 
 ├── libev 
 ├── libnghttp2 
-└── openssl@3 
+└── openssl@4 
     └── ca-certificates 
 
 ngrok
