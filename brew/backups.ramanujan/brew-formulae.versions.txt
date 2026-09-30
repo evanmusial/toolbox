@@ -13,7 +13,7 @@ at-spi2-core 2.62.0.1
 augeas 1.15.0
 aws-c-auth 1.0.0
 aws-c-cal 1.0.0
-aws-c-common 1.0.1
+aws-c-common 1.0.2
 aws-c-compression 1.0.0
 aws-c-event-stream 1.0.0
 aws-c-http 1.0.0
@@ -21,8 +21,8 @@ aws-c-io 1.0.0
 aws-c-mqtt 1.0.0
 aws-c-s3 1.2.0
 aws-c-sdkutils 1.0.0
-aws-checksums 1.0.0
-awscli 2.37.6
+aws-checksums 1.0.1
+awscli 2.37.7
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
