@@ -109,7 +109,7 @@ gsettings-desktop-schemas 51.0
 gstreamer 1.28.7_2
 gtk+3 3.24.52
 gtk-vnc 1.5.0
-gtk4 4.24.0
+gtk4 4.24.1
 gtksourceview4 4.8.4_2
 guile 3.0.11
 gumbo-parser 0.14.1
@@ -303,7 +303,7 @@ open-mpi 5.0.11
 openblas 0.3.34
 opencore-amr 0.1.6
 openexr 3.5.1
-openjpeg 2.5.4
+openjpeg 2.5.4_1
 openjph 0.32.0
 openldap 2.7.1
 openmotif 2.3.8_4
@@ -435,7 +435,7 @@ tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.7c
-trivy 0.74.0
+trivy 0.75.0
 unbound 1.26.1
 unpaper 7.0.0_4
 usb.ids 2026.06.26
