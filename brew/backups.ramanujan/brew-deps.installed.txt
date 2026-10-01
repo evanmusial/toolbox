@@ -215,7 +215,7 @@ libslirp: gettext glib json-c libunistring pcre2
 libsm: libice xorgproto
 libsndfile: flac lame libogg libvorbis mpg123 opus
 libsodium: 
-libsoup: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libpsl libtasn1 libunistring nettle openssl@3 p11-kit pcre2 readline sqlite unbound
+libsoup: ca-certificates gettext glib glib-networking gmp gnutls gsettings-desktop-schemas json-c libidn2 libnghttp2 libpsl libtasn1 libunistring lz4 nettle p11-kit pcre2 readline sqlite xz zstd
 libsoxr: 
 libssh: ca-certificates openssl@3
 libssh2: ca-certificates openssl@3
