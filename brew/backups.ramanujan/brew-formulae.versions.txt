@@ -48,7 +48,7 @@ cpio 2.15
 cpu_features 0.11.0
 cpufetch 1.07
 crc32c 1.1.2
-cryptography 50.0.1
+cryptography 50.0.2
 cunit 2.1-3
 curl 8.22.0
 cyrus-sasl 2.1.28_2
