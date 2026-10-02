@@ -870,6 +870,7 @@ awscli
 ├── aws-checksums 
 │   └── aws-c-common 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -977,6 +978,7 @@ certbot
 ├── libyaml 
 ├── pydantic 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -1109,6 +1111,7 @@ exiftool
 
 eye-d3
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -2476,6 +2479,7 @@ gobject-introspection
 │       └── libunistring 
 ├── pkgconf 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -4508,6 +4512,7 @@ gstreamer
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
 │   │   └── python@3.14 
+│   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@3 
 │   │       │   └── ca-certificates 
@@ -4569,6 +4574,7 @@ gstreamer
 │               ├── json-c 
 │               └── libunistring 
 ├── python@3.14 
+│   ├── ca-certificates 
 │   ├── mpdecimal 
 │   ├── openssl@3 
 │   │   └── ca-certificates 
@@ -7054,6 +7060,7 @@ img2pdf
 │       ├── jpeg-turbo 
 │       └── libpng 
 ├── python@3.14 
+│   ├── ca-certificates 
 │   ├── mpdecimal 
 │   ├── openssl@3 
 │   │   └── ca-certificates 
@@ -8393,6 +8400,7 @@ libvirt-python
 │       ├── json-c 
 │       └── libunistring 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -9023,6 +9031,7 @@ mkvtomp4
 │       ├── json-c 
 │       └── libunistring 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -9256,6 +9265,7 @@ nmap
 │   └── ca-certificates 
 ├── pcre2 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -9876,6 +9886,7 @@ ocrmypdf
 │   │       ├── jpeg-turbo 
 │   │       └── libpng 
 │   ├── python@3.14 
+│   │   ├── ca-certificates 
 │   │   ├── mpdecimal 
 │   │   ├── openssl@3 
 │   │   │   └── ca-certificates 
@@ -10119,6 +10130,7 @@ ocrmypdf
 ├── pybind11 
 ├── pydantic 
 ├── python@3.14 
+│   ├── ca-certificates 
 │   ├── mpdecimal 
 │   ├── openssl@3 
 │   │   └── ca-certificates 
@@ -11100,6 +11112,7 @@ pinentry-mac
 
 pipx
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -11331,6 +11344,7 @@ pygobject3
 │   │       └── libunistring 
 │   ├── pkgconf 
 │   └── python@3.14 
+│       ├── ca-certificates 
 │       ├── mpdecimal 
 │       ├── openssl@3 
 │       │   └── ca-certificates 
@@ -11453,6 +11467,7 @@ python@3.13
 └── xz 
 
 python@3.14
+├── ca-certificates 
 ├── mpdecimal 
 ├── openssl@3 
 │   └── ca-certificates 
@@ -43374,6 +43389,7 @@ s2n
 s3cmd
 ├── libmagic 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -43421,6 +43437,7 @@ soapyrtlsdr
 │   └── libusb 
 └── soapysdr 
     └── python@3.14 
+        ├── ca-certificates 
         ├── mpdecimal 
         ├── openssl@3 
         │   └── ca-certificates 
@@ -43433,6 +43450,7 @@ soapyrtlsdr
 
 soapysdr
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -43475,6 +43493,7 @@ sox
 
 speedtest-cli
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -45485,6 +45504,7 @@ spice-gtk
 │   │   │   │       └── libunistring 
 │   │   │   ├── pkgconf 
 │   │   │   └── python@3.14 
+│   │   │       ├── ca-certificates 
 │   │   │       ├── mpdecimal 
 │   │   │       ├── openssl@3 
 │   │   │       │   └── ca-certificates 
@@ -45546,6 +45566,7 @@ spice-gtk
 │   │               ├── json-c 
 │   │               └── libunistring 
 │   ├── python@3.14 
+│   │   ├── ca-certificates 
 │   │   ├── mpdecimal 
 │   │   ├── openssl@3 
 │   │   │   └── ca-certificates 
@@ -46213,6 +46234,7 @@ spice-gtk
 │   │       └── libunistring 
 │   ├── pkgconf 
 │   └── python@3.14 
+│       ├── ca-certificates 
 │       ├── mpdecimal 
 │       ├── openssl@3 
 │       │   └── ca-certificates 
@@ -46307,6 +46329,7 @@ streamlink
 ├── libxml2 
 │   └── readline 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -46658,6 +46681,7 @@ tesseract
 
 thefuck
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -48292,6 +48316,7 @@ virt-manager
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   └── python@3.14 
+│       ├── ca-certificates 
 │       ├── mpdecimal 
 │       ├── openssl@3 
 │       │   └── ca-certificates 
@@ -48467,6 +48492,7 @@ virt-manager
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
 │   │   └── python@3.14 
+│   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@3 
 │   │       │   └── ca-certificates 
@@ -48528,6 +48554,7 @@ virt-manager
 │               ├── json-c 
 │               └── libunistring 
 ├── python@3.14 
+│   ├── ca-certificates 
 │   ├── mpdecimal 
 │   ├── openssl@3 
 │   │   └── ca-certificates 
@@ -50534,6 +50561,7 @@ virt-manager
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── pkgconf 
 │   │   │   │   └── python@3.14 
+│   │   │   │       ├── ca-certificates 
 │   │   │   │       ├── mpdecimal 
 │   │   │   │       ├── openssl@3 
 │   │   │   │       │   └── ca-certificates 
@@ -50595,6 +50623,7 @@ virt-manager
 │   │   │               ├── json-c 
 │   │   │               └── libunistring 
 │   │   ├── python@3.14 
+│   │   │   ├── ca-certificates 
 │   │   │   ├── mpdecimal 
 │   │   │   ├── openssl@3 
 │   │   │   │   └── ca-certificates 
@@ -51262,6 +51291,7 @@ virt-manager
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
 │   │   └── python@3.14 
+│   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@3 
 │   │       │   └── ca-certificates 
@@ -52609,6 +52639,7 @@ virt-manager
 
 virtualenv
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
@@ -52624,6 +52655,7 @@ volk
 ├── fmt 
 ├── orc 
 └── python@3.14 
+    ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@3 
     │   └── ca-certificates 
