@@ -86727,7 +86727,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/c/claude-code.rb",
       "ruby_source_checksum": {
@@ -86974,7 +86974,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/d/docker-desktop.rb",
       "ruby_source_checksum": {
@@ -87034,7 +87034,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -87135,7 +87135,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -87268,7 +87268,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -87341,7 +87341,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -87437,7 +87437,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "4a0d18028ec1aaa10ec5763188e085b9399df923",
+      "tap_git_head": "8b4189896b4d4fb1d132d073be78b11fc48e4854",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
