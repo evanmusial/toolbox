@@ -3,7 +3,9 @@ a52dec
 abseil
 
 ada-url
-└── fmt 
+├── fmt 
+└── simdutf 
+    └── icu4c@78 
 
 adns
 
@@ -9279,7 +9281,9 @@ nmap
 node
 ├── abseil 
 ├── ada-url 
-│   └── fmt 
+│   ├── fmt 
+│   └── simdutf 
+│       └── icu4c@78 
 ├── brotli 
 ├── c-ares 
 ├── hdrhistogram_c 
