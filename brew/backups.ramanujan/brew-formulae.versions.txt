@@ -405,7 +405,7 @@ s2n 1.7.11
 s3cmd 2.4.0_1
 sc-im 0.8.5_4
 sdl2-compat 2.32.72
-sdl3 3.4.16
+sdl3 3.4.18
 shared-mime-info 2.5.1
 simdjson 4.6.11
 simdutf 9.2.1_1
@@ -445,7 +445,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_5
-virtualenv 21.14.2
+virtualenv 21.14.3
 volk 3.3.0_2
 vte3 0.84.1_2
 watch 4.0.7
