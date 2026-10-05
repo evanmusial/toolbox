@@ -19,7 +19,7 @@ aws-c-event-stream 1.0.0
 aws-c-http 1.0.0
 aws-c-io 1.0.0
 aws-c-mqtt 1.0.0
-aws-c-s3 1.3.0
+aws-c-s3 1.3.1
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.1
 awscli 2.37.9
@@ -172,7 +172,7 @@ libfido2 1.17.0
 libgcrypt 1.12.4
 libgit2 1.9.7
 libgpg-error 1.61
-libheif 1.23.5
+libheif 1.23.6
 libice 1.1.2
 libidn 1.44
 libidn2 2.3.8
@@ -397,7 +397,7 @@ qtwebview 6.11.2
 rav1e 0.8.1
 readline 8.3.6
 rename 1.601
-rpds-py 2026.6.3
+rpds-py 2026.9.1
 rsync 3.5.1
 rtmpdump 2.6
 rubberband 4.0.0
