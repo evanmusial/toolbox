@@ -176,6 +176,7 @@ libgcrypt: gettext json-c libgpg-error libunistring
 libgit2: ca-certificates libssh2 llhttp openssl@3
 libgpg-error: gettext libunistring
 libheif: aom giflib jpeg-turbo libde265 libpng libtiff libvmaf lz4 webp x265 xz zstd
+libheif-plugins: aom ca-certificates dav1d ffmpeg giflib jpeg-turbo lame libde265 libheif libpng libtiff libvmaf libvpx little-cms2 lz4 mpg123 openjpeg openjph openssl@3 opus rav1e sdl2-compat sdl3 svt-av1 webp x264 x265 xz zstd
 libice: xorgproto
 libidn: 
 libidn2: gettext libunistring

@@ -1,4 +1,4 @@
-# backup: 20261005 @ 2245 (UTC)
+# backup: 20261006 @ 0924 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -433,6 +433,8 @@ brew "libev"
 brew "libffi"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif-plugins"
 # X.Org: Inter-Client Exchange Library
 brew "libice"
 # Library for large linear classification
