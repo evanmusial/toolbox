@@ -187,7 +187,7 @@ liblinear:
 liblqr: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
 libmagic: 
 libmatroska: libebml
-libmediainfo: gettext glib libmms libunistring libzen pcre2
+libmediainfo: gettext glib json-c libmms libunistring libzen pcre2
 libmetalink: 
 libmicrohttpd: ca-certificates gettext gmp gnutls json-c libidn2 libtasn1 libunistring nettle p11-kit
 libmms: ca-certificates gettext glib mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
@@ -274,7 +274,7 @@ makemkv:
 mbedtls: 
 mbedtls@3: 
 md4c: 
-media-info: gettext glib libmediainfo libmms libunistring libzen pcre2
+media-info: gettext glib json-c libmediainfo libmms libunistring libzen pcre2
 merve: icu4c@78 simdutf
 mkvdts2ac3: aom aribb24 assimp boost brotli ca-certificates cairo cjson dav1d dbus double-conversion ffmpeg flac fmt fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway hunspell icu4c imath jasper jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libebml libevent libidn2 libmatroska libmicrohttpd libmng libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls md4c mkvtoolnix mpdecimal mpg123 nettle nlohmann-json opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman pugixml python@3.12 qt rav1e readline rubberband sdl2 snappy speex sqlite srt svt-av1 tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg zstd
 mkvtomp4: aom aribb24 assimp boost brotli ca-certificates cairo cjson dav1d dbus double-conversion ffmpeg flac fmt fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls gpac graphite2 harfbuzz highway hunspell icu4c imath jasper jpeg-turbo jpeg-xl lame leptonica libarchive libass libb2 libbluray libebml libevent libidn2 libmatroska libmicrohttpd libmng libnghttp2 libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libtiff libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls md4c mkvtoolnix mpdecimal mpg123 nettle nlohmann-json opencore-amr openexr openjpeg openssl@3 opus p11-kit pango pcre2 pixman pugixml python@3.12 qt rav1e readline rubberband sdl2 snappy speex sqlite srt svt-av1 tesseract theora unbound utf8cpp webp x264 x265 xorgproto xvid xz zeromq zimg zstd
