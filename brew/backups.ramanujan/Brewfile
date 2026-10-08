@@ -1,4 +1,4 @@
-# backup: 20261008 @ 0005 (UTC)
+# backup: 20261008 @ 1453 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -213,82 +213,18 @@ brew "x264"
 brew "x265"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# Ogg Bitstream Library
-brew "libogg"
-# Free lossless audio codec
-brew "flac"
-# Minimalistic plugin API for video effects
-brew "frei0r"
-# Performance-portable, length-agnostic SIMD with runtime dispatch
-brew "highway"
-# Library of 2D and 3D vector, matrix, and math operations
-brew "imath"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
-# High dynamic-range image file format
-brew "openexr"
-# New file format for still image compression
-brew "jpeg-xl"
-# Library for JPEG-2000 image manipulation
-brew "openjpeg"
-# Image processing and image analysis library
-brew "leptonica"
-# Secure hashing function
-brew "libb2"
-# Multi-format archive and compression library
-brew "libarchive"
-# Implementation of the Unicode line- and word-breaking algorithms
-brew "libunibreak"
-# Subtitle renderer for the ASS/SSA subtitle format
-brew "libass"
-# Blu-Ray disc playback library for media players like VLC
-brew "libbluray"
-# Light HTTP/1.1 server library
-brew "libmicrohttpd"
-# Reliable Internet Stream Transport (RIST)
-brew "librist"
-# Library for sample rate conversion of audio data
-brew "libsamplerate"
-# Vorbis general audio compression codec
-brew "libvorbis"
-# C library for files containing sampled sound
-brew "libsndfile"
-# NaCl networking and cryptography library
-brew "libsodium"
-# High quality, one-dimensional sample-rate conversion library
-brew "libsoxr"
-# C library SSHv1/SSHv2 client and server protocols
-brew "libssh"
-# Transcode video stabilization plugin
-brew "libvidstab"
-# Audio codecs extracted from Android open source project
-brew "opencore-amr"
-# Fastest and safest AV1 video encoder
-brew "rav1e"
-# Audio time stretcher tool and library
-brew "rubberband"
-# Compression/decompression library aiming for high speed
-brew "snappy"
-# Audio codec designed for speech
-brew "speex"
-# Secure Reliable Transport
-brew "srt"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
-# Open video compression format
-brew "theora"
-# High-performance, high-quality MPEG-4 video library
-brew "xvid"
-# High-performance, asynchronous messaging library
-brew "zeromq"
-# Scaling, colorspace conversion, and dithering library
-brew "zimg"
 # LLVM's OpenMP runtime library
 brew "libomp"
 # C routines to compute the Discrete Fourier Transform
 brew "fftw"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Ogg Bitstream Library
+brew "libogg"
+# Free lossless audio codec
+brew "flac"
+# Minimalistic plugin API for video effects
+brew "frei0r"
 # C library for multiple-precision floating-point computations
 brew "mpfr"
 # GNU awk utility
@@ -307,8 +243,20 @@ brew "gengetopt"
 brew "gh"
 # JBIG2 decoder and library (for monochrome documents)
 brew "jbig2dec"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
+# Library for JPEG-2000 image manipulation
+brew "openjpeg"
+# Image processing and image analysis library
+brew "leptonica"
+# Secure hashing function
+brew "libb2"
+# Multi-format archive and compression library
+brew "libarchive"
 # International domain name library
 brew "libidn"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
 # Distributed revision control system
@@ -349,16 +297,38 @@ brew "pkgconf"
 brew "gobject-introspection"
 # PAM module for two-factor authentication
 brew "google-authenticator-libpam"
+# Vorbis general audio compression codec
+brew "libvorbis"
+# Open video compression format
+brew "theora"
 # Multimedia framework for research and academic purposes
 brew "gpac"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
 # GNU grep, egrep and fgrep
 brew "grep"
+# Library of 2D and 3D vector, matrix, and math operations
+brew "imath"
+# Implementation of the Unicode line- and word-breaking algorithms
+brew "libunibreak"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# Audio codec designed for speech
+brew "speex"
+# C library for files containing sampled sound
+brew "libsndfile"
+# NaCl networking and cryptography library
+brew "libsodium"
+# Audio codecs extracted from Android open source project
+brew "opencore-amr"
+# High dynamic-range image file format
+brew "openexr"
 # Oil Runtime Compiler (ORC)
 brew "orc"
 # Tool for downloading RTMP streaming media
 brew "rtmpdump"
+# Secure Reliable Transport
+brew "srt"
 # UTF-8 with C++ in a Portable Way
 brew "utf8cpp"
 # Macro processing language
@@ -369,6 +339,8 @@ brew "libtool"
 brew "guile"
 # Low cost software radio platform
 brew "hackrf"
+# Performance-portable, length-agnostic SIMD with runtime dispatch
+brew "highway"
 # Advanced HTML-to-text converter
 brew "html2text"
 # Improved top (interactive process viewer)
@@ -415,6 +387,8 @@ brew "jbig2enc"
 brew "jemalloc"
 # Image manipulation library
 brew "jpeg"
+# New file format for still image compression
+brew "jpeg-xl"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
@@ -423,6 +397,8 @@ brew "jq"
 brew "jsoncpp"
 # USB 3.0 Superspeed Software Defined Radio Source
 brew "libbladerf"
+# Blu-Ray disc playback library for media players like VLC
+brew "libbluray"
 # Convert pixel information into colored ASCII art
 brew "libcaca"
 # Sort of a sbinary version of XML
@@ -433,6 +409,8 @@ brew "libev"
 brew "libffi"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
+# Fastest and safest AV1 video encoder
+brew "rav1e"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif-plugins"
 # X.Org: Inter-Client Exchange Library
@@ -453,6 +431,8 @@ brew "libzen"
 brew "libmediainfo"
 # C library to parse Metalink XML files
 brew "libmetalink"
+# Light HTTP/1.1 server library
+brew "libmicrohttpd"
 # MNG/JNG reference library
 brew "libmng"
 # Library that provides automatic proxy configuration management
@@ -461,12 +441,22 @@ brew "libproxy"
 brew "libpthread-stubs"
 # Library for reading RAW files from digital photo cameras
 brew "libraw"
+# Reliable Internet Stream Transport (RIST)
+brew "librist"
 # Use Realtek DVB-T dongles as a cheap SDR
 brew "librtlsdr"
+# Library for sample rate conversion of audio data
+brew "libsamplerate"
 # X.Org: X Session Management Library
 brew "libsm"
+# High quality, one-dimensional sample-rate conversion library
+brew "libsoxr"
+# C library SSHv1/SSHv2 client and server protocols
+brew "libssh"
 # Multi-platform support library with a focus on asynchronous I/O
 brew "libuv"
+# Transcode video stabilization plugin
+brew "libvidstab"
 # X.Org: X FreeType library
 brew "libxft"
 # Read binary Excel files from C/C++
@@ -511,6 +501,16 @@ brew "nlohmann-json"
 brew "protobuf"
 # Cross-platform application and UI framework
 brew "qt"
+# Audio time stretcher tool and library
+brew "rubberband"
+# Compression/decompression library aiming for high speed
+brew "snappy"
+# High-performance, high-quality MPEG-4 video library
+brew "xvid"
+# High-performance, asynchronous messaging library
+brew "zeromq"
+# Scaling, colorspace conversion, and dithering library
+brew "zimg"
 # Convert DTS audio to AC3 within a matroska file
 brew "mkvdts2ac3"
 # Convert mkv files to mp4
@@ -619,8 +619,6 @@ brew "socat"
 brew "sox"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
-# Convert XML to another format (based on XSL or other tools)
-brew "xmlto"
 # CLI for extracting streams from various websites to a video player
 brew "streamlink"
 # Separate tracks via Shoutcasts title-streaming
@@ -651,6 +649,8 @@ brew "watch"
 brew "wget"
 # Lookup tool for domain names and other internet resources
 brew "whois"
+# Convert XML to another format (based on XSL or other tools)
+brew "xmlto"
 # Command-line player for module music formats (MOD, S3M, IT, etc)
 brew "xmp"
 # PDF viewer

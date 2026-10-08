@@ -57,6 +57,7 @@ liblqr
 libmagic
 libmetalink
 libproxy
+libpthread-stubs
 libraw
 logrotate
 lolcat
@@ -80,6 +81,7 @@ ocrmypdf
 open-mpi
 openldap
 openmotif
+openvino
 p7zip
 pcre
 perl
@@ -118,6 +120,7 @@ volk
 watch
 wget
 whois
+xmlto
 xmp
 xpdf
 yq

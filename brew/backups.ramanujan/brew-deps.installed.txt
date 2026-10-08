@@ -71,9 +71,7 @@ exiftool:
 eye-d3: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
 faac: 
 faad2: 
-fdk-aac: 
 ffmpeg: ca-certificates dav1d lame libvmaf libvpx mpg123 openssl@3 opus sdl2-compat sdl3 svt-av1 x264 x265 xz
-ffmpeg@6: aom aribb24 brotli ca-certificates cairo cjson dav1d flac fontconfig freetype frei0r fribidi gettext giflib glib gmp gnutls graphite2 harfbuzz highway icu4c@78 imath jpeg-turbo jpeg-xl json-c lame leptonica libarchive libass libb2 libbluray libdatrie libdeflate libidn2 libmicrohttpd libogg libpng librist libsamplerate libsndfile libsodium libsoxr libssh libtasn1 libthai libtiff libudfread libunibreak libunistring libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mbedtls@3 mpg123 nettle opencore-amr openexr openjpeg openjph openssl@3 opus p11-kit pango pcre2 pixman rav1e rubberband sdl2-compat sdl3 snappy speex srt svt-av1 tesseract theora webp x264 x265 xorgproto xvid xz zeromq zimg zstd
 fftw: libomp
 findutils: 
 flac: libogg
@@ -422,7 +420,7 @@ socat: ca-certificates openssl@3
 sox: ca-certificates flac lame libogg libpng libsndfile libvorbis mad mpg123 openssl@3 opus opusfile
 speedtest-cli: ca-certificates mpdecimal openssl@3 python@3.13 readline sqlite xz
 speex: libogg
-spice-gtk: aom aribb24 at-spi2-core brotli ca-certificates cairo cjson dav1d dbus docbook docbook-xsl faac faad2 fdk-aac ffmpeg@6 flac fontconfig freetype frei0r fribidi gcc gdk-pixbuf gettext giflib glib glib-networking gmp gnu-getopt gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gstreamer gtk+3 gtk4 harfbuzz hicolor-icon-theme highway hwloc icu4c imath isl jpeg-turbo jpeg-xl json-glib lame leptonica libarchive libass libb2 libbluray libcuefile libepoxy libevent libidn2 libmicrohttpd libmpc libnghttp2 libogg libpng libpsl libpthread-stubs libreplaygain librist libsamplerate libshout libsndfile libsodium libsoup libsoxr libssh libtasn1 libtiff libunibreak libunistring libusb libusrsctp libvidstab libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mbedtls mpdecimal mpfr mpg123 musepack nettle numpy openblas opencore-amr openexr openjpeg openssl@3 openvino opus orc p11-kit pango pcre2 phodav pixman pkg-config pugixml py3cairo pygobject3 python@3.12 rav1e readline rtmpdump rubberband sdl2 snappy speex spice-protocol sqlite srt srtp svt-av1 taglib tbb tesseract theora unbound usbredir webp x264 x265 xmlto xorgproto xvid xz zeromq zimg zstd
+spice-gtk: aom at-spi2-core brotli ca-certificates cairo dav1d dbus faac faad2 ffmpeg flac fontconfig freetype fribidi gdk-pixbuf gettext giflib glib glib-networking gmp gnutls gobject-introspection graphene graphite2 gsettings-desktop-schemas gstreamer gtk+3 gtk4 harfbuzz hicolor-icon-theme icu4c@78 imath jpeg-turbo json-c json-glib lame libass libcuefile libdatrie libdeflate libepoxy libidn2 libnghttp2 libnice libogg libpng libpsl libreplaygain librsvg libshout libsndfile libsodium libsoup libtasn1 libthai libtiff libunibreak libunistring libusb libusrsctp libvmaf libvorbis libvpx libx11 libxau libxcb libxdmcp libxext libxfixes libxi libxrender libxtst little-cms2 lz4 lzo mpdecimal mpg123 musepack nettle opencore-amr openexr openjpeg openjph openssl@3 opus orc p11-kit pango pcre2 phodav pixman pkgconf py3cairo pygobject3 python@3.14 readline rtmpdump sdl2-compat sdl3 speex spice-protocol sqlite srt srtp svt-av1 taglib theora usbredir utf8cpp webp x264 x265 xorgproto xz zstd
 spice-protocol: 
 spundle: 
 sqlite: readline
