@@ -1,4 +1,4 @@
-# backup: 20261008 @ 1453 (UTC)
+# backup: 20261008 @ 1809 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -673,6 +673,7 @@ cask "ngrok"
 cask "spundle"
 # System monitor for the menu bar
 cask "stats"
+npm "@openai/codex"
 npm "cf"
 npm "esm"
 npm "gcp-docs"
