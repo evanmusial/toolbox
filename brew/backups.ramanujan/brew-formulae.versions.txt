@@ -290,7 +290,7 @@ nexttrace 1.7.3
 nghttp2 1.70.0
 nlohmann-json 3.12.0
 nmap 7.991_1
-node 26.11.0_1
+node 26.11.1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.3
@@ -337,9 +337,9 @@ pugixml 1.16
 pwgen 2.08
 py3cairo 1.29.2
 pybind11 3.1.0
-pycparser 3.0
+pycparser 3.1
 pydantic 2.13.5
-pygobject3 3.58.0
+pygobject3 3.58.1
 python-gdbm@3.11 3.11.17
 python-packaging 26.3
 python-setuptools 84.0.0

@@ -344,7 +344,7 @@ py3cairo: cairo fontconfig freetype gettext glib json-c libpng libunistring libx
 pybind11: 
 pycparser: 
 pydantic: 
-pygobject3: ca-certificates cairo fontconfig freetype gettext glib gobject-introspection json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@3 pcre2 pixman pkgconf py3cairo python@3.14 readline sqlite xorgproto xz zstd
+pygobject3: brotli ca-certificates cairo fontconfig freetype gettext glib gobject-introspection json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo mpdecimal openssl@4 pcre2 pixman pkgconf py3cairo python@3.14 readline sqlite xorgproto xz zstd
 python-gdbm@3.11: ca-certificates gdbm mpdecimal openssl@3 python@3.11 readline sqlite xz
 python-packaging: 
 python-setuptools: 
