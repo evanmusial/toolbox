@@ -1,4 +1,4 @@
-# backup: 20261008 @ 2241 (UTC)
+# backup: 20261009 @ 1102 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -83,8 +83,6 @@ brew "aom"
 brew "c-ares"
 # Mozilla CA certificate store
 brew "ca-certificates"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # Library for command-line editing
@@ -131,6 +129,8 @@ brew "pycparser"
 brew "cffi"
 # Cryptographic recipes and primitives for Python
 brew "cryptography"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # GNU multiple precision arithmetic library
