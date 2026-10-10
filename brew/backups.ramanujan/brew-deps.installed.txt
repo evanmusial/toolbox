@@ -130,7 +130,7 @@ icu4c@78:
 id3lib: 
 id3tool: 
 id3v2: id3lib
-imagemagick: aom freetype giflib jpeg-turbo libde265 libheif libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
+imagemagick: aom brotli freetype giflib jpeg-turbo libde265 libheif libpng libtiff libtool libvmaf little-cms2 lz4 m4 webp x265 xz zstd
 imath: 
 img2pdf: aom ca-certificates cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo mpdecimal openjpeg openssl@3 pcre2 pillow pixman python@3.14 qpdf readline sqlite webp xorgproto xz zstd
 imlib2: freetype giflib jpeg-turbo libpng libtiff libx11 libxau libxcb libxdmcp libxext lz4 webp xorgproto xz zstd
@@ -340,7 +340,7 @@ protobuf: abseil
 prrte: ca-certificates hwloc libevent openssl@3 pmix
 pugixml: 
 pwgen: 
-py3cairo: cairo fontconfig freetype gettext glib json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
+py3cairo: brotli cairo fontconfig freetype gettext glib json-c libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lzo pcre2 pixman xorgproto
 pybind11: 
 pycparser: 
 pydantic: 
