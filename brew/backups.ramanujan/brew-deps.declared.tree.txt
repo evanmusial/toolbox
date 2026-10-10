@@ -10744,7 +10744,7 @@ pinentry-mac
         └── libunistring 
 
 pipx
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -54091,7 +54091,7 @@ virt-manager
         └── libunistring 
 
 virtualenv
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 

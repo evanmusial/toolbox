@@ -5,7 +5,7 @@ adns 1.7.0
 adwaita-icon-theme 51.0
 airspy 1.0.10
 airspyhf 1.6.8
-aom 3.15.1
+aom 3.15.2
 aria2 1.37.0_3
 aribb24 1.0.4
 assimp 6.0.5
@@ -18,11 +18,11 @@ aws-c-compression 1.0.0
 aws-c-event-stream 1.0.0_1
 aws-c-http 1.1.0
 aws-c-io 1.1.0
-aws-c-mqtt 1.1.0
+aws-c-mqtt 1.1.1
 aws-c-s3 1.3.1_1
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.1
-awscli 2.37.11
+awscli 2.37.12_1
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -35,8 +35,8 @@ ca-certificates 2026-09-25
 cairo 1.18.6
 capstone 5.0.9
 certbot 5.8.0_1
-certifi 2026.7.22
-cffi 2.1.1
+certifi 2026.7.22_1
+cffi 2.1.1_1
 chrony 4.9
 cjson 1.7.19
 cmake 4.4.4
@@ -48,7 +48,7 @@ cpio 2.15
 cpu_features 0.11.0
 cpufetch 1.07
 crc32c 1.1.2
-cryptography 50.0.2_1
+cryptography 50.0.2_2
 cunit 2.1-3
 curl 8.22.0_1
 cyrus-sasl 2.1.28_4
@@ -87,7 +87,7 @@ gettext 1.0
 gh 2.102.0
 ghostscript 10.08.0
 giflib 6.1.3
-git 2.56.0
+git 2.56.0_1
 git-lfs 3.8.0
 glfw 3.5.1
 glib 2.90.1
@@ -244,7 +244,7 @@ libxi 1.8.3
 libxls 1.6.3
 libxlsxwriter 1.2.4
 libxml2 2.15.4
-libxmp 4.7.3
+libxmp 4.7.4
 libxmu 1.3.1
 libxp 1.0.4
 libxrender 0.9.12
@@ -337,12 +337,12 @@ pugixml 1.16
 pwgen 2.08
 py3cairo 1.29.2
 pybind11 3.1.0
-pycparser 3.1
+pycparser 3.1_1
 pydantic 2.13.5
 pygobject3 3.58.1
 python-gdbm@3.11 3.11.17
-python-packaging 26.3
-python-setuptools 84.0.0
+python-packaging 26.3_1
+python-setuptools 84.0.0_1
 python-tk@3.11 3.11.17
 python@3.10 3.10.22
 python@3.11 3.11.17
@@ -396,7 +396,7 @@ qtwebview 6.11.2
 rav1e 0.8.1
 readline 8.3.6
 rename 1.601
-rpds-py 2026.9.1
+rpds-py 2026.9.1_1
 rsync 3.5.1
 rtmpdump 2.6_2
 rubberband 4.0.0
