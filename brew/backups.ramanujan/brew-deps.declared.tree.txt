@@ -901,7 +901,7 @@ certbot
 │       └── ca-certificates 
 ├── libyaml 
 ├── pydantic 
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -1034,7 +1034,7 @@ exempi
 exiftool
 
 eye-d3
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
