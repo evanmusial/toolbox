@@ -414,8 +414,8 @@ shared-mime-info: gettext glib libunistring pcre2
 simdjson: 
 simdutf: icu4c@78
 snappy: 
-soapyrtlsdr: ca-certificates librtlsdr libusb mpdecimal openssl@3 python@3.12 readline soapysdr sqlite xz
-soapysdr: ca-certificates mpdecimal openssl@3 python@3.12 readline sqlite xz
+soapyrtlsdr: ca-certificates librtlsdr libusb lz4 mpdecimal openssl@4 python@3.14 readline soapysdr sqlite xz zstd
+soapysdr: ca-certificates lz4 mpdecimal openssl@4 python@3.14 readline sqlite xz zstd
 socat: ca-certificates openssl@3
 sox: ca-certificates flac lame libogg libpng libsndfile libvorbis mad mpg123 openssl@3 opus opusfile
 speedtest-cli: ca-certificates mpdecimal openssl@3 python@3.13 readline sqlite xz
