@@ -62,7 +62,7 @@ docker:
 docker-completion: 
 docker-compose: 
 docker-desktop: 
-dotnet: brotli ca-certificates icu4c@78 openssl@3
+dotnet: brotli ca-certificates icu4c@78 openssl@4
 double-conversion: 
 dtc: libyaml
 duktape: 
@@ -328,7 +328,7 @@ phodav: ca-certificates gettext glib glib-networking gmp gnutls gsettings-deskto
 pillow: aom brotli cairo dav1d fontconfig freetype fribidi gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libavif libimagequant libpng libraqm libtiff libunistring libvmaf libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo openjpeg pcre2 pixman webp xorgproto xz zstd
 pinentry: gettext libassuan libgpg-error libunistring
 pinentry-mac: gettext libassuan libgpg-error libunistring
-pipx: ca-certificates lz4 mpdecimal openssl@3 python@3.14 readline sqlite xz zstd
+pipx: ca-certificates lz4 mpdecimal openssl@4 python@3.15 readline sqlite xz zstd
 pixman: 
 pkgconf: 
 pmix: ca-certificates hwloc libevent openssl@3
@@ -354,6 +354,7 @@ python@3.11: ca-certificates mpdecimal openssl@3 readline sqlite xz
 python@3.12: ca-certificates mpdecimal openssl@3 readline sqlite xz
 python@3.13: ca-certificates mpdecimal openssl@3 readline sqlite xz
 python@3.14: ca-certificates lz4 mpdecimal openssl@4 readline sqlite xz zstd
+python@3.15: ca-certificates lz4 mpdecimal openssl@4 readline sqlite xz zstd
 python@3.9: ca-certificates gdbm mpdecimal openssl@3 readline sqlite xz
 qemu: ca-certificates capstone dtc gettext glib gmp gnutls jpeg-turbo json-c libidn2 libpng libslirp libssh libtasn1 libunistring libusb libyaml lz4 lzo ncurses nettle openssl@3 p11-kit pcre2 pixman snappy vde xz zstd
 qpdf: ca-certificates jpeg-turbo openssl@4

@@ -1019,7 +1019,7 @@ docker-desktop
 dotnet
 ├── brotli 
 ├── icu4c@78 
-└── openssl@3 
+└── openssl@4 
     └── ca-certificates 
 
 double-conversion
@@ -11108,6 +11108,18 @@ python@3.13
 └── xz 
 
 python@3.14
+├── ca-certificates 
+├── mpdecimal 
+├── openssl@4 
+│   └── ca-certificates 
+├── sqlite 
+│   └── readline 
+├── xz 
+└── zstd 
+    ├── lz4 
+    └── xz 
+
+python@3.15
 ├── ca-certificates 
 ├── mpdecimal 
 ├── openssl@4 
