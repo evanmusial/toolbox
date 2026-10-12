@@ -6509,7 +6509,7 @@ img2pdf
 │       ├── giflib 
 │       ├── jpeg-turbo 
 │       └── libpng 
-├── python@3.14 
+├── python@3.15 
 │   ├── ca-certificates 
 │   ├── mpdecimal 
 │   ├── openssl@4 
@@ -8597,7 +8597,7 @@ mkvtomp4
 │   └── gettext 
 │       ├── json-c 
 │       └── libunistring 
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -9483,7 +9483,7 @@ ocrmypdf
 │   │       ├── giflib 
 │   │       ├── jpeg-turbo 
 │   │       └── libpng 
-│   ├── python@3.14 
+│   ├── python@3.15 
 │   │   ├── ca-certificates 
 │   │   ├── mpdecimal 
 │   │   ├── openssl@4 
@@ -44650,7 +44650,7 @@ sox
     └── opus 
 
 speedtest-cli
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -47580,7 +47580,7 @@ streamlink
 │   └── ca-certificates 
 ├── libxml2 
 │   └── readline 
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
