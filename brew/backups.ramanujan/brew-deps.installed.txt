@@ -22,7 +22,7 @@ aws-c-mqtt: aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io ca-cert
 aws-c-s3: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-http aws-c-io aws-c-sdkutils aws-checksums ca-certificates openssl@4 s2n
 aws-c-sdkutils: aws-c-common
 aws-checksums: aws-c-common
-awscli: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-event-stream aws-c-http aws-c-io aws-c-mqtt aws-c-s3 aws-c-sdkutils aws-checksums ca-certificates lz4 mpdecimal openssl@4 python@3.14 readline s2n sqlite xz zstd
+awscli: aws-c-auth aws-c-cal aws-c-common aws-c-compression aws-c-event-stream aws-c-http aws-c-io aws-c-mqtt aws-c-s3 aws-c-sdkutils aws-checksums ca-certificates lz4 mpdecimal openssl@4 python@3.15 readline s2n sqlite xz zstd
 bash: gettext json-c libunistring ncurses readline
 bdw-gc: 
 berkeley-db@5: 

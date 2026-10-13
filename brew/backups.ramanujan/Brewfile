@@ -1,4 +1,4 @@
-# backup: 20261013 @ 0003 (UTC)
+# backup: 20261013 @ 0204 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -101,8 +101,6 @@ brew "dbus"
 brew "augeas"
 # Library for decimal floating point arithmetic
 brew "mpdecimal"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Text-based UI library
@@ -131,6 +129,8 @@ brew "cffi"
 brew "cryptography"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # GNU multiple precision arithmetic library
