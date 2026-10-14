@@ -22,7 +22,7 @@ aws-c-mqtt 1.1.1
 aws-c-s3 1.3.1_1
 aws-c-sdkutils 1.0.0
 aws-checksums 1.0.1
-awscli 2.37.13
+awscli 2.38.0
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -430,7 +430,7 @@ tbb 2023.1.0
 tcl-tk 9.1.0
 tcl-tk@8 8.6.18
 telnet 308
-terraform 1.16.5
+terraform 1.16.6
 tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
