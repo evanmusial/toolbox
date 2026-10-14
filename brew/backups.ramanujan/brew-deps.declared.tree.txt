@@ -7915,57 +7915,46 @@ libvirt-glib
     └── libunistring 
 
 libvirt-python
-├── libvirt 
-│   ├── cyrus-sasl 
-│   │   ├── krb5 
-│   │   │   └── openssl@4 
-│   │   │       └── ca-certificates 
-│   │   └── openssl@4 
-│   │       └── ca-certificates 
-│   ├── glib 
-│   │   ├── pcre2 
-│   │   └── gettext 
-│   │       ├── json-c 
-│   │       └── libunistring 
-│   ├── gnutls 
-│   │   ├── ca-certificates 
-│   │   ├── gmp 
-│   │   ├── libidn2 
-│   │   │   ├── libunistring 
-│   │   │   └── gettext 
-│   │   │       ├── json-c 
-│   │   │       └── libunistring 
-│   │   ├── libtasn1 
-│   │   ├── libunistring 
-│   │   ├── nettle 
-│   │   │   └── gmp 
-│   │   ├── p11-kit 
-│   │   │   ├── ca-certificates 
-│   │   │   └── libtasn1 
-│   │   └── gettext 
-│   │       ├── json-c 
-│   │       └── libunistring 
-│   ├── json-c 
-│   ├── libiscsi 
-│   │   └── cunit 
-│   ├── libssh2 
-│   │   └── openssl@4 
-│   │       └── ca-certificates 
-│   ├── readline 
-│   └── gettext 
-│       ├── json-c 
-│       └── libunistring 
-└── python@3.14 
-    ├── ca-certificates 
-    ├── mpdecimal 
-    ├── openssl@4 
-    │   └── ca-certificates 
-    ├── sqlite 
-    │   └── readline 
-    ├── xz 
-    └── zstd 
-        ├── lz4 
-        └── xz 
+└── libvirt 
+    ├── cyrus-sasl 
+    │   ├── krb5 
+    │   │   └── openssl@4 
+    │   │       └── ca-certificates 
+    │   └── openssl@4 
+    │       └── ca-certificates 
+    ├── glib 
+    │   ├── pcre2 
+    │   └── gettext 
+    │       ├── json-c 
+    │       └── libunistring 
+    ├── gnutls 
+    │   ├── ca-certificates 
+    │   ├── gmp 
+    │   ├── libidn2 
+    │   │   ├── libunistring 
+    │   │   └── gettext 
+    │   │       ├── json-c 
+    │   │       └── libunistring 
+    │   ├── libtasn1 
+    │   ├── libunistring 
+    │   ├── nettle 
+    │   │   └── gmp 
+    │   ├── p11-kit 
+    │   │   ├── ca-certificates 
+    │   │   └── libtasn1 
+    │   └── gettext 
+    │       ├── json-c 
+    │       └── libunistring 
+    ├── json-c 
+    ├── libiscsi 
+    │   └── cunit 
+    ├── libssh2 
+    │   └── openssl@4 
+    │       └── ca-certificates 
+    ├── readline 
+    └── gettext 
+        ├── json-c 
+        └── libunistring 
 
 libvmaf
 
@@ -50084,57 +50073,46 @@ virt-manager
 │       ├── json-c 
 │       └── libunistring 
 ├── libvirt-python 
-│   ├── libvirt 
-│   │   ├── cyrus-sasl 
-│   │   │   ├── krb5 
-│   │   │   │   └── openssl@4 
-│   │   │   │       └── ca-certificates 
-│   │   │   └── openssl@4 
-│   │   │       └── ca-certificates 
-│   │   ├── glib 
-│   │   │   ├── pcre2 
-│   │   │   └── gettext 
-│   │   │       ├── json-c 
-│   │   │       └── libunistring 
-│   │   ├── gnutls 
-│   │   │   ├── ca-certificates 
-│   │   │   ├── gmp 
-│   │   │   ├── libidn2 
-│   │   │   │   ├── libunistring 
-│   │   │   │   └── gettext 
-│   │   │   │       ├── json-c 
-│   │   │   │       └── libunistring 
-│   │   │   ├── libtasn1 
-│   │   │   ├── libunistring 
-│   │   │   ├── nettle 
-│   │   │   │   └── gmp 
-│   │   │   ├── p11-kit 
-│   │   │   │   ├── ca-certificates 
-│   │   │   │   └── libtasn1 
-│   │   │   └── gettext 
-│   │   │       ├── json-c 
-│   │   │       └── libunistring 
-│   │   ├── json-c 
-│   │   ├── libiscsi 
-│   │   │   └── cunit 
-│   │   ├── libssh2 
-│   │   │   └── openssl@4 
-│   │   │       └── ca-certificates 
-│   │   ├── readline 
-│   │   └── gettext 
-│   │       ├── json-c 
-│   │       └── libunistring 
-│   └── python@3.14 
-│       ├── ca-certificates 
-│       ├── mpdecimal 
-│       ├── openssl@4 
-│       │   └── ca-certificates 
-│       ├── sqlite 
-│       │   └── readline 
-│       ├── xz 
-│       └── zstd 
-│           ├── lz4 
-│           └── xz 
+│   └── libvirt 
+│       ├── cyrus-sasl 
+│       │   ├── krb5 
+│       │   │   └── openssl@4 
+│       │   │       └── ca-certificates 
+│       │   └── openssl@4 
+│       │       └── ca-certificates 
+│       ├── glib 
+│       │   ├── pcre2 
+│       │   └── gettext 
+│       │       ├── json-c 
+│       │       └── libunistring 
+│       ├── gnutls 
+│       │   ├── ca-certificates 
+│       │   ├── gmp 
+│       │   ├── libidn2 
+│       │   │   ├── libunistring 
+│       │   │   └── gettext 
+│       │   │       ├── json-c 
+│       │   │       └── libunistring 
+│       │   ├── libtasn1 
+│       │   ├── libunistring 
+│       │   ├── nettle 
+│       │   │   └── gmp 
+│       │   ├── p11-kit 
+│       │   │   ├── ca-certificates 
+│       │   │   └── libtasn1 
+│       │   └── gettext 
+│       │       ├── json-c 
+│       │       └── libunistring 
+│       ├── json-c 
+│       ├── libiscsi 
+│       │   └── cunit 
+│       ├── libssh2 
+│       │   └── openssl@4 
+│       │       └── ca-certificates 
+│       ├── readline 
+│       └── gettext 
+│           ├── json-c 
+│           └── libunistring 
 ├── osinfo-db 
 ├── py3cairo 
 │   └── cairo 

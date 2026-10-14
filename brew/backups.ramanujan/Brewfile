@@ -1,4 +1,4 @@
-# backup: 20261014 @ 1225 (UTC)
+# backup: 20261014 @ 2121 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -13,6 +13,8 @@ brew "abseil"
 brew "fmt"
 # C/C++ resolver library and DNS resolver utilities
 brew "adns"
+# Generic-purpose lossless compression algorithm by Google
+brew "brotli"
 # Library for manipulating PNG images
 brew "libpng"
 # Software library to render fonts
@@ -115,8 +117,6 @@ brew "berkeley-db@5"
 brew "boost"
 # C++ build system
 brew "boost-build"
-# Generic-purpose lossless compression algorithm by Google
-brew "brotli"
 # Tool for embedding, validating, and exporting BWF file metadata
 brew "bwfmetaedit"
 # Mozilla CA bundle for Python
