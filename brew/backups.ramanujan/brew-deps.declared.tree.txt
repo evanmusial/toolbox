@@ -8827,7 +8827,7 @@ nmap
 ├── openssl@4 
 │   └── ca-certificates 
 ├── pcre2 
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -45077,7 +45077,7 @@ soapyrtlsdr
 ├── librtlsdr 
 │   └── libusb 
 └── soapysdr 
-    └── python@3.14 
+    └── python@3.15 
         ├── ca-certificates 
         ├── mpdecimal 
         ├── openssl@4 
@@ -45090,7 +45090,7 @@ soapyrtlsdr
             └── xz 
 
 soapysdr
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
