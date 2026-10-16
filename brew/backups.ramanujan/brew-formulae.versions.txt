@@ -16,7 +16,7 @@ aws-c-cal 1.0.0_1
 aws-c-common 1.0.3
 aws-c-compression 1.0.0
 aws-c-event-stream 1.0.0_1
-aws-c-http 1.1.0
+aws-c-http 1.1.1
 aws-c-io 1.1.0
 aws-c-mqtt 1.1.2
 aws-c-s3 1.3.1_1
@@ -289,7 +289,7 @@ nettle 4.0
 nexttrace 1.7.4
 nghttp2 1.70.0
 nlohmann-json 3.12.0
-nmap 7.991_1
+nmap 7.992
 node 26.12.0
 npth 1.8
 ntp 4.2.8p18
@@ -323,7 +323,7 @@ phodav 3.0_1
 pillow 12.3.0_1
 pinentry 1.3.3
 pinentry-mac 1.3.1.1
-pipx 1.17.14
+pipx 1.18.1
 pixman 0.46.4
 pkgconf 3.0.8
 pmix 6.1.0
