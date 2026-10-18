@@ -955,7 +955,9 @@ colima
 └── lima 
 
 coreutils
-└── gmp 
+├── gmp 
+└── openssl@4 
+    └── ca-certificates 
 
 cpio
 

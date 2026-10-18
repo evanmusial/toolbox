@@ -44,7 +44,7 @@ cmake:
 cmocka: 
 codec2: 
 colima: lima
-coreutils: gmp
+coreutils: ca-certificates gmp openssl@4
 cpio: 
 cpu_features: 
 cpufetch: 

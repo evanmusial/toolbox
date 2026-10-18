@@ -43,7 +43,7 @@ cmake 4.4.4
 cmocka 2.0.2
 codec2 1.2.0
 colima 0.10.3
-coreutils 9.12
+coreutils 9.12_1
 cpio 2.15
 cpu_features 0.11.0
 cpufetch 1.07
