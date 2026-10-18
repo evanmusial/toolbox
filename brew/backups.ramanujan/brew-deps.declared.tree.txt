@@ -1771,7 +1771,7 @@ gobject-introspection
 │       ├── json-c 
 │       └── libunistring 
 ├── pkgconf 
-└── python@3.14 
+└── python@3.15 
     ├── ca-certificates 
     ├── mpdecimal 
     ├── openssl@4 
@@ -3875,7 +3875,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
-│   │   └── python@3.14 
+│   │   └── python@3.15 
 │   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@4 
@@ -10973,7 +10973,7 @@ pygobject3
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── pkgconf 
-│   └── python@3.14 
+│   └── python@3.15 
 │       ├── ca-certificates 
 │       ├── mpdecimal 
 │       ├── openssl@4 
@@ -47218,7 +47218,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── pkgconf 
-│   │   │   └── python@3.14 
+│   │   │   └── python@3.15 
 │   │   │       ├── ca-certificates 
 │   │   │       ├── mpdecimal 
 │   │   │       ├── openssl@4 
@@ -47967,7 +47967,7 @@ spice-gtk
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── pkgconf 
-│   └── python@3.14 
+│   └── python@3.15 
 │       ├── ca-certificates 
 │       ├── mpdecimal 
 │       ├── openssl@4 
@@ -50286,7 +50286,7 @@ virt-manager
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
-│   │   └── python@3.14 
+│   │   └── python@3.15 
 │   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@4 
@@ -52429,7 +52429,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── pkgconf 
-│   │   │   │   └── python@3.14 
+│   │   │   │   └── python@3.15 
 │   │   │   │       ├── ca-certificates 
 │   │   │   │       ├── mpdecimal 
 │   │   │   │       ├── openssl@4 
@@ -53178,7 +53178,7 @@ virt-manager
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── pkgconf 
-│   │   └── python@3.14 
+│   │   └── python@3.15 
 │   │       ├── ca-certificates 
 │   │       ├── mpdecimal 
 │   │       ├── openssl@4 
