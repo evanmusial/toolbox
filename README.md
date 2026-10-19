@@ -2,6 +2,11 @@
 
 My public toolbox.
 
+## Apps
+
+- [`apps/codex-meter`](apps/codex-meter/) — a native dark-mode macOS dashboard
+  for Codex quota windows, workspace credits, and earned reset credits.
+
 ## Homebrew Backups
 
 The `brew/` directory contains Python 3 scripts for backing up and restoring
