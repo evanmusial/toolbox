@@ -272,7 +272,7 @@ media-info 26.10
 merve 1.2.2_4
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
-mkvtoolnix 102.0
+mkvtoolnix 103.0
 mmv 2.10
 moreutils 0.70
 mp3info 0.8.5a
@@ -445,7 +445,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_6
-virtualenv 21.14.8
+virtualenv 21.14.10
 volk 3.3.0_3
 vte3 0.84.1_3
 watch 4.0.7
