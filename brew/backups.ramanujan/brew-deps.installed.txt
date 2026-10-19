@@ -93,7 +93,7 @@ git: gettext json-c libunistring pcre2
 git-lfs: 
 glfw: 
 glib: gettext json-c libunistring pcre2
-glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schemas libevent libidn2 libnghttp2 libtasn1 libunistring mpdecimal nettle openssl@3 p11-kit pcre2 python-packaging python@3.13 readline sqlite unbound xz
+glib-networking: ca-certificates gettext glib gmp gnutls gsettings-desktop-schemas json-c libidn2 libtasn1 libunistring nettle p11-kit pcre2
 gmp: 
 gnu-getopt: 
 gnu-sed: 

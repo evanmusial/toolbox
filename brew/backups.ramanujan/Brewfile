@@ -1,4 +1,4 @@
-# backup: 20261019 @ 0224 (UTC)
+# backup: 20261019 @ 1237 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -265,14 +265,6 @@ brew "git"
 brew "git-lfs"
 # Multi-platform library for OpenGL applications
 brew "glfw"
-# Asynchronous event library
-brew "libevent"
-# Core utilities for Python packages
-brew "python-packaging"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # GNU implementation of the famous stream editor
@@ -331,6 +323,14 @@ brew "rtmpdump"
 brew "srt"
 # UTF-8 with C++ in a Portable Way
 brew "utf8cpp"
+# Asynchronous event library
+brew "libevent"
+# Core utilities for Python packages
+brew "python-packaging"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Macro processing language
 brew "m4"
 # Generic library support script
