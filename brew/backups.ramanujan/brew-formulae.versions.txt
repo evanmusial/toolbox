@@ -84,7 +84,7 @@ gdbm 1.26
 gdk-pixbuf 2.44.8
 gengetopt 2.23.1
 gettext 1.0
-gh 2.102.0
+gh 2.102.1
 ghostscript 10.08.0
 giflib 6.1.3
 git 2.56.0_1
