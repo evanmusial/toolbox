@@ -435,7 +435,7 @@ tesseract 5.5.3
 thefuck 3.32
 theora 1.2.0
 tmux 3.8
-trivy 0.76.0
+trivy 0.76.1
 unbound 1.26.2
 unpaper 7.0.0_4
 usb.ids 2026.06.26
