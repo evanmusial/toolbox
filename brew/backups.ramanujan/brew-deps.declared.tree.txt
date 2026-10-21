@@ -1034,6 +1034,8 @@ duktape
 exempi
 
 exiftool
+├── brotli 
+└── xz 
 
 eye-d3
 └── python@3.15 
