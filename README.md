@@ -8,6 +8,8 @@ My public toolbox.
   for Codex quota windows, workspace credits, and earned reset credits.
 - [`apps/files-shortlinks`](apps/files-shortlinks/) — the durable Firestore and
   Cloud Run redirect service behind `files.musial.io/s/`.
+- [`apps/radio-now-playing`](apps/radio-now-playing/) — a configuration-driven
+  Python daemon for polling radio metadata and posting song changes to Slack.
 
 ## Homebrew Backups
 

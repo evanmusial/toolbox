@@ -1,0 +1,30 @@
+# Only placeholder configuration examples belong in Git.
+*.conf
+!examples/*.conf
+!examples/conf.d/*.conf
+.env
+.env.*
+*.env
+/private/
+/config/
+
+# Runtime environments, state, and deployment receipts.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite*
+*.db
+*.db-*
+/daemon.lock
+*.pid
+/receipts/
+/SOURCE_SHA256.json
+
+# Recovery archives can contain credentials.
+/backups/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+._*
