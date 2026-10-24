@@ -1,0 +1,3 @@
+defaultService: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendBuckets/files-musial-io-backend
+description: HTTPS routing for files.musial.io
+name: files-musial-io-map

@@ -6,6 +6,8 @@ My public toolbox.
 
 - [`apps/codex-meter`](apps/codex-meter/) — a native dark-mode macOS dashboard
   for Codex quota windows, workspace credits, and earned reset credits.
+- [`apps/files-shortlinks`](apps/files-shortlinks/) — the durable Firestore and
+  Cloud Run redirect service behind `files.musial.io/s/`.
 
 ## Homebrew Backups
 

@@ -1,0 +1,24 @@
+defaultService: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendBuckets/files-musial-io-backend
+description: HTTPS routing for files.musial.io
+hostRules:
+- hosts:
+  - files.musial.io
+  pathMatcher: files-musial-io-routes
+name: files-musial-io-map
+pathMatchers:
+- defaultService: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendBuckets/files-musial-io-backend
+  description: Route short links to Cloud Run and all other paths to GCS
+  name: files-musial-io-routes
+  pathRules:
+  - paths:
+    - /s/*
+    service: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendServices/files-shortlinks-backend
+tests:
+- description: Short links route to Cloud Run
+  host: files.musial.io
+  path: /s/assessing-vertical-coherence
+  service: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendServices/files-shortlinks-backend
+- description: Ordinary file paths remain on GCS
+  host: files.musial.io
+  path: /evan/meteorology/papers/example.pdf
+  service: https://www.googleapis.com/compute/v1/projects/musial-family-public/global/backendBuckets/files-musial-io-backend
