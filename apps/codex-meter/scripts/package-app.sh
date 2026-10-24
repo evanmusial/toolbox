@@ -7,7 +7,6 @@ CONFIGURATION=${1:-release}
 APP_DIR="$PROJECT_DIR/dist/Codex Meter.app"
 ICON_SVG_SOURCE="$PROJECT_DIR/design/icon-proposal.svg"
 ICON_SOURCE="$PROJECT_DIR/.build/icon-proposal-transparent.png"
-CODEX_ICON_SOURCE="/Applications/ChatGPT.app/Contents/Resources/icon-codex-dark-color.png"
 ICONSET_DIR="$PROJECT_DIR/.build/CodexMeter.iconset"
 
 swift build \
@@ -32,8 +31,6 @@ sips -z 512 512 "$ICON_SOURCE" --out "$ICONSET_DIR/icon_512x512.png" >/dev/null
 sips -z 1024 1024 "$ICON_SOURCE" --out "$ICONSET_DIR/icon_512x512@2x.png" >/dev/null
 iconutil -c icns "$ICONSET_DIR" -o "$APP_DIR/Contents/Resources/AppIcon.icns"
 cp "$ICON_SOURCE" "$APP_DIR/Contents/Resources/AppIcon.png"
-if [[ -f "$CODEX_ICON_SOURCE" ]]; then
-  cp "$CODEX_ICON_SOURCE" "$APP_DIR/Contents/Resources/CodexBrandIcon.png"
-fi
+touch "$APP_DIR"
 
 echo "$APP_DIR"

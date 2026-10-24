@@ -39,9 +39,7 @@ open "dist/Codex Meter.app"
 ```
 
 The unsigned local app bundle is written to `dist/Codex Meter.app`.
-The packaging script renders the Dock icon with transparency and, when the
-ChatGPT app is installed in `/Applications`, bundles its Codex brand icon for
-the compact quota readout.
+The packaging script renders the Dock icon with transparency.
 
 ## Test
 

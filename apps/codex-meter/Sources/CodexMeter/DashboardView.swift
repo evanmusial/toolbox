@@ -10,6 +10,8 @@ enum CodexPalette {
     static let secondaryText = Color.white.opacity(0.70)
     static let accent = Color(red: 0.22, green: 0.35, blue: 1.00)
     static let accentLight = Color(red: 0.66, green: 0.62, blue: 1.00)
+    static let resetAvailable = Color(red: 0.435, green: 0.549, blue: 1.00) // #6F8CFF
+    static let quotaCritical = Color(red: 0.545, green: 0.361, blue: 1.00) // #8B5CFF
     static let warning = Color(red: 0.52, green: 0.45, blue: 1.00)
     static let danger = Color(red: 1.00, green: 0.42, blue: 0.48)
 }
