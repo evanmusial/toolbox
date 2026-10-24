@@ -108,7 +108,6 @@ sox
 speedtest-cli
 streamlink
 streamripper
-syncthing
 tcl-tk
 telnet
 thefuck

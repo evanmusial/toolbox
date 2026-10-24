@@ -1,4 +1,4 @@
-# backup: 20261024 @ 1512 (UTC)
+# backup: 20261024 @ 1820 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -623,8 +623,6 @@ brew "speedtest-cli"
 brew "streamlink"
 # Separate tracks via Shoutcasts title-streaming
 brew "streamripper"
-# Open source continuous file synchronization application
-brew "syncthing", restart_service: :changed
 # Tool Command Language
 brew "tcl-tk"
 # User interface to the TELNET protocol

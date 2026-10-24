@@ -431,7 +431,6 @@ stats:
 streamlink: ca-certificates certifi libxml2 lz4 mpdecimal openssl@4 python@3.14 readline sqlite xz zstd
 streamripper: ca-certificates gettext glib mad mpdecimal openssl@3 pcre2 python@3.12 readline sqlite xz
 svt-av1: 
-syncthing: 
 taglib: utf8cpp
 tbb: hwloc
 tcl-tk: libtommath
