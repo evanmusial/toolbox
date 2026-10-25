@@ -346,7 +346,7 @@ python-packaging 26.3_1
 python-setuptools 84.2.1
 python-tk@3.11 3.11.17
 python@3.10 3.10.22_1
-python@3.11 3.11.17_1
+python@3.11 3.11.17_2
 python@3.12 3.12.15_1
 python@3.13 3.13.17
 python@3.14 3.14.9
