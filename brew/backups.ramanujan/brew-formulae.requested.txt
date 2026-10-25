@@ -54,7 +54,6 @@ libbladerf
 libgit2
 libheif-plugins
 liblqr
-libmagic
 libmetalink
 libproxy
 libpthread-stubs

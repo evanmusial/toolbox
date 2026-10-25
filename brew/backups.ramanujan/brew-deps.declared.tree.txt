@@ -5,7 +5,7 @@ abseil
 ada-url
 ├── fmt 
 └── simdutf 
-    └── icu4c@78 
+    └── icu4c@79 
 
 adns
 
@@ -158,7 +158,7 @@ adwaita-icon-theme
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
     ├── pango 
     │   ├── cairo 
@@ -291,7 +291,7 @@ adwaita-icon-theme
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
     │   └── libthai 
     │       └── libdatrie 
@@ -815,7 +815,7 @@ bdw-gc
 berkeley-db@5
 
 boost
-├── icu4c@78 
+├── icu4c@79 
 ├── xz 
 └── zstd 
     ├── lz4 
@@ -1388,9 +1388,9 @@ ghostscript
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── leptonica 
     │   ├── giflib 
     │   ├── jpeg-turbo 
@@ -1571,7 +1571,7 @@ ghostscript
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
     │   └── libthai 
     │       └── libdatrie 
@@ -2235,7 +2235,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── libepoxy 
@@ -2370,7 +2370,7 @@ gstreamer
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -2535,7 +2535,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── jpeg-turbo 
@@ -2689,7 +2689,7 @@ gstreamer
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── pango 
 │   │   │   ├── cairo 
@@ -2822,7 +2822,7 @@ gstreamer
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -2974,7 +2974,7 @@ gstreamer
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -3061,7 +3061,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libunibreak 
 ├── libnice 
@@ -3241,7 +3241,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── pango 
 │   │   ├── cairo 
@@ -3374,7 +3374,7 @@ gstreamer
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -3756,7 +3756,7 @@ gstreamer
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -4041,7 +4041,7 @@ gstreamer
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 └── musepack 
     ├── libcuefile 
@@ -4284,7 +4284,7 @@ gtk+3
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 ├── hicolor-icon-theme 
 ├── libepoxy 
@@ -4419,7 +4419,7 @@ gtk+3
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -4762,7 +4762,7 @@ gtk-vnc
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── libepoxy 
@@ -4897,7 +4897,7 @@ gtk-vnc
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -5066,7 +5066,7 @@ gtk4
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 ├── hicolor-icon-theme 
 ├── jpeg-turbo 
@@ -5220,7 +5220,7 @@ gtk4
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── pango 
 │   │   ├── cairo 
@@ -5353,7 +5353,7 @@ gtk4
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -5505,7 +5505,7 @@ gtk4
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -5919,7 +5919,7 @@ gtksourceview4
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── libepoxy 
@@ -6054,7 +6054,7 @@ gtksourceview4
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -6192,7 +6192,7 @@ gtksourceview4
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -6278,7 +6278,7 @@ harfbuzz
 │       ├── json-c 
 │       └── libunistring 
 ├── graphite2 
-├── icu4c@78 
+├── icu4c@79 
 └── libpng 
 
 hdrhistogram_c
@@ -6309,6 +6309,8 @@ icu4c@76
 icu4c@77
 
 icu4c@78
+
+icu4c@79
 
 id3lib
 
@@ -6456,7 +6458,7 @@ img2pdf
 │   │       │       ├── json-c 
 │   │       │       └── libunistring 
 │   │       ├── graphite2 
-│   │       ├── icu4c@78 
+│   │       ├── icu4c@79 
 │   │       └── libpng 
 │   ├── libtiff 
 │   │   ├── jpeg-turbo 
@@ -6829,7 +6831,7 @@ libass
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 └── libunibreak 
 
@@ -7332,7 +7334,7 @@ libraqm
     │       ├── json-c 
     │       └── libunistring 
     ├── graphite2 
-    ├── icu4c@78 
+    ├── icu4c@79 
     └── libpng 
 
 libraw
@@ -7545,7 +7547,7 @@ librsvg
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 ├── pango 
 │   ├── cairo 
@@ -7678,7 +7680,7 @@ librsvg
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -8265,7 +8267,7 @@ media-info
 
 merve
 └── simdutf 
-    └── icu4c@78 
+    └── icu4c@79 
 
 mkvdts2ac3
 ├── ffmpeg 
@@ -8285,7 +8287,7 @@ mkvdts2ac3
 │   └── xz 
 └── mkvtoolnix 
     ├── boost 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── xz 
     │   └── zstd 
     │       ├── lz4 
@@ -8375,9 +8377,9 @@ mkvdts2ac3
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -8484,7 +8486,7 @@ mkvtomp4
 │   └── libogg 
 ├── mkvtoolnix 
 │   ├── boost 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── xz 
 │   │   └── zstd 
 │   │       ├── lz4 
@@ -8574,9 +8576,9 @@ mkvtomp4
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -8604,7 +8606,7 @@ mkvtomp4
 
 mkvtoolnix
 ├── boost 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── xz 
 │   └── zstd 
 │       ├── lz4 
@@ -8694,9 +8696,9 @@ mkvtoolnix
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -8848,24 +8850,24 @@ node
 ├── ada-url 
 │   ├── fmt 
 │   └── simdutf 
-│       └── icu4c@78 
+│       └── icu4c@79 
 ├── brotli 
 ├── c-ares 
 ├── hdrhistogram_c 
-├── icu4c@78 
+├── icu4c@79 
 ├── libffi 
 ├── libnghttp2 
 ├── libuv 
 ├── llhttp 
 ├── merve 
 │   └── simdutf 
-│       └── icu4c@78 
+│       └── icu4c@79 
 ├── nbytes 
 ├── openssl@4 
 │   └── ca-certificates 
 ├── simdjson 
 ├── simdutf 
-│   └── icu4c@78 
+│   └── icu4c@79 
 ├── sqlite 
 │   └── readline 
 ├── uvwasi 
@@ -9146,9 +9148,9 @@ ocrmypdf
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── leptonica 
 │       │   ├── giflib 
 │       │   ├── jpeg-turbo 
@@ -9329,7 +9331,7 @@ ocrmypdf
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
 │       │   └── libthai 
 │       │       └── libdatrie 
@@ -9419,7 +9421,7 @@ ocrmypdf
 │   │   │       │       ├── json-c 
 │   │   │       │       └── libunistring 
 │   │   │       ├── graphite2 
-│   │   │       ├── icu4c@78 
+│   │   │       ├── icu4c@79 
 │   │   │       └── libpng 
 │   │   ├── libtiff 
 │   │   │   ├── jpeg-turbo 
@@ -9652,7 +9654,7 @@ ocrmypdf
 │   │       │       ├── json-c 
 │   │       │       └── libunistring 
 │   │       ├── graphite2 
-│   │       ├── icu4c@78 
+│   │       ├── icu4c@79 
 │   │       └── libpng 
 │   ├── libtiff 
 │   │   ├── jpeg-turbo 
@@ -9868,9 +9870,9 @@ ocrmypdf
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── leptonica 
 │   │   ├── giflib 
 │   │   ├── jpeg-turbo 
@@ -10051,7 +10053,7 @@ ocrmypdf
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -10506,7 +10508,7 @@ pango
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
 └── libthai 
     └── libdatrie 
@@ -10656,7 +10658,7 @@ pillow
 │       │       ├── json-c 
 │       │       └── libunistring 
 │       ├── graphite2 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       └── libpng 
 ├── libtiff 
 │   ├── jpeg-turbo 
@@ -11270,9 +11272,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -11358,9 +11360,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -11446,9 +11448,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -11534,9 +11536,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -11548,7 +11550,7 @@ qt
 │               ├── lz4 
 │               └── xz 
 ├── qt5compat 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── qtbase 
 │   │   ├── brotli 
 │   │   ├── dbus 
@@ -11623,9 +11625,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -11711,9 +11713,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -11799,9 +11801,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -11887,9 +11889,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -11974,9 +11976,9 @@ qt
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -12062,9 +12064,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -12150,9 +12152,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -12238,9 +12240,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -12326,9 +12328,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -12414,9 +12416,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -12502,9 +12504,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -12590,9 +12592,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -12678,9 +12680,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -12766,9 +12768,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -12854,9 +12856,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -12942,9 +12944,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -13030,9 +13032,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -13118,9 +13120,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -13206,9 +13208,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -13294,9 +13296,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -13383,9 +13385,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -13471,9 +13473,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -13559,9 +13561,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -13647,9 +13649,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -13735,9 +13737,9 @@ qt
 │   │   │       │   │   │       ├── json-c 
 │   │   │       │   │   │       └── libunistring 
 │   │   │       │   │   ├── graphite2 
-│   │   │       │   │   ├── icu4c@78 
+│   │   │       │   │   ├── icu4c@79 
 │   │   │       │   │   └── libpng 
-│   │   │       │   ├── icu4c@78 
+│   │   │       │   ├── icu4c@79 
 │   │   │       │   ├── jpeg-turbo 
 │   │   │       │   ├── libb2 
 │   │   │       │   ├── libpng 
@@ -13823,9 +13825,9 @@ qt
 │   │   │               │   │       ├── json-c 
 │   │   │               │   │       └── libunistring 
 │   │   │               │   ├── graphite2 
-│   │   │               │   ├── icu4c@78 
+│   │   │               │   ├── icu4c@79 
 │   │   │               │   └── libpng 
-│   │   │               ├── icu4c@78 
+│   │   │               ├── icu4c@79 
 │   │   │               ├── jpeg-turbo 
 │   │   │               ├── libb2 
 │   │   │               ├── libpng 
@@ -13911,9 +13913,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -13999,9 +14001,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -14090,9 +14092,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -14178,9 +14180,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -14266,9 +14268,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -14354,9 +14356,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -14442,9 +14444,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -14530,9 +14532,9 @@ qt
 │           │   │   │       ├── json-c 
 │           │   │   │       └── libunistring 
 │           │   │   ├── graphite2 
-│           │   │   ├── icu4c@78 
+│           │   │   ├── icu4c@79 
 │           │   │   └── libpng 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   ├── jpeg-turbo 
 │           │   ├── libb2 
 │           │   ├── libpng 
@@ -14618,9 +14620,9 @@ qt
 │                   │   │       ├── json-c 
 │                   │   │       └── libunistring 
 │                   │   ├── graphite2 
-│                   │   ├── icu4c@78 
+│                   │   ├── icu4c@79 
 │                   │   └── libpng 
-│                   ├── icu4c@78 
+│                   ├── icu4c@79 
 │                   ├── jpeg-turbo 
 │                   ├── libb2 
 │                   ├── libpng 
@@ -14716,9 +14718,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -14808,9 +14810,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -14896,9 +14898,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -14984,9 +14986,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -15072,9 +15074,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -15160,9 +15162,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -15248,9 +15250,9 @@ qt
 │       │   │   │   │       ├── json-c 
 │       │   │   │   │       └── libunistring 
 │       │   │   │   ├── graphite2 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   └── libpng 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   ├── jpeg-turbo 
 │       │   │   ├── libb2 
 │       │   │   ├── libpng 
@@ -15336,9 +15338,9 @@ qt
 │       │           │   │       ├── json-c 
 │       │           │   │       └── libunistring 
 │       │           │   ├── graphite2 
-│       │           │   ├── icu4c@78 
+│       │           │   ├── icu4c@79 
 │       │           │   └── libpng 
-│       │           ├── icu4c@78 
+│       │           ├── icu4c@79 
 │       │           ├── jpeg-turbo 
 │       │           ├── libb2 
 │       │           ├── libpng 
@@ -15424,9 +15426,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -15512,9 +15514,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -15600,9 +15602,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -15688,9 +15690,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -15776,9 +15778,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -15864,9 +15866,9 @@ qt
 │           │   │   │       ├── json-c 
 │           │   │   │       └── libunistring 
 │           │   │   ├── graphite2 
-│           │   │   ├── icu4c@78 
+│           │   │   ├── icu4c@79 
 │           │   │   └── libpng 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   ├── jpeg-turbo 
 │           │   ├── libb2 
 │           │   ├── libpng 
@@ -15952,9 +15954,9 @@ qt
 │                   │   │       ├── json-c 
 │                   │   │       └── libunistring 
 │                   │   ├── graphite2 
-│                   │   ├── icu4c@78 
+│                   │   ├── icu4c@79 
 │                   │   └── libpng 
-│                   ├── icu4c@78 
+│                   ├── icu4c@79 
 │                   ├── jpeg-turbo 
 │                   ├── libb2 
 │                   ├── libpng 
@@ -16040,9 +16042,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -16128,9 +16130,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -16216,9 +16218,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -16305,9 +16307,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -16393,9 +16395,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -16481,9 +16483,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -16569,9 +16571,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -16657,9 +16659,9 @@ qt
 │   │   │       │   │   │       ├── json-c 
 │   │   │       │   │   │       └── libunistring 
 │   │   │       │   │   ├── graphite2 
-│   │   │       │   │   ├── icu4c@78 
+│   │   │       │   │   ├── icu4c@79 
 │   │   │       │   │   └── libpng 
-│   │   │       │   ├── icu4c@78 
+│   │   │       │   ├── icu4c@79 
 │   │   │       │   ├── jpeg-turbo 
 │   │   │       │   ├── libb2 
 │   │   │       │   ├── libpng 
@@ -16745,9 +16747,9 @@ qt
 │   │   │               │   │       ├── json-c 
 │   │   │               │   │       └── libunistring 
 │   │   │               │   ├── graphite2 
-│   │   │               │   ├── icu4c@78 
+│   │   │               │   ├── icu4c@79 
 │   │   │               │   └── libpng 
-│   │   │               ├── icu4c@78 
+│   │   │               ├── icu4c@79 
 │   │   │               ├── jpeg-turbo 
 │   │   │               ├── libb2 
 │   │   │               ├── libpng 
@@ -16833,9 +16835,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -16921,9 +16923,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -17009,9 +17011,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -17097,9 +17099,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -17185,9 +17187,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -17273,9 +17275,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -17361,9 +17363,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -17450,9 +17452,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -17538,9 +17540,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -17626,9 +17628,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -17714,9 +17716,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -17802,9 +17804,9 @@ qt
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -17890,9 +17892,9 @@ qt
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -17978,9 +17980,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -18066,9 +18068,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -18154,9 +18156,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -18242,9 +18244,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -18331,9 +18333,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -18419,9 +18421,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -18507,9 +18509,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -18595,9 +18597,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -18683,9 +18685,9 @@ qt
 │   │   │       │   │   │       ├── json-c 
 │   │   │       │   │   │       └── libunistring 
 │   │   │       │   │   ├── graphite2 
-│   │   │       │   │   ├── icu4c@78 
+│   │   │       │   │   ├── icu4c@79 
 │   │   │       │   │   └── libpng 
-│   │   │       │   ├── icu4c@78 
+│   │   │       │   ├── icu4c@79 
 │   │   │       │   ├── jpeg-turbo 
 │   │   │       │   ├── libb2 
 │   │   │       │   ├── libpng 
@@ -18771,9 +18773,9 @@ qt
 │   │   │               │   │       ├── json-c 
 │   │   │               │   │       └── libunistring 
 │   │   │               │   ├── graphite2 
-│   │   │               │   ├── icu4c@78 
+│   │   │               │   ├── icu4c@79 
 │   │   │               │   └── libpng 
-│   │   │               ├── icu4c@78 
+│   │   │               ├── icu4c@79 
 │   │   │               ├── jpeg-turbo 
 │   │   │               ├── libb2 
 │   │   │               ├── libpng 
@@ -18859,9 +18861,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -18947,9 +18949,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -19035,9 +19037,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -19123,9 +19125,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -19211,9 +19213,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -19300,9 +19302,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -19388,9 +19390,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -19476,9 +19478,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -19564,9 +19566,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -19652,9 +19654,9 @@ qt
 │   │   │       │   │   │       ├── json-c 
 │   │   │       │   │   │       └── libunistring 
 │   │   │       │   │   ├── graphite2 
-│   │   │       │   │   ├── icu4c@78 
+│   │   │       │   │   ├── icu4c@79 
 │   │   │       │   │   └── libpng 
-│   │   │       │   ├── icu4c@78 
+│   │   │       │   ├── icu4c@79 
 │   │   │       │   ├── jpeg-turbo 
 │   │   │       │   ├── libb2 
 │   │   │       │   ├── libpng 
@@ -19740,9 +19742,9 @@ qt
 │   │   │               │   │       ├── json-c 
 │   │   │               │   │       └── libunistring 
 │   │   │               │   ├── graphite2 
-│   │   │               │   ├── icu4c@78 
+│   │   │               │   ├── icu4c@79 
 │   │   │               │   └── libpng 
-│   │   │               ├── icu4c@78 
+│   │   │               ├── icu4c@79 
 │   │   │               ├── jpeg-turbo 
 │   │   │               ├── libb2 
 │   │   │               ├── libpng 
@@ -19828,9 +19830,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -19916,9 +19918,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -20004,9 +20006,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -20092,9 +20094,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -20180,9 +20182,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -20268,9 +20270,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -20356,9 +20358,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -20444,9 +20446,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -20532,9 +20534,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -20620,9 +20622,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -20708,9 +20710,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -20796,9 +20798,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -20884,9 +20886,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -20972,9 +20974,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -21060,9 +21062,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -21148,9 +21150,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -21236,9 +21238,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -21324,9 +21326,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -21412,9 +21414,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -21500,9 +21502,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -21588,9 +21590,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -21676,9 +21678,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -21764,9 +21766,9 @@ qt
 │       │   │   │   │       ├── json-c 
 │       │   │   │   │       └── libunistring 
 │       │   │   │   ├── graphite2 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   └── libpng 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   ├── jpeg-turbo 
 │       │   │   ├── libb2 
 │       │   │   ├── libpng 
@@ -21852,9 +21854,9 @@ qt
 │       │           │   │       ├── json-c 
 │       │           │   │       └── libunistring 
 │       │           │   ├── graphite2 
-│       │           │   ├── icu4c@78 
+│       │           │   ├── icu4c@79 
 │       │           │   └── libpng 
-│       │           ├── icu4c@78 
+│       │           ├── icu4c@79 
 │       │           ├── jpeg-turbo 
 │       │           ├── libb2 
 │       │           ├── libpng 
@@ -21941,9 +21943,9 @@ qt
 │       │   │   │   │       ├── json-c 
 │       │   │   │   │       └── libunistring 
 │       │   │   │   ├── graphite2 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   └── libpng 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   ├── jpeg-turbo 
 │       │   │   ├── libb2 
 │       │   │   ├── libpng 
@@ -22029,9 +22031,9 @@ qt
 │       │   │   │   │   │       ├── json-c 
 │       │   │   │   │   │       └── libunistring 
 │       │   │   │   │   ├── graphite2 
-│       │   │   │   │   ├── icu4c@78 
+│       │   │   │   │   ├── icu4c@79 
 │       │   │   │   │   └── libpng 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   ├── jpeg-turbo 
 │       │   │   │   ├── libb2 
 │       │   │   │   ├── libpng 
@@ -22117,9 +22119,9 @@ qt
 │       │   │           │   │       ├── json-c 
 │       │   │           │   │       └── libunistring 
 │       │   │           │   ├── graphite2 
-│       │   │           │   ├── icu4c@78 
+│       │   │           │   ├── icu4c@79 
 │       │   │           │   └── libpng 
-│       │   │           ├── icu4c@78 
+│       │   │           ├── icu4c@79 
 │       │   │           ├── jpeg-turbo 
 │       │   │           ├── libb2 
 │       │   │           ├── libpng 
@@ -22205,9 +22207,9 @@ qt
 │       │   │   │   │   │       ├── json-c 
 │       │   │   │   │   │       └── libunistring 
 │       │   │   │   │   ├── graphite2 
-│       │   │   │   │   ├── icu4c@78 
+│       │   │   │   │   ├── icu4c@79 
 │       │   │   │   │   └── libpng 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   ├── jpeg-turbo 
 │       │   │   │   ├── libb2 
 │       │   │   │   ├── libpng 
@@ -22293,9 +22295,9 @@ qt
 │       │   │       │   │   │       ├── json-c 
 │       │   │       │   │   │       └── libunistring 
 │       │   │       │   │   ├── graphite2 
-│       │   │       │   │   ├── icu4c@78 
+│       │   │       │   │   ├── icu4c@79 
 │       │   │       │   │   └── libpng 
-│       │   │       │   ├── icu4c@78 
+│       │   │       │   ├── icu4c@79 
 │       │   │       │   ├── jpeg-turbo 
 │       │   │       │   ├── libb2 
 │       │   │       │   ├── libpng 
@@ -22381,9 +22383,9 @@ qt
 │       │   │               │   │       ├── json-c 
 │       │   │               │   │       └── libunistring 
 │       │   │               │   ├── graphite2 
-│       │   │               │   ├── icu4c@78 
+│       │   │               │   ├── icu4c@79 
 │       │   │               │   └── libpng 
-│       │   │               ├── icu4c@78 
+│       │   │               ├── icu4c@79 
 │       │   │               ├── jpeg-turbo 
 │       │   │               ├── libb2 
 │       │   │               ├── libpng 
@@ -22469,9 +22471,9 @@ qt
 │       │           │   │       ├── json-c 
 │       │           │   │       └── libunistring 
 │       │           │   ├── graphite2 
-│       │           │   ├── icu4c@78 
+│       │           │   ├── icu4c@79 
 │       │           │   └── libpng 
-│       │           ├── icu4c@78 
+│       │           ├── icu4c@79 
 │       │           ├── jpeg-turbo 
 │       │           ├── libb2 
 │       │           ├── libpng 
@@ -22557,9 +22559,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -22645,9 +22647,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -22733,9 +22735,9 @@ qt
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       ├── jpeg-turbo 
 │       ├── libb2 
 │       ├── libpng 
@@ -22823,9 +22825,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -22911,9 +22913,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -22999,9 +23001,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -23097,9 +23099,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -23185,9 +23187,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -23273,9 +23275,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -23361,9 +23363,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -23449,9 +23451,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -23537,9 +23539,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -23626,9 +23628,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -23714,9 +23716,9 @@ qt
 │   │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   │   └── libpng 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   │   ├── libb2 
 │   │   │   │   │   ├── libpng 
@@ -23802,9 +23804,9 @@ qt
 │   │   │   │           │   │       ├── json-c 
 │   │   │   │           │   │       └── libunistring 
 │   │   │   │           │   ├── graphite2 
-│   │   │   │           │   ├── icu4c@78 
+│   │   │   │           │   ├── icu4c@79 
 │   │   │   │           │   └── libpng 
-│   │   │   │           ├── icu4c@78 
+│   │   │   │           ├── icu4c@79 
 │   │   │   │           ├── jpeg-turbo 
 │   │   │   │           ├── libb2 
 │   │   │   │           ├── libpng 
@@ -23890,9 +23892,9 @@ qt
 │   │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   │   └── libpng 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   │   ├── libb2 
 │   │   │   │   │   ├── libpng 
@@ -23978,9 +23980,9 @@ qt
 │   │   │   │       │   │   │       ├── json-c 
 │   │   │   │       │   │   │       └── libunistring 
 │   │   │   │       │   │   ├── graphite2 
-│   │   │   │       │   │   ├── icu4c@78 
+│   │   │   │       │   │   ├── icu4c@79 
 │   │   │   │       │   │   └── libpng 
-│   │   │   │       │   ├── icu4c@78 
+│   │   │   │       │   ├── icu4c@79 
 │   │   │   │       │   ├── jpeg-turbo 
 │   │   │   │       │   ├── libb2 
 │   │   │   │       │   ├── libpng 
@@ -24066,9 +24068,9 @@ qt
 │   │   │   │               │   │       ├── json-c 
 │   │   │   │               │   │       └── libunistring 
 │   │   │   │               │   ├── graphite2 
-│   │   │   │               │   ├── icu4c@78 
+│   │   │   │               │   ├── icu4c@79 
 │   │   │   │               │   └── libpng 
-│   │   │   │               ├── icu4c@78 
+│   │   │   │               ├── icu4c@79 
 │   │   │   │               ├── jpeg-turbo 
 │   │   │   │               ├── libb2 
 │   │   │   │               ├── libpng 
@@ -24154,9 +24156,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -24242,9 +24244,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -24330,9 +24332,9 @@ qt
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -24418,9 +24420,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -24506,9 +24508,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -24594,9 +24596,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -24682,9 +24684,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -24770,9 +24772,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -24858,9 +24860,9 @@ qt
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -24947,9 +24949,9 @@ qt
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -25035,9 +25037,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -25123,9 +25125,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -25211,9 +25213,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -25299,9 +25301,9 @@ qt
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -25387,9 +25389,9 @@ qt
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -25475,9 +25477,9 @@ qt
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -25563,9 +25565,9 @@ qt
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -25651,9 +25653,9 @@ qt
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -25739,9 +25741,9 @@ qt
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -25829,9 +25831,9 @@ qt
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -25917,9 +25919,9 @@ qt
 │       │   │   │   │       ├── json-c 
 │       │   │   │   │       └── libunistring 
 │       │   │   │   ├── graphite2 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   └── libpng 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   ├── jpeg-turbo 
 │       │   │   ├── libb2 
 │       │   │   ├── libpng 
@@ -26005,9 +26007,9 @@ qt
 │       │           │   │       ├── json-c 
 │       │           │   │       └── libunistring 
 │       │           │   ├── graphite2 
-│       │           │   ├── icu4c@78 
+│       │           │   ├── icu4c@79 
 │       │           │   └── libpng 
-│       │           ├── icu4c@78 
+│       │           ├── icu4c@79 
 │       │           ├── jpeg-turbo 
 │       │           ├── libb2 
 │       │           ├── libpng 
@@ -26097,9 +26099,9 @@ qt
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -26185,9 +26187,9 @@ qt
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -26273,9 +26275,9 @@ qt
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -26362,9 +26364,9 @@ qt
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -26450,9 +26452,9 @@ qt
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -26538,9 +26540,9 @@ qt
     │   │           │   │       ├── json-c 
     │   │           │   │       └── libunistring 
     │   │           │   ├── graphite2 
-    │   │           │   ├── icu4c@78 
+    │   │           │   ├── icu4c@79 
     │   │           │   └── libpng 
-    │   │           ├── icu4c@78 
+    │   │           ├── icu4c@79 
     │   │           ├── jpeg-turbo 
     │   │           ├── libb2 
     │   │           ├── libpng 
@@ -26626,9 +26628,9 @@ qt
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -26714,9 +26716,9 @@ qt
     │   │   │   │   │   │       ├── json-c 
     │   │   │   │   │   │       └── libunistring 
     │   │   │   │   │   ├── graphite2 
-    │   │   │   │   │   ├── icu4c@78 
+    │   │   │   │   │   ├── icu4c@79 
     │   │   │   │   │   └── libpng 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   ├── jpeg-turbo 
     │   │   │   │   ├── libb2 
     │   │   │   │   ├── libpng 
@@ -26802,9 +26804,9 @@ qt
     │   │   │           │   │       ├── json-c 
     │   │   │           │   │       └── libunistring 
     │   │   │           │   ├── graphite2 
-    │   │   │           │   ├── icu4c@78 
+    │   │   │           │   ├── icu4c@79 
     │   │   │           │   └── libpng 
-    │   │   │           ├── icu4c@78 
+    │   │   │           ├── icu4c@79 
     │   │   │           ├── jpeg-turbo 
     │   │   │           ├── libb2 
     │   │   │           ├── libpng 
@@ -26890,9 +26892,9 @@ qt
     │   │           │   │       ├── json-c 
     │   │           │   │       └── libunistring 
     │   │           │   ├── graphite2 
-    │   │           │   ├── icu4c@78 
+    │   │           │   ├── icu4c@79 
     │   │           │   └── libpng 
-    │   │           ├── icu4c@78 
+    │   │           ├── icu4c@79 
     │   │           ├── jpeg-turbo 
     │   │           ├── libb2 
     │   │           ├── libpng 
@@ -26978,9 +26980,9 @@ qt
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -27066,9 +27068,9 @@ qt
     │   │       │   │   │       ├── json-c 
     │   │       │   │   │       └── libunistring 
     │   │       │   │   ├── graphite2 
-    │   │       │   │   ├── icu4c@78 
+    │   │       │   │   ├── icu4c@79 
     │   │       │   │   └── libpng 
-    │   │       │   ├── icu4c@78 
+    │   │       │   ├── icu4c@79 
     │   │       │   ├── jpeg-turbo 
     │   │       │   ├── libb2 
     │   │       │   ├── libpng 
@@ -27154,9 +27156,9 @@ qt
     │   │               │   │       ├── json-c 
     │   │               │   │       └── libunistring 
     │   │               │   ├── graphite2 
-    │   │               │   ├── icu4c@78 
+    │   │               │   ├── icu4c@79 
     │   │               │   └── libpng 
-    │   │               ├── icu4c@78 
+    │   │               ├── icu4c@79 
     │   │               ├── jpeg-turbo 
     │   │               ├── libb2 
     │   │               ├── libpng 
@@ -27244,9 +27246,9 @@ qt
     │       │   │   │       ├── json-c 
     │       │   │   │       └── libunistring 
     │       │   │   ├── graphite2 
-    │       │   │   ├── icu4c@78 
+    │       │   │   ├── icu4c@79 
     │       │   │   └── libpng 
-    │       │   ├── icu4c@78 
+    │       │   ├── icu4c@79 
     │       │   ├── jpeg-turbo 
     │       │   ├── libb2 
     │       │   ├── libpng 
@@ -27332,9 +27334,9 @@ qt
     │       │   │   │   │       ├── json-c 
     │       │   │   │   │       └── libunistring 
     │       │   │   │   ├── graphite2 
-    │       │   │   │   ├── icu4c@78 
+    │       │   │   │   ├── icu4c@79 
     │       │   │   │   └── libpng 
-    │       │   │   ├── icu4c@78 
+    │       │   │   ├── icu4c@79 
     │       │   │   ├── jpeg-turbo 
     │       │   │   ├── libb2 
     │       │   │   ├── libpng 
@@ -27420,9 +27422,9 @@ qt
     │       │           │   │       ├── json-c 
     │       │           │   │       └── libunistring 
     │       │           │   ├── graphite2 
-    │       │           │   ├── icu4c@78 
+    │       │           │   ├── icu4c@79 
     │       │           │   └── libpng 
-    │       │           ├── icu4c@78 
+    │       │           ├── icu4c@79 
     │       │           ├── jpeg-turbo 
     │       │           ├── libb2 
     │       │           ├── libpng 
@@ -27512,9 +27514,9 @@ qt
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -27600,9 +27602,9 @@ qt
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -27688,9 +27690,9 @@ qt
     │   │           │   │       ├── json-c 
     │   │           │   │       └── libunistring 
     │   │           │   ├── graphite2 
-    │   │           │   ├── icu4c@78 
+    │   │           │   ├── icu4c@79 
     │   │           │   └── libpng 
-    │   │           ├── icu4c@78 
+    │   │           ├── icu4c@79 
     │   │           ├── jpeg-turbo 
     │   │           ├── libb2 
     │   │           ├── libpng 
@@ -27776,9 +27778,9 @@ qt
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -27864,9 +27866,9 @@ qt
         │   │   │       ├── json-c 
         │   │   │       └── libunistring 
         │   │   ├── graphite2 
-        │   │   ├── icu4c@78 
+        │   │   ├── icu4c@79 
         │   │   └── libpng 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   ├── jpeg-turbo 
         │   ├── libb2 
         │   ├── libpng 
@@ -27952,9 +27954,9 @@ qt
             │   │   │       ├── json-c 
             │   │   │       └── libunistring 
             │   │   ├── graphite2 
-            │   │   ├── icu4c@78 
+            │   │   ├── icu4c@79 
             │   │   └── libpng 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   ├── jpeg-turbo 
             │   ├── libb2 
             │   ├── libpng 
@@ -28040,9 +28042,9 @@ qt
                     │   │       ├── json-c 
                     │   │       └── libunistring 
                     │   ├── graphite2 
-                    │   ├── icu4c@78 
+                    │   ├── icu4c@79 
                     │   └── libpng 
-                    ├── icu4c@78 
+                    ├── icu4c@79 
                     ├── jpeg-turbo 
                     ├── libb2 
                     ├── libpng 
@@ -28130,9 +28132,9 @@ qt3d
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -28218,9 +28220,9 @@ qt3d
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -28306,9 +28308,9 @@ qt3d
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -28394,9 +28396,9 @@ qt3d
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -28409,7 +28411,7 @@ qt3d
             └── xz 
 
 qt5compat
-├── icu4c@78 
+├── icu4c@79 
 ├── qtbase 
 │   ├── brotli 
 │   ├── dbus 
@@ -28484,9 +28486,9 @@ qt5compat
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -28572,9 +28574,9 @@ qt5compat
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -28660,9 +28662,9 @@ qt5compat
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -28748,9 +28750,9 @@ qt5compat
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -28872,9 +28874,9 @@ qtbase
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
-├── icu4c@78 
+├── icu4c@79 
 ├── jpeg-turbo 
 ├── libb2 
 ├── libpng 
@@ -28961,9 +28963,9 @@ qtcanvaspainter
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -29049,9 +29051,9 @@ qtcanvaspainter
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -29137,9 +29139,9 @@ qtcanvaspainter
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -29226,9 +29228,9 @@ qtcharts
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -29314,9 +29316,9 @@ qtcharts
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -29402,9 +29404,9 @@ qtcharts
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -29491,9 +29493,9 @@ qtconnectivity
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -29580,9 +29582,9 @@ qtdatavis3d
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -29668,9 +29670,9 @@ qtdatavis3d
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -29756,9 +29758,9 @@ qtdatavis3d
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -29845,9 +29847,9 @@ qtdeclarative
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -29933,9 +29935,9 @@ qtdeclarative
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -30022,9 +30024,9 @@ qtgraphs
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -30110,9 +30112,9 @@ qtgraphs
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -30198,9 +30200,9 @@ qtgraphs
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -30287,9 +30289,9 @@ qtgraphs
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -30375,9 +30377,9 @@ qtgraphs
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -30463,9 +30465,9 @@ qtgraphs
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -30551,9 +30553,9 @@ qtgraphs
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -30639,9 +30641,9 @@ qtgraphs
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -30727,9 +30729,9 @@ qtgraphs
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -30815,9 +30817,9 @@ qtgraphs
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -30903,9 +30905,9 @@ qtgraphs
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -30995,9 +30997,9 @@ qtgrpc
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -31083,9 +31085,9 @@ qtgrpc
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -31171,9 +31173,9 @@ qtgrpc
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -31260,9 +31262,9 @@ qthttpserver
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -31348,9 +31350,9 @@ qthttpserver
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -31436,9 +31438,9 @@ qthttpserver
         │   │   │       ├── json-c 
         │   │   │       └── libunistring 
         │   │   ├── graphite2 
-        │   │   ├── icu4c@78 
+        │   │   ├── icu4c@79 
         │   │   └── libpng 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   ├── jpeg-turbo 
         │   ├── libb2 
         │   ├── libpng 
@@ -31524,9 +31526,9 @@ qthttpserver
                 │   │       ├── json-c 
                 │   │       └── libunistring 
                 │   ├── graphite2 
-                │   ├── icu4c@78 
+                │   ├── icu4c@79 
                 │   └── libpng 
-                ├── icu4c@78 
+                ├── icu4c@79 
                 ├── jpeg-turbo 
                 ├── libb2 
                 ├── libpng 
@@ -31623,9 +31625,9 @@ qtimageformats
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -31716,9 +31718,9 @@ qtlanguageserver
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -31805,9 +31807,9 @@ qtlocation
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -31893,9 +31895,9 @@ qtlocation
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -31981,9 +31983,9 @@ qtlocation
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -32069,9 +32071,9 @@ qtlocation
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -32157,9 +32159,9 @@ qtlocation
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -32245,9 +32247,9 @@ qtlocation
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -32333,9 +32335,9 @@ qtlocation
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -32422,9 +32424,9 @@ qtlottie
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -32510,9 +32512,9 @@ qtlottie
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -32598,9 +32600,9 @@ qtlottie
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -32686,9 +32688,9 @@ qtlottie
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -32774,9 +32776,9 @@ qtlottie
         │   │   │       ├── json-c 
         │   │   │       └── libunistring 
         │   │   ├── graphite2 
-        │   │   ├── icu4c@78 
+        │   │   ├── icu4c@79 
         │   │   └── libpng 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   ├── jpeg-turbo 
         │   ├── libb2 
         │   ├── libpng 
@@ -32862,9 +32864,9 @@ qtlottie
                 │   │       ├── json-c 
                 │   │       └── libunistring 
                 │   ├── graphite2 
-                │   ├── icu4c@78 
+                │   ├── icu4c@79 
                 │   └── libpng 
-                ├── icu4c@78 
+                ├── icu4c@79 
                 ├── jpeg-turbo 
                 ├── libb2 
                 ├── libpng 
@@ -32951,9 +32953,9 @@ qtmultimedia
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -33039,9 +33041,9 @@ qtmultimedia
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -33127,9 +33129,9 @@ qtmultimedia
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -33216,9 +33218,9 @@ qtmultimedia
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -33304,9 +33306,9 @@ qtmultimedia
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -33392,9 +33394,9 @@ qtmultimedia
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -33480,9 +33482,9 @@ qtmultimedia
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -33568,9 +33570,9 @@ qtmultimedia
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -33656,9 +33658,9 @@ qtmultimedia
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -33744,9 +33746,9 @@ qtmultimedia
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -33832,9 +33834,9 @@ qtmultimedia
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -33921,9 +33923,9 @@ qtnetworkauth
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -34010,9 +34012,9 @@ qtpositioning
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -34098,9 +34100,9 @@ qtpositioning
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -34186,9 +34188,9 @@ qtpositioning
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -34274,9 +34276,9 @@ qtpositioning
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -34364,9 +34366,9 @@ qtquick3d
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -34452,9 +34454,9 @@ qtquick3d
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -34540,9 +34542,9 @@ qtquick3d
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -34628,9 +34630,9 @@ qtquick3d
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -34716,9 +34718,9 @@ qtquick3d
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -34804,9 +34806,9 @@ qtquick3d
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -34892,9 +34894,9 @@ qtquick3d
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -34981,9 +34983,9 @@ qtquick3dphysics
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -35069,9 +35071,9 @@ qtquick3dphysics
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -35157,9 +35159,9 @@ qtquick3dphysics
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -35246,9 +35248,9 @@ qtquick3dphysics
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -35334,9 +35336,9 @@ qtquick3dphysics
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -35422,9 +35424,9 @@ qtquick3dphysics
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -35510,9 +35512,9 @@ qtquick3dphysics
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -35598,9 +35600,9 @@ qtquick3dphysics
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -35686,9 +35688,9 @@ qtquick3dphysics
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -35774,9 +35776,9 @@ qtquick3dphysics
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -35862,9 +35864,9 @@ qtquick3dphysics
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -35951,9 +35953,9 @@ qtquickeffectmaker
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -36039,9 +36041,9 @@ qtquickeffectmaker
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -36127,9 +36129,9 @@ qtquickeffectmaker
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -36216,9 +36218,9 @@ qtquickeffectmaker
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -36304,9 +36306,9 @@ qtquickeffectmaker
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -36392,9 +36394,9 @@ qtquickeffectmaker
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -36480,9 +36482,9 @@ qtquickeffectmaker
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -36568,9 +36570,9 @@ qtquickeffectmaker
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -36656,9 +36658,9 @@ qtquickeffectmaker
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -36744,9 +36746,9 @@ qtquickeffectmaker
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -36832,9 +36834,9 @@ qtquickeffectmaker
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -36921,9 +36923,9 @@ qtquicktimeline
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -37009,9 +37011,9 @@ qtquicktimeline
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -37097,9 +37099,9 @@ qtquicktimeline
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -37186,9 +37188,9 @@ qtremoteobjects
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -37274,9 +37276,9 @@ qtremoteobjects
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -37362,9 +37364,9 @@ qtremoteobjects
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -37451,9 +37453,9 @@ qtscxml
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -37539,9 +37541,9 @@ qtscxml
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -37627,9 +37629,9 @@ qtscxml
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -37716,9 +37718,9 @@ qtsensors
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -37804,9 +37806,9 @@ qtsensors
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -37892,9 +37894,9 @@ qtsensors
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -37981,9 +37983,9 @@ qtserialbus
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -38069,9 +38071,9 @@ qtserialbus
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -38158,9 +38160,9 @@ qtserialport
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -38247,9 +38249,9 @@ qtshadertools
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -38336,9 +38338,9 @@ qtspeech
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -38424,9 +38426,9 @@ qtspeech
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -38512,9 +38514,9 @@ qtspeech
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -38600,9 +38602,9 @@ qtspeech
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -38688,9 +38690,9 @@ qtspeech
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -38776,9 +38778,9 @@ qtspeech
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -38865,9 +38867,9 @@ qtspeech
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -38953,9 +38955,9 @@ qtspeech
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -39041,9 +39043,9 @@ qtspeech
     │   │           │   │       ├── json-c 
     │   │           │   │       └── libunistring 
     │   │           │   ├── graphite2 
-    │   │           │   ├── icu4c@78 
+    │   │           │   ├── icu4c@79 
     │   │           │   └── libpng 
-    │   │           ├── icu4c@78 
+    │   │           ├── icu4c@79 
     │   │           ├── jpeg-turbo 
     │   │           ├── libb2 
     │   │           ├── libpng 
@@ -39129,9 +39131,9 @@ qtspeech
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   ├── jpeg-turbo 
     │   │   │   ├── libb2 
     │   │   │   ├── libpng 
@@ -39217,9 +39219,9 @@ qtspeech
     │   │       │   │   │       ├── json-c 
     │   │       │   │   │       └── libunistring 
     │   │       │   │   ├── graphite2 
-    │   │       │   │   ├── icu4c@78 
+    │   │       │   │   ├── icu4c@79 
     │   │       │   │   └── libpng 
-    │   │       │   ├── icu4c@78 
+    │   │       │   ├── icu4c@79 
     │   │       │   ├── jpeg-turbo 
     │   │       │   ├── libb2 
     │   │       │   ├── libpng 
@@ -39305,9 +39307,9 @@ qtspeech
     │   │               │   │       ├── json-c 
     │   │               │   │       └── libunistring 
     │   │               │   ├── graphite2 
-    │   │               │   ├── icu4c@78 
+    │   │               │   ├── icu4c@79 
     │   │               │   └── libpng 
-    │   │               ├── icu4c@78 
+    │   │               ├── icu4c@79 
     │   │               ├── jpeg-turbo 
     │   │               ├── libb2 
     │   │               ├── libpng 
@@ -39393,9 +39395,9 @@ qtspeech
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -39481,9 +39483,9 @@ qtspeech
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -39570,9 +39572,9 @@ qtsvg
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -39659,9 +39661,9 @@ qttasktree
     │   │       ├── json-c 
     │   │       └── libunistring 
     │   ├── graphite2 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   └── libpng 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── jpeg-turbo 
     ├── libb2 
     ├── libpng 
@@ -39750,9 +39752,9 @@ qttools
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -39838,9 +39840,9 @@ qttools
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -39926,9 +39928,9 @@ qttools
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -40026,9 +40028,9 @@ qtvirtualkeyboard
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -40114,9 +40116,9 @@ qtvirtualkeyboard
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -40202,9 +40204,9 @@ qtvirtualkeyboard
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -40290,9 +40292,9 @@ qtvirtualkeyboard
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -40378,9 +40380,9 @@ qtvirtualkeyboard
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -40466,9 +40468,9 @@ qtvirtualkeyboard
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -40555,9 +40557,9 @@ qtvirtualkeyboard
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -40643,9 +40645,9 @@ qtvirtualkeyboard
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -40731,9 +40733,9 @@ qtvirtualkeyboard
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -40819,9 +40821,9 @@ qtvirtualkeyboard
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -40907,9 +40909,9 @@ qtvirtualkeyboard
 │   │   │       │   │   │       ├── json-c 
 │   │   │       │   │   │       └── libunistring 
 │   │   │       │   │   ├── graphite2 
-│   │   │       │   │   ├── icu4c@78 
+│   │   │       │   │   ├── icu4c@79 
 │   │   │       │   │   └── libpng 
-│   │   │       │   ├── icu4c@78 
+│   │   │       │   ├── icu4c@79 
 │   │   │       │   ├── jpeg-turbo 
 │   │   │       │   ├── libb2 
 │   │   │       │   ├── libpng 
@@ -40995,9 +40997,9 @@ qtvirtualkeyboard
 │   │   │               │   │       ├── json-c 
 │   │   │               │   │       └── libunistring 
 │   │   │               │   ├── graphite2 
-│   │   │               │   ├── icu4c@78 
+│   │   │               │   ├── icu4c@79 
 │   │   │               │   └── libpng 
-│   │   │               ├── icu4c@78 
+│   │   │               ├── icu4c@79 
 │   │   │               ├── jpeg-turbo 
 │   │   │               ├── libb2 
 │   │   │               ├── libpng 
@@ -41083,9 +41085,9 @@ qtvirtualkeyboard
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -41171,9 +41173,9 @@ qtvirtualkeyboard
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -41259,9 +41261,9 @@ qtvirtualkeyboard
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
@@ -41348,9 +41350,9 @@ qtwebchannel
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -41436,9 +41438,9 @@ qtwebchannel
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -41524,9 +41526,9 @@ qtwebchannel
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -41614,9 +41616,9 @@ qtwebengine
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -41702,9 +41704,9 @@ qtwebengine
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -41790,9 +41792,9 @@ qtwebengine
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -41878,9 +41880,9 @@ qtwebengine
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -41966,9 +41968,9 @@ qtwebengine
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -42054,9 +42056,9 @@ qtwebengine
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -42142,9 +42144,9 @@ qtwebengine
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -42230,9 +42232,9 @@ qtwebengine
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -42318,9 +42320,9 @@ qtwebengine
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -42406,9 +42408,9 @@ qtwebengine
 │               │   │       ├── json-c 
 │               │   │       └── libunistring 
 │               │   ├── graphite2 
-│               │   ├── icu4c@78 
+│               │   ├── icu4c@79 
 │               │   └── libpng 
-│               ├── icu4c@78 
+│               ├── icu4c@79 
 │               ├── jpeg-turbo 
 │               ├── libb2 
 │               ├── libpng 
@@ -42496,9 +42498,9 @@ qtwebengine
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -42584,9 +42586,9 @@ qtwebengine
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   ├── jpeg-turbo 
     │   │   ├── libb2 
     │   │   ├── libpng 
@@ -42672,9 +42674,9 @@ qtwebengine
     │           │   │       ├── json-c 
     │           │   │       └── libunistring 
     │           │   ├── graphite2 
-    │           │   ├── icu4c@78 
+    │           │   ├── icu4c@79 
     │           │   └── libpng 
-    │           ├── icu4c@78 
+    │           ├── icu4c@79 
     │           ├── jpeg-turbo 
     │           ├── libb2 
     │           ├── libpng 
@@ -42765,9 +42767,9 @@ qtwebsockets
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -42853,9 +42855,9 @@ qtwebsockets
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -42941,9 +42943,9 @@ qtwebsockets
             │   │       ├── json-c 
             │   │       └── libunistring 
             │   ├── graphite2 
-            │   ├── icu4c@78 
+            │   ├── icu4c@79 
             │   └── libpng 
-            ├── icu4c@78 
+            ├── icu4c@79 
             ├── jpeg-turbo 
             ├── libb2 
             ├── libpng 
@@ -43030,9 +43032,9 @@ qtwebview
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -43118,9 +43120,9 @@ qtwebview
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -43206,9 +43208,9 @@ qtwebview
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -43295,9 +43297,9 @@ qtwebview
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -43383,9 +43385,9 @@ qtwebview
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -43471,9 +43473,9 @@ qtwebview
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -43559,9 +43561,9 @@ qtwebview
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -43647,9 +43649,9 @@ qtwebview
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   ├── jpeg-turbo 
 │   │   │   │   ├── libb2 
 │   │   │   │   ├── libpng 
@@ -43735,9 +43737,9 @@ qtwebview
 │   │   │           │   │       ├── json-c 
 │   │   │           │   │       └── libunistring 
 │   │   │           │   ├── graphite2 
-│   │   │           │   ├── icu4c@78 
+│   │   │           │   ├── icu4c@79 
 │   │   │           │   └── libpng 
-│   │   │           ├── icu4c@78 
+│   │   │           ├── icu4c@79 
 │   │   │           ├── jpeg-turbo 
 │   │   │           ├── libb2 
 │   │   │           ├── libpng 
@@ -43823,9 +43825,9 @@ qtwebview
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -43911,9 +43913,9 @@ qtwebview
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -43999,9 +44001,9 @@ qtwebview
 │   │       │   │   │       ├── json-c 
 │   │       │   │   │       └── libunistring 
 │   │       │   │   ├── graphite2 
-│   │       │   │   ├── icu4c@78 
+│   │       │   │   ├── icu4c@79 
 │   │       │   │   └── libpng 
-│   │       │   ├── icu4c@78 
+│   │       │   ├── icu4c@79 
 │   │       │   ├── jpeg-turbo 
 │   │       │   ├── libb2 
 │   │       │   ├── libpng 
@@ -44087,9 +44089,9 @@ qtwebview
 │   │               │   │       ├── json-c 
 │   │               │   │       └── libunistring 
 │   │               │   ├── graphite2 
-│   │               │   ├── icu4c@78 
+│   │               │   ├── icu4c@79 
 │   │               │   └── libpng 
-│   │               ├── icu4c@78 
+│   │               ├── icu4c@79 
 │   │               ├── jpeg-turbo 
 │   │               ├── libb2 
 │   │               ├── libpng 
@@ -44177,9 +44179,9 @@ qtwebview
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   ├── jpeg-turbo 
 │       │   ├── libb2 
 │       │   ├── libpng 
@@ -44265,9 +44267,9 @@ qtwebview
 │       │   │   │   │       ├── json-c 
 │       │   │   │   │       └── libunistring 
 │       │   │   │   ├── graphite2 
-│       │   │   │   ├── icu4c@78 
+│       │   │   │   ├── icu4c@79 
 │       │   │   │   └── libpng 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   ├── jpeg-turbo 
 │       │   │   ├── libb2 
 │       │   │   ├── libpng 
@@ -44353,9 +44355,9 @@ qtwebview
 │       │           │   │       ├── json-c 
 │       │           │   │       └── libunistring 
 │       │           │   ├── graphite2 
-│       │           │   ├── icu4c@78 
+│       │           │   ├── icu4c@79 
 │       │           │   └── libpng 
-│       │           ├── icu4c@78 
+│       │           ├── icu4c@79 
 │       │           ├── jpeg-turbo 
 │       │           ├── libb2 
 │       │           ├── libpng 
@@ -44445,9 +44447,9 @@ qtwebview
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   ├── jpeg-turbo 
 │   │   ├── libb2 
 │   │   ├── libpng 
@@ -44533,9 +44535,9 @@ qtwebview
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   ├── jpeg-turbo 
 │   │   │   ├── libb2 
 │   │   │   ├── libpng 
@@ -44621,9 +44623,9 @@ qtwebview
 │   │           │   │       ├── json-c 
 │   │           │   │       └── libunistring 
 │   │           │   ├── graphite2 
-│   │           │   ├── icu4c@78 
+│   │           │   ├── icu4c@79 
 │   │           │   └── libpng 
-│   │           ├── icu4c@78 
+│   │           ├── icu4c@79 
 │   │           ├── jpeg-turbo 
 │   │           ├── libb2 
 │   │           ├── libpng 
@@ -44709,9 +44711,9 @@ qtwebview
 │           │   │       ├── json-c 
 │           │   │       └── libunistring 
 │           │   ├── graphite2 
-│           │   ├── icu4c@78 
+│           │   ├── icu4c@79 
 │           │   └── libpng 
-│           ├── icu4c@78 
+│           ├── icu4c@79 
 │           ├── jpeg-turbo 
 │           ├── libb2 
 │           ├── libpng 
@@ -44797,9 +44799,9 @@ qtwebview
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
-    │   ├── icu4c@78 
+    │   ├── icu4c@79 
     │   ├── jpeg-turbo 
     │   ├── libb2 
     │   ├── libpng 
@@ -44885,9 +44887,9 @@ qtwebview
         │   │   │       ├── json-c 
         │   │   │       └── libunistring 
         │   │   ├── graphite2 
-        │   │   ├── icu4c@78 
+        │   │   ├── icu4c@79 
         │   │   └── libpng 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   ├── jpeg-turbo 
         │   ├── libb2 
         │   ├── libpng 
@@ -44973,9 +44975,9 @@ qtwebview
                 │   │       ├── json-c 
                 │   │       └── libunistring 
                 │   ├── graphite2 
-                │   ├── icu4c@78 
+                │   ├── icu4c@79 
                 │   └── libpng 
-                ├── icu4c@78 
+                ├── icu4c@79 
                 ├── jpeg-turbo 
                 ├── libb2 
                 ├── libpng 
@@ -45073,7 +45075,7 @@ shared-mime-info
 simdjson
 
 simdutf
-└── icu4c@78 
+└── icu4c@79 
 
 snappy
 
@@ -45578,7 +45580,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── hicolor-icon-theme 
 │   │   ├── libepoxy 
@@ -45713,7 +45715,7 @@ spice-gtk
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -45878,7 +45880,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── hicolor-icon-theme 
 │   │   ├── jpeg-turbo 
@@ -46032,7 +46034,7 @@ spice-gtk
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   ├── pango 
 │   │   │   │   ├── cairo 
@@ -46165,7 +46167,7 @@ spice-gtk
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
 │   │   │   │   └── libthai 
 │   │   │   │       └── libdatrie 
@@ -46317,7 +46319,7 @@ spice-gtk
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -46404,7 +46406,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libunibreak 
 │   ├── libnice 
@@ -46584,7 +46586,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── pango 
 │   │   │   ├── cairo 
@@ -46717,7 +46719,7 @@ spice-gtk
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -47099,7 +47101,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -47384,7 +47386,7 @@ spice-gtk
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── musepack 
 │       ├── libcuefile 
@@ -47626,7 +47628,7 @@ spice-gtk
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── libepoxy 
@@ -47761,7 +47763,7 @@ spice-gtk
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -48042,7 +48044,7 @@ spice-gtk
     │       ├── json-c 
     │       └── libunistring 
     ├── graphite2 
-    ├── icu4c@78 
+    ├── icu4c@79 
     └── libpng 
 
 spice-protocol
@@ -48236,9 +48238,9 @@ tesseract
 │   │       ├── json-c 
 │   │       └── libunistring 
 │   ├── graphite2 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   └── libpng 
-├── icu4c@78 
+├── icu4c@79 
 ├── leptonica 
 │   ├── giflib 
 │   ├── jpeg-turbo 
@@ -48419,7 +48421,7 @@ tesseract
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
@@ -48652,7 +48654,7 @@ virt-manager
 │       │   │       ├── json-c 
 │       │   │       └── libunistring 
 │       │   ├── graphite2 
-│       │   ├── icu4c@78 
+│       │   ├── icu4c@79 
 │       │   └── libpng 
 │       ├── pango 
 │       │   ├── cairo 
@@ -48785,7 +48787,7 @@ virt-manager
 │       │   │   │       ├── json-c 
 │       │   │   │       └── libunistring 
 │       │   │   ├── graphite2 
-│       │   │   ├── icu4c@78 
+│       │   │   ├── icu4c@79 
 │       │   │   └── libpng 
 │       │   └── libthai 
 │       │       └── libdatrie 
@@ -49134,7 +49136,7 @@ virt-manager
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── hicolor-icon-theme 
 │   │   ├── libepoxy 
@@ -49269,7 +49271,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -49685,7 +49687,7 @@ virt-manager
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── hicolor-icon-theme 
 │   │   ├── libepoxy 
@@ -49820,7 +49822,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -49958,7 +49960,7 @@ virt-manager
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -50787,7 +50789,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   ├── hicolor-icon-theme 
 │   │   │   ├── libepoxy 
@@ -50922,7 +50924,7 @@ virt-manager
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
 │   │   │   │   └── libthai 
 │   │   │   │       └── libdatrie 
@@ -51087,7 +51089,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   ├── hicolor-icon-theme 
 │   │   │   ├── jpeg-turbo 
@@ -51241,7 +51243,7 @@ virt-manager
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
 │   │   │   │   ├── pango 
 │   │   │   │   │   ├── cairo 
@@ -51374,7 +51376,7 @@ virt-manager
 │   │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   │   └── libpng 
 │   │   │   │   │   └── libthai 
 │   │   │   │   │       └── libdatrie 
@@ -51526,7 +51528,7 @@ virt-manager
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
 │   │   │   │   └── libthai 
 │   │   │   │       └── libdatrie 
@@ -51613,7 +51615,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libunibreak 
 │   │   ├── libnice 
@@ -51793,7 +51795,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   ├── pango 
 │   │   │   │   ├── cairo 
@@ -51926,7 +51928,7 @@ virt-manager
 │   │   │   │   │   │       ├── json-c 
 │   │   │   │   │   │       └── libunistring 
 │   │   │   │   │   ├── graphite2 
-│   │   │   │   │   ├── icu4c@78 
+│   │   │   │   │   ├── icu4c@79 
 │   │   │   │   │   └── libpng 
 │   │   │   │   └── libthai 
 │   │   │   │       └── libdatrie 
@@ -52308,7 +52310,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -52593,7 +52595,7 @@ virt-manager
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── musepack 
 │   │       ├── libcuefile 
@@ -52835,7 +52837,7 @@ virt-manager
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── hicolor-icon-theme 
 │   │   ├── libepoxy 
@@ -52970,7 +52972,7 @@ virt-manager
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -53251,7 +53253,7 @@ virt-manager
 │       │       ├── json-c 
 │       │       └── libunistring 
 │       ├── graphite2 
-│       ├── icu4c@78 
+│       ├── icu4c@79 
 │       └── libpng 
 └── vte3 
     ├── at-spi2-core 
@@ -53686,7 +53688,7 @@ virt-manager
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
     │   ├── hicolor-icon-theme 
     │   ├── libepoxy 
@@ -53821,7 +53823,7 @@ virt-manager
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
     │   │   └── libthai 
     │   │       └── libdatrie 
@@ -53986,7 +53988,7 @@ virt-manager
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
     │   ├── hicolor-icon-theme 
     │   ├── jpeg-turbo 
@@ -54140,7 +54142,7 @@ virt-manager
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
     │   │   ├── pango 
     │   │   │   ├── cairo 
@@ -54273,7 +54275,7 @@ virt-manager
     │   │   │   │   │       ├── json-c 
     │   │   │   │   │       └── libunistring 
     │   │   │   │   ├── graphite2 
-    │   │   │   │   ├── icu4c@78 
+    │   │   │   │   ├── icu4c@79 
     │   │   │   │   └── libpng 
     │   │   │   └── libthai 
     │   │   │       └── libdatrie 
@@ -54425,14 +54427,14 @@ virt-manager
     │   │   │   │       ├── json-c 
     │   │   │   │       └── libunistring 
     │   │   │   ├── graphite2 
-    │   │   │   ├── icu4c@78 
+    │   │   │   ├── icu4c@79 
     │   │   │   └── libpng 
     │   │   └── libthai 
     │   │       └── libdatrie 
     │   └── gettext 
     │       ├── json-c 
     │       └── libunistring 
-    ├── icu4c@78 
+    ├── icu4c@79 
     ├── lz4 
     ├── pango 
     │   ├── cairo 
@@ -54565,13 +54567,13 @@ virt-manager
     │   │   │       ├── json-c 
     │   │   │       └── libunistring 
     │   │   ├── graphite2 
-    │   │   ├── icu4c@78 
+    │   │   ├── icu4c@79 
     │   │   └── libpng 
     │   └── libthai 
     │       └── libdatrie 
     ├── pcre2 
     ├── simdutf 
-    │   └── icu4c@78 
+    │   └── icu4c@79 
     └── gettext 
         ├── json-c 
         └── libunistring 
@@ -55038,7 +55040,7 @@ vte3
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── libepoxy 
@@ -55173,7 +55175,7 @@ vte3
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
@@ -55338,7 +55340,7 @@ vte3
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   ├── hicolor-icon-theme 
 │   ├── jpeg-turbo 
@@ -55492,7 +55494,7 @@ vte3
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   ├── pango 
 │   │   │   ├── cairo 
@@ -55625,7 +55627,7 @@ vte3
 │   │   │   │   │       ├── json-c 
 │   │   │   │   │       └── libunistring 
 │   │   │   │   ├── graphite2 
-│   │   │   │   ├── icu4c@78 
+│   │   │   │   ├── icu4c@79 
 │   │   │   │   └── libpng 
 │   │   │   └── libthai 
 │   │   │       └── libdatrie 
@@ -55777,14 +55779,14 @@ vte3
 │   │   │   │       ├── json-c 
 │   │   │   │       └── libunistring 
 │   │   │   ├── graphite2 
-│   │   │   ├── icu4c@78 
+│   │   │   ├── icu4c@79 
 │   │   │   └── libpng 
 │   │   └── libthai 
 │   │       └── libdatrie 
 │   └── gettext 
 │       ├── json-c 
 │       └── libunistring 
-├── icu4c@78 
+├── icu4c@79 
 ├── lz4 
 ├── pango 
 │   ├── cairo 
@@ -55917,13 +55919,13 @@ vte3
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
 │   └── libthai 
 │       └── libdatrie 
 ├── pcre2 
 ├── simdutf 
-│   └── icu4c@78 
+│   └── icu4c@79 
 └── gettext 
     ├── json-c 
     └── libunistring 
@@ -56060,9 +56062,9 @@ xpdf
 │   │   │       ├── json-c 
 │   │   │       └── libunistring 
 │   │   ├── graphite2 
-│   │   ├── icu4c@78 
+│   │   ├── icu4c@79 
 │   │   └── libpng 
-│   ├── icu4c@78 
+│   ├── icu4c@79 
 │   ├── jpeg-turbo 
 │   ├── libb2 
 │   ├── libpng 
@@ -56148,9 +56150,9 @@ xpdf
         │   │       ├── json-c 
         │   │       └── libunistring 
         │   ├── graphite2 
-        │   ├── icu4c@78 
+        │   ├── icu4c@79 
         │   └── libpng 
-        ├── icu4c@78 
+        ├── icu4c@79 
         ├── jpeg-turbo 
         ├── libb2 
         ├── libpng 
