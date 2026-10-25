@@ -89392,7 +89392,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/c/claude-code.rb",
       "ruby_source_checksum": {
@@ -89630,7 +89630,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/d/docker-desktop.rb",
       "ruby_source_checksum": {
@@ -89690,7 +89690,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -89791,7 +89791,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -89924,7 +89924,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -89997,7 +89997,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -90014,20 +90014,20 @@
       ],
       "desc": "System monitor for the menu bar",
       "homepage": "https://github.com/exelban/stats",
-      "url": "https://github.com/exelban/stats/releases/download/v3.0.22/Stats.dmg",
+      "url": "https://github.com/exelban/stats/releases/download/v3.0.23/Stats.dmg",
       "url_specs": {},
-      "version": "3.0.22",
+      "version": "3.0.23",
       "autobump": true,
       "no_autobump_message": null,
       "skip_livecheck": false,
-      "installed": "3.0.22",
-      "installed_time": 1792343016,
-      "bundle_version": "850",
-      "bundle_short_version": "3.0.22",
+      "installed": "3.0.23",
+      "installed_time": 1792955044,
+      "bundle_version": "851",
+      "bundle_short_version": "3.0.23",
       "pinned": false,
       "pinned_version": null,
       "outdated": false,
-      "sha256": "3ac445574a78cbc1b32ed27b919fec837a862588ca3df45568eec3af995b95fb",
+      "sha256": "016517d559251f486aa0a47549de34c7dff56102392fa6273a58b0b2b815f392",
       "artifacts": [
         {
           "uninstall": [
@@ -90093,11 +90093,11 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "62778d8bb09f8f99822c53dcd733b8c5f5475df7",
+      "tap_git_head": "3c7771be17d0acb6ab94d6a8f1b3b73646a18fe3",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
-        "sha256": "d4db4cd21936686371b341d7227ad61835542ae7f66fdd576b787d59dc8e2915"
+        "sha256": "f755268162d58897d2e2be8512c1af1c55b716be45cc0e212b1063aaf0edd2dd"
       }
     }
   ]
