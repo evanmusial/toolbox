@@ -12,13 +12,13 @@ assimp 6.0.5
 at-spi2-core 2.62.1
 augeas 1.15.0
 autoconf 2.73
-aws-c-auth 1.0.1
+aws-c-auth 1.0.2
 aws-c-cal 1.0.0_1
 aws-c-common 1.0.3
 aws-c-compression 1.0.0
 aws-c-event-stream 1.0.0_1
 aws-c-http 1.1.1
-aws-c-io 1.1.0
+aws-c-io 1.1.1
 aws-c-mqtt 1.1.2
 aws-c-s3 1.3.1_1
 aws-c-sdkutils 1.0.1
@@ -172,8 +172,8 @@ libfido2 1.17.0_1
 libgcrypt 1.12.4
 libgit2 1.9.7_2
 libgpg-error 1.61
-libheif 1.23.6
-libheif-plugins 1.23.6
+libheif 1.23.7
+libheif-plugins 1.23.7
 libice 1.1.2
 libidn 1.44
 libidn2 2.3.8
