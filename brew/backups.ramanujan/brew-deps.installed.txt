@@ -62,7 +62,7 @@ docker:
 docker-completion: 
 docker-compose: 
 docker-desktop: 
-dotnet: brotli ca-certificates icu4c@78 openssl@4
+dotnet: brotli ca-certificates icu4c@79 openssl@4
 double-conversion: 
 dtc: libyaml
 duktape: 
@@ -397,7 +397,7 @@ qttools: brotli ca-certificates cairo dbus double-conversion fontconfig freetype
 qttranslations: 
 qtvirtualkeyboard: assimp brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz hunspell icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@4 pcre2 pixman qtbase qtdeclarative qtmultimedia qtquick3d qtquicktimeline qtshadertools qtsvg readline xorgproto xz zstd
 qtwebchannel: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@4 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
-qtwebengine: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@3 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg qttools qtwebchannel xorgproto xz zstd
+qtwebengine: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@79 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@4 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg qttools qtwebchannel xorgproto xz zstd
 qtwebsockets: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo md4c openssl@4 pcre2 pixman qtbase qtdeclarative qtsvg xorgproto xz zstd
 qtwebview: brotli ca-certificates cairo dbus double-conversion fontconfig freetype gettext glib graphite2 gumbo-parser harfbuzz icu4c@78 jpeg-turbo json-c libb2 libpng libunistring libx11 libxau libxcb libxdmcp libxext libxrender litehtml lz4 lzo md4c openssl@4 pcre2 pixman qtbase qtdeclarative qtpositioning qtserialport qtsvg qttools qtwebchannel qtwebengine xorgproto xz zstd
 rav1e: 

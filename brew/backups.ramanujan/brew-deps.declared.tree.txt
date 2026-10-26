@@ -1020,7 +1020,7 @@ docker-desktop
 
 dotnet
 ├── brotli 
-├── icu4c@78 
+├── icu4c@79 
 └── openssl@4 
     └── ca-certificates 
 
