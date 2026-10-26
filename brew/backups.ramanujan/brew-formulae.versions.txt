@@ -202,7 +202,7 @@ libproxy 0.5.12
 libpsl 0.23.3
 libpthread-stubs 0.5
 libraqm 0.11.0
-libraw 0.22.2
+libraw 0.22.3
 libreplaygain r475
 librist 0.2.20
 librsvg 2.63.4
@@ -288,7 +288,7 @@ mysql-client@8.4 8.4.13
 nbytes 0.1.4
 ncurses 6.6
 nettle 4.0
-nexttrace 1.7.4
+nexttrace 1.7.5
 nghttp2 1.70.0
 nlohmann-json 3.12.0
 nmap 7.992
