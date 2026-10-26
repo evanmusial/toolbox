@@ -89517,6 +89517,86 @@
       }
     },
     {
+      "token": "codex",
+      "full_token": "codex",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Codex"
+      ],
+      "desc": "OpenAI's coding agent that runs in your terminal",
+      "homepage": "https://github.com/openai/codex",
+      "url": "https://github.com/openai/codex/releases/download/rust-v0.164.0/codex-package-aarch64-apple-darwin.tar.gz",
+      "url_specs": {},
+      "version": "0.164.0",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "0.164.0",
+      "installed_time": 1793032733,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "dd99e9092270691a67bdde7be04ac283dea9da8e86cbde356c2cc851a79205fa",
+      "artifacts": [
+        {
+          "binary": [
+            "bin/codex"
+          ],
+          "target": "/opt/homebrew/bin/codex"
+        },
+        {
+          "generate_completions_from_executable": [
+            "bin/codex",
+            "completion",
+            {
+              "base_name": null,
+              "shell_parameter_format": null,
+              "shells": [
+                "bash",
+                "zsh",
+                "fish"
+              ]
+            }
+          ]
+        },
+        {
+          "zap": [
+            {
+              "rmdir": "~/.codex"
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {},
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": null,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "0daeaeb4b4d20a9fd443f950009571b5d1733b63",
+      "languages": [],
+      "ruby_source_path": "Casks/c/codex.rb",
+      "ruby_source_checksum": {
+        "sha256": "ba5e7408ab174646972cd6a17ec4d719b0b18d8f77e83143c88dfbeb11fe1bbd"
+      }
+    },
+    {
       "token": "docker-desktop",
       "full_token": "docker-desktop",
       "old_tokens": [

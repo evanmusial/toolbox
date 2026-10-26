@@ -951,6 +951,8 @@ cmocka
 
 codec2
 
+codex
+
 colima
 └── lima 
 

@@ -1,4 +1,5 @@
 claude-code 2.1.308
+codex 0.164.0
 docker-desktop 4.96.3,244472
 google-analytics-opt-out 1.0.2
 makemkv 1.18.4

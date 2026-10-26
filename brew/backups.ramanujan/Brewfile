@@ -1,4 +1,4 @@
-# backup: 20261026 @ 1236 (UTC)
+# backup: 20261026 @ 1239 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -659,6 +659,8 @@ brew "yq"
 brew "hashicorp/tap/terraform", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Prevent website visitor's data from being used by Google Analytics JavaScript
@@ -671,7 +673,6 @@ cask "ngrok"
 cask "spundle"
 # System monitor for the menu bar
 cask "stats"
-npm "@openai/codex"
 npm "cf"
 npm "esm"
 npm "gcp-docs"

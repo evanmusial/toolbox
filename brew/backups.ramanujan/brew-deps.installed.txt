@@ -43,6 +43,7 @@ claude-code:
 cmake: 
 cmocka: 
 codec2: 
+codex: 
 colima: lima
 coreutils: ca-certificates gmp openssl@4
 cpio: 
