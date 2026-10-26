@@ -89,6 +89,7 @@ pipx
 portaudio
 prometheus
 pwgen
+pyenv
 python-gdbm@3.11
 python-setuptools
 python-tk@3.11

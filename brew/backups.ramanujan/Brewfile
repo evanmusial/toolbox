@@ -1,4 +1,4 @@
-# backup: 20261026 @ 1239 (UTC)
+# backup: 20261026 @ 1542 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -101,6 +101,8 @@ brew "assimp"
 brew "dbus"
 # Configuration editing tool and API
 brew "augeas"
+# Macro processing language
+brew "m4"
 # Library for decimal floating point arithmetic
 brew "mpdecimal"
 # Official Amazon AWS command-line interface
@@ -331,8 +333,6 @@ brew "python-packaging"
 brew "python@3.13"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
-# Macro processing language
-brew "m4"
 # Generic library support script
 brew "libtool"
 # GNU Ubiquitous Intelligent Language for Extensions
@@ -581,6 +581,8 @@ brew "portaudio"
 brew "prometheus"
 # Password generator
 brew "pwgen"
+# Python version management
+brew "pyenv"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Python interface to gdbm

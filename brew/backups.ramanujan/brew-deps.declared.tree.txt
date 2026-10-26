@@ -423,6 +423,9 @@ at-spi2-core
 augeas
 └── readline 
 
+autoconf
+└── m4 
+
 aws-c-auth
 ├── aws-c-cal 
 │   ├── aws-c-common 
@@ -10861,6 +10864,14 @@ pybind11
 pycparser
 
 pydantic
+
+pyenv
+├── autoconf 
+│   └── m4 
+├── openssl@4 
+│   └── ca-certificates 
+├── pkgconf 
+└── readline 
 
 pygobject3
 ├── cairo 
