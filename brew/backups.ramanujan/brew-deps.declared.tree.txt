@@ -1590,6 +1590,22 @@ ghostscript
 giflib
 
 git
+├── curl 
+│   ├── brotli 
+│   ├── libnghttp2 
+│   ├── libnghttp3 
+│   ├── libngtcp2 
+│   │   └── openssl@4 
+│   │       └── ca-certificates 
+│   ├── libpsl 
+│   ├── libssh2 
+│   │   └── openssl@4 
+│   │       └── ca-certificates 
+│   ├── openssl@4 
+│   │   └── ca-certificates 
+│   └── zstd 
+│       ├── lz4 
+│       └── xz 
 ├── pcre2 
 └── gettext 
     ├── json-c 

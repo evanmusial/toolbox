@@ -17,7 +17,6 @@ colima
 coreutils
 cpufetch
 crc32c
-curl
 dialog
 docker
 docker-completion
