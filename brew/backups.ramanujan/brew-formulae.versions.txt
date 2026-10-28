@@ -141,7 +141,7 @@ jbig2dec 0.20
 jbig2enc 0.32
 jemalloc 5.4.0
 jpeg 10
-jpeg-turbo 3.2.0
+jpeg-turbo 3.2.1
 jpeg-xl 0.12.0_1
 jq 1.8.2
 json-c 0.19
