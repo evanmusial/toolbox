@@ -1,4 +1,4 @@
-# backup: 20261030 @ 2041 (UTC)
+# backup: 20261030 @ 2138 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -129,10 +129,6 @@ brew "pycparser"
 brew "cffi"
 # Cryptographic recipes and primitives for Python
 brew "cryptography"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Tool to obtain certs from Let's Encrypt and autoenable HTTPS
 brew "certbot"
 # GNU multiple precision arithmetic library
@@ -195,6 +191,10 @@ brew "duktape"
 brew "exempi"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Work with ID3 metadata in .mp3 files
 brew "eye-d3"
 # MP3 player for Linux and UNIX

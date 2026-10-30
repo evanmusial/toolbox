@@ -35,7 +35,7 @@ c-ares 1.34.9
 ca-certificates 2026-10-20
 cairo 1.18.6
 capstone 5.0.9
-certbot 5.8.0_1
+certbot 5.9.0
 certifi 2026.10.23
 cffi 2.1.1_1
 chrony 4.9
@@ -340,7 +340,7 @@ pwgen 2.08
 py3cairo 1.29.2_1
 pybind11 3.1.0_1
 pycparser 3.12
-pydantic 2.14.1
+pydantic 2.14.2
 pyenv 2.8.14
 pygobject3 3.58.1_1
 python-gdbm@3.11 3.11.18
@@ -424,7 +424,7 @@ spice-protocol 0.14.5
 sqlite 3.54.1
 srt 1.5.7_1
 srtp 2.8.1_1
-streamlink 8.6.2
+streamlink 8.6.3
 streamripper 1.64.6_2
 svt-av1 4.2.0
 taglib 2.3.2
