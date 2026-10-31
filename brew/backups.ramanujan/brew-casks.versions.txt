@@ -1,4 +1,4 @@
-claude-code 2.1.308
+claude-code 2.1.309
 codex 0.166.0
 docker-desktop 4.97.0,244584
 google-analytics-opt-out 1.0.2
