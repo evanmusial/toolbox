@@ -150,7 +150,7 @@ jsoncpp 1.9.8
 krb5 1.22.2_2
 lame 4.0
 leptonica 1.87.0
-libarchive 3.8.10
+libarchive 3.8.11
 libass 0.17.5_1
 libassuan 3.0.2
 libavif 1.4.2
