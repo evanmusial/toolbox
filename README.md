@@ -10,6 +10,9 @@ My public toolbox.
   Cloud Run redirect service behind `files.musial.io/s/`.
 - [`apps/radio-now-playing`](apps/radio-now-playing/) — a configuration-driven
   Python daemon for polling radio metadata and posting song changes to Slack.
+- [`apps/youtube-subscription-review`](apps/youtube-subscription-review/) — a
+  safe, one-at-a-time CLI for reviewing YouTube channel subscriptions and
+  their latest activity.
 
 ## Homebrew Backups
 
