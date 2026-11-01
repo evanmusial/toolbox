@@ -447,7 +447,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_6
-virtualenv 21.15.1
+virtualenv 21.15.2
 volk 3.3.0_3
 vte3 0.84.1_4
 watch 4.0.7
