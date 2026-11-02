@@ -229,7 +229,7 @@ libusb 1.0.30
 libusrsctp 0.9.5.0_1
 libuv 1.53.0
 libvidstab 1.1.2
-libvirt 12.8.0
+libvirt 12.9.0
 libvirt-glib 5.0.0_1
 libvirt-python 12.8.0_1
 libvmaf 3.2.1
@@ -426,7 +426,7 @@ srt 1.5.7_1
 srtp 2.8.1_1
 streamlink 8.6.3
 streamripper 1.64.6_2
-svt-av1 4.2.0
+svt-av1 4.3.0
 taglib 2.3.2
 tbb 2023.2.0
 tcl-tk 9.1.0
