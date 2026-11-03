@@ -20,7 +20,7 @@ aws-c-event-stream 1.0.0_1
 aws-c-http 1.1.1
 aws-c-io 1.1.1
 aws-c-mqtt 1.1.2
-aws-c-s3 1.5.1
+aws-c-s3 1.5.2
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
 awscli 2.39.3
