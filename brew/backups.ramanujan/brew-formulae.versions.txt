@@ -325,7 +325,7 @@ phodav 3.2
 pillow 13.0.0
 pinentry 1.3.3
 pinentry-mac 1.3.1.1
-pipx 1.18.11
+pipx 1.18.12
 pixman 0.46.4
 pkgconf 3.0.10
 pmix 6.1.0
@@ -401,7 +401,7 @@ rav1e 0.8.1
 readline 8.3.6
 rename 1.601
 rpds-py 2026.9.1_1
-rsync 3.5.1
+rsync 3.5.2
 rtmpdump 2.6_2
 rubberband 4.0.0
 s2n 1.7.13
