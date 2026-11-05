@@ -262,7 +262,7 @@ llhttp 9.4.3
 logrotate 3.22.0
 lolcat 100.0.1
 lua 5.5.1
-lz4 1.10.0
+lz4 1.11.0
 lzlib 1.16
 lzo 2.10
 m4 1.4.21
