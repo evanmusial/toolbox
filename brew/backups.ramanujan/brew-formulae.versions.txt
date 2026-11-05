@@ -332,7 +332,7 @@ pmix 6.1.0
 pngquant 3.0.3
 popt 1.19
 portaudio 19.7.0
-prometheus 3.15.1
+prometheus 3.16.0
 protobuf 36.2
 prrte 4.1.0_1
 pugixml 1.16
