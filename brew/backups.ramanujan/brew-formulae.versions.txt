@@ -436,7 +436,7 @@ tesseract 5.5.4
 thefuck 3.32
 theora 1.2.0
 tmux 3.8
-trivy 0.76.1
+trivy 0.76.2
 unbound 1.26.2
 unpaper 7.0.0_4
 usb.ids 2026.06.26
@@ -464,7 +464,7 @@ xvid 1.3.7
 xxhash 0.8.4
 xz 5.8.4
 yajl 2.1.0_1
-yq 4.54.1
+yq 4.54.2
 zeromq 4.3.5_2
 zimg 3.0.6
 zlib-ng-compat 2.3.3_1
