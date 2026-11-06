@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.2_1
 aws-c-s3 1.5.2_1
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.39.4_1
+awscli 2.39.5
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -77,7 +77,7 @@ flac 1.5.0
 fmt 12.2.0
 fontconfig 2.18.3
 freetype 2.15.0
-frei0r 3.6.0
+frei0r 3.7.0
 fribidi 1.0.18
 gawk 5.4.1
 gcc 16.2.0
@@ -107,7 +107,7 @@ grep 3.12
 gsettings-desktop-schemas 51.0
 gstreamer 1.28.8_1
 gtk+3 3.24.52_1
-gtk-vnc 1.5.0
+gtk-vnc 1.6.0
 gtk4 4.24.1
 gtksourceview4 4.8.4_2
 guile 3.0.11
@@ -122,7 +122,6 @@ htop 3.5.3
 httrack 3.51.0
 hunspell 1.7.6
 hwloc 2.15.0
-icu4c@76 76.1_2
 icu4c@77 77.1_1
 icu4c@78 78.3_1
 icu4c@79 79.1

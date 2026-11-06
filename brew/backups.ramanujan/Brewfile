@@ -1,4 +1,4 @@
-# backup: 20261105 @ 2330 (UTC)
+# backup: 20261106 @ 0340 (UTC)
 # host: ramanujan
 
 tap "hashicorp/tap"
@@ -325,14 +325,6 @@ brew "rtmpdump"
 brew "srt"
 # UTF-8 with C++ in a Portable Way
 brew "utf8cpp"
-# Asynchronous event library
-brew "libevent"
-# Core utilities for Python packages
-brew "python-packaging"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # Generic library support script
 brew "libtool"
 # GNU Ubiquitous Intelligent Language for Extensions
@@ -405,6 +397,8 @@ brew "libcaca"
 brew "libebml"
 # Asynchronous event library
 brew "libev"
+# Asynchronous event library
+brew "libevent"
 # Portable Foreign Function Interface library
 brew "libffi"
 # C library of Git core methods that is re-entrant and linkable
@@ -435,6 +429,8 @@ brew "libmetalink"
 brew "libmicrohttpd"
 # MNG/JNG reference library
 brew "libmng"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Library that provides automatic proxy configuration management
 brew "libproxy"
 # X.Org: pthread-stubs.pc
@@ -587,12 +583,16 @@ brew "pyenv"
 brew "python@3.11"
 # Python interface to gdbm
 brew "python-gdbm@3.11"
+# Core utilities for Python packages
+brew "python-packaging"
 # Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
 # Python interface to Tcl/Tk
 brew "python-tk@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Generic machine emulator and virtualizer
