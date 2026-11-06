@@ -254,7 +254,7 @@ libxtst 1.2.6
 libyaml 0.2.5
 libzen 0.4.41_1
 libzip 1.12.1
-lima 2.2.1
+lima 2.3.0
 litehtml 0.10_1
 little-cms2 2.19.1
 llhttp 9.4.3
