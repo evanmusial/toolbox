@@ -51,7 +51,7 @@ final class NotchOverlayController {
 
     private let collapsedSideWidth: CGFloat = 132
     private let expandedSideWidth: CGFloat = 190
-    private let expandedBodyHeight: CGFloat = 106
+    private let expandedBodyHeight: CGFloat = 146
 
     init(store: QuotaStore) {
         self.store = store
@@ -207,11 +207,9 @@ final class NotchOverlayController {
     }
 }
 
-private struct NotchOverlayView: View {
+struct NotchOverlayView: View {
     @ObservedObject var store: QuotaStore
     @ObservedObject var overlayState: NotchOverlayState
-    @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var showResetAvailable = false
     let notchGap: CGFloat
     let compactHeight: CGFloat
 
@@ -229,67 +227,60 @@ private struct NotchOverlayView: View {
         .onHover { hovering in
             overlayState.setHovering(hovering)
         }
-        .task(id: resetAvailable) {
-            showResetAvailable = false
-            guard resetAvailable else { return }
-
-            do {
-                while !Task.isCancelled {
-                    try await Task.sleep(nanoseconds: 25_000_000_000)
-                    withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.34)) {
-                        showResetAvailable = true
-                    }
-                    try await Task.sleep(nanoseconds: 5_000_000_000)
-                    withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.34)) {
-                        showResetAvailable = false
-                    }
-                }
-            } catch {
-                showResetAvailable = false
-            }
-        }
         .animation(.easeInOut(duration: 0.16), value: overlayState.isExpanded)
         .preferredColorScheme(.dark)
     }
 
     private var compactRow: some View {
         HStack(spacing: 0) {
-            compactSide(alignment: .trailing) {
-                ZStack(alignment: .trailing) {
+            compactSide(alignment: .trailing, trend: store.primaryQuotaTrend) {
+                RotatingUsageReadout(
+                    showRate: store.showingUsageRates && store.primaryQuotaRate != nil,
+                    alignment: .trailing, travel: compactHeight
+                ) {
                     HStack(alignment: .firstTextBaseline, spacing: 3) {
                         Text("Quota")
                             .font(.system(size: 11, weight: .regular, design: .rounded))
                         Text("\(remainingPercent)%")
-                            .font(.system(size: 12, weight: .semibold, design: .rounded))
+                            .font(.system(size: 12, weight: .bold, design: .rounded))
                             .monospacedDigit()
                         Text("left")
                             .font(.system(size: 11, weight: .regular, design: .rounded))
                     }
-                    .offset(y: showResetAvailable ? -compactHeight : 0)
-                    .opacity(showResetAvailable ? 0 : 1)
-
-                    Text("Reset Available")
-                        .font(.system(size: 12, weight: .regular, design: .rounded))
-                        .foregroundStyle(CodexPalette.resetAvailable)
-                        .offset(y: showResetAvailable ? 0 : compactHeight)
-                        .opacity(showResetAvailable ? 1 : 0)
+                } rate: {
+                    if let rate = store.primaryQuotaRate {
+                        CompactUsageRate(rate: rate, units: "pts/hour")
+                    }
                 }
+                .meterTextShadow()
                 .frame(height: compactHeight)
                 .clipped()
                 .padding(.trailing, 8)
+                .help(resetAvailable ? "Reset Available" : "Quota rate averages percentage points consumed per active hour.")
             }
 
             Color.clear.frame(width: notchGap)
 
-            compactSide(alignment: .leading) {
-                HStack(alignment: .firstTextBaseline, spacing: 3) {
-                    Text(creditBalance)
-                        .font(.system(size: 12, weight: .semibold, design: .rounded))
-                        .monospacedDigit()
-                    Text("credits")
-                        .font(.system(size: 11, weight: .regular, design: .rounded))
+            compactSide(alignment: .leading, trend: store.creditsTrend) {
+                RotatingUsageReadout(
+                    showRate: store.showingUsageRates && store.creditsRate != nil,
+                    alignment: .leading, travel: compactHeight
+                ) {
+                    HStack(alignment: .firstTextBaseline, spacing: 3) {
+                        Text(creditBalance)
+                            .font(.system(size: 12, weight: .bold, design: .rounded))
+                            .monospacedDigit()
+                        Text("credits")
+                            .font(.system(size: 11, weight: .regular, design: .rounded))
+                    }
+                } rate: {
+                    if let rate = store.creditsRate {
+                        CompactUsageRate(rate: rate, units: "credits/hour")
+                    }
                 }
+                .frame(height: compactHeight)
                 .foregroundStyle(CodexPalette.accent)
+                .meterTextShadow()
             }
         }
         .frame(height: compactHeight)
@@ -308,24 +299,45 @@ private struct NotchOverlayView: View {
 
     private func compactSide<Content: View>(
         alignment: HorizontalAlignment,
+        trend: TrendSeries?,
         @ViewBuilder content: () -> Content
     ) -> some View {
         VStack(alignment: alignment, spacing: 1, content: content)
             .foregroundStyle(CodexPalette.text)
+            .offset(y: -3)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: alignment == .leading ? .leading : .trailing)
             .padding(.horizontal, 12)
+            .background {
+                TrendBackdrop(series: trend, height: compactHeight >= 30 ? 10 : 6, bottomInset: 1)
+            }
     }
 
     private var expandedMetrics: some View {
-        HStack(spacing: 0) {
-            NotchMetric(value: "\(remainingPercent)%", label: "Remaining", tint: remainingTint)
-            notchDivider
-            NotchMetric(value: expandedReset, label: "Resets")
-            notchDivider
-            NotchMetric(value: creditBalance, label: "Credits", tint: CodexPalette.accent)
+        VStack(spacing: 0) {
+            HStack(spacing: 0) {
+                NotchMetric(
+                    value: "\(remainingPercent)%", label: "Remaining", tint: remainingTint,
+                    trend: store.primaryQuotaTrend, rate: store.primaryQuotaRate,
+                    rateUnits: "pts/hour", showRate: store.showingUsageRates
+                )
+                notchDivider
+                NotchMetric(value: expandedReset, label: "Resets")
+                notchDivider
+                NotchMetric(
+                    value: creditBalance, label: "Credits", tint: CodexPalette.accent,
+                    trend: store.creditsTrend, rate: store.creditsRate,
+                    rateUnits: "credits/hour", showRate: store.showingUsageRates
+                )
+            }
+            .padding(.horizontal, 8)
+            .frame(height: 106)
+
+            Divider().overlay(CodexPalette.border)
+            TrendControls(store: store, compact: true)
+                .padding(.horizontal, 12)
+                .frame(height: 39)
         }
-        .padding(.horizontal, 8)
-        .frame(height: 106)
+        .frame(height: 146)
         .background {
             Rectangle().fill(
                 Color(red: 0.018, green: 0.025, blue: 0.045).opacity(0.40)
@@ -399,20 +411,35 @@ private struct NotchMetric: View {
     let value: String
     let label: String
     var tint: Color = CodexPalette.text
+    var trend: TrendSeries?
+    var rate: ActiveUsageRate?
+    var rateUnits: String?
+    var showRate = false
 
     var body: some View {
+        RotatingUsageReadout(showRate: showRate && rate != nil, travel: 40) {
+            metricText(value: value, label: label)
+        } rate: {
+            metricText(value: rate?.formattedValue ?? value, label: rateUnits ?? label)
+        }
+        .frame(height: 40)
+        .meterTextShadow()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(.horizontal, 8)
+        .background { TrendBackdrop(series: trend, height: 22, bottomInset: 6) }
+    }
+
+    private func metricText(value: String, label: String) -> some View {
         VStack(spacing: 4) {
             Text(value)
-                .font(.system(size: 20, weight: .semibold, design: .rounded))
+                .font(.system(size: 20, weight: .bold, design: .rounded))
                 .foregroundStyle(tint)
                 .monospacedDigit()
                 .lineLimit(1)
                 .minimumScaleFactor(0.55)
             Text(label)
-                .font(.system(size: 10, weight: .medium))
+                .font(.system(size: 10, weight: .regular))
                 .foregroundStyle(CodexPalette.secondaryText)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.horizontal, 8)
     }
 }

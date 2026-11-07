@@ -24,7 +24,9 @@ struct MenuBarContentView: View {
 
     var body: some View {
         Text("\(remainingPercent)% left")
+            .meterTextShadow()
         Text("\(creditBalance) credits")
+            .meterTextShadow()
 
         Divider()
 
@@ -40,6 +42,8 @@ struct MenuBarContentView: View {
         Button(appDelegate.notchVisible ? "Hide Notch Display" : "Show Notch Display") {
             appDelegate.setNotchVisible(!appDelegate.notchVisible)
         }
+
+        Toggle("Trend lines", isOn: $store.trendLinesEnabled)
 
         Divider()
 

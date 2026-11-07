@@ -9,6 +9,7 @@ enum CodexPalette {
     static let text = Color(red: 0.949, green: 0.949, blue: 0.949) // #F2F2F2
     static let secondaryText = Color.white.opacity(0.70)
     static let accent = Color(red: 0.22, green: 0.35, blue: 1.00)
+    static let trendBlue = Color(red: 0.25, green: 0.60, blue: 1.00)
     static let accentLight = Color(red: 0.66, green: 0.62, blue: 1.00)
     static let resetAvailable = Color(red: 0.435, green: 0.549, blue: 1.00) // #6F8CFF
     static let quotaCritical = Color(red: 0.545, green: 0.361, blue: 1.00) // #8B5CFF
@@ -25,6 +26,24 @@ struct DashboardView: View {
 
             VStack(spacing: 0) {
                 header
+                Divider().overlay(CodexPalette.border)
+
+                VStack(alignment: .leading, spacing: 6) {
+                    TrendControls(store: store)
+                    UsageTimingControls(store: store)
+                    if let error = store.historySaveError {
+                        Text("Trend history could not be saved.")
+                            .font(.caption)
+                            .foregroundStyle(CodexPalette.secondaryText)
+                            .help(error)
+                    } else if store.trendLinesEnabled {
+                        Text(store.trendHistorySummary)
+                            .font(.caption)
+                            .foregroundStyle(CodexPalette.secondaryText)
+                    }
+                }
+                .padding(.horizontal, 24)
+                .padding(.vertical, 12)
                 Divider().overlay(CodexPalette.border)
 
                 ScrollView {
@@ -115,9 +134,9 @@ struct DashboardView: View {
     private func metricBoard(_ snapshot: RateLimitResponse) -> some View {
         VStack(spacing: 18) {
             ForEach(snapshot.buckets) { bucket in
-                BucketMetricsView(bucket: bucket)
+                BucketMetricsView(bucket: bucket, store: store)
             }
-            AccountMetricsView(snapshot: snapshot)
+            AccountMetricsView(snapshot: snapshot, store: store)
         }
         .padding(.horizontal, 24)
         .padding(.vertical, 18)
@@ -145,6 +164,7 @@ struct DashboardView: View {
 
 private struct BucketMetricsView: View {
     let bucket: RateLimitSnapshot
+    @ObservedObject var store: QuotaStore
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -158,9 +178,10 @@ private struct BucketMetricsView: View {
                         .foregroundStyle(CodexPalette.secondaryText)
                 }
             }
+            .meterTextShadow()
 
             ForEach(bucket.windows) { item in
-                WindowMetricsCard(item: item)
+                WindowMetricsCard(item: item, trend: store.trend(for: .quota(windowID: item.id)))
             }
         }
     }
@@ -168,6 +189,7 @@ private struct BucketMetricsView: View {
 
 private struct WindowMetricsCard: View {
     let item: NamedRateLimitWindow
+    let trend: TrendSeries?
 
     var body: some View {
         HStack(spacing: 0) {
@@ -178,6 +200,7 @@ private struct WindowMetricsCard: View {
                     .font(.system(size: 13, weight: .medium))
                     .foregroundStyle(CodexPalette.secondaryText)
             }
+            .meterTextShadow()
             .frame(maxWidth: .infinity, alignment: .leading)
 
             MetricValue(value: "\(item.window.remainingPercent)%", label: "Remaining", tint: remainingColor, valueSize: 40)
@@ -187,8 +210,14 @@ private struct WindowMetricsCard: View {
             MetricValue(value: resetValue, label: "Resets", valueSize: 20)
         }
         .padding(.horizontal, 20)
-        .padding(.vertical, 14)
-        .background(CodexPalette.surface)
+        .padding(.top, 14)
+        .padding(.bottom, 44)
+        .background {
+            ZStack {
+                CodexPalette.surface
+                TrendBackdrop(series: trend)
+            }
+        }
         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 14, style: .continuous)
@@ -220,6 +249,7 @@ private struct WindowMetricsCard: View {
 
 private struct AccountMetricsView: View {
     let snapshot: RateLimitResponse
+    @ObservedObject var store: QuotaStore
     private let columns = [
         GridItem(.flexible(), spacing: 12),
         GridItem(.flexible(), spacing: 12),
@@ -233,8 +263,14 @@ private struct AccountMetricsView: View {
                 label: accessStatus.label,
                 tint: accessStatus.tint
             )
-            MetricCard(value: resetCreditsValue, label: "Reset credits")
-            MetricCard(value: workspaceCreditsValue, label: "Workspace credits", tint: CodexPalette.accent)
+            MetricCard(
+                value: resetCreditsValue, label: "Reset credits",
+                trend: store.trend(for: .resetCredits)
+            )
+            MetricCard(
+                value: workspaceCreditsValue, label: "Workspace credits", tint: CodexPalette.accent,
+                trend: store.creditsTrend
+            )
         }
     }
 
@@ -274,6 +310,7 @@ private struct MetricCard: View {
     let value: String
     let label: String
     var tint: Color = CodexPalette.text
+    var trend: TrendSeries?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -287,10 +324,17 @@ private struct MetricCard: View {
                 .font(.system(size: 14, weight: .medium))
                 .foregroundStyle(CodexPalette.secondaryText)
         }
+        .meterTextShadow()
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.horizontal, 18)
-        .padding(.vertical, 14)
-        .background(CodexPalette.surface)
+        .padding(.top, 14)
+        .padding(.bottom, 44)
+        .background {
+            ZStack {
+                CodexPalette.surface
+                TrendBackdrop(series: trend)
+            }
+        }
         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 14, style: .continuous)
@@ -317,6 +361,7 @@ private struct MetricValue: View {
                 .font(.system(size: 13, weight: .medium))
                 .foregroundStyle(CodexPalette.secondaryText)
         }
+        .meterTextShadow()
         .frame(width: 150, alignment: .leading)
         .padding(.horizontal, 18)
     }

@@ -45,7 +45,7 @@ struct CodexMeterApp: App {
             DashboardView(store: appDelegate.store)
         }
         .windowStyle(.hiddenTitleBar)
-        .defaultSize(width: 840, height: 420)
+        .defaultSize(width: 840, height: 480)
         .commands {
             CommandGroup(replacing: .newItem) { }
         }
