@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.2_1
 aws-c-s3 1.5.2_1
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.39.5
+awscli 2.39.6
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
