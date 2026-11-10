@@ -8,7 +8,7 @@ airspyhf 1.6.8
 aom 3.15.3
 aria2 1.37.0_3
 aribb24 1.0.4
-assimp 6.0.5
+assimp 6.0.6
 at-spi2-core 2.62.1
 augeas 1.15.0
 autoconf 2.73
@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.2_1
 aws-c-s3 1.5.2_1
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.39.6
+awscli 2.39.7
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -261,7 +261,7 @@ llhttp 9.4.3
 logrotate 3.22.0
 lolcat 100.0.1
 lua 5.5.1
-lz4 1.11.0
+lz4 1.11.1
 lzlib 1.16
 lzo 2.10
 m4 1.4.21
@@ -296,7 +296,7 @@ npth 1.8
 ntp 4.2.8p18
 numpy 2.5.4
 nvm 0.41.0
-ocrmypdf 17.13.0
+ocrmypdf 17.14.0
 oniguruma 6.9.10
 onnx 1.23.2
 open-mpi 5.0.11
