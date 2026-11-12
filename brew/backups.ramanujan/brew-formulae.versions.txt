@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.2_1
 aws-c-s3 1.5.2_1
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.40.0
+awscli 2.40.1
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -35,7 +35,7 @@ c-ares 1.34.9
 ca-certificates 2026-11-05
 cairo 1.18.6
 capstone 5.0.9
-certbot 5.9.0
+certbot 5.10.0
 certifi 2026.10.23
 cffi 2.1.1_1
 chrony 4.9
@@ -291,7 +291,7 @@ nexttrace 1.7.6
 nghttp2 1.71.0
 nlohmann-json 3.12.0
 nmap 7.993
-node 26.13.0_2
+node 26.13.1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.4
