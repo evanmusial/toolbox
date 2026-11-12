@@ -12,7 +12,7 @@ assimp 6.0.6
 at-spi2-core 2.62.1
 augeas 1.15.0
 autoconf 2.73
-aws-c-auth 1.0.3_1
+aws-c-auth 1.0.4
 aws-c-cal 1.0.0_1
 aws-c-common 1.0.5
 aws-c-compression 1.0.0
@@ -141,7 +141,7 @@ jbig2enc 0.32
 jemalloc 5.4.0
 jpeg 10
 jpeg-turbo 3.2.1
-jpeg-xl 0.12.0_1
+jpeg-xl 0.13.0
 jq 1.8.2
 json-c 0.19
 json-glib 1.10.8
