@@ -82999,7 +82999,7 @@
       "post_install_steps": [],
       "post_install_defined": false,
       "service": null,
-      "tap_git_head": "8a226a0174b20382c841c21df3611a1d86893649",
+      "tap_git_head": "ec38e601175a15b85a6e48dfa76ac9f7414a1609",
       "ruby_source_path": "Formula/terraform.rb",
       "ruby_source_checksum": {
         "sha256": "d670ac9c1b9d01453dd150957ad10e3348bbb1ba0d7f34ad39ea2aec6ab454d2"
