@@ -1026,8 +1026,11 @@ docker-desktop
 dotnet
 ├── brotli 
 ├── icu4c@79 
-└── openssl@4 
-    └── ca-certificates 
+├── openssl@4 
+│   └── ca-certificates 
+└── zstd 
+    ├── lz4 
+    └── xz 
 
 double-conversion
 

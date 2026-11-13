@@ -64,7 +64,7 @@ docker:
 docker-completion: 
 docker-compose: 
 docker-desktop: 
-dotnet: brotli ca-certificates icu4c@79 openssl@4
+dotnet: brotli ca-certificates icu4c@79 lz4 openssl@4 xz zstd
 double-conversion: 
 dtc: libyaml
 duktape: 
