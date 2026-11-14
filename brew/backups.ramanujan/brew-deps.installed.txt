@@ -208,7 +208,7 @@ libraqm: cairo fontconfig freetype fribidi gettext glib graphite2 harfbuzz icu4c
 libraw: giflib jpeg-turbo libomp libpng libtiff little-cms2 lz4 webp xz zstd
 libreplaygain: 
 librist: ca-certificates cjson gettext gmp gnutls json-c libidn2 libmicrohttpd libtasn1 libunistring lz4 mbedtls@3 nettle p11-kit
-librsvg: brotli cairo fontconfig freetype fribidi gdk-pixbuf gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libdatrie libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman webp xorgproto xz zstd
+librsvg: brotli cairo fontconfig freetype fribidi gdk-pixbuf gettext giflib glib graphite2 harfbuzz icu4c@79 jpeg-turbo json-c libdatrie libpng libthai libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender lz4 lzo pango pcre2 pixman webp xorgproto xz zstd
 librtlsdr: libusb
 libsamplerate: 
 libshout: ca-certificates libogg libvorbis openssl@4 speex theora

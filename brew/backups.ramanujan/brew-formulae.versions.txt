@@ -157,7 +157,7 @@ libb2 0.98.1
 libbladerf 2025.10
 libbluray 1.5.0
 libcaca 0.99.beta20
-libcbor 0.14.0
+libcbor 0.14.1
 libcuefile r475
 libdatrie 0.2.14
 libde265 1.1.3
@@ -204,7 +204,7 @@ libraqm 0.11.0
 libraw 0.22.3
 libreplaygain r475
 librist 0.2.20
-librsvg 2.63.4
+librsvg 2.63.4_1
 librtlsdr 2.0.3
 libsamplerate 0.2.2
 libshout 2.4.6_4
