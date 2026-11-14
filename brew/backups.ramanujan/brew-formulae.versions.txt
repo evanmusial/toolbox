@@ -131,7 +131,7 @@ id3v2 0.1.12
 imagemagick 7.1.2-35
 imath 3.2.3
 img2pdf 0.6.3_1
-imlib2 1.12.7
+imlib2 1.13.0
 iperf3 3.22
 isl 0.28
 jansson 2.15.1
@@ -166,7 +166,7 @@ libebml 1.4.7
 libepoxy 1.5.10
 libev 4.33
 libevent 2.1.13_1
-libffi 3.8.0
+libffi 3.8.1
 libfido2 1.17.0_1
 libgcrypt 1.12.4
 libgit2 1.9.7_2
