@@ -1,6 +1,6 @@
 a52dec 0.8.0
 abseil 20260817.0
-ada-url 4.0.0_1
+ada-url 4.0.0_2
 adns 1.7.0
 adwaita-icon-theme 51.0
 airspy 1.0.10
@@ -270,7 +270,7 @@ mbedtls 4.2.0
 mbedtls@3 3.6.7
 md4c 0.6.0
 media-info 26.10
-merve 1.2.2_4
+merve 1.2.2_5
 mkvdts2ac3 1.6.0_3
 mkvtomp4 2.0_3
 mkvtoolnix 103.0
@@ -291,7 +291,7 @@ nexttrace 1.7.6
 nghttp2 1.71.0
 nlohmann-json 3.12.0
 nmap 7.993
-node 26.13.1
+node 26.13.1_1
 npth 1.8
 ntp 4.2.8p18
 numpy 2.5.4
@@ -410,7 +410,7 @@ sdl2-compat 2.32.74
 sdl3 3.4.20
 shared-mime-info 2.5.1
 simdjson 5.1.1
-simdutf 9.3.3
+simdutf 9.4.0
 snappy 1.3.1
 soapyrtlsdr 0.3.4
 soapysdr 0.9.0
@@ -441,14 +441,14 @@ unbound 1.26.2
 unpaper 7.0.0_4
 usb.ids 2026.06.26
 usbredir 0.15.0
-utf8cpp 4.2.1
+utf8cpp 5.0.0
 utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_6
 virtualenv 21.15.6
 volk 3.3.0_3
-vte3 0.84.1_4
+vte3 0.84.1_5
 watch 4.0.7
 webp 1.6.0
 wget 1.25.0_2
