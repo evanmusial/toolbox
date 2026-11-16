@@ -393,7 +393,7 @@ qttools 6.12.0_1
 qttranslations 6.12.0
 qtvirtualkeyboard 6.12.0_1
 qtwebchannel 6.12.0_1
-qtwebengine 6.11.2_1
+qtwebengine 6.140.0
 qtwebsockets 6.12.0_1
 qtwebview 6.12.0_1
 rav1e 0.8.1
