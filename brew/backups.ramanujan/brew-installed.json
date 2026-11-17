@@ -90339,7 +90339,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/c/claude-code.rb",
       "ruby_source_checksum": {
@@ -90419,7 +90419,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/c/codex.rb",
       "ruby_source_checksum": {
@@ -90657,7 +90657,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/d/docker-desktop.rb",
       "ruby_source_checksum": {
@@ -90729,7 +90729,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/g/google-analytics-opt-out.rb",
       "ruby_source_checksum": {
@@ -90830,7 +90830,7 @@
         "replacement_formula": null,
         "replacement_cask": null
       },
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/m/makemkv.rb",
       "ruby_source_checksum": {
@@ -90963,7 +90963,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/n/ngrok.rb",
       "ruby_source_checksum": {
@@ -91036,7 +91036,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/s/spundle.rb",
       "ruby_source_checksum": {
@@ -91132,7 +91132,7 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "124caba0c014f615017cca4adb2a945fc7030a17",
+      "tap_git_head": "f8307b449a9e69e0d55b5756b877e6542b3d23d3",
       "languages": [],
       "ruby_source_path": "Casks/s/stats.rb",
       "ruby_source_checksum": {
