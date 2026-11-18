@@ -78,7 +78,7 @@ fftw: libomp
 findutils: 
 flac: libogg
 fmt: 
-fontconfig: freetype gettext json-c libpng libunistring
+fontconfig: brotli freetype gettext json-c libpng libunistring
 freetype: brotli libpng
 frei0r: 
 fribidi: 
