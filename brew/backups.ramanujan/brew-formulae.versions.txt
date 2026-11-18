@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.3_1
 aws-c-s3 1.5.2_3
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.40.4
+awscli 2.41.0
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -53,7 +53,7 @@ cryptography 50.0.2_2
 cunit 2.1-3
 curl 8.23.0
 cyrus-sasl 2.1.28_4
-dav1d 1.5.4
+dav1d 1.5.5
 dbus 1.16.4
 dialog 1.3-20260721
 docbook 5.2.1
@@ -85,7 +85,7 @@ gdbm 1.26
 gdk-pixbuf 2.44.8
 gengetopt 2.23.1
 gettext 1.0
-gh 2.104.0
+gh 2.105.0
 ghostscript 10.08.0
 giflib 6.1.3
 git 2.56.1
@@ -178,7 +178,7 @@ libidn 1.44
 libidn2 2.3.8
 libimagequant 4.4.1
 libiscsi 1.20.3
-libksba 1.8.1
+libksba 1.9.0
 liblinear 2.50
 liblqr 0.4.3
 libmagic 5.48
@@ -194,7 +194,7 @@ libnghttp3 1.19.0
 libngtcp2 1.26.0
 libnice 0.1.24
 libogg 1.3.6
-libomp 23.1.5
+libomp 23.1.6
 libosinfo 1.12.0_1
 libpng 1.6.59
 libproxy 0.5.12
@@ -324,7 +324,7 @@ phodav 3.2
 pillow 13.0.0
 pinentry 1.3.3
 pinentry-mac 1.3.1.1
-pipx 1.18.16
+pipx 1.18.18
 pixman 0.46.4
 pkgconf 3.0.11
 pmix 6.1.0
@@ -446,7 +446,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_6
-virtualenv 21.15.6
+virtualenv 21.15.7
 volk 3.3.0_3
 vte3 0.84.1_5
 watch 4.0.7
