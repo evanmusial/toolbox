@@ -1,6 +1,6 @@
 a52dec 0.8.0
 abseil 20260817.0
-ada-url 4.0.0_2
+ada-url 4.1.0
 adns 1.7.0
 adwaita-icon-theme 51.0
 airspy 1.0.10
@@ -446,7 +446,7 @@ utf8proc 2.12.0
 uvwasi 0.0.23
 vde 2.3.3
 virt-manager 5.1.0_6
-virtualenv 21.15.8
+virtualenv 21.15.9
 volk 3.3.0_3
 vte3 0.84.1_5
 watch 4.0.7
