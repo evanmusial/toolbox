@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="8%" stop-color="#102743"/>
+      <stop offset="75%" stop-color="#061323"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="17%" cy="15%" r="47%">
+      <stop offset="0%" stop-color="#315b94"/>
+      <stop offset="100%" stop-color="#315b94" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dot-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="rounded-square">
+      <rect x="0" y="0" width="128" height="128" rx="29.44"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded-square)">
+    <rect width="128" height="128" fill="url(#night)"/>
+    <rect width="128" height="128" fill="url(#glow)"/>
+    <circle cx="34.56" cy="64" r="7.68" fill="#99d9ff" opacity=".60" filter="url(#dot-glow)"/>
+    <circle cx="34.56" cy="64" r="7.68" fill="#effaff"/>
+
+    <g fill="none" stroke="#89cfff" stroke-width="5.76" stroke-linecap="round">
+      <path d="M 44.8,43.52 C 54.8,43.52 62.72,52.5 62.72,64 C 62.72,75.5 54.8,84.48 44.8,84.48"
+            transform="rotate(-18 44.8 64)"/>
+      <path d="M 55.04,29.44 C 72.2,29.44 85.76,44.9 85.76,64 C 85.76,83.1 72.2,98.56 55.04,98.56"
+            transform="rotate(-18 55.04 64)" opacity=".91"/>
+      <path d="M 64.64,15.36 C 89.3,15.36 108.8,37.1 108.8,64 C 108.8,90.9 89.3,112.64 64.64,112.64"
+            transform="rotate(-18 64.64 64)" opacity=".78"/>
+    </g>
+    <rect x=".5" y=".5" width="127" height="127" rx="28.94"
+          fill="none" stroke="#ffffff" stroke-opacity=".16"/>
+  </g>
+</svg>
