@@ -178,7 +178,7 @@ libidn 1.44
 libidn2 2.3.8
 libimagequant 4.4.1
 libiscsi 1.20.3
-libksba 1.9.0
+libksba 1.9.1
 liblinear 2.50
 liblqr 0.4.3
 libmagic 5.48
