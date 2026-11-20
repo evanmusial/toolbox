@@ -132,7 +132,7 @@ imagemagick 7.1.2-36
 imath 3.2.3
 img2pdf 0.6.3_1
 imlib2 1.13.0
-iperf3 3.22
+iperf3 3.22.1
 isl 0.28
 jansson 2.15.1
 jasper 4.2.9
@@ -185,7 +185,7 @@ libmagic 5.48
 libmatroska 1.7.2
 libmediainfo 26.10
 libmetalink 0.1.3
-libmicrohttpd 1.0.10
+libmicrohttpd 1.0.11
 libmms 0.6.4
 libmng 2.0.3_1
 libmpc 1.4.1
