@@ -161,6 +161,82 @@ Example Audio (2 named groups)
         self.assertEqual([item["name"] for item in records], ["Stereo Tool", "Remembered Tool"])
         self.assertTrue(all(item["manufacturer"] == "Example Audio" for item in records))
 
+    def test_matches_live_decimal_au_identity_to_bundle_fourcc_identity(self):
+        """Treat Live's decimal AU codes and bundle four-character codes as identical."""
+        live_alias = parity.coerce_record({
+            "name": "J37 (m)",
+            "manufacturer": "Waves",
+            "format": "AU",
+            "dev_identifier": "device:au:audiofx:1802721110:1412642637:1635083896",
+        }, "live")
+        bundle_component = parity.coerce_record({
+            "name": "Abbey Road J37 Tape (m)",
+            "manufacturer": "Waves",
+            "format": "AU",
+            "identity": {"type": "aufx", "subtype": "T37M", "manufacturer": "ksWV"},
+        }, "filesystem")
+        matched, gaps = parity.match_records([live_alias], [bundle_component])
+        self.assertEqual(len(matched), 1)
+        self.assertEqual(gaps, [])
+
+    def test_infers_missing_manufacturer_from_same_name_in_another_format(self):
+        """Keep long format-gap output grouped by a known cross-format vendor."""
+        records = [
+            parity.coerce_record({"name": "ANA2", "format": "AU",
+                                  "manufacturer": "Sonic Academy"}, "filesystem"),
+            parity.coerce_record({"name": "ANA2", "format": "AAX"}, "filesystem"),
+        ]
+        enriched = parity.enrich_manufacturers(records)
+        self.assertEqual(enriched[1]["manufacturer"], "Sonic Academy")
+        self.assertEqual(enriched[1]["manufacturer_source"], "same_name_cross_format")
+
+    def test_ignores_unresolved_live_only_baseline_records(self):
+        """Do not require a cached Live entry that had no installed path on the source."""
+        unresolved = parity.coerce_record({
+            "name": "L4 Live (m)", "manufacturer": "Waves", "format": "AU",
+            "dev_identifier": "device:au:audiofx:1802721110:1280062541:1635085670",
+        }, "live")
+        unresolved["sources"] = ["live"]
+        report = parity.compare_snapshots(snapshot("drift", [unresolved]), snapshot("ramanujan", []))
+        self.assertEqual(report["summary"]["gaps"], 0)
+        self.assertEqual(report["summary"]["ignored_unresolved_live_records"], 1)
+
+    def test_matches_versioned_waveshell_containers_by_format_family(self):
+        """Treat a current WaveShell as satisfying older container bundle versions."""
+        baseline = snapshot("drift", [
+            record("WaveShell1-AU 14.0.83", "AU", "Waves", "14.0.83"),
+            record("WaveShell1-VST 14.0.83", "VST", "Waves", "14.0.83"),
+        ])
+        candidate = snapshot("ramanujan", [
+            {**record("Abbey Road J37 Tape (m)", "AU", "Waves", "17.1.42"),
+             "path": "/Library/Audio/Plug-Ins/Components/WaveShell1-AU 17.1.component"},
+        ])
+        report = parity.compare_snapshots(baseline, candidate)
+        self.assertEqual(report["summary"]["matched"], 1)
+        self.assertEqual(report["summary"]["gaps"], 1)
+        self.assertEqual(report["gaps"][0]["format"], "VST")
+        self.assertEqual(report["summary"]["version_differences"], 0)
+
+    def test_collapses_multiple_historical_waveshell_versions(self):
+        """Report one missing shell format instead of every historical bundle version."""
+        baseline = snapshot("drift", [
+            record("WaveShell1-VST 13.0.0", "VST", "Waves", "13.0.0"),
+            record("WaveShell1-VST 14.0.0", "VST", "Waves", "14.0.0"),
+            record("WaveShell1-VST 15.0.0", "VST", "Waves", "15.0.0"),
+        ])
+        report = parity.compare_snapshots(baseline, snapshot("ramanujan", []))
+        self.assertEqual(report["summary"]["baseline_records"], 1)
+        self.assertEqual(report["summary"]["collapsed_shell_records"], 2)
+        self.assertEqual(report["summary"]["gaps"], 1)
+        self.assertEqual(report["gaps"][0]["name"], "WaveShell container")
+
+    def test_rejects_version_text_as_a_manufacturer(self):
+        """Keep bundle version metadata out of manufacturer headings."""
+        self.assertIsNone(parity.clean_manufacturer("11.3.0"))
+        self.assertEqual(
+            parity.clean_manufacturer("Keyscape 1.5.2c © Spectrasonics"), "Spectrasonics",
+        )
+
     def test_terminal_diff_groups_missing_formats_and_hides_noise(self):
         """Group gaps by manufacturer while collapsing matches and extras by default."""
         baseline = snapshot("drift", [

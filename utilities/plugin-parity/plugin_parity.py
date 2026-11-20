@@ -100,6 +100,22 @@ def normalize_format(value):
     return FORMAT_ALIASES.get(text.casefold(), text.upper())
 
 
+def clean_manufacturer(value):
+    """Reject version/build strings and recover vendors from copyright metadata."""
+    if not value:
+        return None
+    text = str(value).strip()
+    if "©" in text:
+        copyright_vendor = text.rsplit("©", 1)[1].strip(" .,;-")
+        if copyright_vendor:
+            return copyright_vendor
+    if re.fullmatch(r"v?\d[\w.() -]*(?:build[\w .-]*)?", text, re.I):
+        return None
+    if "::" in text and re.search(r"\d", text):
+        return None
+    return text or None
+
+
 def default_roots(home=None):
     """Return standard system, user, and disabled plug-in search roots."""
     home = Path.home() if home is None else Path(home)
@@ -172,8 +188,9 @@ def bundle_vendor(info):
         text = str(value).strip()
         if key == "CFBundleGetInfoString" and "," in text:
             text = text.split(",", 1)[0].strip()
-        if text:
-            return text
+        manufacturer = clean_manufacturer(text)
+        if manufacturer:
+            return manufacturer
     return None
 
 
@@ -494,8 +511,102 @@ def identity_token(value):
     if value in (None, "", {}):
         return ""
     if isinstance(value, dict):
+        au_fields = (value.get("type"), value.get("subtype"), value.get("manufacturer"))
+        if all(au_fields):
+            return "au:" + ":".join(str(field) for field in au_fields)
         return json.dumps(value, sort_keys=True, separators=(",", ":"))
-    return str(value).casefold()
+    text = str(value)
+    au_match = re.match(
+        r"^device:au(?:v2|v3)?:[^:]+:(\d+):(\d+):(\d+)$", text, re.I,
+    )
+    if au_match:
+        manufacturer, subtype, component_type = (
+            int(part).to_bytes(4, "big").decode("latin-1") for part in au_match.groups()
+        )
+        return f"au:{component_type}:{subtype}:{manufacturer}"
+    return text.casefold()
+
+
+def enrich_manufacturers(records):
+    """Use authoritative Live vendors across same-name format variants."""
+    authoritative = {}
+    fallback = {}
+    for record in records:
+        name = normalize_text(record.get("name"))
+        live_record = record.get("live_record")
+        live_manufacturer = clean_manufacturer(
+            live_record.get("manufacturer") if isinstance(live_record, dict) else None
+        )
+        manufacturer = clean_manufacturer(record.get("manufacturer"))
+        if not name:
+            continue
+        if live_manufacturer:
+            authoritative.setdefault(name, set()).add(live_manufacturer)
+        elif record.get("source") == "live" and manufacturer:
+            authoritative.setdefault(name, set()).add(manufacturer)
+        elif manufacturer:
+            fallback.setdefault(name, set()).add(manufacturer)
+    enriched = []
+    for record in records:
+        entry = dict(record)
+        name = normalize_text(record.get("name"))
+        candidates = authoritative.get(name, set()) or fallback.get(name, set())
+        if len(candidates) == 1:
+            entry["manufacturer"] = next(iter(candidates))
+            entry["manufacturer_source"] = "same_name_cross_format"
+        else:
+            entry["manufacturer"] = clean_manufacturer(entry.get("manufacturer"))
+        enriched.append(entry)
+    return enriched
+
+
+def shell_family_token(record):
+    """Identify versioned WaveShell container bundles without folding products."""
+    if record.get("shell_family") == "waveshell":
+        return ("shell-family", normalize_format(record.get("format")) or "*", "waveshell")
+    name = str(record.get("name") or "").strip().casefold()
+    if re.match(r"^waveshell\d*-(?:au|vst3?|aax)(?:\s|$)", name):
+        return ("shell-family", normalize_format(record.get("format")) or "*", "waveshell")
+    return None
+
+
+def collapse_shell_containers(records):
+    """Represent many historical WaveShell versions once per plug-in format."""
+    collapsed = []
+    shell_formats = {}
+    collapsed_count = 0
+    for record in records:
+        token = shell_family_token(record)
+        if not token:
+            collapsed.append(record)
+            continue
+        plugin_format = token[1]
+        if plugin_format in shell_formats:
+            collapsed_count += 1
+            continue
+        entry = dict(record)
+        entry.update({
+            "name": "WaveShell container",
+            "manufacturer": "Waves",
+            "version": None,
+            "identity": None,
+            "bundle_id": None,
+            "shell_family": "waveshell",
+        })
+        shell_formats[plugin_format] = entry
+        collapsed.append(entry)
+    return collapsed, collapsed_count
+
+
+def installed_shell_format(record):
+    """Return the format when a record proves that a WaveShell bundle exists."""
+    path_name = str(record.get("path") or "").replace("\\", "/").rsplit("/", 1)[-1]
+    name = str(record.get("name") or "")
+    if re.match(r"^waveshell\d*-(?:au|vst3?|aax)(?:[ .]|$)", path_name, re.I):
+        return normalize_format(record.get("format"))
+    if shell_family_token(record):
+        return normalize_format(record.get("format"))
+    return None
 
 
 def record_keys(record):
@@ -507,6 +618,9 @@ def record_keys(record):
     identity = identity_token(record.get("identity"))
     if identity:
         keys.append(("identity", plugin_format, identity))
+    shell_family = shell_family_token(record)
+    if shell_family:
+        keys.append(shell_family)
     bundle_id = normalize_text(record.get("bundle_id"))
     if bundle_id:
         keys.append(("bundle", plugin_format, bundle_id, name))
@@ -521,20 +635,26 @@ def record_keys(record):
 def match_records(expected, actual):
     """Match expected records to installed records with format-aware keys."""
     index = {}
+    installed_shells = {}
     for position, record in enumerate(actual):
         for key in record_keys(record):
             index.setdefault(key, set()).add(position)
+        shell_format = installed_shell_format(record)
+        if shell_format:
+            installed_shells.setdefault(shell_format, set()).add(position)
     matched = []
     gaps = []
     for record in expected:
-        candidates = set()
+        shell_family = shell_family_token(record)
+        candidates = set(installed_shells.get(shell_family[1], ())) if shell_family else set()
         keys = record_keys(record)
         if not record.get("format"):
             keys = [key for key in keys if key[0] == "any-format-name"]
-        for key in keys:
-            candidates.update(index.get(key, ()))
-            if candidates:
-                break
+        if not candidates:
+            for key in keys:
+                candidates.update(index.get(key, ()))
+                if candidates:
+                    break
         entry = dict(record)
         if candidates:
             entry["matches"] = [actual[position] for position in sorted(candidates)]
@@ -624,13 +744,19 @@ def load_snapshot(path):
 
 def compare_snapshots(baseline, candidate):
     """Compare a baseline host snapshot against a candidate host snapshot."""
-    expected = baseline["master_plugins"]
-    actual = candidate["master_plugins"]
+    enriched_expected = enrich_manufacturers(baseline["master_plugins"])
+    all_expected, collapsed_shell_records = collapse_shell_containers(enriched_expected)
+    ignored = [record for record in all_expected
+               if record.get("sources") == ["live"] and not record.get("path")]
+    expected = [record for record in all_expected if record not in ignored]
+    actual = enrich_manufacturers(candidate["master_plugins"])
     matched, gaps = match_records(expected, actual)
     additional_matched, additional = match_records(actual, expected)
     del additional_matched
     version_differences = []
     for entry in matched:
+        if shell_family_token(entry):
+            continue
         baseline_version = entry.get("version")
         candidate_versions = sorted({str(match["version"]) for match in entry["matches"]
                                      if match.get("version")})
@@ -660,6 +786,9 @@ def compare_snapshots(baseline, candidate):
         },
         "summary": {
             "baseline_records": len(expected),
+            "baseline_raw_records": len(all_expected),
+            "ignored_unresolved_live_records": len(ignored),
+            "collapsed_shell_records": collapsed_shell_records,
             "candidate_records": len(actual),
             "matched": len(matched),
             "gaps": len(gaps),
@@ -669,6 +798,7 @@ def compare_snapshots(baseline, candidate):
             "parity_percent": round(100.0 * len(matched) / len(expected), 2) if expected else 100.0,
         },
         "gaps": gaps,
+        "ignored_unresolved_live_records": ignored,
         "matched": matched,
         "additional_candidate_records": additional,
         "version_differences": version_differences,
@@ -677,11 +807,12 @@ def compare_snapshots(baseline, candidate):
 
 def record_manufacturer(record):
     """Return the best available manufacturer label for display grouping."""
-    manufacturer = record.get("manufacturer")
     live_record = record.get("live_record")
-    if not manufacturer and isinstance(live_record, dict):
-        manufacturer = live_record.get("manufacturer")
-    return str(manufacturer).strip() if manufacturer else "Unknown manufacturer"
+    live_manufacturer = clean_manufacturer(
+        live_record.get("manufacturer") if isinstance(live_record, dict) else None
+    )
+    manufacturer = live_manufacturer or clean_manufacturer(record.get("manufacturer"))
+    return manufacturer or "Unknown manufacturer"
 
 
 def grouped_products(records):
@@ -771,6 +902,16 @@ def write_terminal_report(report, stream, color_mode="auto", show_matches=False,
         f"{palette.warning(summary['version_differences'])} version differences  "
         f"{palette.dim(str(summary['additional_candidate_records']) + ' candidate-only')}\n"
     )
+    if summary.get("ignored_unresolved_live_records"):
+        stream.write(
+            f"{palette.dim(str(summary['ignored_unresolved_live_records']) +
+                           ' unresolved Live-only baseline records ignored')}\n"
+        )
+    if summary.get("collapsed_shell_records"):
+        stream.write(
+            f"{palette.dim(str(summary['collapsed_shell_records']) +
+                           ' historical shell-container records consolidated')}\n"
+        )
     stream.write(f"\n{palette.title('Missing from ' + candidate)}")
     if report["gaps"]:
         write_product_groups(report["gaps"], stream, palette)
@@ -837,6 +978,14 @@ def write_comparison_text(report, stream):
     stream.write(f"Parity: {summary['parity_percent']:.2f}%\n")
     stream.write(f"Candidate-only records: {summary['additional_candidate_records']}\n")
     stream.write(f"Version differences: {summary['version_differences']}\n")
+    stream.write(
+        f"Unresolved Live-only baseline records ignored: "
+        f"{summary.get('ignored_unresolved_live_records', 0)}\n"
+    )
+    stream.write(
+        f"Historical shell-container records consolidated: "
+        f"{summary.get('collapsed_shell_records', 0)}\n"
+    )
     if summary["gaps_by_format"]:
         stream.write("Gaps by format: " + ", ".join(
             f"{key}: {value}" for key, value in summary["gaps_by_format"].items()) + "\n")

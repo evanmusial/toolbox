@@ -75,6 +75,13 @@ The interactive view:
 - respects `NO_COLOR` and supports `--color auto|always|never`;
 - collapses candidate-only records and version differences unless requested.
 
+Comparison normalizes Ableton's decimal Audio Unit identities against the
+four-character codes in bundle metadata, so renamed host labels still match the
+same component. Unresolved Live-only entries with no source-machine path are not
+treated as installed migration requirements. Historical WaveShell container
+versions are consolidated by format; a current shell satisfies older container
+versions, while a genuinely absent format such as VST2 remains visible once.
+
 Useful detail switches:
 
 ```bash
