@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.3_1
 aws-c-s3 1.5.2_3
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.41.1
+awscli 2.41.2
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -40,7 +40,7 @@ certifi 2026.10.23
 cffi 2.1.1_1
 chrony 4.9
 cjson 1.7.19
-cmake 4.5.0
+cmake 4.5.1
 cmocka 2.0.2
 codec2 1.2.0
 colima 0.10.3
