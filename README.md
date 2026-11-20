@@ -14,6 +14,14 @@ My public toolbox.
   safe, one-at-a-time CLI for reviewing YouTube channel subscriptions and
   their latest activity.
 
+## Utilities
+
+- [`utilities/plugin-parity`](utilities/plugin-parity/) — inventory AU/AUv3,
+  VST/VST3, and AAX plug-ins on macOS, merge Ableton Live reports, and track
+  migration parity from `drift` to `ramanujan` with a compact color CLI diff.
+- [`utilities/find-duplicates.py`](utilities/find-duplicates.py) — find duplicate
+  files for cleanup review.
+
 ## Homebrew Backups
 
 The `brew/` directory contains Python 3 scripts for backing up and restoring
