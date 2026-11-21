@@ -23,7 +23,7 @@ aws-c-mqtt 1.1.3_1
 aws-c-s3 1.5.2_3
 aws-c-sdkutils 1.0.1
 aws-checksums 1.0.1
-awscli 2.41.2
+awscli 2.42.0
 bash 5.3.20
 bdw-gc 8.2.12
 berkeley-db@5 5.3.28_1
@@ -284,7 +284,7 @@ mplayer 1.5_2
 mtr 0.96
 musepack r475
 mysql-client@8.4 8.4.13
-nbytes 0.1.4
+nbytes 0.1.5
 ncurses 6.6
 nettle 4.0
 nexttrace 1.7.6
@@ -339,7 +339,7 @@ pwgen 2.08
 py3cairo 1.29.2_1
 pybind11 3.1.0_1
 pycparser 3.12
-pydantic 2.14.3
+pydantic 2.14.4
 pyenv 2.8.15
 pygobject3 3.58.1_1
 python-gdbm@3.11 3.11.18
