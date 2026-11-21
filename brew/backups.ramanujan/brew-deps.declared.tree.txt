@@ -1722,6 +1722,8 @@ gnutls
     ├── json-c 
     └── libunistring 
 
+go
+
 gobject-introspection
 ├── cairo 
 │   ├── fontconfig 

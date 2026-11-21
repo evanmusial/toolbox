@@ -34,6 +34,7 @@ git-lfs
 glfw
 gnu-sed
 gnupg
+go
 google-authenticator-libpam
 grep
 guile
