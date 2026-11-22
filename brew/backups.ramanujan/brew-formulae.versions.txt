@@ -9,7 +9,7 @@ aom 3.15.3
 aria2 1.37.0_3
 aribb24 1.0.4
 assimp 6.0.6
-at-spi2-core 2.62.1
+at-spi2-core 2.62.2
 augeas 1.15.0
 autoconf 2.73
 aws-c-auth 1.1.0
