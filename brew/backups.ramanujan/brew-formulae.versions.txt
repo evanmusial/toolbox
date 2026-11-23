@@ -303,7 +303,7 @@ onnx 1.23.2
 open-mpi 5.0.11
 openblas 0.3.34
 opencore-amr 0.1.6
-openexr 3.5.4
+openexr 3.5.5
 openjpeg 2.5.4_1
 openjph 0.33.0
 openldap 2.7.2
