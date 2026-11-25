@@ -469,4 +469,4 @@ yq 4.54.3
 zeromq 4.3.5_2
 zimg 3.0.6
 zlib-ng-compat 2.3.3_1
-zstd 1.5.7_1
+zstd 1.6.0
