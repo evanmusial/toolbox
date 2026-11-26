@@ -433,7 +433,7 @@ tcl-tk 9.1.0
 tcl-tk@8 8.6.18
 telnet 308
 terraform 1.17.2
-tesseract 5.5.4
+tesseract 5.5.5
 thefuck 3.32
 theora 1.2.0
 tmux 3.8
