@@ -167,7 +167,7 @@ libebml 1.4.7
 libepoxy 1.5.10
 libev 4.33
 libevent 2.1.13_1
-libffi 3.8.1
+libffi 3.8.2
 libfido2 1.17.0_2
 libgcrypt 1.12.4
 libgit2 1.9.7_2
